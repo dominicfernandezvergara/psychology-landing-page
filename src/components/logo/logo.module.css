@@ -1,0 +1,14 @@
+.containerLogo {
+  border: none;
+  background-color: transparent;
+}
+
+.logo {
+  height: auto;
+  width: 150px;
+}
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 200px;
+  }
+}
