@@ -1,5 +1,5 @@
 .containerDrawerList {
-  background: #0097a7;
+  background: var(--lightPrimaryColor);
   width: 200px;
   height: 100%;
   display: flex;
@@ -9,13 +9,15 @@
 .containerDrawerList ul {
   margin: 0;
   padding: 0;
+  position: fixed;
+  z-index: 99999;
 }
 
 .containerDrawerList li {
   display: block;
 }
 .headerDrawerList {
-  background: #0097a7;
+  background: var(--lightPrimaryColor);
 }
 .containerButtonCloseDrawer {
   position: absolute;
@@ -31,7 +33,7 @@
 .buttonCloseDrawer {
   background-color: transparent;
   border: none;
-  color: black;
+  color: var(--darkPrimaryColor);
 }
 .containerLogoDrawerList {
   display: flex;

@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --white: #ffffff;
   --dark: #212121;
   --primary: #7b1fa2;
@@ -6,4 +6,17 @@
   --button: #ff4081;
   --buttonHover: #ef5083;
   --light: #e1bee7;
+} */
+
+:root {
+  --white: #ffffff;
+  --Dark: #212121;
+  --primaryColor: #009688;
+  --darkPrimaryColor: #00796b;
+  --lightPrimaryColor: #b2dfdb;
+  --secondary: #cec7bf;
+  --secondaryText: #757575;
+  --dividerColor: #bdbdbd;
+  --accentColor: #009688;
+  --buttonHover: #36c7b8;
 }

@@ -1,14 +1,27 @@
 .containerLogo {
   border: none;
   background-color: transparent;
+  font-size: 26px;
+  padding-left: 10px;
+  font-family: "Great Vibes", cursive;
+  padding-top: 10px;
 }
 
 .logo {
   height: auto;
-  width: 150px;
+  width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .containerLogo {
+    font-size: 30px;
+  }
+  .logo {
+    height: auto;
+    width: 100px;
+  }
 }
 @media screen and (min-width: 1024px) {
-  .logo {
-    width: 200px;
+  .containerLogo {
+    font-size: 50px;
   }
 }

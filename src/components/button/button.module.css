@@ -5,14 +5,14 @@
 .containerButton :global(.MuiButton-root) {
   color: var(--white);
   text-transform: uppercase;
-  border-radius: 20px;
-  width: 80%;
+  /* border-radius: 20px; */
+  /* width: 80%; */
 }
 .colorPrimary :global(.MuiButton-root) {
-  background-color: var(--primary);
+  background-color: var(--darkPrimaryColor);
 }
 .colorSecondary :global(.MuiButton-root) {
-  background-color: var(--button);
+  background-color: var(--lightPrimaryColor);
 }
 
 .containerButton :global(.MuiButton-root:hover) {
@@ -20,10 +20,10 @@
 }
 @media screen and (min-width: 768px) {
   .containerButton :global(.MuiButton-root) {
-    width: auto;
+    /* width: auto; */
     font-size: 20px;
     padding: 10px 20px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
   }
 }
 @media screen and (min-width: 1024px) {

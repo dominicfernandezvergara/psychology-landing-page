@@ -7,12 +7,15 @@ function FirstSectionHome() {
   return (
     <div className={styles.containerFirstSection}>
       <div className={styles.containerText}>
-        <h1 className={styles.title}>Consulta Carolina Urbina</h1>
+        <h1 className={styles.title}>Therapeutic counseling</h1>
         <p className={styles.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod
+          Understand. Heal. Grow. We Can Do This Together.
         </p>
-        <ButtonApp text="comienza ya" path="/contacto" color="secondary" />
+        <ButtonApp
+          text="Schedule an apointment"
+          path="/contacto"
+          color="primary"
+        />
       </div>
     </div>
   );

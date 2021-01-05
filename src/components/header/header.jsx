@@ -68,7 +68,7 @@ function Header() {
         <div className={styles.containerLogo}>
           <Logo />
         </div>
-        <Button text="Comienza ya" path="/contacto" color="primary" />
+        <Button text="Request appointment" path="/contacto" color="primary" />
         <div className={styles.containerButton}>
           <Drawer />
         </div>

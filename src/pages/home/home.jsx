@@ -17,22 +17,23 @@ function Home() {
         title="Problema a Solucionar"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua hola."
-        buttonText="comienza ya"
-        paths="./cotizacion"
+        buttonText="schedule now"
+        paths="./contacto"
         colorButton="primary"
       />
       <ThirdSectionHome
-        title="Mensaje Empatico Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
-        buttonText="comienza ya"
-        paths="./cotizacion"
-        colorButton="secondary"
+        title="I'm ready when you are!"
+        text="I know this is hard. You've likely been debating seeking help for months, if not years. But I'm so glad you found me and have taken the courageous step of being here."
+        buttonText="schedule now"
+        paths="./contacto"
+        colorButton="primary"
         styleBlack={true}
       />
       <FourthSectionHome />
       <FifthSectionHome
-        title="¿Cómo funciona?"
-        buttonText="comienza ya"
-        paths="./cotizacion"
+        title="How it work?"
+        buttonText="schedule now"
+        paths="./contacto"
         colorButton="secondary"
         styleBlack={true}
       />

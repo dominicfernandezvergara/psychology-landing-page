@@ -1,6 +1,8 @@
 .containerSecondSection {
   text-align: center;
   padding: 50px 20px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .containerSecondSectionBlack {
   background-color: var(--primary);
@@ -14,17 +16,17 @@
   color: var(--white);
 }
 .titleBlack {
-  color: var(--primary);
+  color: var(--dark);
 }
 .text {
-  color: var(--primary);
+  color: var(--dark);
   padding: 30px 0px;
 }
 .textWhite {
   color: var(--white);
 }
 .textBlack {
-  color: var(--primary);
+  color: var(--dark);
 }
 @media screen and (min-width: 768px) {
   .containerSecondSection {
