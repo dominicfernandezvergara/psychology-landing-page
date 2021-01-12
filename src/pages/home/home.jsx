@@ -7,7 +7,6 @@ import FourthSectionHome from "../../components/home-components/fourth-section-h
 import FifthSectionHome from "../../components/home-components/fifth-section-home/fifth-section-home";
 import Footer from "../../components/footer";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
-import BigImageHome from "../../components/home-components/big-image-home/big-image-home";
 
 function Home() {
   UseScrollToTop();

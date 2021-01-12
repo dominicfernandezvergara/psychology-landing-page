@@ -19,6 +19,7 @@ function FifthSectionHome() {
             <EmailIcon />
           </div>
           <div className={styles.textIcon}>
+            1. First Step:
             {appDataText.english.home.fifthSectionHome.firstStep}
           </div>
         </div>
