@@ -1,18 +1,23 @@
 import React from "react";
+
 import styles from "./first-section-home.module.css";
 import image from "../../../images/imagenPsicologia.jpg";
 import ButtonApp from "../../button";
+import { appDataText } from "../../../appDataText/appDataText";
 
 function FirstSectionHome() {
+  console.log("appDataText", appDataText);
   return (
     <div className={styles.containerFirstSection}>
       <div className={styles.containerText}>
-        <h1 className={styles.title}>Therapeutic counseling</h1>
+        <h1 className={styles.title}>
+          {appDataText.english.home.fistSectionHome.title}
+        </h1>
         <p className={styles.text}>
-          Understand. Heal. Grow. We Can Do This Together.
+          {appDataText.english.home.fistSectionHome.subtitle}
         </p>
         <ButtonApp
-          text="Schedule an apointment"
+          text={appDataText.english.home.fistSectionHome.buttonText}
           path="/contacto"
           color="primary"
         />

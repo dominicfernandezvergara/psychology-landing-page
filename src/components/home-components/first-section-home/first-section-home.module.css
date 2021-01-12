@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 300px;
+  height: 350px;
   width: 100%;
   background-image: url(../../../images/imageHeader/playa.jpeg);
   background-size: cover;
@@ -11,23 +11,31 @@
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .containerText {
-  width: 100%;
-  height: 300px;
+  width: 80%;
+  height: 80%;
   background-color: rgb(255 255 255 / 40%);
+  place-self: center;
 }
 .title {
   text-align: center;
   color: var(--dark);
-  padding: 30px 15px 0px 15px;
-  font-family: "Roboto Condensed", sans-serif;
+  padding: 15px 15px 0px 15px;
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
 }
 .text {
   text-align: center;
   color: var(--dark);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
-  padding: 30px 0px;
-  font-family: "Roboto Condensed", sans-serif;
+  padding: 15px 0px;
+  font-family: "Dancing Script", cursive;
+}
+.containerFirstSection :global(.MuiButton-root) {
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid var(--darkPrimaryColor);
+  color: var(--dark);
 }
 @media screen and (min-width: 768px) {
   .containerFirstSection {

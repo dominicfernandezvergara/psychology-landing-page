@@ -5,18 +5,19 @@
 .containerButton :global(.MuiButton-root) {
   color: var(--white);
   text-transform: uppercase;
-  /* border-radius: 20px; */
-  /* width: 80%; */
+  /* font-size: 18px; */
 }
 .colorPrimary :global(.MuiButton-root) {
   background-color: var(--darkPrimaryColor);
+  border-radius: 0px;
 }
 .colorSecondary :global(.MuiButton-root) {
-  background-color: var(--lightPrimaryColor);
+  background-color: var(--darkSecondaryColor);
+  border-radius: 0px;
 }
 
 .containerButton :global(.MuiButton-root:hover) {
-  background-color: var(--buttonHover);
+  background-color: var(--lightSecondaryColor);
 }
 @media screen and (min-width: 768px) {
   .containerButton :global(.MuiButton-root) {

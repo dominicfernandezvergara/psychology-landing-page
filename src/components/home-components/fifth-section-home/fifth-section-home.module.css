@@ -1,20 +1,14 @@
 .containerFifthSection {
   text-align: center;
   padding: 50px 20px;
-}
-.containerFifthSectionBlack {
-  background-color: var(--primary);
+  background-color: var(--lightSecondaryColor);
 }
 .title {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 26px;
-  /* padding-bottom: 30px; */
   text-align: center;
-  color: var(--primary);
-}
-.titleWhite {
-  color: var(--white);
+  color: var(--dark);
 }
 .containerButtonIcons {
   display: flex;
@@ -24,16 +18,12 @@
   flex-direction: column;
   align-self: center;
   padding: 30px 0px;
-  /* margin-bottom: 30px; */
 }
 .iconsSection {
   margin: 30px 0px;
 }
 .icon {
-  color: var(--primary);
-}
-.iconBlackStyle {
-  color: var(--white);
+  color: var(--dark);
 }
 .icon :global(.MuiSvgIcon-root) {
   font-size: 50px;
@@ -41,11 +31,12 @@
 .textIcon {
   margin-top: 10px;
   font-size: 20px;
-  color: var(--primary);
+  color: var(--dark);
 }
-.textIconBlackStyle {
-  color: var(--white);
+.containerFifthSection :global(.MuiButton-root) {
+  font-size: 20px;
 }
+
 @media screen and (min-width: 768px) {
   .containerIconsSection {
     flex-direction: unset;

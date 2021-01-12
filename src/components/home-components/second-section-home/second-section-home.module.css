@@ -1,32 +1,26 @@
 .containerSecondSection {
   text-align: center;
-  padding: 50px 20px;
+  padding: 70px 20px;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
-.containerSecondSectionBlack {
-  background-color: var(--primary);
-}
 .title {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 26px;
   text-align: center;
-}
-.titleWhite {
-  color: var(--white);
-}
-.titleBlack {
+  font-family: "East Sea Dokdo", cursive;
+  letter-spacing: 2px;
   color: var(--dark);
 }
 .text {
   color: var(--dark);
   padding: 30px 0px;
-}
-.textWhite {
-  color: var(--white);
-}
-.textBlack {
+  font-family: "Varela Round", sans-serif;
+  font-size: 26px;
   color: var(--dark);
+}
+.containerSecondSection :global(.MuiButton-root) {
+  font-size: 20px;
 }
 @media screen and (min-width: 768px) {
   .containerSecondSection {

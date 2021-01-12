@@ -8,7 +8,7 @@
   --light: #e1bee7;
 } */
 
-:root {
+/* :root {
   --white: #ffffff;
   --Dark: #212121;
   --primaryColor: #009688;
@@ -19,4 +19,18 @@
   --dividerColor: #bdbdbd;
   --accentColor: #009688;
   --buttonHover: #36c7b8;
+} */
+:root {
+  --white: #ffffff;
+  --Dark: #212121;
+  --primaryColor: #d291bc;
+  --darkPrimaryColor: #ca66a9;
+  --lightPrimaryColor: #f1c8d6;
+  --secondary: #009688;
+  --darkSecondaryColor: #00796b;
+  --lightSecondaryColor: #b2dfdb;
+  --secondaryText: #757575;
+  --dividerColor: #bdbdbd;
+  --accentColor: #e750f5;
+  --buttonHover: #e0bbe4;
 }

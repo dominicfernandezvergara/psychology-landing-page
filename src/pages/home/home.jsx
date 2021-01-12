@@ -7,28 +7,15 @@ import FourthSectionHome from "../../components/home-components/fourth-section-h
 import FifthSectionHome from "../../components/home-components/fifth-section-home/fifth-section-home";
 import Footer from "../../components/footer";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
+import BigImageHome from "../../components/home-components/big-image-home/big-image-home";
 
 function Home() {
   UseScrollToTop();
   return (
     <div className={styles.containerHome}>
       <FirstSectionHome />
-      <SecondSectionHome
-        title="Problema a Solucionar"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua hola."
-        buttonText="schedule now"
-        paths="./contacto"
-        colorButton="primary"
-      />
-      <ThirdSectionHome
-        title="I'm ready when you are!"
-        text="I know this is hard. You've likely been debating seeking help for months, if not years. But I'm so glad you found me and have taken the courageous step of being here."
-        buttonText="schedule now"
-        paths="./contacto"
-        colorButton="primary"
-        styleBlack={true}
-      />
+      <SecondSectionHome />
+      <ThirdSectionHome />
       <FourthSectionHome />
       <FifthSectionHome
         title="How it work?"

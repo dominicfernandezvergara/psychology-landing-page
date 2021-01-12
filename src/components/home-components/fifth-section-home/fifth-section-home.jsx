@@ -1,102 +1,47 @@
 import React from "react";
-import ButtonApp from "../../button";
-import cn from "classnames";
-import PropTypes from "prop-types";
-import ApartmentIcon from "@material-ui/icons/Apartment";
+import EventAvailableIcon from "@material-ui/icons/EventAvailable";
+import EmailIcon from "@material-ui/icons/Email";
+import SentimentVerySatisfiedIcon from "@material-ui/icons/SentimentVerySatisfied";
 
 import styles from "./fifth-section-home.module.css";
+import ButtonApp from "../../button";
+import { appDataText } from "../../../appDataText/appDataText";
 
-// la funcion recibe un titulo
-//un texto, el texto del boton(buttonText)
-//el path para la redireccion que hace el boton(path)
-//el color para el boton que puede ser "primary" o "secondary"
-//Style que puede ser "black" o nada para que sea de fondo blanco.
-function FifthSectionHome({
-  title,
-  buttonText,
-  paths,
-  colorButton,
-  styleBlack,
-}) {
+function FifthSectionHome() {
   return (
-    <div
-      className={cn(
-        styles.containerFifthSection,
-        styleBlack ? styles.containerFifthSectionBlack : null
-      )}
-    >
-      <h1 className={cn(styles.title, styleBlack ? styles.titleWhite : null)}>
-        {title}
+    <div className={styles.containerFifthSection}>
+      <h1 className={styles.title}>
+        {appDataText.english.home.fifthSectionHome.title}
       </h1>
       <div className={styles.containerIconsSection}>
         <div className={styles.iconsSection}>
-          <div
-            className={cn(
-              styles.icon,
-              styleBlack ? styles.iconBlackStyle : null
-            )}
-          >
-            <ApartmentIcon />
+          <div className={styles.icon}>
+            <EmailIcon />
           </div>
-          <div
-            className={cn(
-              styles.textIcon,
-              styleBlack ? styles.textIconBlackStyle : null
-            )}
-          >
-            1. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          <div className={styles.textIcon}>
+            {appDataText.english.home.fifthSectionHome.firstStep}
           </div>
         </div>
         <div className={styles.iconsSection}>
-          <div
-            className={cn(
-              styles.icon,
-              styleBlack ? styles.iconBlackStyle : null
-            )}
-          >
-            <ApartmentIcon />
+          <div className={styles.icon}>
+            <EventAvailableIcon />
           </div>
-          <div
-            className={cn(
-              styles.textIcon,
-              styleBlack ? styles.textIconBlackStyle : null
-            )}
-          >
-            2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <div className={styles.textIcon}>
+            {appDataText.english.home.fifthSectionHome.secondStep}
           </div>
         </div>
         <div className={styles.iconsSection}>
-          <div
-            className={cn(
-              styles.icon,
-              styleBlack ? styles.iconBlackStyle : null
-            )}
-          >
-            <ApartmentIcon />
+          <div className={styles.icon}>
+            <SentimentVerySatisfiedIcon />
           </div>
-          <div
-            className={cn(
-              styles.textIcon,
-              styleBlack ? styles.textIconBlackStyle : null
-            )}
-          >
-            3. Lorem ipsum dolor sit amet.
+          <div className={styles.textIcon}>
+            {appDataText.english.home.fifthSectionHome.thirdStep}
           </div>
         </div>
       </div>
-      <ButtonApp text={buttonText} path={paths} color={colorButton} />
+      <ButtonApp text="Contact us" path="/contacto" color="secondary" />
     </div>
   );
 }
 
-FifthSectionHome.propTypes = {
-  title: PropTypes.string.isRequired,
-  buttonText: PropTypes.string.isRequired,
-  paths: PropTypes.string.isRequired,
-  colorButton: PropTypes.string.isRequired,
-  styleBlack: PropTypes.bool,
-};
-FifthSectionHome.defaultProps = {
-  styleBlack: false,
-};
 export default FifthSectionHome;
