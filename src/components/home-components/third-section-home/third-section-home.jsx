@@ -27,7 +27,7 @@ function ThirdSectionHome() {
         </p>
         <div className={styles.containerButtonIcons}>
           <div className={styles.containerButton}>
-            <ButtonApp text="starts now" path="/contacto" color="secondary" />
+            <ButtonApp text="starts now" path="/contacto" color="primary" />
           </div>
           <div className={styles.containerIconsSection}>
             <div className={styles.wrapIconsSection}>

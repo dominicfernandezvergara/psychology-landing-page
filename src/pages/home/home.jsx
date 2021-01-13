@@ -7,6 +7,8 @@ import FourthSectionHome from "../../components/home-components/fourth-section-h
 import FifthSectionHome from "../../components/home-components/fifth-section-home/fifth-section-home";
 import Footer from "../../components/footer";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
+import ComponentSeparator from "../../components/component-separator/component-separator";
+import TextSeparator from "../../components/text-separator/text-separator";
 
 function Home() {
   UseScrollToTop();
@@ -14,6 +16,9 @@ function Home() {
     <div className={styles.containerHome}>
       <FirstSectionHome />
       <SecondSectionHome />
+      <ComponentSeparator />
+      <TextSeparator text="Are you ready to live a stable, well-balanced life?" />
+      <ComponentSeparator />
       <ThirdSectionHome />
       <FourthSectionHome />
       <FifthSectionHome

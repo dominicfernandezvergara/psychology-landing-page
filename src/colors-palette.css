@@ -20,7 +20,7 @@
   --accentColor: #009688;
   --buttonHover: #36c7b8;
 } */
-:root {
+/* :root {
   --white: #ffffff;
   --Dark: #212121;
   --primaryColor: #d291bc;
@@ -33,4 +33,15 @@
   --dividerColor: #bdbdbd;
   --accentColor: #e750f5;
   --buttonHover: #e0bbe4;
+} */
+
+:root {
+  --white: #ffffff;
+  --Dark: #212121;
+  --primaryColor: #edb4dc;
+  --darkPrimaryColor: #ba84aa;
+  --lightPrimaryColor: #ffe6ff;
+  --secondary: #a2afb8;
+  --darkSecondaryColor: #9e9e9e;
+  --lightSecondaryColor: #d3e1ea;
 }

@@ -1,8 +1,9 @@
 .containerFifthSection {
   text-align: center;
   padding: 50px 20px;
-  background-color: var(--lightSecondaryColor);
+  background-color: var(--lightPrimaryColor);
 }
+
 .title {
   letter-spacing: 1px;
   text-transform: uppercase;

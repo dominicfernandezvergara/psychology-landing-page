@@ -1,22 +1,22 @@
 .containerSecondSection {
   text-align: center;
   padding: 70px 20px;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12); */
 }
 .title {
   text-transform: uppercase;
-  font-size: 26px;
+  font-size: 36px;
   text-align: center;
   font-family: "East Sea Dokdo", cursive;
   letter-spacing: 2px;
-  color: var(--dark);
+  color: var(--darkPrimaryColor);
 }
 .text {
   color: var(--dark);
   padding: 30px 0px;
   font-family: "Varela Round", sans-serif;
-  font-size: 26px;
+  font-size: 32px;
   color: var(--dark);
 }
 .containerSecondSection :global(.MuiButton-root) {

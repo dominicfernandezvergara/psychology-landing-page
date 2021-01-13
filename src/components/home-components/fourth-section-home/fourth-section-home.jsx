@@ -3,6 +3,7 @@ import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
 
 import styles from "./fourth-section-home.module.css";
+import { appDataText } from "../../../appDataText/appDataText";
 
 function FourthSectionHome() {
   const history = useHistory();
@@ -12,10 +13,12 @@ function FourthSectionHome() {
   };
   return (
     <div className={styles.containerSection}>
-      <h3 className={styles.title}>Servicios</h3>
+      <h3 className={styles.title}>
+        {appDataText.english.home.fourthSectionHome.title}
+      </h3>
       <div className={styles.containerServices}>
         <div className={styles.containerText}>
-          <h4 className={styles.subTitle}>Subtitle</h4>
+          <h4 className={styles.subTitle}> </h4>
           <p className={styles.text}>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua."

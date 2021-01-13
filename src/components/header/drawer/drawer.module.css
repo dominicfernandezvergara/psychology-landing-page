@@ -1,5 +1,5 @@
 .icon {
-  color: var(--primaryColor);
+  color: var(--dark);
 }
 .icon :global(.MuiSvgIcon-root) {
   font-size: 30px;
