@@ -1,47 +1,20 @@
 /* :root {
   --white: #ffffff;
   --dark: #212121;
-  --primary: #7b1fa2;
-  --secondary: #9c27b0;
-  --button: #ff4081;
-  --buttonHover: #ef5083;
-  --light: #e1bee7;
-} */
-
-/* :root {
-  --white: #ffffff;
-  --Dark: #212121;
-  --primaryColor: #009688;
-  --darkPrimaryColor: #00796b;
-  --lightPrimaryColor: #b2dfdb;
-  --secondary: #cec7bf;
-  --secondaryText: #757575;
-  --dividerColor: #bdbdbd;
-  --accentColor: #009688;
-  --buttonHover: #36c7b8;
-} */
-/* :root {
-  --white: #ffffff;
-  --Dark: #212121;
-  --primaryColor: #d291bc;
-  --darkPrimaryColor: #ca66a9;
-  --lightPrimaryColor: #f1c8d6;
-  --secondary: #009688;
-  --darkSecondaryColor: #00796b;
-  --lightSecondaryColor: #b2dfdb;
-  --secondaryText: #757575;
-  --dividerColor: #bdbdbd;
-  --accentColor: #e750f5;
-  --buttonHover: #e0bbe4;
-} */
-
-:root {
-  --white: #ffffff;
-  --Dark: #212121;
   --primaryColor: #edb4dc;
   --darkPrimaryColor: #ba84aa;
   --lightPrimaryColor: #ffe6ff;
   --secondary: #a2afb8;
   --darkSecondaryColor: #9e9e9e;
   --lightSecondaryColor: #d3e1ea;
+} */
+:root {
+  --white: #ffffff;
+  --dark: #212121;
+  --primaryColor: #edb4dc;
+  --darkPrimaryColor: #ba84aa;
+  --lightPrimaryColor: #ffe6ff;
+  --secondary: #d291bc;
+  --darkSecondaryColor: #957dad;
+  --lightSecondaryColor: #ffdfd3;
 }

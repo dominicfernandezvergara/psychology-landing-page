@@ -8,16 +8,16 @@
   /* font-size: 18px; */
 }
 .colorPrimary :global(.MuiButton-root) {
-  background-color: var(--darkPrimaryColor);
+  background-color: var(--darkSecondaryColor);
   border-radius: 0px;
 }
 .colorSecondary :global(.MuiButton-root) {
-  background-color: var(--darkSecondaryColor);
+  background-color: var(--secondary);
   border-radius: 0px;
 }
 
 .containerButton :global(.MuiButton-root:hover) {
-  background-color: var(--lightSecondaryColor);
+  background-color: var(--primaryColor);
 }
 @media screen and (min-width: 768px) {
   .containerButton :global(.MuiButton-root) {

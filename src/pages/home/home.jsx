@@ -20,6 +20,9 @@ function Home() {
       <TextSeparator text="Are you ready to live a stable, well-balanced life?" />
       <ComponentSeparator />
       <ThirdSectionHome />
+      <ComponentSeparator />
+      <TextSeparator text="In you is the power to transmute everything" />
+      <ComponentSeparator />
       <FourthSectionHome />
       <FifthSectionHome
         title="How it work?"

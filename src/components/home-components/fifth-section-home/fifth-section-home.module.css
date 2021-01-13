@@ -1,7 +1,21 @@
 .containerFifthSection {
   text-align: center;
   padding: 50px 20px;
-  background-color: var(--lightPrimaryColor);
+  background-image: linear-gradient(
+    to right bottom,
+    #ffdfdd,
+    #fad0d2,
+    #f4c0c9,
+    #ecb1c3,
+    #e2a3bf,
+    #e2a3bf,
+    #e2a3bf,
+    #e2a3bf,
+    #ecb1c3,
+    #f4c0c9,
+    #fad0d2,
+    #ffdfdd
+  );
 }
 
 .title {
@@ -11,6 +25,11 @@
   text-align: center;
   color: var(--dark);
 }
+.subtitle {
+  color: #585252;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .containerButtonIcons {
   display: flex;
 }
@@ -18,26 +37,32 @@
   display: flex;
   flex-direction: column;
   align-self: center;
-  padding: 30px 0px;
 }
 .iconsSection {
   margin: 30px 0px;
+  align-self: center;
 }
-.icon {
-  color: var(--dark);
-}
+
 .icon :global(.MuiSvgIcon-root) {
-  font-size: 50px;
+  font-size: 70px;
+  color: var(--darkSecondaryColor);
 }
 .textIcon {
   margin-top: 10px;
   font-size: 20px;
   color: var(--dark);
 }
+.step {
+  font-size: 28px;
+}
+.descriptionStep {
+  margin-top: 15px;
+  width: 200px;
+}
 .containerFifthSection :global(.MuiButton-root) {
   font-size: 20px;
 }
-
+/*
 @media screen and (min-width: 768px) {
   .containerIconsSection {
     flex-direction: unset;
@@ -63,4 +88,4 @@
   }
 }
 @media screen and (min-width: 1440px) {
-}
+} */

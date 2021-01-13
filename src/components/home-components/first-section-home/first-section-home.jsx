@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./first-section-home.module.css";
-import image from "../../../images/imagenPsicologia.jpg";
 import ButtonApp from "../../button";
 import { appDataText } from "../../../appDataText/appDataText";
 

@@ -13,14 +13,19 @@ function FifthSectionHome() {
       <h1 className={styles.title}>
         {appDataText.english.home.fifthSectionHome.title}
       </h1>
+      <h4 className={styles.subtitle}>
+        {appDataText.english.home.fifthSectionHome.subtitle}
+      </h4>
       <div className={styles.containerIconsSection}>
         <div className={styles.iconsSection}>
           <div className={styles.icon}>
             <EmailIcon />
           </div>
           <div className={styles.textIcon}>
-            <div>1. First Step:</div>
-            <div>{appDataText.english.home.fifthSectionHome.firstStep}</div>
+            <h3 className={styles.step}>Step One</h3>
+            <p className={styles.descriptionStep}>
+              {appDataText.english.home.fifthSectionHome.firstStep}
+            </p>
           </div>
         </div>
         <div className={styles.iconsSection}>
@@ -28,7 +33,10 @@ function FifthSectionHome() {
             <EventAvailableIcon />
           </div>
           <div className={styles.textIcon}>
-            {appDataText.english.home.fifthSectionHome.secondStep}
+            <h3 className={styles.step}>Step Two</h3>
+            <p className={styles.descriptionStep}>
+              {appDataText.english.home.fifthSectionHome.secondStep}
+            </p>
           </div>
         </div>
         <div className={styles.iconsSection}>
@@ -36,11 +44,14 @@ function FifthSectionHome() {
             <SentimentVerySatisfiedIcon />
           </div>
           <div className={styles.textIcon}>
-            {appDataText.english.home.fifthSectionHome.thirdStep}
+            <h3 className={styles.step}>Step Three</h3>
+            <p className={styles.descriptionStep}>
+              {appDataText.english.home.fifthSectionHome.thirdStep}
+            </p>
           </div>
         </div>
       </div>
-      <ButtonApp text="Contact us" path="/contacto" color="secondary" />
+      <ButtonApp text="Contact us" path="/contacto" color="primary" />
     </div>
   );
 }

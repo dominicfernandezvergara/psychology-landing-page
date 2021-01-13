@@ -2,7 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 
 import styles from "./logo.module.css";
-import imageLogo from "../../images/imageHeader/kisspng-psychology-symbol-psychotherapist-semana-da-psicol-psicologa-social-5cc757f9c4bd23.3476718715565680578058.jpg";
+import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapist-semana-da-psicol-psicologa-social-5cc757f9c4bd23.3476718715565680578058.jpg";
 
 function Logo() {
   const history = useHistory();
