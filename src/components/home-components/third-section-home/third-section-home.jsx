@@ -18,42 +18,38 @@ import { appDataText } from "../../../appDataText/appDataText";
 function ThirdSectionHome() {
   return (
     <div className={styles.containerThirdSection}>
-      <div className={styles.backgroundShadow}>
-        <h1 className={styles.title}>
-          {appDataText.english.home.thirdSectionHome.title}
-        </h1>
-        <p className={styles.text}>
-          {appDataText.english.home.thirdSectionHome.text}
-        </p>
-        <div className={styles.containerButtonIcons}>
-          <div className={styles.containerButton}>
-            <ButtonApp
-              text={appDataText.english.home.thirdSectionHome.buttonText}
-              path="/contacto"
-              color="primary"
-            />
+      <h1 className={styles.title}>
+        {appDataText.english.home.thirdSectionHome.title}
+      </h1>
+      <p className={styles.text}>
+        {appDataText.english.home.thirdSectionHome.text}
+      </p>
+      <div className={styles.containerButtonIcons}>
+        <div className={styles.containerButton}>
+          <ButtonApp
+            text={appDataText.english.home.thirdSectionHome.buttonText}
+            path="/contacto"
+            color="primary"
+          />
+        </div>
+        <div className={styles.containerIconsSection}>
+          <div className={styles.wrapIconsSection}>
+            <div className={styles.icon}>
+              <InsertEmoticonIcon />
+            </div>
+            <div className={styles.textIcon}>More than 100 happy customers</div>
           </div>
-          <div className={styles.containerIconsSection}>
-            <div className={styles.wrapIconsSection}>
-              <div className={styles.icon}>
-                <InsertEmoticonIcon />
-              </div>
-              <div className={styles.textIcon}>
-                More than 100 happy customers
-              </div>
+          <div className={styles.wrapIconsSection}>
+            <div className={styles.icon}>
+              <LoyaltyIcon />
             </div>
-            <div className={styles.wrapIconsSection}>
-              <div className={styles.icon}>
-                <LoyaltyIcon />
-              </div>
-              <div className={styles.textIcon}>Loyal customers</div>
+            <div className={styles.textIcon}>Loyal customers</div>
+          </div>
+          <div className={styles.wrapIconsSection}>
+            <div className={styles.icon}>
+              <FavoriteIcon />
             </div>
-            <div className={styles.wrapIconsSection}>
-              <div className={styles.icon}>
-                <FavoriteIcon />
-              </div>
-              <div className={styles.textIcon}>Our clients recommend us</div>
-            </div>
+            <div className={styles.textIcon}>Our clients recommend us</div>
           </div>
         </div>
       </div>

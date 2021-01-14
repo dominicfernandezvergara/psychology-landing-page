@@ -89,7 +89,7 @@ export const appDataText = {
           },
           companies: {
             title: "Services for companies",
-            description: "semester or annual self-care programs",
+            description: "Semester or annual self-care programs",
             buttonText: "See more",
           },
         },

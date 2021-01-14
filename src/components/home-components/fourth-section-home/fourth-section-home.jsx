@@ -1,133 +1,100 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
-import { useHistory } from "react-router-dom";
 
 import styles from "./fourth-section-home.module.css";
 import { appDataText } from "../../../appDataText/appDataText";
-import imagePeople from "../../../images/imageHome/persona-feliz-en-atardecer.jpeg";
-import imageProfesional from "../../../images/imageHome/nina-globo-feliz.jpeg";
-import imageCompanie from "../../../images/imageHome/enfermera-feliz.jpg";
+import imagePeople from "../../../images/imageHome/imagePeople.jpeg";
+import imageProfesional from "../../../images/imageHome/imageProfesional2.jpeg";
+import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";
+import ContainerService from "./container-service/container-service";
 
 function FourthSectionHome() {
-  const history = useHistory();
-  const handleClick = () => {
-    console.log("onClick");
-    // history.push("./servicios");
-  };
+  const bodyPeople = (
+    <ul>
+      <li className={styles.text}>
+        {appDataText.english.home.fourthSectionHome.services.people.service1}
+      </li>
+      <li className={styles.text}>
+        {appDataText.english.home.fourthSectionHome.services.people.service2}
+      </li>
+      <li className={styles.text}>
+        {appDataText.english.home.fourthSectionHome.services.people.service3}
+      </li>
+    </ul>
+  );
+  const bodyProfesional = (
+    <ul>
+      <li className={styles.text}>
+        {
+          appDataText.english.home.fourthSectionHome.services.profesional
+            .service1
+        }
+      </li>
+      <li className={styles.text}>
+        {
+          appDataText.english.home.fourthSectionHome.services.profesional
+            .service2
+        }
+      </li>
+      <li className={styles.text}>
+        {
+          appDataText.english.home.fourthSectionHome.services.profesional
+            .service3
+        }
+      </li>
+    </ul>
+  );
+  const bodyCompanie = (
+    <div className={styles.bodyCompanie}>
+      {
+        appDataText.english.home.fourthSectionHome.services.companies
+          .description
+      }
+    </div>
+  );
 
   return (
     <div className={styles.containerSection}>
       <h2 className={styles.title}>
         {appDataText.english.home.fourthSectionHome.title}
       </h2>
-
-      <div className={styles.containerService}>
-        <img className={styles.image} alt="" src={imagePeople} />
-        <div className={styles.containerTextService}>
-          <h3 className={styles.subTitle}>
-            {appDataText.english.home.fourthSectionHome.services.people.title}
-          </h3>
-          <ul>
-            <li className={styles.text}>
-              {
-                appDataText.english.home.fourthSectionHome.services.people
-                  .service1
-              }
-            </li>
-            <li className={styles.text}>
-              {
-                appDataText.english.home.fourthSectionHome.services.people
-                  .service2
-              }
-            </li>
-            <li className={styles.text}>
-              {
-                appDataText.english.home.fourthSectionHome.services.people
-                  .service3
-              }
-            </li>
-          </ul>
-        </div>
-        <Button
-          variant="contained"
-          className={styles.button}
-          onClick={handleClick}
-        >
-          {
+      <div className={styles.services}>
+        <ContainerService
+          body={bodyPeople}
+          title={
+            appDataText.english.home.fourthSectionHome.services.people.title
+          }
+          image={imagePeople}
+          classNameContainerText={styles.marginLeftContainerText}
+          classNameContainerBody={styles.marginLeftContainerBody}
+          textButton={
             appDataText.english.home.fourthSectionHome.services.people
               .buttonText
           }
-        </Button>
-      </div>
-
-      <div className={styles.containerService}>
-        <img className={styles.image} alt="" src={imageProfesional} />
-        <div className={styles.containerTextService}>
-          <h3 className={styles.subTitle}>
-            {
-              appDataText.english.home.fourthSectionHome.services.profesional
-                .title
-            }
-          </h3>
-          <ul>
-            <li className={styles.text}>
-              {
-                appDataText.english.home.fourthSectionHome.services.profesional
-                  .service1
-              }
-            </li>
-            <li className={styles.text}>
-              {
-                appDataText.english.home.fourthSectionHome.services.profesional
-                  .service1
-              }
-            </li>
-            <li className={styles.text}>
-              {
-                appDataText.english.home.fourthSectionHome.services.profesional
-                  .service3
-              }
-            </li>
-          </ul>
-        </div>
-        <Button
-          variant="contained"
-          className={styles.button}
-          onClick={handleClick}
-        >
-          {
+        />
+        <ContainerService
+          body={bodyProfesional}
+          title={
+            appDataText.english.home.fourthSectionHome.services.profesional
+              .title
+          }
+          image={imageProfesional}
+          textButton={
             appDataText.english.home.fourthSectionHome.services.profesional
               .buttonText
           }
-        </Button>
-      </div>
-
-      <div className={styles.containerService}>
-        <img className={styles.image} alt="" src={imageCompanie} />
-        <div className={styles.containerTextService}>
-          <h3 className={styles.subTitle}>
-            {
-              appDataText.english.home.fourthSectionHome.services.companies
-                .title
-            }
-          </h3>
-          <p className={styles.textCompany}>
-            {
-              appDataText.english.home.fourthSectionHome.services.companies
-                .description
-            }
-          </p>
-        </div>
-        <Button
-          variant="contained"
-          className={styles.button}
-          onClick={handleClick}
-        >
-          {
+          imageRight={true}
+        />
+        <ContainerService
+          body={bodyCompanie}
+          title={
+            appDataText.english.home.fourthSectionHome.services.companies.title
+          }
+          image={imageCompanie}
+          textButton={
             appDataText.english.home.fourthSectionHome.services.companies
               .buttonText
           }
-        </Button>
+        />
       </div>
     </div>
   );

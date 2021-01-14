@@ -24,14 +24,14 @@
 }
 @media screen and (min-width: 768px) {
   .containerSecondSection {
-    padding: 80px 60px;
+    padding: 80px 45px;
   }
   .title {
-    font-size: 30px;
+    font-size: 45px;
   }
   .text {
-    padding: 60px 0px;
-    font-size: 24px;
+    padding: 50px 0px;
+    font-size: 40px;
   }
 }
 @media screen and (min-width: 1024px) {

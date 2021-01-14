@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect, useLayoutEffect } from "react";
 import cn from "classnames";
 import { useHistory, useLocation } from "react-router-dom";
 
@@ -62,9 +62,32 @@ function Header() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  //para comenzar con el header transparente y al momento de hacer scroll que cambie de color.
+
+  const [startScrolling, setStartScrolling] = useState(false);
+
+  useLayoutEffect(() => {
+    window.onscroll = function () {
+      if (window.pageYOffset === 0) {
+        setStartScrolling(false);
+      } else {
+        setStartScrolling(true);
+      }
+    };
+
+    return () => {
+      window.onscroll = null;
+    };
+  }, [startScrolling]);
+
+  console.log("startScrolling", startScrolling);
   return (
     <Fragment>
-      <header className={styles.headerResponsiveSmall}>
+      <header
+        className={cn(styles.headerResponsiveSmall, {
+          [styles.headerWhite]: startScrolling,
+        })}
+      >
         <div className={styles.containerLogo}>
           <Logo />
         </div>
@@ -74,10 +97,20 @@ function Header() {
         </div>
       </header>
 
-      <header className={styles.headerResponsiveLarge}>
+      {/*Para cambiar de color el header al momento de hacer scroll,
+       hay un condicional en el header*/}
+      {/*Para usar condicionales usando css module:
+      [styles.headerWhite]: Condicional(true o false)
+    */}
+      <header
+        className={cn(styles.headerResponsiveLarge, {
+          [styles.headerWhite]: startScrolling,
+        })}
+      >
         <div className={styles.containerLogo}>
           <Logo />
         </div>
+        <Button text="Request appointment" path="/contacto" color="secondary" />
         <div className={styles.containerHeaderButton}>
           {buttonHeaderData.map((item, index) => {
             return (
@@ -85,7 +118,8 @@ function Header() {
                 <button
                   className={cn(
                     styles.headerButton,
-                    item.active === true ? styles.active : null
+                    item.active === true ? styles.active : null,
+                    { [styles.colorBlack]: startScrolling }
                   )}
                   type="button"
                   key={item.id}

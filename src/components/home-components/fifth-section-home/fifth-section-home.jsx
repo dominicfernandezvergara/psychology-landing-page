@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import EventAvailableIcon from "@material-ui/icons/EventAvailable";
 import EmailIcon from "@material-ui/icons/Email";
 import SentimentVerySatisfiedIcon from "@material-ui/icons/SentimentVerySatisfied";
@@ -8,10 +8,12 @@ import ButtonApp from "../../button";
 import { appDataText } from "../../../appDataText/appDataText";
 
 function FifthSectionHome() {
+  const [language, setLanguage] = useState("english");
   return (
     <div className={styles.containerFifthSection}>
       <h1 className={styles.title}>
-        {appDataText.english.home.fifthSectionHome.title}
+        {/*appDataText.english.home.fifthSectionHome.title*/}
+        {appDataText[language].home.fifthSectionHome.title}
       </h1>
       <h4 className={styles.subtitle}>
         {appDataText.english.home.fifthSectionHome.subtitle}

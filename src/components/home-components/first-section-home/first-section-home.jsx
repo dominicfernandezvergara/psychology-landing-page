@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./first-section-home.module.css";
-import ButtonApp from "../../button";
 import { appDataText } from "../../../appDataText/appDataText";
 
 function FirstSectionHome() {
@@ -15,11 +14,6 @@ function FirstSectionHome() {
         <p className={styles.text}>
           {appDataText.english.home.fistSectionHome.subtitle}
         </p>
-        <ButtonApp
-          text={appDataText.english.home.fistSectionHome.buttonText}
-          path="/contacto"
-          color="primary"
-        />
       </div>
     </div>
   );

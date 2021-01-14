@@ -1,36 +1,87 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Button from "@material-ui/core/Button";
+import cn from "classnames";
+import PropTypes from "prop-types";
 
 import styles from "./container-service.module.css";
 
-function ContainerService({ title, text }) {
+function ContainerService({
+  title,
+  image,
+  body,
+  imageRight,
+  textButton,
+  classNameContainerText,
+  classNameContainerBody,
+}) {
+  const handleClick = () => {
+    console.log("onClick");
+    // history.push("./servicios");
+  };
   return (
-    <div className={styles.containerTextServicePeople}>
-      <div className={styles.shadow}>
-        <h3 className={styles.subTitle}>
-          {appDataText.english.home.fourthSectionHome.services.people.title}
-        </h3>
-        <p className={styles.text}>
-          {appDataText.english.home.fourthSectionHome.services.people.service1}
-        </p>
-        <p className={styles.text}>
-          {appDataText.english.home.fourthSectionHome.services.people.service2}
-        </p>
-        <p className={styles.text}>
-          {appDataText.english.home.fourthSectionHome.services.people.service3}
-        </p>
-        <div className={styles.containerButton}>
-          <Button
-            variant="contained"
-            className={styles.button}
-            onClick={handleClick}
-          >
-            {
-              appDataText.english.home.fourthSectionHome.services.people
-                .buttonText
-            }
-          </Button>
+    <Fragment>
+      {/* Small View */}
+      <div className={styles.containerService}>
+        <img className={styles.image} alt="" src={image} />
+        <div className={styles.containerTextService}>
+          <h3 className={styles.subTitle}>{title}</h3>
+          <div className={cn(styles.containerbody, classNameContainerBody)}>
+            {body}
+          </div>
+          <div className={styles.containerButton}>
+            <Button
+              variant="contained"
+              className={styles.button}
+              onClick={handleClick}
+            >
+              {textButton}
+            </Button>
+          </div>
         </div>
       </div>
-    </div>
+      {/* Small View */}
+
+      {/* Large View */}
+      <div className={styles.containerServiceLarge}>
+        {!imageRight && (
+          <img className={styles.imageLarge} alt="left" src={image} />
+        )}
+        <div
+          className={cn(styles.containerTextService, classNameContainerText)}
+        >
+          <h3 className={styles.subTitle}>{title}</h3>
+          <div className={styles.containerbody}>{body}</div>
+          <div className={styles.containerButton}>
+            <Button
+              variant="contained"
+              className={styles.button}
+              onClick={handleClick}
+            >
+              {textButton}
+            </Button>
+          </div>
+        </div>
+        {imageRight && (
+          <img className={styles.imageLarge} alt="right" src={image} />
+        )}
+      </div>
+      {/* Large View */}
+    </Fragment>
   );
 }
+
+ContainerService.propTypes = {
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  body: PropTypes.string.isRequired,
+  textButton: PropTypes.string.isRequired,
+  imageRight: PropTypes.bool,
+  classNameContainerText: PropTypes.string,
+  classNameContainerBody: PropTypes.string,
+};
+ContainerService.defaultProps = {
+  imageRight: false,
+  classNameContainerText: "",
+  classNameContainerBody: "",
+};
+export default ContainerService;

@@ -17,11 +17,6 @@
   }
   .logo {
     height: auto;
-    width: 100px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .containerLogo {
-    font-size: 50px;
+    width: 60px;
   }
 }
