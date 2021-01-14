@@ -1,4 +1,5 @@
 .containerButton {
+  width: 100%;
   text-align: center;
 }
 .containerButton :global(.MuiButton-root) {

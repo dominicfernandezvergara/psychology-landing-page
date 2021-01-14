@@ -3,12 +3,12 @@
   /* flex-direction: column; */
   height: 360px;
   width: 100%;
-  background-image: url(/static/media/first-section-image.23374926.jpeg);
+  background-image: url(../../../images/imageHome/first-section-image.jpeg);
   background-size: 100% 100%;
-  /* background-image: linear-gradient( to top, #957dad, #b18cb3, #c99db9, #dcafc1, #edc3cb, #f1c5cc, #f4c8ce, #f8cacf, #f1bbc7, #e9acc2, #df9ebe, #d291bc ); */
   margin-top: 83px;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  /* background-image: linear-gradient( to top, #957dad, #b18cb3, #c99db9, #dcafc1, #edc3cb, #f1c5cc, #f4c8ce, #f8cacf, #f1bbc7, #e9acc2, #df9ebe, #d291bc ); */
 }
 .containerText {
   place-self: center;
