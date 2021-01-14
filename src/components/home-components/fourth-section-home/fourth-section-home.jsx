@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 import styles from "./fourth-section-home.module.css";
 import { appDataText } from "../../../appDataText/appDataText";
 import imagePeople from "../../../images/imageHome/persona-feliz-en-atardecer.jpeg";
-import imageProfesional from "../../../images/imageHome/niña-globo-feliz.jpeg";
+import imageProfesional from "../../../images/imageHome/nina-globo-feliz.jpeg";
 import imageCompanie from "../../../images/imageHome/enfermera-feliz.jpg";
 
 function FourthSectionHome() {
