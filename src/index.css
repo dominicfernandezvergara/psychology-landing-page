@@ -20,3 +20,10 @@ body {
 button {
   cursor: pointer;
 }
+.root .MuiInput-underline:after {
+  border-bottom: 2px solid var(--dark);
+}
+
+.root .MuiFormLabel-root.Mui-focused {
+  color: var(--dark);
+}

@@ -7,3 +7,9 @@
   border: 0;
   box-shadow: 0 10px 10px -10px var(--darkPrimaryColor) inset;
 }
+@media screen and (min-width: 1024px) {
+  .containerComponentSeparator {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}

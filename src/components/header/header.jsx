@@ -58,9 +58,7 @@ function Header() {
       active: item.path === currentPathname,
     }));
     setButtonHeaderData(newHeaderData);
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [currentPathname]);
 
   //para comenzar con el header transparente y al momento de hacer scroll que cambie de color.
 

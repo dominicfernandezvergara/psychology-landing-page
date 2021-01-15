@@ -2,40 +2,40 @@ import React from "react";
 
 import styles from "./fourth-section-home.module.css";
 import { appDataText } from "../../../appDataText/appDataText";
-import imagePeople from "../../../images/imageHome/imagePeople.jpeg";
+import imagePeople from "../../../images/imageHome/imagePeople2.jpeg";
 import imageProfesional from "../../../images/imageHome/imageProfesional2.jpeg";
 import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";
 import ContainerService from "./container-service/container-service";
 
 function FourthSectionHome() {
   const bodyPeople = (
-    <ul>
-      <li className={styles.text}>
+    <ul className={styles.containerSubServices}>
+      <li className={styles.subServices}>
         {appDataText.english.home.fourthSectionHome.services.people.service1}
       </li>
-      <li className={styles.text}>
+      <li className={styles.subServices}>
         {appDataText.english.home.fourthSectionHome.services.people.service2}
       </li>
-      <li className={styles.text}>
+      <li className={styles.subServices}>
         {appDataText.english.home.fourthSectionHome.services.people.service3}
       </li>
     </ul>
   );
   const bodyProfesional = (
-    <ul>
-      <li className={styles.text}>
+    <ul className={styles.containerSubServices}>
+      <li className={styles.subServices}>
         {
           appDataText.english.home.fourthSectionHome.services.profesional
             .service1
         }
       </li>
-      <li className={styles.text}>
+      <li className={styles.subServices}>
         {
           appDataText.english.home.fourthSectionHome.services.profesional
             .service2
         }
       </li>
-      <li className={styles.text}>
+      <li className={styles.subServices}>
         {
           appDataText.english.home.fourthSectionHome.services.profesional
             .service3

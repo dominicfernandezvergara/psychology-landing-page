@@ -48,21 +48,24 @@
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    align-items: center;
   }
   .headerButton {
-    flex-grow: 1;
+    width: 120px;
+    margin-right: 13px;
     background: transparent;
     border: none;
     font-size: 16px;
     cursor: pointer;
   }
   .headerButton:hover {
-    font-size: 18px;
+    transform: scale(1.1);
     font-weight: bold;
   }
   .active {
     font-weight: bold;
-    border-bottom: 2px solid;
+    padding: 15px;
+    border: 1px solid;
     color: var(--primary);
   }
   .shoppingCartButton {

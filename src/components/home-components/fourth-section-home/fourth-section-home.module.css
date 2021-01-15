@@ -18,7 +18,7 @@
   align-items: center;
   width: 100%;
 }
-.text {
+.subServices {
   padding-bottom: 5px;
 }
 .bodyCompanie {
@@ -36,7 +36,7 @@
   .marginLeftContainerBody {
     margin-left: 50px;
   }
-  .text {
+  .subServices {
     padding-bottom: 10px;
   }
 }
@@ -66,8 +66,14 @@
     align-items: unset;
     width: 100%;
   }
-
   .marginLeftContainerBody {
     margin-left: 0px;
+  }
+  .containerSubServices {
+    min-height: 145px;
+  }
+  .bodyCompanie {
+    min-height: 160px;
+    margin-top: 15px;
   }
 }

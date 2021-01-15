@@ -101,6 +101,7 @@ export const appDataText = {
         secondStep:
           "We will contact you to schedule an appointment and give you all the details you need to know.",
         thirdStep: "Start your sessions and improve your life.",
+        buttonText: "Start today",
       },
     },
     Sevices: {
@@ -144,11 +145,18 @@ export const appDataText = {
         },
       ],
     },
-  },
-  contact: {
-    title: "Contact Us",
-    addresse: "Czech Republic and Chile",
-    email: "asesorias.profesionales.holistic@gmail.com",
-    fono: 420776212480,
+    contact: {
+      title: "Contact Us",
+      addresse: "Czech Republic and Chile",
+      email: "asesorias.profesionales.holistic@gmail.com",
+      fono: "Fono :420776212480",
+      buttonText: "Submit",
+      input: {
+        name: "Name",
+        email: "Email",
+        comment: "Comment",
+        errorRequiredInformation: "Required information",
+      },
+    },
   },
 };

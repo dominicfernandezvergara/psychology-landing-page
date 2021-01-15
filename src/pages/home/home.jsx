@@ -19,18 +19,12 @@ function Home() {
       <ComponentSeparator />
       <TextSeparator text="Are you ready to live a stable, well-balanced life?" />
       <ComponentSeparator />
-      <ThirdSectionHome />
+      <FourthSectionHome />
       <ComponentSeparator />
       <TextSeparator text="In you is the power to transmute everything" />
       <ComponentSeparator />
-      <FourthSectionHome />
-      <FifthSectionHome
-        title="How it work?"
-        buttonText="schedule now"
-        paths="./contacto"
-        colorButton="secondary"
-        styleBlack={true}
-      />
+      <ThirdSectionHome />
+      <FifthSectionHome />
       <Footer />
     </div>
   );

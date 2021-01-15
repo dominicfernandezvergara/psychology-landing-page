@@ -20,16 +20,13 @@
 }
 @media screen and (min-width: 768px) {
   .containerButton {
-    padding-right: 20px;
   }
 }
 @media screen and (min-width: 1024px) {
   .containerButton {
-    padding-right: 60px;
   }
 }
 @media screen and (min-width: 1280px) {
   .containerButton {
-    padding-right: 140px;
   }
 }

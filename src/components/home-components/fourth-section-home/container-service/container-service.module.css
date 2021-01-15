@@ -68,6 +68,7 @@
   }
   .subTitle {
     color: var(--secondary);
+    min-height: 50px;
   }
   .imageLarge {
     width: 300px;

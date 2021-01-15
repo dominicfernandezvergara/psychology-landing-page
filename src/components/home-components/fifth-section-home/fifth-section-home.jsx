@@ -53,7 +53,11 @@ function FifthSectionHome() {
           </div>
         </div>
       </div>
-      <ButtonApp text="Contact us" path="/contacto" color="primary" />
+      <ButtonApp
+        text={appDataText.english.home.fifthSectionHome.buttonText}
+        path="/contacto"
+        color="primary"
+      />
     </div>
   );
 }
