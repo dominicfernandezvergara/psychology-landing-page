@@ -26,6 +26,7 @@
 }
 
 .formContactUs {
+  background-color: var(--lightPrimaryColor);
   width: 400px;
   border-radius: 20px;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -34,6 +35,7 @@
 .title {
   text-align: center;
   padding: 30px;
+  color: var(--darkSecondaryColor);
 }
 .data {
   text-align: center;
@@ -41,13 +43,13 @@
   padding-bottom: 30px;
 }
 .addresse {
-  color: var(--white);
+  color: var(--darkSecondaryColor);
 }
 .containerText {
   padding-top: 10px;
 }
 .text {
-  color: var(--white);
+  color: var(--darkSecondaryColor);
 }
 .form {
   display: flex;
@@ -55,10 +57,10 @@
   align-items: center;
 }
 .form :global(.MuiInputLabel-root) {
-  color: var(--white);
+  color: var(--darkSecondaryColor);
 }
 .form :global(.MuiInputBase-input) {
-  color: var(--white);
+  color: var(--darkSecondaryColor);
 }
 .inputBox {
   width: 250px;

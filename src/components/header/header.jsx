@@ -3,35 +3,34 @@ import cn from "classnames";
 import { useHistory, useLocation } from "react-router-dom";
 
 import styles from "./header.module.css";
+import { appDataText } from "../../appDataText/appDataText";
 import Logo from "../logo";
 import Drawer from "./drawer";
 import Button from "../button";
-
-// Github : https://github.com/akiran/react-slick
-// Slick carousel API : https://react-slick.neostack.com/docs/api/#centerPadding
+import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapist-semana-da-psicol-psicologa-social-5cc757f9c4bd23.3476718715565680578058.jpg";
 
 export const dataButtonsList = [
   {
-    name: "INICIO",
-    path: "/inicio",
+    name: appDataText.english.header.home.name,
+    path: appDataText.english.header.home.path,
     active: true,
     id: 1,
   },
   {
-    name: "QUIEN SOY",
-    path: "/quien-soy",
+    name: appDataText.english.header.aboutUs.name,
+    path: appDataText.english.header.aboutUs.path,
     active: false,
     id: 2,
   },
   {
-    name: "SERVICIOS",
-    path: "/servicios",
+    name: appDataText.english.header.services.name,
+    path: appDataText.english.header.services.path,
     active: false,
     id: 3,
   },
   {
-    name: "CONTACTO",
-    path: "/contacto",
+    name: appDataText.english.header.contactUs.name,
+    path: appDataText.english.header.contactUs.path,
     active: false,
     id: 4,
   },
@@ -42,6 +41,13 @@ function Header() {
   const location = useLocation();
   const { pathname: currentPathname } = location;
   const [buttonHeaderData, setButtonHeaderData] = useState(dataButtonsList);
+
+  // onClick Logo
+  const onClickRedirectionInicio = () => {
+    history.push(appDataText.english.header.home.path);
+  };
+
+  // onClick Buttons
   const onClickHeaderButton = (itemSelected) => {
     const newHeaderData = buttonHeaderData.map((item) => ({
       ...item,
@@ -81,6 +87,7 @@ function Header() {
   console.log("startScrolling", startScrolling);
   return (
     <Fragment>
+      {/*HEADER SMALL*/}
       <header
         className={cn(styles.headerResponsiveSmall, {
           [styles.headerWhite]: startScrolling,
@@ -94,20 +101,33 @@ function Header() {
           <Drawer />
         </div>
       </header>
+      {/*HEADER SMALL*/}
 
-      {/*Para cambiar de color el header al momento de hacer scroll,
-       hay un condicional en el header*/}
-      {/*Para usar condicionales usando css module:
+      {/*COMO USAR EL CAMBIO DE STYLES DESPUES DE SCROLL
+        Para cambiar de color el header al momento de hacer scroll,
+       hay un condicional en el header
+       Para usar condicionales usando css module:
       [styles.headerWhite]: Condicional(true o false)
     */}
+
+      {/*HEADER LARGE*/}
       <header
         className={cn(styles.headerResponsiveLarge, {
           [styles.headerWhite]: startScrolling,
         })}
       >
-        <div className={styles.containerLogo}>
-          <Logo />
-        </div>
+        <button
+          className={styles.containerLogoButton}
+          onClick={onClickRedirectionInicio}
+        >
+          <img
+            className={cn(styles.logo, {
+              [styles.styleAfterScrollLogo]: startScrolling,
+            })}
+            src={imageLogo}
+            alt=""
+          />
+        </button>
 
         <div className={styles.containerHeaderButton}>
           {buttonHeaderData.map((item, index) => {
@@ -130,6 +150,7 @@ function Header() {
           })}
         </div>
       </header>
+      {/*HEADER LARGE*/}
     </Fragment>
   );
 }

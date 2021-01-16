@@ -1,6 +1,13 @@
 export const appDataText = {
   español: {
     home: {
+      textSeparator: {
+        text1:
+          "La palabra “felicidad” perdería su sentido si no se equilibra con tristeza",
+        autorText1: "C.G.Jung",
+        text2: "En ti está el poder de transmutarlo todo",
+        autorText2: "",
+      },
       fistSectionHome: {
         title: "terapeutic counseling and more",
         subtitle: "piensa, actua y trasciende",
@@ -50,7 +57,32 @@ export const appDataText = {
     },
   },
   english: {
+    header: {
+      home: {
+        name: "Home",
+        path: "/home",
+      },
+      aboutUs: {
+        name: "About Us",
+        path: "/about-Us",
+      },
+      services: {
+        name: "Services",
+        path: "/services",
+      },
+      contactUs: {
+        name: "Contact Us",
+        path: "/contact-us",
+      },
+    },
+
     home: {
+      textSeparator: {
+        text1: "Are you ready to live a stable, well-balanced life?",
+        autorText1: "",
+        text2: "In you is the power to transmute everything",
+        autorText2: "",
+      },
       fistSectionHome: {
         title: "Terapeutic counseling and more",
         subtitle: "Think, act, transcend",
@@ -64,9 +96,12 @@ export const appDataText = {
       },
       thirdSectionHome: {
         title: "I'm ready when you are!",
-        text:
+        subtitle:
           "We care about you, your family, and your story. You can trust that we will treat you with respect, dignity and compassion in every interaction, while maintaining the highest standards for integrity and ethics.",
         buttonText: "Get Started Today",
+        text1: "More than 150 happy customers",
+        text2: "Loyal customers",
+        text3: "Our clients recommend us",
       },
       fourthSectionHome: {
         title: "Services",

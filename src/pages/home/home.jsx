@@ -9,6 +9,7 @@ import Footer from "../../components/footer";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import ComponentSeparator from "../../components/component-separator/component-separator";
 import TextSeparator from "../../components/text-separator/text-separator";
+import { appDataText } from "../../appDataText/appDataText";
 
 function Home() {
   UseScrollToTop();
@@ -17,11 +18,11 @@ function Home() {
       <FirstSectionHome />
       <SecondSectionHome />
       <ComponentSeparator />
-      <TextSeparator text="Are you ready to live a stable, well-balanced life?" />
+      <TextSeparator text={appDataText.english.home.textSeparator.text1} />
       <ComponentSeparator />
       <FourthSectionHome />
       <ComponentSeparator />
-      <TextSeparator text="In you is the power to transmute everything" />
+      <TextSeparator text={appDataText.english.home.textSeparator.text2} />
       <ComponentSeparator />
       <ThirdSectionHome />
       <FifthSectionHome />

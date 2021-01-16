@@ -4,6 +4,7 @@ import cn from "classnames";
 
 import styles from "./footer.module.css";
 import Logo from "../logo";
+import { appDataText } from "../../appDataText/appDataText";
 
 function Footer() {
   return (
@@ -12,13 +13,15 @@ function Footer() {
         <Logo />
       </div>
       <div className={cn(styles.data, styles.containerServices)}>
-        <h3 className={styles.title}>Servicios</h3>
+        <h3 className={styles.title}>
+          {appDataText.english.home.fourthSectionHome.title}
+        </h3>
         <div className={styles.containerText}>
           <div className={styles.icon}>
             <ArrowForwardIosIcon />
           </div>
           <a href="/servicios" className={styles.text}>
-            Lorem ipsum dolor sit amet
+            {appDataText.english.home.fourthSectionHome.services.people.title}
           </a>
         </div>
         <div className={styles.containerText}>
@@ -26,7 +29,10 @@ function Footer() {
             <ArrowForwardIosIcon />
           </div>
           <a href="/servicios" className={styles.text}>
-            Lorem ipsum dolor sit amet
+            {
+              appDataText.english.home.fourthSectionHome.services.profesional
+                .title
+            }
           </a>
         </div>
         <div className={styles.containerText}>
@@ -34,7 +40,10 @@ function Footer() {
             <ArrowForwardIosIcon />
           </div>
           <a href="/servicios" className={styles.text}>
-            Lorem ipsum dolor sit amet
+            {
+              appDataText.english.home.fourthSectionHome.services.companies
+                .title
+            }
           </a>
         </div>
       </div>

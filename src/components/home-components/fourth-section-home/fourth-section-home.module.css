@@ -54,6 +54,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .subServices {
+    font-size: 18px;
+  }
   .containerSection {
     padding: 0px 80px;
   }
@@ -70,10 +73,10 @@
     margin-left: 0px;
   }
   .containerSubServices {
-    min-height: 145px;
+    min-height: 220px;
   }
   .bodyCompanie {
-    min-height: 160px;
-    margin-top: 15px;
+    min-height: 220px;
+    font-size: 18px;
   }
 }

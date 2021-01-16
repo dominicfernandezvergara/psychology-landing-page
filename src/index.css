@@ -8,9 +8,9 @@ body {
   -webkit-overflow-scrolling: touch;
 
   margin: 0;
-  /* font-family: "Staatliches"; */
   /* color: #212121; */
-  font-family: "Roboto", sans-serif;
+  font-family: "Catamaran", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
@@ -21,9 +21,9 @@ button {
   cursor: pointer;
 }
 .root .MuiInput-underline:after {
-  border-bottom: 2px solid var(--dark);
+  border-bottom: 2px solid var(--white);
 }
 
 .root .MuiFormLabel-root.Mui-focused {
-  color: var(--dark);
+  color: var(--darkPrimaryColor);
 }
