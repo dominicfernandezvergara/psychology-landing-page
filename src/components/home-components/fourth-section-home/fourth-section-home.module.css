@@ -59,6 +59,7 @@
   }
   .containerSection {
     padding: 0px 80px;
+    padding-inline-start: unset;
   }
   .title {
     padding-bottom: 40px;
@@ -74,9 +75,24 @@
   }
   .containerSubServices {
     min-height: 220px;
+    margin-left: 25px;
   }
   .bodyCompanie {
     min-height: 220px;
     font-size: 18px;
+  }
+
+  .containerSection :global(.MuiButton-root) {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    border-radius: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--white);
+    background-color: var(--darkPrimaryColor);
+  }
+  .containerSection :global(.MuiButton-root:hover) {
+    background-color: var(--primaryColor);
   }
 }

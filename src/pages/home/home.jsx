@@ -8,21 +8,16 @@ import FifthSectionHome from "../../components/home-components/fifth-section-hom
 import Footer from "../../components/footer";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import ComponentSeparator from "../../components/component-separator/component-separator";
-import TextSeparator from "../../components/text-separator/text-separator";
-import { appDataText } from "../../appDataText/appDataText";
+import SliderSectionHome from "../../components/home-components/slider-section-home";
 
 function Home() {
   UseScrollToTop();
   return (
     <div className={styles.containerHome}>
-      <FirstSectionHome />
+      <SliderSectionHome />
       <SecondSectionHome />
       <ComponentSeparator />
-      <TextSeparator text={appDataText.english.home.textSeparator.text1} />
-      <ComponentSeparator />
       <FourthSectionHome />
-      <ComponentSeparator />
-      <TextSeparator text={appDataText.english.home.textSeparator.text2} />
       <ComponentSeparator />
       <ThirdSectionHome />
       <FifthSectionHome />

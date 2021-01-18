@@ -28,15 +28,7 @@ function ContainerService({
           <div className={cn(styles.containerbody, classNameContainerBody)}>
             {body}
           </div>
-          <div className={styles.containerButton}>
-            <Button
-              variant="contained"
-              className={styles.button}
-              onClick={handleClick}
-            >
-              {textButton}
-            </Button>
-          </div>
+          <div className={styles.containerButton}></div>
         </div>
       </div>
       {/* Small View */}

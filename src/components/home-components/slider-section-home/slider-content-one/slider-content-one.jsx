@@ -1,9 +1,9 @@
 import React from "react";
 
-import styles from "./first-section-home.module.css";
-import { appDataText } from "../../../appDataText/appDataText";
+import styles from "./slider-content-one.module.css";
+import { appDataText } from "../../../../appDataText/appDataText";
 
-function FirstSectionHome() {
+function SliderContentOne() {
   console.log("appDataText", appDataText);
   return (
     <div className={styles.containerFirstSection}>
@@ -18,4 +18,4 @@ function FirstSectionHome() {
     </div>
   );
 }
-export default FirstSectionHome;
+export default SliderContentOne;
