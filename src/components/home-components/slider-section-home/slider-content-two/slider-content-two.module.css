@@ -1,0 +1,21 @@
+.containerSliderContentTwo {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  background-color: var(--lightSecondaryColor);
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.containerImage {
+}
+.image {
+  height: 400px;
+  width: auto;
+}
+.containerText {
+}
+.title {
+}
+.text {
+}

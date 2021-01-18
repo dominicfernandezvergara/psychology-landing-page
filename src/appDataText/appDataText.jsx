@@ -1,5 +1,7 @@
 export const appDataText = {
   espanol: {
+    // phrases español
+
     // Header español
     header: {
       home: {

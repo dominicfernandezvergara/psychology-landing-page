@@ -6,6 +6,7 @@ import styles from "./slider-section-home.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SliderContentOne from "./slider-content-one/slider-content-one";
+import SliderContentTwo from "./slider-content-two/slider-content-two";
 
 // ejemplo de como importar una imagen para usarla en html
 // import image from "../../images/images-slider/foto-pampitas.jpeg";
@@ -33,20 +34,7 @@ function SliderSectionHome() {
 
   const firstImage = <SliderContentOne />;
 
-  const secondImage = (
-    <div className={styles.containerFollowUsSlider}>
-      <h1 className={styles.followUstextSlider}>Follow Us!</h1>
-      <div className={styles.containerFollowUsLink}>
-        <Link
-          className={styles.followUsLinkSlider}
-          to="https://www.instagram.com/factorynine/"
-          onClick={openNewWindow}
-        >
-          @InstagramName
-        </Link>
-      </div>
-    </div>
-  );
+  const secondImage = <SliderContentTwo />;
 
   return (
     <div className={styles.slider}>
