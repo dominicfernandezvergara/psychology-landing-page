@@ -1,3 +1,5 @@
+import React from "react";
+
 export const appDataText = {
   espanol: {
     // phrases español
@@ -9,8 +11,8 @@ export const appDataText = {
         path: "/inicio",
       },
       aboutUs: {
-        name: "Nosotros",
-        path: "/nosotros",
+        name: "Sobre mí",
+        path: "/sobre-mi",
       },
       services: {
         name: "Servicios",
@@ -42,20 +44,33 @@ export const appDataText = {
           buttonText: "Contactanos",
         },
       },
-      SecondSectionHome: {
-        title:
-          "Queremos poner a tu alcance esta maravillosa disciplina. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima… Te enseñaremos técnicas de relajación, te ayudaremos a encontrar una salida a tus preocupaciones y te impulsaremos a lograr reconocer tu propio valor en el mundo. Además, si te interesa el mundo onírico y el psicoanálisis, también te ayudaremos a interpretar tus sueños.",
-        subtitle: " ¿A qué esperas? ¡Resuelve todas tus dudas!",
+      secondSectionHome: {
+        title: (
+          <div>
+            <strong>Asesorias psicologicas y red profesional</strong>{" "}
+            <span>en linea</span>
+          </div>
+        ),
+        text:
+          "Queremos poner a tu alcance estas maravillosas disciplinas. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima… Te enseñaremos técnicas de relajación, te ayudaremos a encontrar una salida a tus preocupaciones y te impulsaremos a lograr reconocer tu propio valor en el mundo. Además, si te interesa el mundo onírico y el psicoanálisis, también te ayudaremos a interpretar tus sueños.",
         buttonText: "Contactanos",
       },
       thirdSectionHome: {
-        title: "¡Estamos listos cuando tú lo estés!",
-        text:
-          "Nos preocupamos por ti, tu familia y tu historia. Puede confiar en que lo trataremos con respeto, dignidad y compasión en cada interacción, mientras mantenemos los más altos estándares de integridad y ética.",
+        title: "Beneficios de nuestros servicios",
+        text: "",
+        // "Nos preocupamos por ti, tu familia y tu historia. Puede confiar en que lo trataremos con respeto, dignidad y compasión en cada interacción, mientras mantenemos los más altos estándares de integridad y ética.",
         buttonText: "Comienza hoy",
-        textIcon1: "Más de 150 clientes felices",
-        textIcon2: "Clientes leales",
-        textIcon3: "Nuestros clientes nos recomiendan",
+        subtitleIcon1: "Accesible",
+        subtitleIcon2: "Cuidadosa",
+        subtitleIcon3: "Segura",
+        subtitleIcon4: "Eficaz",
+        textIcon1:
+          "Por Videollamada. Desde el lugar que tu prefieras y en un horario conveniente para ti.",
+        textIcon2:
+          "Nos preocupamos por ti, tu familia y tu historia. 100% confidencial y libre de críticas. ¡Estás en buenas manos!",
+        textIcon3: "Mantenemos los más altos estándares de integridad y ética.",
+        textIcon4:
+          "El enfoque es la búsqueda de soluciones para tu situación actual.",
       },
       fourthSectionHome: {
         title: "Nuestros Servicios",
@@ -63,8 +78,14 @@ export const appDataText = {
           buttonText: "Mas sobre nuestros servicios aqui",
           people: {
             title: "Personas Naturales",
-            description:
-              "Te ayudaremos a disminuir sentimientos de angustia, confusión, inestabilidad emocional, rabia, malestar psíquico en general, a través de psicoterapia individual o grupal ,terapias complementarias y psicoeeducación.",
+            description: (
+              <div>
+                Te <strong>ayudaremos</strong> a disminuir sentimientos de
+                angustia, confusión, inestabilidad emocional, rabia, malestar
+                psíquico en general, a través de psicoterapia individual o
+                grupal ,terapias complementarias y psicoeeducación.
+              </div>
+            ),
             service1: "Psicoterapia individual y grupal",
             service2: "Terapias complementarias",
             service3: "Servicios Legales",
@@ -90,12 +111,21 @@ export const appDataText = {
       fifthSectionHome: {
         title: "¿Como funciona?",
         subtitle: "3 sencillos pasos para empezar a mejorar tu vida.",
-        firstStep:
-          "Dinos qué servicio necesita a través de nuestra página de contacto.",
-        secondStep:
-          "Nos pondremos en contacto contigo para programar una cita y darte todos los detalles que necesitas saber",
+        firstStep: {
+          title: "Paso Uno",
+          description:
+            "Dinos qué servicio necesita a través de nuestra página de contacto.",
+        },
+        secondStep: {
+          title: "Paso Dos",
+          description:
+            "Nos pondremos en contacto contigo para programar una cita y darte todos los detalles que necesitas saber.",
+        },
         buttonText: "Comienza Hoy",
-        thirdStep: "Comienza con tus sesiones y mejora tu vida.",
+        thirdStep: {
+          title: "Paso Tres",
+          description: "Comienza con tus sesiones y mejora tu vida.",
+        },
       },
     },
 

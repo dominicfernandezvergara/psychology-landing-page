@@ -9,6 +9,8 @@
   --lightSecondaryColor: #d3e1ea;
 } */
 :root {
+  --darkText: #54595f;
+  --text: #7a7a7a;
   --white: #ffffff;
   --dark: #212121;
   --primaryColor: #edb4dc;

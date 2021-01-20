@@ -6,7 +6,7 @@ import { appDataText } from "../../../../appDataText/appDataText";
 function SliderContentOne() {
   console.log("appDataText", appDataText);
   return (
-    <div className={styles.containerFirstSection}>
+    <div className={styles.containerSliderContentOne}>
       <div className={styles.containerText}>
         <h1 className={styles.title}>
           {appDataText.espanol.home.fistSectionHome.slider1.title}

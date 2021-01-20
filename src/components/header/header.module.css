@@ -82,18 +82,16 @@
     display: none;
   }
   .headerResponsiveLarge {
-    background: transparent;
+    background-color: var(--white);
   }
   .headerButton {
-    color: var(--white);
+    color: var(--darkSecondaryColor);
   }
   /* css para cambiar de color el header al momento de hacer scroll */
   .colorBlack {
     font-size: 14px;
-    color: var(--darkSecondaryColor);
   }
   .headerWhite {
-    background-color: var(--white);
     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
       0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   }

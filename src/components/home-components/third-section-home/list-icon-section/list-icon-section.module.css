@@ -1,0 +1,62 @@
+.containerList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.wrapp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+}
+.containerIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: var(--primaryColor);
+}
+
+.containerIcon :global(.MuiSvgIcon-root) {
+  font-size: 90px;
+  color: var(--white);
+}
+.title {
+  color: var(--darkPrimaryColor);
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.line {
+  height: 5px;
+  width: 50px;
+  border: 0;
+  background-color: var(--secondary);
+}
+.textIcon {
+  text-align: center;
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .containerList {
+    flex-direction: row;
+  }
+  .wrapp {
+    padding: 20px 5px;
+  }
+  .textIcon {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .wrapp {
+    padding: 0px 30px;
+  }
+}

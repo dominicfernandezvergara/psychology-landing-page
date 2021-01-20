@@ -1,7 +1,7 @@
 .containerFifthSection {
   text-align: center;
   padding: 50px 20px;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right bottom,
     #ffdfdd,
     #fad0d2,
@@ -15,15 +15,17 @@
     #f4c0c9,
     #fad0d2,
     #ffdfdd
-  );
+  ); */
 }
 
 .title {
-  letter-spacing: 1px;
+  font-family: "Alfa Slab One";
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 22px;
+  padding-bottom: 20px;
   text-align: center;
-  color: var(--dark);
+  letter-spacing: 1px;
+  color: var(--secondary);
 }
 .subtitle {
   color: #585252;
@@ -50,19 +52,51 @@
 .textIcon {
   margin-top: 10px;
   font-size: 20px;
-  color: var(--dark);
+  color: var(--darkText);
 }
 .step {
   font-size: 24px;
+  color: var(--darkText);
 }
 .descriptionStep {
+  color: var(--text);
   margin-top: 15px;
   width: 250px;
 }
 .containerFifthSection :global(.MuiButton-root) {
-  font-size: 18px;
+  font-size: 16px;
+  color: var(--secondary);
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 30px;
 }
-
+.containerFifthSection :global(.MuiButton-root):hover {
+  color: var(--darkSecondaryColor);
+}
+@media screen and (min-width: 768px) {
+  .containerIconsSection {
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .iconsSection {
+    align-self: unset;
+    /* width: 300px; */
+    flex: 1;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .descriptionStep {
+    font-size: 20px;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 1024px) {
   .subtitle {
     font-size: 20px;
@@ -80,5 +114,8 @@
   }
   .descriptionStep {
     width: 100%;
+  }
+  .containerFifthSection :global(.MuiButton-root) {
+    font-size: 22px;
   }
 }

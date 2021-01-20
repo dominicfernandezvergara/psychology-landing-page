@@ -15,12 +15,15 @@ import { Button } from "@material-ui/core";
 function SecondSectionHome({ paths, colorButton }) {
   return (
     <div className={styles.containerSecondSection}>
-      <h1 className={styles.title}>¡Bienvenido!</h1>
+      <div className={styles.title}>
+        {appDataText.espanol.home.secondSectionHome.title}
+      </div>
+
       <p className={styles.text}>
-        {appDataText.espanol.home.SecondSectionHome.title}
+        {appDataText.espanol.home.secondSectionHome.text}
       </p>
       <ButtonApp
-        text={appDataText.espanol.home.SecondSectionHome.buttonText}
+        text={appDataText.espanol.home.secondSectionHome.buttonText}
         path="./contacto"
         color="secondary"
       />

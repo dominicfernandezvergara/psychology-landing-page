@@ -16,10 +16,10 @@ function Home() {
     <div className={styles.containerHome}>
       <SliderSectionHome />
       <SecondSectionHome />
-      <ComponentSeparator />
       <FourthSectionHome />
       <ComponentSeparator />
       <ThirdSectionHome />
+      <ComponentSeparator />
       <FifthSectionHome />
       <Footer />
     </div>

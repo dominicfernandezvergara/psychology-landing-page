@@ -39,10 +39,7 @@ function SliderSectionHome() {
   // {secondImage}
   return (
     <div className={styles.containerSlider}>
-      <Slider {...settings}>
-        {firstImage}
-        {firstImage}
-      </Slider>
+      <Slider {...settings}>{firstImage}</Slider>
     </div>
   );
 }

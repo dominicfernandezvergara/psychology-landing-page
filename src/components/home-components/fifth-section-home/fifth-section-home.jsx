@@ -24,9 +24,11 @@ function FifthSectionHome() {
             <EmailIcon />
           </div>
           <div className={styles.textIcon}>
-            <h3 className={styles.step}>Step One</h3>
+            <h3 className={styles.step}>
+              {appDataText.espanol.home.fifthSectionHome.firstStep.title}
+            </h3>
             <p className={styles.descriptionStep}>
-              {appDataText.espanol.home.fifthSectionHome.firstStep}
+              {appDataText.espanol.home.fifthSectionHome.firstStep.description}
             </p>
           </div>
         </div>
@@ -35,9 +37,11 @@ function FifthSectionHome() {
             <EventAvailableIcon />
           </div>
           <div className={styles.textIcon}>
-            <h3 className={styles.step}>Step Two</h3>
+            <h3 className={styles.step}>
+              {appDataText.espanol.home.fifthSectionHome.secondStep.title}
+            </h3>
             <p className={styles.descriptionStep}>
-              {appDataText.espanol.home.fifthSectionHome.secondStep}
+              {appDataText.espanol.home.fifthSectionHome.secondStep.description}
             </p>
           </div>
         </div>
@@ -46,9 +50,12 @@ function FifthSectionHome() {
             <SentimentVerySatisfiedIcon />
           </div>
           <div className={styles.textIcon}>
-            <h3 className={styles.step}>Step Three</h3>
+            <h3 className={styles.step}>
+              {" "}
+              {appDataText.espanol.home.fifthSectionHome.thirdStep.title}
+            </h3>
             <p className={styles.descriptionStep}>
-              {appDataText.espanol.home.fifthSectionHome.thirdStep}
+              {appDataText.espanol.home.fifthSectionHome.thirdStep.description}
             </p>
           </div>
         </div>

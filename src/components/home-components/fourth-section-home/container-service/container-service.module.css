@@ -91,6 +91,7 @@
     text-decoration-line: underline;
     font-size: 18px;
     margin-left: 20px;
+    font-weight: bold;
   }
   /* .containerServiceLarge :global(.MuiButton-root) {
     margin-top: 20px;

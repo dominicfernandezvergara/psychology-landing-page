@@ -1,101 +1,109 @@
-.containerFirstSection {
-  display: flex;
-  /* flex-direction: column; */
-  height: 360px;
+.containerThirdSection {
+  text-align: center;
   width: 100%;
-  /* background-image: url(../../../images/imageHome/first-section-image.jpeg);
-  background-size: 100% 100%; */
-  margin-top: 83px;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  background-image: linear-gradient(
-    to top,
-    #957dad,
-    #b18cb3,
-    #c99db9,
-    #dcafc1,
-    #edc3cb,
-    #f1c5cc,
-    #f4c8ce,
-    #f8cacf,
-    #f1bbc7,
-    #e9acc2,
-    #df9ebe,
-    #d291bc
-  );
-}
-.containerText {
-  place-self: center;
-  width: 100%;
-  height: 100%;
-  background-color: #00000012;
 }
 .title {
+  font-family: "Alfa Slab One";
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--secondary);
+  /* font-size: 20px;
+  padding: 30px 20px;
   text-align: center;
   color: var(--dark);
-  padding: 30px 15px 0px 15px;
-  font-family: "Dancing Script", cursive;
-  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase; */
 }
 .text {
-  text-align: center;
-  color: var(--white);
-  font-size: 24px;
-  font-weight: 500;
-  padding: 15px 0px;
-  font-family: "Dancing Script", cursive;
-  font-weight: bold;
-  letter-spacing: 3px;
+  padding: 0px 20px 10px 20px;
+  color: var(--text);
+  font-size: 18px;
+  letter-spacing: 1px;
 }
-.containerFirstSection :global(.MuiButton-root) {
-  font-size: 16px;
-  background-color: var(--darkSecondaryColor);
-  border: 3px solid var(--darkSecondaryColor);
-  margin: 45px 0px;
-  color: var(--white);
+
+.containerButtonIcons {
+  display: flex;
+  flex-direction: column;
+}
+.containerButton {
+  padding: 30px 0px;
+}
+.containerIconsSection {
+  display: flex;
+  align-self: center;
+  margin-top: 30px;
+}
+.containerIconsSection {
+  display: none;
+}
+.wrapIconsSection {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+.icon {
+  color: var(--dark);
+}
+.textIcon {
+  padding-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--text);
+}
+.containerThirdSection :global(.MuiButton-root) {
+  font-size: 18px;
 }
 @media screen and (min-width: 768px) {
-  .containerFirstSection {
-    height: 550px;
-    margin-top: 0px;
-  }
-  .containerText {
-    background-color: #00000042;
+  .containerThirdSection {
+    padding: 50px 45px;
+    box-sizing: border-box;
   }
   .title {
-    font-size: 80px;
-    padding: 120px 40px 0px 40px;
+    font-size: 30px;
+    padding: 0px 0px;
   }
   .text {
-    font-size: 30px;
-    padding: 40px 0px;
+    padding: 30px 0px;
+    font-size: 20px;
   }
-  .containerFirstSection :global(.MuiButton-root) {
-    font-size: 25px;
-    background-color: var(--secondary);
+  .containerButtonIcons {
+    align-items: center;
+  }
+  .containerButton {
+    padding: 30px 36px;
+  }
+  .containerIconsSection {
+    display: flex;
+  }
+  .wrapIconsSection {
+    padding: 16px;
+    width: 200px;
+  }
+  .icon :global(.MuiSvgIcon-root) {
+    font-size: 40px;
+  }
+  .textIcon {
+    padding-top: 0px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .containerFirstSection {
-    height: 600px;
-    margin-top: 0px;
-  }
-  .title {
-    padding: 120px 15px 90px 15px;
+  .containerButtonIcons {
+    justify-content: center;
   }
 }
-@media screen and (min-width: 1280px) {
-  /* .containerFirstSection {
-    margin-top: 0px;
-    background-size: 100% 110%;
-  } */
-  .title {
-    padding: 140px 15px 0px 15px;
-    font-size: 64px;
+@media screen and (min-width: 1440px) {
+  .containerThirdSection {
+    padding: 100px 100px;
   }
-
+  .containerButton {
+    padding: 30px 60px;
+  }
   .text {
-    text-align: center;
-    width: 100%;
+    padding: 40px 70px;
   }
 }

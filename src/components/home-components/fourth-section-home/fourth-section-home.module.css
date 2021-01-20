@@ -9,7 +9,7 @@
   font-family: "Alfa Slab One";
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--primary);
+  color: var(--darkPrimaryColor);
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -23,7 +23,8 @@
 .subServices {
   padding-bottom: 5px;
   text-align: justify;
-  /* text-align: center; */
+  font-weight: bold;
+  color: var(--text);
 }
 .bodyCompanie {
   text-align: center;
@@ -35,7 +36,6 @@
   }
   .title {
     font-size: 30px;
-    color: var(--secondary);
     padding-bottom: 20px;
   }
 
@@ -66,10 +66,8 @@
 @media screen and (min-width: 1280px) {
   .subServices {
     font-size: 18px;
-    /* text-align: center; */
   }
   .containerSection {
-    /* padding: 0px 80px; */
     padding-inline-start: unset;
   }
   .title {
@@ -87,8 +85,6 @@
   }
   .containerSubServices {
     min-height: 220px;
-    /* min-height: 220px;
-    margin-left: 25px; */
   }
   .bodyCompanie {
     min-height: 220px;

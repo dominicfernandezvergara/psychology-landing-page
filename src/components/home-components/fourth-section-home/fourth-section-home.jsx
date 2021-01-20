@@ -4,8 +4,8 @@ import styles from "./fourth-section-home.module.css";
 import Button from "@material-ui/core/Button";
 
 import { appDataText } from "../../../appDataText/appDataText";
-import imagePeople from "../../../images/imageHome/imagePeople2.jpeg";
-import imageProfesional from "../../../images/imageHome/imageProfesional2.jpeg";
+import imagePeople from "../../../images/imageHome/imagePeople3.png";
+import imageProfesional from "../../../images/imageHome/imageProfesional3.jpg";
 import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";
 import ContainerService from "./container-service/container-service";
 
@@ -98,7 +98,6 @@ function FourthSectionHome() {
           }
           image={imagePeople}
           classNameContainerText={styles.marginLeftContainerText}
-          classNameContainerBody={styles.marginLeftContainerBody}
           textButton={
             appDataText.espanol.home.fourthSectionHome.services.people
               .buttonText
@@ -127,7 +126,7 @@ function FourthSectionHome() {
             appDataText.espanol.home.fourthSectionHome.services.companies
               .buttonText
           }
-          classNameContainerBody={styles.marginLeftContainerBody}
+          classNameContainerText={styles.marginLeftContainerText}
         />
       </div>
     </div>
