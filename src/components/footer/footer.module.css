@@ -25,6 +25,10 @@
 .icon :global(.MuiSvgIcon-root) {
   font-size: 12px;
 }
+.iconLink :global(.MuiSvgIcon-root) {
+  font-size: 20px;
+  padding-right: 5px;
+}
 .containerText {
   align-items: center;
   display: flex;

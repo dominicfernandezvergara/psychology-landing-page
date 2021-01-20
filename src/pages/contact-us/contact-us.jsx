@@ -24,19 +24,19 @@ function ContactUs() {
     <div className={styles.containerContactUs}>
       <div className={styles.shadow}>
         <div className={styles.formContactUs}>
-          <h1 className={styles.title}> {appDataText.english.contact.title}</h1>
+          <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
           <div className={styles.data}>
             <p className={styles.addresse}>
-              {appDataText.english.contact.addresse}
+              {appDataText.espanol.contact.addresse}
             </p>
             <div className={styles.containerText}>
               <a href="tel:5551234567" className={styles.text}>
-                {appDataText.english.contact.fono}
+                {appDataText.espanol.contact.fono.fono}
               </a>
             </div>
             <div className={styles.containerText}>
               <a href="mailto: abc@example.com" className={styles.text}>
-                {appDataText.english.contact.email}
+                {appDataText.espanol.contact.email.correo}
               </a>
             </div>
           </div>
@@ -44,7 +44,7 @@ function ContactUs() {
             <div className={styles.inputBox}>
               <TextField
                 id="name"
-                label={appDataText.english.contact.input.name}
+                label={appDataText.espanol.contact.input.name}
                 type="text"
                 name="name"
                 className={styles.input}
@@ -53,14 +53,14 @@ function ContactUs() {
             </div>
             {errors.name && (
               <span className={styles.errorInput}>
-                {appDataText.english.contact.input.errorRequiredInformation}
+                {appDataText.espanol.contact.input.errorRequiredInformation}
               </span>
             )}
             <div className={styles.inputBox}>
               <TextField
                 name="email"
                 id="Email"
-                label={appDataText.english.contact.input.email}
+                label={appDataText.espanol.contact.input.email}
                 type="text"
                 className={styles.input}
                 inputRef={register({
@@ -83,7 +83,7 @@ function ContactUs() {
                 rowsMax={4}
                 type="text"
                 className={styles.input}
-                name={appDataText.english.contact.input.comment}
+                name={appDataText.espanol.contact.input.comment}
                 inputRef={register({ required: true })}
                 value={commentary}
                 onChange={(e) => handleChangeCommentary(e)}
@@ -91,11 +91,11 @@ function ContactUs() {
             </div>
             {errors.commentary && (
               <span className={styles.errorInput}>
-                {appDataText.english.contact.input.errorRequiredInformation}
+                {appDataText.espanol.contact.input.errorRequiredInformation}
               </span>
             )}
             <Button className={styles.submitButton} type="submit">
-              {appDataText.english.contact.buttonText}
+              {appDataText.espanol.contact.buttonText}
             </Button>
           </form>
         </div>

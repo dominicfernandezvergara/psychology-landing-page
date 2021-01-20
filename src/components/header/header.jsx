@@ -11,26 +11,26 @@ import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapi
 
 export const dataButtonsList = [
   {
-    name: appDataText.english.header.home.name,
-    path: appDataText.english.header.home.path,
+    name: appDataText.espanol.header.home.name,
+    path: appDataText.espanol.header.home.path,
     active: true,
     id: 1,
   },
   {
-    name: appDataText.english.header.aboutUs.name,
-    path: appDataText.english.header.aboutUs.path,
+    name: appDataText.espanol.header.aboutUs.name,
+    path: appDataText.espanol.header.aboutUs.path,
     active: false,
     id: 2,
   },
   {
-    name: appDataText.english.header.services.name,
-    path: appDataText.english.header.services.path,
+    name: appDataText.espanol.header.services.name,
+    path: appDataText.espanol.header.services.path,
     active: false,
     id: 3,
   },
   {
-    name: appDataText.english.header.contactUs.name,
-    path: appDataText.english.header.contactUs.path,
+    name: appDataText.espanol.header.contactUs.name,
+    path: appDataText.espanol.header.contactUs.path,
     active: false,
     id: 4,
   },

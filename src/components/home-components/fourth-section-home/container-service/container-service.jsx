@@ -26,9 +26,16 @@ function ContainerService({
         <div className={styles.containerTextService}>
           <h3 className={styles.subTitle}>{title}</h3>
           <div className={cn(styles.containerbody, classNameContainerBody)}>
-            {body}
+            {body}{" "}
+            <a className={styles.button} href="/contacto">
+              Leer más
+            </a>
           </div>
-          <div className={styles.containerButton}></div>
+          {/*<div className={styles.containerButton}>
+            <a className={styles.button} href="/contacto">
+              Leer más
+  </a>
+          </div>*/}
         </div>
       </div>
       {/* Small View */}
@@ -42,15 +49,11 @@ function ContainerService({
           className={cn(styles.containerTextService, classNameContainerText)}
         >
           <h3 className={styles.subTitle}>{title}</h3>
-          <div className={styles.containerbody}>{body}</div>
-          <div className={styles.containerButton}>
-            <Button
-              variant="contained"
-              className={styles.button}
-              onClick={handleClick}
-            >
-              {textButton}
-            </Button>
+          <div className={styles.containerbody}>
+            {body}
+            <a className={styles.button} href="/contacto">
+              Leer más
+            </a>
           </div>
         </div>
         {imageRight && (

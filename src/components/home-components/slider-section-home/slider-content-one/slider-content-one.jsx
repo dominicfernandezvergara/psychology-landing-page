@@ -9,10 +9,10 @@ function SliderContentOne() {
     <div className={styles.containerFirstSection}>
       <div className={styles.containerText}>
         <h1 className={styles.title}>
-          {appDataText.english.home.fistSectionHome.slider1.title}
+          {appDataText.espanol.home.fistSectionHome.slider1.title}
         </h1>
         <p className={styles.text}>
-          {appDataText.english.home.fistSectionHome.slider1.subtitle}
+          {appDataText.espanol.home.fistSectionHome.slider1.subtitle}
         </p>
       </div>
     </div>

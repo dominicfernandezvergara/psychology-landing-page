@@ -1,13 +1,16 @@
 .containerSliderContentTwo {
   width: 100%;
-  height: 500px;
+  height: 100%;
   display: flex;
   background-color: var(--lightSecondaryColor);
   padding-top: 100px;
-  padding-left: 50px;
   padding-right: 50px;
 }
 .containerImage {
+  background-color: var(--darkSecondaryColor);
+  width: 50%;
+  height: 100%;
+  padding-left: 50px;
 }
 .image {
   height: 400px;

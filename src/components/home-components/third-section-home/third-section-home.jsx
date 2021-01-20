@@ -11,15 +11,15 @@ function ThirdSectionHome() {
   return (
     <div className={styles.containerThirdSection}>
       <h1 className={styles.title}>
-        {appDataText.english.home.thirdSectionHome.title}
+        {appDataText.espanol.home.thirdSectionHome.title}
       </h1>
       <p className={styles.text}>
-        {appDataText.english.home.thirdSectionHome.subtitle}
+        {appDataText.espanol.home.thirdSectionHome.text}
       </p>
       <div className={styles.containerButtonIcons}>
         <div className={styles.containerButton}>
           <ButtonApp
-            text={appDataText.english.home.thirdSectionHome.buttonText}
+            text={appDataText.espanol.home.thirdSectionHome.buttonText}
             path="/contacto"
             color="primary"
           />
@@ -30,7 +30,7 @@ function ThirdSectionHome() {
               <InsertEmoticonIcon />
             </div>
             <div className={styles.textIcon}>
-              {appDataText.english.home.thirdSectionHome.text1}
+              {appDataText.espanol.home.thirdSectionHome.textIcon1}
             </div>
           </div>
           <div className={styles.wrapIconsSection}>
@@ -38,7 +38,7 @@ function ThirdSectionHome() {
               <LoyaltyIcon />
             </div>
             <div className={styles.textIcon}>
-              {appDataText.english.home.thirdSectionHome.text2}
+              {appDataText.espanol.home.thirdSectionHome.textIcon2}
             </div>
           </div>
           <div className={styles.wrapIconsSection}>
@@ -46,7 +46,7 @@ function ThirdSectionHome() {
               <FavoriteIcon />
             </div>
             <div className={styles.textIcon}>
-              {appDataText.english.home.thirdSectionHome.text3}
+              {appDataText.espanol.home.thirdSectionHome.textIcon3}
             </div>
           </div>
         </div>

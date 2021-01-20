@@ -8,15 +8,15 @@ import ButtonApp from "../../button";
 import { appDataText } from "../../../appDataText/appDataText";
 
 function FifthSectionHome() {
-  const [language, setLanguage] = useState("english");
+  const [language, setLanguage] = useState("espanol");
   return (
     <div className={styles.containerFifthSection}>
       <h1 className={styles.title}>
-        {/*appDataText.english.home.fifthSectionHome.title*/}
+        {/*appDataText.espanol.home.fifthSectionHome.title*/}
         {appDataText[language].home.fifthSectionHome.title}
       </h1>
       <h4 className={styles.subtitle}>
-        {appDataText.english.home.fifthSectionHome.subtitle}
+        {appDataText.espanol.home.fifthSectionHome.subtitle}
       </h4>
       <div className={styles.containerIconsSection}>
         <div className={styles.iconsSection}>
@@ -26,7 +26,7 @@ function FifthSectionHome() {
           <div className={styles.textIcon}>
             <h3 className={styles.step}>Step One</h3>
             <p className={styles.descriptionStep}>
-              {appDataText.english.home.fifthSectionHome.firstStep}
+              {appDataText.espanol.home.fifthSectionHome.firstStep}
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ function FifthSectionHome() {
           <div className={styles.textIcon}>
             <h3 className={styles.step}>Step Two</h3>
             <p className={styles.descriptionStep}>
-              {appDataText.english.home.fifthSectionHome.secondStep}
+              {appDataText.espanol.home.fifthSectionHome.secondStep}
             </p>
           </div>
         </div>
@@ -48,13 +48,13 @@ function FifthSectionHome() {
           <div className={styles.textIcon}>
             <h3 className={styles.step}>Step Three</h3>
             <p className={styles.descriptionStep}>
-              {appDataText.english.home.fifthSectionHome.thirdStep}
+              {appDataText.espanol.home.fifthSectionHome.thirdStep}
             </p>
           </div>
         </div>
       </div>
       <ButtonApp
-        text={appDataText.english.home.fifthSectionHome.buttonText}
+        text={appDataText.espanol.home.fifthSectionHome.buttonText}
         path="/contacto"
         color="primary"
       />

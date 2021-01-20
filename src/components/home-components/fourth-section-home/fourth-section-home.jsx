@@ -15,77 +15,104 @@ function FourthSectionHome() {
     // history.push("./servicios");
   };
   const bodyPeople = (
-    <ul className={styles.containerSubServices}>
-      <li className={styles.subServices}>
-        {appDataText.english.home.fourthSectionHome.services.people.service1}
-      </li>
-      <li className={styles.subServices}>
-        {appDataText.english.home.fourthSectionHome.services.people.service2}
-      </li>
-      <li className={styles.subServices}>
-        {appDataText.english.home.fourthSectionHome.services.people.service3}
-      </li>
-    </ul>
+    <div className={styles.containerSubServices}>
+      <div className={styles.subServices}>
+        {appDataText.espanol.home.fourthSectionHome.services.people.description}
+      </div>
+    </div>
+    // <ul className={styles.containerSubServices}>
+    //   <li className={styles.subServices}>
+    //     {appDataText.espanol.home.fourthSectionHome.services.people.service1}
+    //   </li>
+    //   <li className={styles.subServices}>
+    //     {appDataText.espanol.home.fourthSectionHome.services.people.service2}
+    //   </li>
+    //   <li className={styles.subServices}>
+    //     {appDataText.espanol.home.fourthSectionHome.services.people.service3}
+    //   </li>
+    // </ul>
   );
   const bodyProfesional = (
-    <ul className={styles.containerSubServices}>
-      <li className={styles.subServices}>
+    <div className={styles.containerSubServices}>
+      <div className={styles.subServices}>
         {
-          appDataText.english.home.fourthSectionHome.services.profesional
-            .service1
+          appDataText.espanol.home.fourthSectionHome.services.profesional
+            .description
         }
-      </li>
-      <li className={styles.subServices}>
-        {
-          appDataText.english.home.fourthSectionHome.services.profesional
-            .service2
-        }
-      </li>
-      <li className={styles.subServices}>
-        {
-          appDataText.english.home.fourthSectionHome.services.profesional
-            .service3
-        }
-      </li>
-    </ul>
+      </div>
+    </div>
+    // <ul className={styles.containerSubServices}>
+    //   <li className={styles.subServices}>
+    //     {
+    //       appDataText.espanol.home.fourthSectionHome.services.profesional
+    //         .service1
+    //     }
+    //   </li>
+    //   <li className={styles.subServices}>
+    //     {
+    //       appDataText.espanol.home.fourthSectionHome.services.profesional
+    //         .service2
+    //     }
+    //   </li>
+    //   <li className={styles.subServices}>
+    //     {
+    //       appDataText.espanol.home.fourthSectionHome.services.profesional
+    //         .service3
+    //     }
+    //   </li>
+    // </ul>
   );
   const bodyCompanie = (
-    <div className={styles.bodyCompanie}>
-      {
-        appDataText.english.home.fourthSectionHome.services.companies
-          .description
-      }
+    <div className={styles.containerSubServices}>
+      <div className={styles.subServices}>
+        {
+          appDataText.espanol.home.fourthSectionHome.services.companies
+            .description
+        }
+      </div>
     </div>
+    //   <div className={styles.bodyCompanie}>
+    //     {
+    //       appDataText.espanol.home.fourthSectionHome.services.companies
+    //         .description
+    //     }
+    //   </div>
   );
-
+  //   <Button
+  //   variant="contained"
+  //   className={styles.button}
+  //   onClick={handleClick}
+  // >
+  //   {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+  // </Button>
   return (
     <div className={styles.containerSection}>
       <h2 className={styles.title}>
-        {appDataText.english.home.fourthSectionHome.title}
+        {appDataText.espanol.home.fourthSectionHome.title}
       </h2>
       <div className={styles.services}>
         <ContainerService
           body={bodyPeople}
           title={
-            appDataText.english.home.fourthSectionHome.services.people.title
+            appDataText.espanol.home.fourthSectionHome.services.people.title
           }
           image={imagePeople}
           classNameContainerText={styles.marginLeftContainerText}
           classNameContainerBody={styles.marginLeftContainerBody}
           textButton={
-            appDataText.english.home.fourthSectionHome.services.people
+            appDataText.espanol.home.fourthSectionHome.services.people
               .buttonText
           }
         />
         <ContainerService
           body={bodyProfesional}
           title={
-            appDataText.english.home.fourthSectionHome.services.profesional
+            appDataText.espanol.home.fourthSectionHome.services.profesional
               .title
           }
           image={imageProfesional}
           textButton={
-            appDataText.english.home.fourthSectionHome.services.profesional
+            appDataText.espanol.home.fourthSectionHome.services.profesional
               .buttonText
           }
           imageRight={true}
@@ -93,22 +120,16 @@ function FourthSectionHome() {
         <ContainerService
           body={bodyCompanie}
           title={
-            appDataText.english.home.fourthSectionHome.services.companies.title
+            appDataText.espanol.home.fourthSectionHome.services.companies.title
           }
           image={imageCompanie}
           textButton={
-            appDataText.english.home.fourthSectionHome.services.companies
+            appDataText.espanol.home.fourthSectionHome.services.companies
               .buttonText
           }
+          classNameContainerBody={styles.marginLeftContainerBody}
         />
       </div>
-      <Button
-        variant="contained"
-        className={styles.button}
-        onClick={handleClick}
-      >
-        {appDataText.english.home.fourthSectionHome.services.buttonText}
-      </Button>
     </div>
   );
 }

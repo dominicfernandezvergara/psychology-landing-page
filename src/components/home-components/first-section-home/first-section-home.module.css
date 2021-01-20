@@ -32,7 +32,7 @@
 }
 .title {
   text-align: center;
-  color: var(--white);
+  color: var(--dark);
   padding: 30px 15px 0px 15px;
   font-family: "Dancing Script", cursive;
   font-size: 40px;
@@ -48,7 +48,7 @@
   letter-spacing: 3px;
 }
 .containerFirstSection :global(.MuiButton-root) {
-  font-size: 20px;
+  font-size: 16px;
   background-color: var(--darkSecondaryColor);
   border: 3px solid var(--darkSecondaryColor);
   margin: 45px 0px;

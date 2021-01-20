@@ -36,11 +36,12 @@ function SliderSectionHome() {
 
   const secondImage = <SliderContentTwo />;
 
+  // {secondImage}
   return (
-    <div className={styles.slider}>
+    <div className={styles.containerSlider}>
       <Slider {...settings}>
         {firstImage}
-        {secondImage}
+        {firstImage}
       </Slider>
     </div>
   );
