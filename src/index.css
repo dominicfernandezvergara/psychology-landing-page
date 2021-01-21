@@ -21,9 +21,9 @@ button {
   cursor: pointer;
 }
 .root .MuiInput-underline:after {
-  border-bottom: 2px solid var(--white);
+  border-bottom: 2px solid var(--text);
 }
 
 .root .MuiFormLabel-root.Mui-focused {
-  color: var(--darkPrimaryColor);
+  color: var(--darkText);
 }

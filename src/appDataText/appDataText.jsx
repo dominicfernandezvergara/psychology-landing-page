@@ -497,9 +497,10 @@ export const appDataText = {
     },
     // contact Us español
     contact: {
-      title: "Contact Us",
+      title: "Contacta con nosotros",
+      subtitle: "Informacion",
       text:
-        "Sé que esto es difícil. Es probable que haya estado debatiendo la posibilidad de buscar ayuda durante meses, si no años. Pero estoy muy contento de que me hayas encontrado y hayas dado el valiente paso de estar aquí.",
+        "Sientete libre de contactarnos cuando quieras, nos pondremos en contacto con usted tan rapido nos sea posible.",
       addresse:
         "Sede y atención presencial Praha, República Checa. Servicios y asesorias online Resto del mundo y Chile.",
       email: {
@@ -523,13 +524,16 @@ export const appDataText = {
         errorRequiredInformation: "Informacion requerida para continuar",
       },
       transferData: {
+        title: "Datos para transferencias",
         europe: {
+          title: "Transferencias Europeas",
           typeCurrency: "Euros y coronas checas",
           bank: "Equa bank",
           accountNumber: "1033413121 /6100",
           IBAN: "IBAN: CZ7161000000001033413121",
         },
         chile: {
+          title: "Transferencias Chilenas",
           typeCurrency: "Pesos chilenos",
           bank: "Banco Santander",
           accountNumber: "Cuenta corriente n°67779860",

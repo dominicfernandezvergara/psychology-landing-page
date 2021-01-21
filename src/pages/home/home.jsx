@@ -12,14 +12,14 @@ import SliderSectionHome from "../../components/home-components/slider-section-h
 
 function Home() {
   UseScrollToTop();
+  // <ComponentSeparator />
+
   return (
     <div className={styles.containerHome}>
       <SliderSectionHome />
       <SecondSectionHome />
       <FourthSectionHome />
-      <ComponentSeparator />
       <ThirdSectionHome />
-      <ComponentSeparator />
       <FifthSectionHome />
       <Footer />
     </div>

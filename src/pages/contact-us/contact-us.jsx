@@ -1,106 +1,80 @@
-import React, { useState } from "react";
-import { useForm } from "react-hook-form";
-import Button from "@material-ui/core/Button";
-import TextField from "@material-ui/core/TextField";
+import React from "react";
+import PhoneIcon from "@material-ui/icons/Phone";
+import EmailIcon from "@material-ui/icons/Email";
 
 import styles from "./contact-us.module.css";
-import image from "../../images/imageHome/imagePeople.jpeg";
-import ButtonApp from "../../components/button";
 import { appDataText } from "../../appDataText/appDataText";
+import Form from "./form/form";
 
 function ContactUs() {
-  const [commentary, setCommentary] = useState("");
-
-  const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = (data) => {
-    console.log("data", data);
-  };
-  const handleChangeCommentary = (e) => {
-    setCommentary(e.target.value);
-    console.log("commentary", commentary);
-  };
-  console.log(watch("name"));
   return (
     <div className={styles.containerContactUs}>
-      <div className={styles.shadow}>
-        <div className={styles.formContactUs}>
-          <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
-          <div className={styles.data}>
-            <p className={styles.addresse}>
-              {appDataText.espanol.contact.addresse}
-            </p>
-            <div className={styles.containerText}>
-              <a href="tel:5551234567" className={styles.text}>
-                {appDataText.espanol.contact.fono.fono}
-              </a>
-            </div>
-            <div className={styles.containerText}>
-              <a href="mailto: abc@example.com" className={styles.text}>
-                {appDataText.espanol.contact.email.correo}
-              </a>
-            </div>
-          </div>
-          <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
-            <div className={styles.inputBox}>
-              <TextField
-                id="name"
-                label={appDataText.espanol.contact.input.name}
-                type="text"
-                name="name"
-                className={styles.input}
-                inputRef={register({ required: true })}
-              />
-            </div>
-            {errors.name && (
-              <span className={styles.errorInput}>
-                {appDataText.espanol.contact.input.errorRequiredInformation}
-              </span>
-            )}
-            <div className={styles.inputBox}>
-              <TextField
-                name="email"
-                id="Email"
-                label={appDataText.espanol.contact.input.email}
-                type="text"
-                className={styles.input}
-                inputRef={register({
-                  required: "Email requerido para continuar",
-                  pattern: {
-                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                    message: "Email invalido",
-                  },
-                })}
-              />
-            </div>
-            {errors.email && (
-              <span className={styles.errorInput}>{errors.email.message}</span>
-            )}
-            <div className={styles.commentaryBox}>
-              <TextField
-                id="commentary"
-                label="Comentario"
-                multiline
-                rowsMax={4}
-                type="text"
-                className={styles.input}
-                name={appDataText.espanol.contact.input.comment}
-                inputRef={register({ required: true })}
-                value={commentary}
-                onChange={(e) => handleChangeCommentary(e)}
-              />
-            </div>
-            {errors.commentary && (
-              <span className={styles.errorInput}>
-                {appDataText.espanol.contact.input.errorRequiredInformation}
-              </span>
-            )}
-            <Button className={styles.submitButton} type="submit">
-              {appDataText.espanol.contact.buttonText}
-            </Button>
-          </form>
+      <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
+      <div className={styles.containerForm}>
+        <div className={styles.textContainerForm}>
+          {appDataText.espanol.contact.text}
         </div>
-        <div className={styles.containerImage}>
-          <img className={styles.image} src={image} alt="" />
+        <Form />
+      </div>
+      <div className={styles.contactData}>
+        <h3 className={styles.title}>{appDataText.espanol.contact.subtitle}</h3>
+        <p className={styles.addresse}>
+          {appDataText.espanol.contact.addresse}
+        </p>
+        <div className={styles.containerText}>
+          <div className={styles.iconLink}>
+            <PhoneIcon />
+          </div>
+          <a href="tel:5551234567" className={styles.textContactData}>
+            {appDataText.espanol.contact.fono.fono}
+          </a>
+        </div>
+        <div className={styles.containerText}>
+          <div className={styles.iconLink}>
+            <EmailIcon />
+          </div>
+          <a href="mailto: abc@example.com" className={styles.textContactData}>
+            {appDataText.espanol.contact.email.correo}
+          </a>
+        </div>
+      </div>
+      <div className={styles.containerTransferData}>
+        <h3 className={styles.title}>
+          {appDataText.espanol.contact.transferData.title}
+        </h3>
+        <div className={styles.containerChileTransferData}>
+          <div className={styles.subtitle}>
+            {appDataText.espanol.contact.transferData.chile.title}
+          </div>
+          <div className={styles.textTransferData}>
+            {appDataText.espanol.contact.transferData.chile.typeCurrency}
+          </div>
+          <div className={styles.textTransferData}>
+            {appDataText.espanol.contact.transferData.chile.bank}
+          </div>
+          <div className={styles.textTransferData}>
+            {appDataText.espanol.contact.transferData.chile.accountNumber}
+          </div>
+          <div className={styles.textTransferData}>
+            {appDataText.espanol.contact.transferData.chile.run}
+          </div>
+        </div>
+        <div className={styles.containerEuropeTransferData}>
+          <div className={styles.subtitle}>
+            {appDataText.espanol.contact.transferData.europe.title}
+          </div>
+          <div className={styles.textTransferData}>
+            {appDataText.espanol.contact.transferData.europe.typeCurrency}
+          </div>
+          <div className={styles.textTransferData}>
+            {appDataText.espanol.contact.transferData.europe.bank}
+          </div>
+          <div className={styles.textTransferData}>
+            {appDataText.espanol.contact.transferData.europe.accountNumber}
+          </div>
+          <div className={styles.textTransferData}>
+            {appDataText.espanol.contact.transferData.europe.IBAN}
+          </div>
         </div>
       </div>
     </div>

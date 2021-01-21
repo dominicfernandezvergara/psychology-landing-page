@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+}
+.form :global(.MuiInputLabel-root) {
+  color: var(--secondary);
+}
+.form :global(.MuiInputBase-input) {
+  color: var(--text);
+}
+.inputBox {
+  width: 100%;
+  height: 60px;
+}
+.input {
+  width: 100%;
+}
+.errorInput {
+  color: #c40e0e;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.commentaryBox {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.form .submitButton {
+  align-self: center;
+  font-size: 20px;
+  background-color: var(--secondary);
+  color: var(--white);
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  padding: 10px;
+  width: 300px;
+}
+.form .submitButton:hover {
+  background-color: var(--lightPrimaryColor);
+  transform: scale(1.1);
+  color: var(--darkSecondaryColor);
+}
