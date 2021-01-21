@@ -1,8 +1,9 @@
 import React from "react";
 
 import styles from "./slider-content-two.module.css";
-import image from "../../../../images/imageSlider/ImageSliderTwo.jpg";
+import image from "../../../../images/imageSlider/imageSliderTwo2.svg";
 import { appDataText } from "../../../../appDataText/appDataText";
+import ButtonApp from "../../../button";
 
 function SliderContentTwo() {
   console.log("appDataText", appDataText);
@@ -15,8 +16,11 @@ function SliderContentTwo() {
         <p className={styles.title}>
           {appDataText.espanol.home.fistSectionHome.slider2.title}
         </p>
+        <div className={styles.containerImageSmall}>
+          <img src={image} alt="imageSliderTwo" className={styles.image} />
+        </div>
         <p className={styles.text}>
-          {appDataText.espanol.home.fistSectionHome.slider2.autor}
+          {appDataText.espanol.home.fistSectionHome.slider2.text}
         </p>
       </div>
     </div>

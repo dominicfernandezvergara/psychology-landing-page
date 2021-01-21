@@ -31,8 +31,13 @@ export const appDataText = {
           title: "Asesoramiento psicológico y red profesional",
           subtitle: "piensa, actúa y trasciende",
         },
+
+        // modificado
         slider2: {
-          title:
+          title: "Servicios Online",
+          text:
+            "Atencion psicologica en un entorno seguro y sin salir de tu casa.",
+          phrase:
             "La palabra “felicidad” perdería su sentido si no se equilibra con tristeza",
           autor: "(C. G. Jung)",
           buttonText: "Contactanos",
@@ -53,10 +58,13 @@ export const appDataText = {
         ),
         text:
           "Queremos poner a tu alcance estas maravillosas disciplinas. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima… Te enseñaremos técnicas de relajación, te ayudaremos a encontrar una salida a tus preocupaciones y te impulsaremos a lograr reconocer tu propio valor en el mundo. Además, si te interesa el mundo onírico y el psicoanálisis, también te ayudaremos a interpretar tus sueños.",
+        // modificado
+        text2:
+          "También y de suma importancia haremos charlas para padres, cuidadores y profesionales para prevenir y saber qué hacer frente al abuso sexual infantil.",
         buttonText: "Contactanos",
       },
       thirdSectionHome: {
-        title: "Beneficios de nuestros servicios",
+        title: "¿Por qué elegirnos?",
         text: "",
         // "Nos preocupamos por ti, tu familia y tu historia. Puede confiar en que lo trataremos con respeto, dignidad y compasión en cada interacción, mientras mantenemos los más altos estándares de integridad y ética.",
         buttonText: "Comienza hoy",
@@ -500,9 +508,12 @@ export const appDataText = {
       title: "Contacta con nosotros",
       subtitle: "Informacion",
       text:
-        "Sientete libre de contactarnos cuando quieras, nos pondremos en contacto con usted tan rapido nos sea posible.",
-      addresse:
-        "Sede y atención presencial Praha, República Checa. Servicios y asesorias online Resto del mundo y Chile.",
+        "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste? Y no porque no quisieras cambios, sino que no te hizo sentido? Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque el/ella emplea; ya que existen 7 enfoque tradicionales en el ejercicio profesional muy distintos entre sí, pero conectados.",
+      addresse: {
+        title: "Dirección",
+        addresse:
+          "Sede y atención presencial Praha, República Checa. Servicios y asesorias online Resto del mundo y Chile.",
+      },
       email: {
         title: "correo",
         correo: "asesorias.profesionales.holistic@gmail.com",
@@ -525,19 +536,54 @@ export const appDataText = {
       },
       transferData: {
         title: "Datos para transferencias",
+        // nuevo
+        text:
+          "Pagos se realizar 15 minutos antes de la sesión individual, en caso de sesiones y otros servicios se reserva cupo con 50% del valor.",
         europe: {
           title: "Transferencias Europeas",
-          typeCurrency: "Euros y coronas checas",
-          bank: "Equa bank",
-          accountNumber: "1033413121 /6100",
-          IBAN: "IBAN: CZ7161000000001033413121",
+          typeCurrency: (
+            <div>
+              <strong>Tipo de moneda :</strong> Euros y coronas checas
+            </div>
+          ),
+          bank: (
+            <div>
+              <strong>Banco :</strong> Equa bank
+            </div>
+          ),
+          accountNumber: (
+            <div>
+              <strong>Numero de cuenta :</strong> 1033413121 /6100
+            </div>
+          ),
+          IBAN: (
+            <div>
+              <strong>IBAN :</strong> CZ7161000000001033413121
+            </div>
+          ),
         },
         chile: {
           title: "Transferencias Chilenas",
-          typeCurrency: "Pesos chilenos",
-          bank: "Banco Santander",
-          accountNumber: "Cuenta corriente n°67779860",
-          run: "RUN N°17.986.0341",
+          typeCurrency: (
+            <div>
+              <strong>Tipo de moneda :</strong> Pesos chilenos
+            </div>
+          ),
+          bank: (
+            <div>
+              <strong>Banco :</strong> Banco Santander
+            </div>
+          ),
+          accountNumber: (
+            <div>
+              <strong>Cuenta corriente :</strong> 67779860
+            </div>
+          ),
+          run: (
+            <div>
+              <strong>Rut :</strong> 17.986.0341
+            </div>
+          ),
         },
       },
 

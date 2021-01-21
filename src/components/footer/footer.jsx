@@ -52,7 +52,7 @@ function Footer() {
       <div className={styles.data}>
         <h3 className={styles.title}>Contacta con nosotros</h3>
         <p className={styles.addresse}>
-          {appDataText.espanol.contact.addresse}
+          {appDataText.espanol.contact.addresse.addresse}
         </p>
         <div className={styles.containerText}>
           <div className={styles.iconLink}>

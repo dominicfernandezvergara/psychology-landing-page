@@ -1,6 +1,6 @@
 .containerThirdSection {
   width: 100%;
-  background-color: whitesmoke;
+  background-color: var(--lightSecondaryColor);
 }
 .title {
   font-family: "Alfa Slab One";

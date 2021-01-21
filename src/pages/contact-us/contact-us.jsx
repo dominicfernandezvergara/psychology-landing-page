@@ -18,8 +18,14 @@ function ContactUs() {
       </div>
       <div className={styles.contactData}>
         <h3 className={styles.title}>{appDataText.espanol.contact.subtitle}</h3>
-        <p className={styles.addresse}>
-          {appDataText.espanol.contact.addresse}
+        <p className={styles.subtitle}>
+          {appDataText.espanol.contact.addresse.title}
+        </p>
+        <p className={styles.textContactData}>
+          {appDataText.espanol.contact.addresse.addresse}
+        </p>
+        <p className={styles.subtitle}>
+          {appDataText.espanol.contact.fono.title}
         </p>
         <div className={styles.containerText}>
           <div className={styles.iconLink}>
@@ -29,6 +35,9 @@ function ContactUs() {
             {appDataText.espanol.contact.fono.fono}
           </a>
         </div>
+        <p className={styles.subtitle}>
+          {appDataText.espanol.contact.email.title}
+        </p>
         <div className={styles.containerText}>
           <div className={styles.iconLink}>
             <EmailIcon />
@@ -42,6 +51,9 @@ function ContactUs() {
         <h3 className={styles.title}>
           {appDataText.espanol.contact.transferData.title}
         </h3>
+        <p className={styles.textTransfer}>
+          {appDataText.espanol.contact.transferData.text}
+        </p>
         <div className={styles.containerChileTransferData}>
           <div className={styles.subtitle}>
             {appDataText.espanol.contact.transferData.chile.title}

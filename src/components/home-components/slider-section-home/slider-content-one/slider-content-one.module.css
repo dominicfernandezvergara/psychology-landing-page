@@ -1,52 +1,43 @@
 .containerSliderContentOne {
+  width: 100%;
+  height: 350px;
   display: flex;
-  height: 360px;
-  width: 100%;
-  margin-top: 83px;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  background-color: var(--white);
-  /* background-image: url(../../../images/imageHome/first-section-image.jpeg);
-  background-size: 100% 100%; */
-  /* background-image: linear-gradient(
-    to top,
-    #957dad,
-    #b18cb3,
-    #c99db9,
-    #dcafc1,
-    #edc3cb,
-    #f1c5cc,
-    #f4c8ce,
-    #f8cacf,
-    #f1bbc7,
-    #e9acc2,
-    #df9ebe,
-    #d291bc
-  ); */
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
-.containerText {
-  place-self: center;
+.containerImage {
+  display: none;
+}
+.containerImageSmall {
   width: 100%;
-  height: 100%;
-  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+}
+.image {
+  height: 150px;
+  width: auto;
 }
 .title {
   text-align: center;
-  color: var(--secondary);
-  padding: 30px 15px 0px 15px;
-  font-family: "Dancing Script", cursive;
-  font-size: 40px;
-}
-.text {
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--secondary);
-  font-size: 24px;
-  font-weight: 500;
-  padding: 15px 0px;
+  color: var(--darkPrimaryColor);
+  padding: 0px 10px 20px 10px;
+  font-size: 32px;
+  /* font-family: "Alfa Slab One"; */
   font-family: "Dancing Script", cursive;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+}
+.text {
+  font-size: 18px;
+  padding: 15px 15px 0px 15px;
+  text-align: center;
+  color: var(--darkText);
+  text-transform: uppercase;
+  font-family: "Alfa Slab One";
+  /* font-family: "Dancing Script", cursive; */
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 .containerSliderContentOne :global(.MuiButton-root) {
   font-size: 20px;
@@ -57,44 +48,59 @@
 }
 @media screen and (min-width: 768px) {
   .containerSliderContentOne {
-    height: 550px;
-    margin-top: 0px;
+    justify-content: center;
   }
-  /* .containerText {
-    background-color: #00000042;
-  } */
   .title {
-    font-size: 80px;
-    padding: 120px 40px 0px 40px;
+    padding: 0px 0px 20px 0px;
+    font-size: 40px;
+  }
+  .image {
+    height: 200px;
+    width: auto;
   }
   .text {
-    font-size: 30px;
-    padding: 40px 0px;
-  }
-  .containerSliderContentOne :global(.MuiButton-root) {
-    font-size: 25px;
-    background-color: var(--secondary);
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .containerSliderContentOne {
-    height: 600px;
-    margin-top: 0px;
+  .containerSliderContentTwo {
+    margin-top: 100px;
+  }
+  .containerImage {
+    display: flex;
+    height: 100%;
+    padding-top: 40px;
+    align-items: center;
+  }
+  .containerImageSmall {
+    display: none;
+  }
+  .image {
+    height: 250px;
+    /* height: 300px; */
+  }
+  .containerText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
   .title {
-    padding: 120px 15px 90px 15px;
+    padding: 60px 0px 0px 20px;
+    font-size: 55px;
+  }
+  .text {
+    padding: 30px 0px 0px 0px;
   }
 }
 @media screen and (min-width: 1280px) {
-  /* .containerSliderContentOne {
-    margin-top: 0px;
-    background-size: 100% 110%;
-  } */
+  .image {
+    height: 300px;
+    padding-right: 70px;
+  }
   .title {
-    padding: 140px 15px 0px 15px;
+    padding: 65px 0px 0px 50px;
     font-size: 64px;
   }
-
   .text {
     text-align: center;
     width: 100%;

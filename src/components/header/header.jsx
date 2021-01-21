@@ -44,7 +44,7 @@ function Header() {
 
   // onClick Logo
   const onClickRedirectionInicio = () => {
-    history.push(appDataText.english.header.home.path);
+    history.push(appDataText.espanol.header.home.path);
   };
 
   // onClick Buttons

@@ -1,24 +1,93 @@
 .containerSliderContentTwo {
   width: 100%;
-  height: 100%;
+  height: 350px;
   display: flex;
-  background-color: var(--lightSecondaryColor);
-  padding-top: 100px;
-  padding-right: 50px;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  /* padding-right: 50px; */
 }
 .containerImage {
-  background-color: var(--darkSecondaryColor);
-  width: 50%;
-  height: 100%;
-  padding-left: 50px;
+  display: none;
+}
+.containerImageSmall {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .image {
-  height: 400px;
+  height: 150px;
   width: auto;
 }
-.containerText {
-}
 .title {
+  text-align: center;
+  color: var(--darkPrimaryColor);
+  padding: 0px 10px 20px 10px;
+  font-size: 32px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 .text {
+  font-size: 18px;
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--darkText);
+  font-weight: bold;
+}
+/* .containerSliderContentTwo :global(.MuiButton-root) {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: var(--darkSecondaryColor);
+  background: transparent;
+  border: 1px solid;
+  border-radius: 30px;
+} */
+
+@media screen and (min-width: 768px) {
+  .containerSliderContentTwo {
+    justify-content: center;
+  }
+  .title {
+    padding: 0px 0px 20px 0px;
+    font-size: 40px;
+  }
+  .image {
+    height: 200px;
+    width: auto;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerSliderContentTwo {
+    margin-top: 100px;
+  }
+  .containerImage {
+    display: flex;
+    height: 100%;
+  }
+  .containerImageSmall {
+    display: none;
+  }
+  .image {
+    height: 350px;
+  }
+  .containerText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title {
+    padding: 20px 0px 30px 0px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .title {
+    font-size: 64px;
+  }
 }

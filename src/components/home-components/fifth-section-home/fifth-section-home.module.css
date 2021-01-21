@@ -1,6 +1,6 @@
 .containerFifthSection {
   text-align: center;
-  padding: 50px 20px;
+  padding: 30px 20px;
   /* background-image: linear-gradient(
     to right bottom,
     #ffdfdd,
@@ -75,6 +75,9 @@
   color: var(--darkSecondaryColor);
 }
 @media screen and (min-width: 768px) {
+  .containerFifthSection {
+    padding: 50px 20px;
+  }
   .containerIconsSection {
     display: flex;
     flex-direction: unset;

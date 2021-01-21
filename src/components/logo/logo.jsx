@@ -8,7 +8,7 @@ import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapi
 function Logo() {
   const history = useHistory();
   const onClickRedirectionInicio = () => {
-    history.push(appDataText.english.header.home.name);
+    history.push(appDataText.espanol.header.home.name);
   };
 
   return (

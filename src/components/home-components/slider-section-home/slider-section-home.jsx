@@ -22,7 +22,7 @@ function SliderSectionHome() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 4000,
     arrows: false,
   };
   // ejemplo de como importar una imagen para usarla en html
@@ -39,7 +39,10 @@ function SliderSectionHome() {
   // {secondImage}
   return (
     <div className={styles.containerSlider}>
-      <Slider {...settings}>{firstImage}</Slider>
+      <Slider {...settings}>
+        {firstImage}
+        {secondImage}
+      </Slider>
     </div>
   );
 }
