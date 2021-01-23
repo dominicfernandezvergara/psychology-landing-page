@@ -19,6 +19,12 @@ function FourthSectionHome() {
       <div className={styles.subServices}>
         {appDataText.espanol.home.fourthSectionHome.services.people.description}
       </div>
+      <div className={styles.subServices}>
+        {
+          appDataText.espanol.home.fourthSectionHome.services.people
+            .description2
+        }
+      </div>
     </div>
     // <ul className={styles.containerSubServices}>
     //   <li className={styles.subServices}>

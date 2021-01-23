@@ -18,9 +18,11 @@ function SecondSectionHome({ paths, colorButton }) {
       <div className={styles.title}>
         {appDataText.espanol.home.secondSectionHome.title}
       </div>
-
       <p className={styles.text}>
         {appDataText.espanol.home.secondSectionHome.text}
+      </p>
+      <p className={styles.text2}>
+        {appDataText.espanol.home.secondSectionHome.text2}
       </p>
       <ButtonApp
         text={appDataText.espanol.home.secondSectionHome.buttonText}

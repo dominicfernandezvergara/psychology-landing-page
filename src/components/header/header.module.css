@@ -73,7 +73,7 @@
     font-weight: bold;
     padding: 15px;
     border: 1px solid;
-    color: var(--primary);
+    color: var(--primaryColor);
   }
   .shoppingCartButton {
     flex-grow: 1;

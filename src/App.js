@@ -25,6 +25,9 @@ function App() {
           <Route path={appDataText.espanol.header.contactUs.path}>
             <ContactUs />
           </Route>
+          <Route path="*">
+            <Home />
+          </Route>
         </Switch>
       </Router>
     </Fragment>

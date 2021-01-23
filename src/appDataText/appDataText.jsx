@@ -26,42 +26,46 @@ export const appDataText = {
 
     // home español
     home: {
+      giftSectionHome: {
+        text: (
+          <div>
+            Descarga nuestro pdf{" "}
+            <div STYLE="text-transform:uppercase">gratuito</div>Una historia
+            sobre emociones básicas y necesarias.
+          </div>
+        ),
+        buttonText: "Descargar PDF",
+      },
       fistSectionHome: {
         slider1: {
           title: "Asesoramiento psicológico y red profesional",
-          subtitle: "piensa, actúa y trasciende",
+          subtitle: "Piensa - Actúa - Trasciende",
         },
 
         // modificado
         slider2: {
           title: "Servicios Online",
-          text:
-            "Atencion psicologica en un entorno seguro y sin salir de tu casa.",
-          phrase:
-            "La palabra “felicidad” perdería su sentido si no se equilibra con tristeza",
-          autor: "(C. G. Jung)",
-          buttonText: "Contactanos",
+          text: "Atención psicológica de calidad desde tu domicilio.",
         },
         slider3: {
-          title:
-            "¿Sabías que sentirse triste es normal y necesario? Si no se permite expresar esta emoción es posible que no logres experimentar la “tan anhelada felicidad”.",
-          autor: "",
-          buttonText: "Contactanos",
+          title: "Prevención de agresiones sexuales",
+          text:
+            "Charla preventiva y detección temprana en sintomatología en ASÍ",
         },
       },
       secondSectionHome: {
         title: (
           <div>
-            <strong>Asesorias psicologicas y red profesional</strong>{" "}
-            <span>en linea</span>
+            <strong>Asesorías psicológicas y red profesional</strong>{" "}
+            <span>en línea</span>
           </div>
         ),
         text:
-          "Queremos poner a tu alcance estas maravillosas disciplinas. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima… Te enseñaremos técnicas de relajación, te ayudaremos a encontrar una salida a tus preocupaciones y te impulsaremos a lograr reconocer tu propio valor en el mundo. Además, si te interesa el mundo onírico y el psicoanálisis, también te ayudaremos a interpretar tus sueños.",
+          "Queremos poner a tu alcance estas maravillosas disciplinas. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima, entre otros. Te enseñaremos técnicas de relajación y técnicas de la psicología positiva utilizando tus recursos y fortalezas personales.",
         // modificado
         text2:
-          "También y de suma importancia haremos charlas para padres, cuidadores y profesionales para prevenir y saber qué hacer frente al abuso sexual infantil.",
-        buttonText: "Contactanos",
+          "También y de suma importancia haremos; charlas para padres, cuidadores y profesionales, para prevenir y saber qué hacer frente al abuso sexual infantil.",
+        buttonText: "Contactános",
       },
       thirdSectionHome: {
         title: "¿Por qué elegirnos?",
@@ -83,17 +87,13 @@ export const appDataText = {
       fourthSectionHome: {
         title: "Nuestros Servicios",
         services: {
-          buttonText: "Mas sobre nuestros servicios aqui",
+          buttonText: "Más sobre nuestros servicios aqui",
           people: {
             title: "Personas Naturales",
-            description: (
-              <div>
-                Te <strong>ayudaremos</strong> a disminuir sentimientos de
-                angustia, confusión, inestabilidad emocional, rabia, malestar
-                psíquico en general, a través de psicoterapia individual o
-                grupal ,terapias complementarias y psicoeeducación.
-              </div>
-            ),
+            description:
+              "Podrás disminuir sentimientos de angustia, confusión, inestabilidad emocional, rabia, malestar psíquico en general, a través de psicoterapia individual o grupal , diversas terapias complementarias y psicoeducación.",
+            description2:
+              "Además de participar en Charlas preventivas abuso sexual infantil (ASI), para identificar señales en niños, niñas y adolescentes y saber qué debes hacer.",
             service1: "Psicoterapia individual y grupal",
             service2: "Terapias complementarias",
             service3: "Servicios Legales",
@@ -101,7 +101,7 @@ export const appDataText = {
           profesional: {
             title: "Psicólogos y terapeutas profesionales",
             description:
-              "Te apoyaremos para resolver nudos críticos en la intervención y ejercicio profesional diario, así como sentimientos de malestar y/o agotamiento en terapeutas. Se entregará elaboración de estrategias de intervención para el ejercicio profesional.",
+              "Orientado a entrenamiento profesional especializado y a bajo costo en técnicas de diagnóstico en experiencias traumáticas y tipificadas como delitos. Así como también podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas.",
             service1:
               "Formación profesional en estrategias de diagnóstico e intervención en experiencias traumáticas",
             service2:
@@ -111,7 +111,7 @@ export const appDataText = {
           companies: {
             title: "Servicios para empresas",
             description:
-              "Elaboramos y planificamos sesiones o plan anual de autocuidado personalizado, para equipos profesionales que trabajan en servicio público.",
+              "Elaboración de planes semestrales o anuales de autocuidado de equipos profesionales a medida. Así también psicoeducación a profesionales co-garantes de derecho (escuela, salud, instituciones generales). A fin de detectar de forma temprana señales de agresiones sexuales o delitos violentos en niños, niñas y adolescentes.",
             description2: "Programas de autocuidado semestrales o anuales",
           },
         },
@@ -490,25 +490,33 @@ export const appDataText = {
             "Elaboración de nuevas estrategias de intervención.",
           ],
         },
-        companiesServices: {
-          title: "Elaboración de programas semestral o anual de auto cuidado",
-          phrase:
-            "“Cuando miro el mundo soy pesimista, pero cuando miro a la gente soy optimista”",
-          descriptionParagraph1:
-            "Trabajar profesionalmente en áreas de políticas públicas, implica asumir múltiples impactos, asociados a la temática y a la organización de la tarea. Esto ha llevado a que Plan de autocuidado sea una tarea a cumplir en las organizaciones. El objeto del estudio es identificar las estrategias de los profesionales, a nivel individual y de equipo, y conocer la percepción de efectividad de éstas. Se utiliza una metodología cualitativa, con entrevistas y el análisis de los datos para pesquisar estrategias: individuales extra- laborales y laborales; de equipo, recreativas y laborales y necesidades de dichos espacios.",
-          descriptionParagraph2:
-            "Se elabora plan de autocuidado personalizado desde enfoque psicología positiva , logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información el presupuesto para este ítem es bajo.",
-          descriptionParagraph3:
-            "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización.",
-        },
+      },
+      companiesServices: {
+        title: "Elaboración de programas semestral o anual de auto cuidado",
+        phrase:
+          "“Cuando miro el mundo soy pesimista, pero cuando miro a la gente soy optimista”",
+        descriptionParagraph1:
+          "Trabajar profesionalmente en áreas de políticas públicas, implica asumir múltiples impactos, asociados a la temática y a la organización de la tarea. Esto ha llevado a que Plan de autocuidado sea una tarea a cumplir en las organizaciones. El objeto del estudio es identificar las estrategias de los profesionales, a nivel individual y de equipo, y conocer la percepción de efectividad de éstas. Se utiliza una metodología cualitativa, con entrevistas y el análisis de los datos para pesquisar estrategias: individuales extra- laborales y laborales; de equipo, recreativas y laborales y necesidades de dichos espacios.",
+        descriptionParagraph2:
+          "Se elabora plan de autocuidado personalizado desde enfoque psicología positiva , logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información el presupuesto para este ítem es bajo.",
+        descriptionParagraph3:
+          "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización.",
+      },
+      offer: {
+        title: "Por si aun no estas convencido de comenzar",
+        subtitle: "Por el precio de dos sesiones simples te ofrecemos :",
+        text: "Sesión individual diagnóstica, incluye herramienta psicológica",
+        text1: "Sesión de retroalimentación y devolución diagnóstica.",
+        text2: "Test gratuito",
+        buttonText: "Comienza aquí",
       },
     },
     // contact Us español
     contact: {
       title: "Contacta con nosotros",
-      subtitle: "Informacion",
+      subtitle: "Información",
       text:
-        "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste? Y no porque no quisieras cambios, sino que no te hizo sentido? Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque el/ella emplea; ya que existen 7 enfoque tradicionales en el ejercicio profesional muy distintos entre sí, pero conectados.",
+        "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste? Y no porque no quisieras cambios, sino que no te hizo sentido? Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque el/ella emplea; ya que existen 7 enfoque tradicionales.",
       addresse: {
         title: "Dirección",
         addresse:

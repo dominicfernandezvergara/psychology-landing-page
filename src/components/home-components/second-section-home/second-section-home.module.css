@@ -6,7 +6,7 @@
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12); */
 }
 .title {
-  font-family: "Alfa Slab One";
+  /* font-family: "Alfa Slab One"; */
   text-transform: uppercase;
   font-size: 22px;
   padding-bottom: 20px;
@@ -16,6 +16,13 @@
 }
 .text {
   font-size: 18px;
+  /* padding-bottom: 20px; */
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--text);
+}
+.text2 {
+  font-size: 18px;
   padding-bottom: 20px;
   text-align: center;
   letter-spacing: 1px;
@@ -23,7 +30,7 @@
 }
 .containerSecondSection :global(.MuiButton-root) {
   font-size: 16px;
-  color: var(--secondary);
+  color: var(--primaryColor);
   text-transform: uppercase;
   background: transparent;
   border: 1px solid;
@@ -43,7 +50,10 @@
 
   .text {
     padding: 30px 0px;
-    font-size: 20px;
+    font-size: 28px;
+  }
+  .text2 {
+    font-size: 28px;
   }
 }
 @media screen and (min-width: 1024px) {

@@ -5,6 +5,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import styles from "./contact-us.module.css";
 import { appDataText } from "../../appDataText/appDataText";
 import Form from "./form/form";
+import FifthSectionHome from "../../components/home-components/fifth-section-home";
 
 function ContactUs() {
   return (
@@ -16,6 +17,7 @@ function ContactUs() {
         </div>
         <Form />
       </div>
+      <FifthSectionHome />
       <div className={styles.contactData}>
         <h3 className={styles.title}>{appDataText.espanol.contact.subtitle}</h3>
         <p className={styles.subtitle}>

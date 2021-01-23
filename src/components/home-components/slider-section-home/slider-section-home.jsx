@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SliderContentOne from "./slider-content-one/slider-content-one";
 import SliderContentTwo from "./slider-content-two/slider-content-two";
+import SliderContentThree from "./slider-content-three/slider-content-three";
 
 // ejemplo de como importar una imagen para usarla en html
 // import image from "../../images/images-slider/foto-pampitas.jpeg";
@@ -25,23 +26,21 @@ function SliderSectionHome() {
     autoplaySpeed: 4000,
     arrows: false,
   };
-  // ejemplo de como importar una imagen para usarla en html
-  // const sliderItem = <img className="slider-img" src={image} alt="" />;
+
   const openNewWindow = (event) => {
     event.preventDefault();
     window.open("https://www.w3schools.com");
   };
 
   const firstImage = <SliderContentOne />;
-
   const secondImage = <SliderContentTwo />;
-
-  // {secondImage}
+  const thirdImage = <SliderContentThree />;
   return (
     <div className={styles.containerSlider}>
       <Slider {...settings}>
         {firstImage}
         {secondImage}
+        {thirdImage}
       </Slider>
     </div>
   );

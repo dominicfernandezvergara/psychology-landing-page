@@ -51,7 +51,6 @@ function FifthSectionHome() {
           </div>
           <div className={styles.textIcon}>
             <h3 className={styles.step}>
-              {" "}
               {appDataText.espanol.home.fifthSectionHome.thirdStep.title}
             </h3>
             <p className={styles.descriptionStep}>
@@ -60,11 +59,6 @@ function FifthSectionHome() {
           </div>
         </div>
       </div>
-      <ButtonApp
-        text={appDataText.espanol.home.fifthSectionHome.buttonText}
-        path="/contacto"
-        color="primary"
-      />
     </div>
   );
 }

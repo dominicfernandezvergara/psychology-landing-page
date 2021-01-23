@@ -1,0 +1,109 @@
+.containerOfferSectionHome {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+.containerImage {
+  display: none;
+}
+.image {
+  width: 180px;
+  height: auto;
+}
+.containerOffer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--darkPrimaryColor);
+}
+.subtitle {
+  /* text-transform: uppercase; */
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 10px;
+}
+.containerOffer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--lightPrimaryColor);
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.text {
+  color: var(--darkText);
+  padding: 10px 10px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.containerOfferSectionHome :global(.MuiButton-root) {
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .containerOfferSectionHome {
+    padding-top: 20px;
+  }
+  .containerOffer {
+    border: unset;
+    box-shadow: unset;
+  }
+  .title {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .subtitle {
+    color: var(--darkSecondaryColor);
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .text {
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  .containerGiftSectionHome :global(.MuiButton-root) {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .subContainerOfferSection {
+    display: flex;
+  }
+  .containerOffer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: unset;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: unset;
+  }
+  .containerData {
+    display: flex;
+    flex-direction: column;
+  }
+  .containerImage {
+    display: flex;
+  }
+  .image {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .containerOfferSectionHome {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .subtitle {
+    font-size: 28px;
+  }
+}
