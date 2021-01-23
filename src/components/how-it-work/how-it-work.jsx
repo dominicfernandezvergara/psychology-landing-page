@@ -3,14 +3,14 @@ import EventAvailableIcon from "@material-ui/icons/EventAvailable";
 import EmailIcon from "@material-ui/icons/Email";
 import SentimentVerySatisfiedIcon from "@material-ui/icons/SentimentVerySatisfied";
 
-import styles from "./fifth-section-home.module.css";
-import ButtonApp from "../../button";
-import { appDataText } from "../../../appDataText/appDataText";
+import styles from "./how-it-work.module.css";
+import ButtonApp from "../button";
+import { appDataText } from "../../appDataText/appDataText";
 
-function FifthSectionHome() {
+function HowItWork() {
   const [language, setLanguage] = useState("espanol");
   return (
-    <div className={styles.containerFifthSection}>
+    <div className={styles.containerHowItWork}>
       <h1 className={styles.title}>
         {/*appDataText.espanol.home.fifthSectionHome.title*/}
         {appDataText[language].home.fifthSectionHome.title}
@@ -63,4 +63,4 @@ function FifthSectionHome() {
   );
 }
 
-export default FifthSectionHome;
+export default HowItWork;

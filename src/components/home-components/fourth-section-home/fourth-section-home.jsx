@@ -26,18 +26,8 @@ function FourthSectionHome() {
         }
       </div>
     </div>
-    // <ul className={styles.containerSubServices}>
-    //   <li className={styles.subServices}>
-    //     {appDataText.espanol.home.fourthSectionHome.services.people.service1}
-    //   </li>
-    //   <li className={styles.subServices}>
-    //     {appDataText.espanol.home.fourthSectionHome.services.people.service2}
-    //   </li>
-    //   <li className={styles.subServices}>
-    //     {appDataText.espanol.home.fourthSectionHome.services.people.service3}
-    //   </li>
-    // </ul>
   );
+
   const bodyProfesional = (
     <div className={styles.containerSubServices}>
       <div className={styles.subServices}>
@@ -46,28 +36,15 @@ function FourthSectionHome() {
             .description
         }
       </div>
+      <div className={styles.subServices}>
+        {
+          appDataText.espanol.home.fourthSectionHome.services.profesional
+            .description2
+        }
+      </div>
     </div>
-    // <ul className={styles.containerSubServices}>
-    //   <li className={styles.subServices}>
-    //     {
-    //       appDataText.espanol.home.fourthSectionHome.services.profesional
-    //         .service1
-    //     }
-    //   </li>
-    //   <li className={styles.subServices}>
-    //     {
-    //       appDataText.espanol.home.fourthSectionHome.services.profesional
-    //         .service2
-    //     }
-    //   </li>
-    //   <li className={styles.subServices}>
-    //     {
-    //       appDataText.espanol.home.fourthSectionHome.services.profesional
-    //         .service3
-    //     }
-    //   </li>
-    // </ul>
   );
+
   const bodyCompanie = (
     <div className={styles.containerSubServices}>
       <div className={styles.subServices}>
@@ -76,21 +53,15 @@ function FourthSectionHome() {
             .description
         }
       </div>
+      <div className={styles.subServices}>
+        {
+          appDataText.espanol.home.fourthSectionHome.services.companies
+            .description2
+        }
+      </div>
     </div>
-    //   <div className={styles.bodyCompanie}>
-    //     {
-    //       appDataText.espanol.home.fourthSectionHome.services.companies
-    //         .description
-    //     }
-    //   </div>
   );
-  //   <Button
-  //   variant="contained"
-  //   className={styles.button}
-  //   onClick={handleClick}
-  // >
-  //   {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-  // </Button>
+
   return (
     <div className={styles.containerSection}>
       <h2 className={styles.title}>

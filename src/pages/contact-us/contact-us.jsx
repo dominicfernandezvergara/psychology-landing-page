@@ -4,10 +4,12 @@ import EmailIcon from "@material-ui/icons/Email";
 
 import styles from "./contact-us.module.css";
 import { appDataText } from "../../appDataText/appDataText";
+import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import Form from "./form/form";
-import FifthSectionHome from "../../components/home-components/fifth-section-home";
+import HowItWork from "../../components/how-it-work";
 
 function ContactUs() {
+  UseScrollToTop();
   return (
     <div className={styles.containerContactUs}>
       <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
@@ -17,7 +19,9 @@ function ContactUs() {
         </div>
         <Form />
       </div>
-      <FifthSectionHome />
+      <div className={styles.containerHowItWork}>
+        <HowItWork />
+      </div>
       <div className={styles.contactData}>
         <h3 className={styles.title}>{appDataText.espanol.contact.subtitle}</h3>
         <p className={styles.subtitle}>

@@ -71,7 +71,7 @@ export const appDataText = {
         subtitleIcon3: "Segura",
         subtitleIcon4: "Eficaz",
         text1:
-          "Desde el lugar que tu prefieras y en un horario conveniente para ti.",
+          "Desde el lugar que tú prefieras y en un horario conveniente para ti.",
         text2: "100% confidencial y libre de críticas. ¡Estás en buenas manos!",
         text3: "Mantenemos los más altos estándares de integridad y ética.",
         text4: "El enfoque es la búsqueda de soluciones a tu necesidad.",
@@ -93,7 +93,9 @@ export const appDataText = {
           profesional: {
             title: "Psicólogos y terapeutas profesionales",
             description:
-              "Orientado a entrenamiento profesional especializado y a bajo costo en técnicas de diagnóstico en experiencias traumáticas y tipificadas como delitos. Así como también podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas.",
+              "Orientado a entrenamiento profesional especializado y a bajo costo en técnicas de diagnóstico en experiencias traumáticas y tipificadas como delitos.",
+            description2:
+              "Así como también podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas.",
             service1:
               "Formación profesional en estrategias de diagnóstico e intervención en experiencias traumáticas",
             service2:
@@ -103,13 +105,14 @@ export const appDataText = {
           companies: {
             title: "Servicios para empresas",
             description:
-              "Elaboración de planes semestrales o anuales de autocuidado de equipos profesionales a medida. Así también psicoeducación a profesionales co-garantes de derecho (escuela, salud, instituciones generales). A fin de detectar de forma temprana señales de agresiones sexuales o delitos violentos en niños, niñas y adolescentes.",
-            description2: "Programas de autocuidado semestrales o anuales",
+              "Elaboración de planes semestrales o anuales de autocuidado de equipos profesionales a medida.",
+            description2:
+              "Así también psicoeducación a profesionales co-garantes de derecho (escuela, salud, instituciones generales). A fin de detectar de forma temprana señales de agresiones sexuales o delitos violentos en niños, niñas y adolescentes.",
           },
         },
       },
       fifthSectionHome: {
-        title: "¿Como funciona?",
+        title: "¿Cómo funciona?",
         subtitle: "3 sencillos pasos para empezar a mejorar tu vida.",
         firstStep: {
           title: "Paso Uno",
@@ -528,7 +531,7 @@ export const appDataText = {
       },
       offer: {
         title:
-          "Por si aún no estas convencido de saber qué necesitas y tu diagnostico",
+          "Por si aún no estas convencido de saber qué necesitas y tu diagnóstico",
         subtitle: "Te ofrecemos :",
         text: "Sesión individual diagnóstica, incluye herramienta psicológica",
         text1: "Sesión de retroalimentación y devolución diagnóstica.",
@@ -542,7 +545,7 @@ export const appDataText = {
           naturalPeople: {
             service1: "Psicoterapia",
             service2: "Terapias complementarias",
-            service3: "Charlas Prevención abuso sexual infantil",
+            service3: "Charlas Preventivas Abuso Sexual Infantil",
             service4: "Prestaciones Jurídicas",
             subservice: {
               title: "Terapias complementarias",
@@ -577,7 +580,7 @@ export const appDataText = {
       addresse: {
         title: "Dirección",
         addresse:
-          "Sede y atención presencial Praha, República Checa. Servicios y asesorias online Resto del mundo y Chile.",
+          "Sede y atención presencial Praha, República Checa. Servicios y Asesorias Online Resto del mundo y Chile.",
       },
       email: {
         title: "correo",
@@ -603,9 +606,9 @@ export const appDataText = {
         title: "Datos para transferencias",
         // nuevo
         text:
-          "Pagos se realizar 15 minutos antes de la sesión individual, en caso de sesiones y otros servicios se reserva cupo con 50% del valor.",
+          "Pagos se realizan 15 minutos antes de la sesión individual, para otros servicios se reserva cupo con 50% del valor.",
         europe: {
-          title: "Transferencias Europeas",
+          title: "Datos bancarios",
           typeCurrency: (
             <div>
               <strong>Tipo de moneda :</strong> Euros y coronas checas
@@ -628,7 +631,7 @@ export const appDataText = {
           ),
         },
         chile: {
-          title: "Transferencias Chilenas",
+          title: "Datos bancarios",
           typeCurrency: (
             <div>
               <strong>Tipo de moneda :</strong> Pesos chilenos
@@ -646,7 +649,7 @@ export const appDataText = {
           ),
           run: (
             <div>
-              <strong>Rut :</strong> 17.986.0341
+              <strong>Rut :</strong> 17.986.034-1
             </div>
           ),
         },
