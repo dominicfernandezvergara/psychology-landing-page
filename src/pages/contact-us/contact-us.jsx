@@ -1,101 +1,79 @@
-import React from "react";
-import PhoneIcon from "@material-ui/icons/Phone";
-import EmailIcon from "@material-ui/icons/Email";
+import React, { Fragment } from "react";
 
 import styles from "./contact-us.module.css";
 import { appDataText } from "../../appDataText/appDataText";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import Form from "./form/form";
 import HowItWork from "../../components/how-it-work";
+import ContactData from "./contact-data/contact-data";
+import TransferData from "./transfer-data/transfer-data";
+import Footer from "../../components/footer";
 
 function ContactUs() {
   UseScrollToTop();
   return (
-    <div className={styles.containerContactUs}>
-      <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
-      <div className={styles.containerForm}>
+    <Fragment>
+      {/*Responsive Small*/}
+      <div className={styles.containerContactUsResponsiveSmall}>
+        <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
         <div className={styles.textContainerForm}>
           {appDataText.espanol.contact.text}
         </div>
-        <Form />
-      </div>
-      <div className={styles.containerHowItWork}>
-        <HowItWork />
-      </div>
-      <div className={styles.contactData}>
-        <h3 className={styles.title}>{appDataText.espanol.contact.subtitle}</h3>
-        <p className={styles.subtitle}>
-          {appDataText.espanol.contact.addresse.title}
-        </p>
-        <p className={styles.textContactData}>
-          {appDataText.espanol.contact.addresse.addresse}
-        </p>
-        <p className={styles.subtitle}>
-          {appDataText.espanol.contact.fono.title}
-        </p>
-        <div className={styles.containerText}>
-          <div className={styles.iconLink}>
-            <PhoneIcon />
+        <div className={styles.wrappFormHowItWork}>
+          <div className={styles.containerForm}>
+            <Form />
           </div>
-          <a href="tel:5551234567" className={styles.textContactData}>
-            {appDataText.espanol.contact.fono.fono}
-          </a>
-        </div>
-        <p className={styles.subtitle}>
-          {appDataText.espanol.contact.email.title}
-        </p>
-        <div className={styles.containerText}>
-          <div className={styles.iconLink}>
-            <EmailIcon />
-          </div>
-          <a href="mailto: abc@example.com" className={styles.textContactData}>
-            {appDataText.espanol.contact.email.correo}
-          </a>
-        </div>
-      </div>
-      <div className={styles.containerTransferData}>
-        <h3 className={styles.title}>
-          {appDataText.espanol.contact.transferData.title}
-        </h3>
-        <p className={styles.textTransfer}>
-          {appDataText.espanol.contact.transferData.text}
-        </p>
-        <div className={styles.containerChileTransferData}>
-          <div className={styles.subtitle}>
-            {appDataText.espanol.contact.transferData.chile.title}
-          </div>
-          <div className={styles.textTransferData}>
-            {appDataText.espanol.contact.transferData.chile.typeCurrency}
-          </div>
-          <div className={styles.textTransferData}>
-            {appDataText.espanol.contact.transferData.chile.bank}
-          </div>
-          <div className={styles.textTransferData}>
-            {appDataText.espanol.contact.transferData.chile.accountNumber}
-          </div>
-          <div className={styles.textTransferData}>
-            {appDataText.espanol.contact.transferData.chile.run}
+          <div className={styles.containerHowItWork}>
+            <HowItWork />
           </div>
         </div>
-        <div className={styles.containerEuropeTransferData}>
-          <div className={styles.subtitle}>
-            {appDataText.espanol.contact.transferData.europe.title}
-          </div>
-          <div className={styles.textTransferData}>
-            {appDataText.espanol.contact.transferData.europe.typeCurrency}
-          </div>
-          <div className={styles.textTransferData}>
-            {appDataText.espanol.contact.transferData.europe.bank}
-          </div>
-          <div className={styles.textTransferData}>
-            {appDataText.espanol.contact.transferData.europe.accountNumber}
-          </div>
-          <div className={styles.textTransferData}>
-            {appDataText.espanol.contact.transferData.europe.IBAN}
-          </div>
+        <div className={styles.containerHowItWork}>
+          <ContactData />
+        </div>
+        <div className={styles.containerTransferData}>
+          <TransferData />
+        </div>
+        <div className={styles.containerFooter}>
+          <Footer />
         </div>
       </div>
-    </div>
+      {/*Responsive Small*/}
+
+      {/*Responsive Medium*/}
+      <div className={styles.containerContactUsResponsiveMedium}>
+        <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
+
+        <div className={styles.wrappFormHowItWork}>
+          <div className={styles.subcontainerwrappFormDataContact}>
+            <h1 className={styles.subtitle}>
+              {appDataText.espanol.contact.subtitle2}
+            </h1>
+            <div className={styles.textContainerForm}>
+              {appDataText.espanol.contact.text}
+            </div>
+            <div className={styles.containerForm}>
+              <Form />
+            </div>
+          </div>
+          <div className={styles.wrappContactTransferData}>
+            <div className={styles.containerContacData}>
+              <ContactData />
+            </div>
+            <div className={styles.containerTransferData}>
+              <TransferData />
+            </div>
+          </div>
+        </div>
+        <div className={styles.containerHowItWork}>
+          <HowItWork />
+        </div>
+
+        <div className={styles.containerFooter}>
+          <Footer />
+        </div>
+      </div>
+      {/*Responsive Medium*/}
+    </Fragment>
   );
 }
 

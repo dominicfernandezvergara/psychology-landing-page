@@ -5,7 +5,7 @@
   padding: 20px 30px;
 }
 .form :global(.MuiInputLabel-root) {
-  color: var(--secondary);
+  color: var(--darkText);
 }
 .form :global(.MuiInputBase-input) {
   color: var(--text);
@@ -31,10 +31,14 @@
   font-size: 16px;
   margin-bottom: 15px;
 }
-.commentaryBox {
-  margin-top: 20px;
-  margin-bottom: 30px;
+.inputBoxCommentary {
   width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.inputBoxCommentary :global(.MuiOutlinedInput-multiline) {
+  width: 100%;
+  height: 113px;
 }
 .form .submitButton {
   align-self: center;
@@ -51,4 +55,9 @@
   background-color: var(--lightPrimaryColor);
   transform: scale(1.1);
   color: var(--darkSecondaryColor);
+}
+@media screen and (min-width: 768px) {
+  .inputBoxSelect :global(.MuiFormControl-root) {
+    width: 100%;
+  }
 }

@@ -1,10 +1,11 @@
 .containerHowItWork {
   text-align: center;
   padding: 30px 20px;
+  background-color: var(--lightSecondaryColor);
 }
 .title {
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 20px;
   padding-bottom: 20px;
   text-align: center;
   letter-spacing: 1px;
@@ -59,31 +60,42 @@
 }
 @media screen and (min-width: 768px) {
   .containerHowItWork {
-    padding: 50px 20px;
+    padding: 15px 10px;
+  }
+  .containerIconsSection {
+    flex-direction: unset;
+    margin-top: 20px;
   }
   .containerIconsSection {
     display: flex;
-    flex-direction: unset;
     justify-content: center;
     margin-bottom: 20px;
   }
   .iconsSection {
-    align-self: unset;
-    /* width: 300px; */
     flex: 1;
+    margin: 0px 0px;
+    align-self: unset;
   }
   .title {
-    font-size: 30px;
+    font-size: 20px;
+    padding-bottom: 0px;
   }
   .subtitle {
-    font-size: 20px;
+    font-size: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .descriptionStep {
-    font-size: 20px;
-    width: 100%;
+    font-size: 18px;
+  }
+  .icon :global(.MuiSvgIcon-root) {
+    font-size: 60px;
   }
 }
 @media screen and (min-width: 1024px) {
+  .title {
+    font-size: 24px;
+  }
   .subtitle {
     font-size: 20px;
   }
@@ -95,13 +107,12 @@
   }
   .iconsSection {
     align-self: unset;
-    /* width: 300px; */
-    flex: 1;
+    padding: 0px 30px;
   }
   .descriptionStep {
     width: 100%;
   }
   .containerHowItWork :global(.MuiButton-root) {
-    font-size: 22px;
+    font-size: 70px;
   }
 }

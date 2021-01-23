@@ -1,0 +1,54 @@
+.containerTransferData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  background-color: var(--lightSecondaryColor);
+}
+.title {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--primaryColor);
+}
+.subtitle {
+  color: var(--darkText);
+  font-weight: bold;
+  padding-top: 20px;
+}
+.textTransfer {
+  color: var(--text);
+  padding-top: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .containerTransferData {
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    background-color: transparent;
+  }
+  .textTransfer {
+    padding-top: 10px;
+  }
+  .subtitle {
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .subtitle {
+    padding-bottom: 10px;
+  }
+  .wrappBankData {
+    display: flex;
+  }
+  .containerChileTransferData {
+    padding-right: 50px;
+  }
+}

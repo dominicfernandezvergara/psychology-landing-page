@@ -1,4 +1,10 @@
-.containerContactUs {
+.containerContactUsResponsiveMedium {
+  display: none;
+}
+.subtitle {
+  display: none;
+}
+.containerContactUsResponsiveSmall {
   display: flex;
   flex-direction: column;
   padding-top: 100px;
@@ -6,70 +12,73 @@
   height: 100%;
   box-sizing: border-box;
 }
-.containerForm {
+.textContainerForm {
   padding-left: 30px;
+  padding-top: 10px;
   padding-right: 30px;
+  text-align: justify;
+  color: var(--text);
 }
 .title {
-  /* font-family: "Alfa Slab One"; */
   text-transform: uppercase;
   font-size: 22px;
   text-align: center;
   letter-spacing: 1px;
   color: var(--darkPrimaryColor);
 }
-.textContainerForm {
-  color: var(--text);
-  padding-top: 20px;
-}
-.contactData {
+.wrappFormHowItWork {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  background-color: whitesmoke;
-  box-sizing: border-box;
-}
-.subtitle {
-  color: var(--secondary);
-  font-weight: bold;
-  padding-top: 20px;
-}
-.containerText {
-  align-items: center;
-  display: flex;
-}
-.icon :global(.MuiSvgIcon-root) {
-  font-size: 12px;
-}
-.iconLink :global(.MuiSvgIcon-root) {
-  font-size: 20px;
-  padding-right: 5px;
-}
-.textContactData {
-  color: var(--text);
-}
-.containerTransferData {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  box-sizing: border-box;
-}
-.textTransfer {
-  color: var(--text);
-  padding-top: 20px;
-  font-weight: bold;
 }
 @media screen and (min-width: 768px) {
+  .containerContactUsResponsiveSmall {
+    display: none;
+  }
+  .containerContactUsResponsiveMedium {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .title {
+    padding-bottom: 20px;
+  }
+  .subtitle {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: var(--primaryColor);
+  }
+  .textContainerForm {
+    font-size: 16px;
+    padding-top: 0px;
+  }
+  .wrappFormHowItWork {
+    flex-direction: unset;
+  }
+  .subcontainerwrappFormDataContact {
+    width: 50%;
+  }
+  .wrappContactTransferData {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 1024px) {
+  .subcontainerwrappFormDataContact {
+    padding-right: 50px;
+  }
+  .wrappFormHowItWork {
+    padding: 10px 40px;
+  }
 }
 @media screen and (min-width: 1280px) {
+  .wrappContactTransferData {
+    margin-left: 30px;
+  }
 }

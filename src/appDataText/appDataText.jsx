@@ -574,6 +574,7 @@ export const appDataText = {
     // contact Us español
     contact: {
       title: "Contacta con nosotros",
+      subtitle2: "Escríbenos",
       subtitle: "Información",
       text:
         "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste? Y no porque no quisieras cambios, sino que no te hizo sentido? Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque el/ella emplea; ya que existen 7 enfoque tradicionales.",

@@ -121,7 +121,7 @@ function Form() {
       ) : null}
 
       {/* Commentary input */}
-      <div className={styles.inputBox}>
+      <div className={styles.inputBoxCommentary}>
         <TextField
           id="commentary"
           variant="outlined"
