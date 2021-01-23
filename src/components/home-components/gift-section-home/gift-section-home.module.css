@@ -46,6 +46,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .containerGiftSectionHome {
+    justify-content: center;
+  }
   .containerImage {
     height: 100%;
     width: unset;

@@ -22,7 +22,9 @@ function ContainerService({
     <Fragment>
       {/* Small View */}
       <div className={styles.containerService}>
-        <img className={styles.image} alt="" src={image} />
+        <div className={styles.containerImage}>
+          <img className={styles.image} alt="" src={image} />
+        </div>
         <div className={styles.containerTextService}>
           <h3 className={styles.subTitle}>{title}</h3>
           <div className={cn(styles.containerbody, classNameContainerBody)}>

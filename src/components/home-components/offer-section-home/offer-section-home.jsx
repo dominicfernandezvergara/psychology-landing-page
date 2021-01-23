@@ -9,11 +9,11 @@ import AddIcon from "@material-ui/icons/Add";
 function OfferSectionHome() {
   return (
     <div className={styles.containerOfferSectionHome}>
+      <h3 className={styles.title}>
+        {appDataText.espanol.services.offer.title}
+      </h3>
       <div className={styles.subContainerOfferSection}>
         <div className={styles.containerData}>
-          <h3 className={styles.title}>
-            {appDataText.espanol.services.offer.title}
-          </h3>
           <p className={styles.subtitle}>
             {appDataText.espanol.services.offer.subtitle}
           </p>
@@ -21,7 +21,6 @@ function OfferSectionHome() {
             <p className={styles.text}>
               {appDataText.espanol.services.offer.text2}
             </p>
-
             <AddIcon />
             <p className={styles.text}>
               {appDataText.espanol.services.offer.text1}
@@ -31,7 +30,9 @@ function OfferSectionHome() {
               {appDataText.espanol.services.offer.text}
             </p>
           </div>
-
+          <p className={styles.discount}>
+            {appDataText.espanol.services.offer.text3}
+          </p>
           <ButtonApp
             text={appDataText.espanol.services.offer.buttonText}
             path="/contacto"

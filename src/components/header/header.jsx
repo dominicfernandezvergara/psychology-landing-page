@@ -34,6 +34,12 @@ export const dataButtonsList = [
     active: false,
     id: 4,
   },
+  // {
+  //   name: appDataText.espanol.header.takeFree.name,
+  //   path: appDataText.espanol.header.takeFree.path,
+  //   active: false,
+  //   id: 5,
+  // },
 ];
 
 function Header() {

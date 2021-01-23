@@ -13,6 +13,15 @@
 .inputBox {
   width: 100%;
   height: 60px;
+  margin-bottom: 10px;
+}
+.inputBoxSelect {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 30px;
+}
+.inputBoxSelect :global(.MuiFormControl-root) {
+  width: 100%;
 }
 .input {
   width: 100%;

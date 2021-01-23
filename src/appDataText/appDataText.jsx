@@ -22,20 +22,14 @@ export const appDataText = {
         name: "Contacto",
         path: "/contacto",
       },
+      takeFree: {
+        name: "Para ti",
+        path: "/para-ti",
+      },
     },
 
     // home español
     home: {
-      giftSectionHome: {
-        text: (
-          <div>
-            Descarga nuestro pdf{" "}
-            <div STYLE="text-transform:uppercase">gratuito</div>Una historia
-            sobre emociones básicas y necesarias.
-          </div>
-        ),
-        buttonText: "Descargar PDF",
-      },
       fistSectionHome: {
         slider1: {
           title: "Asesoramiento psicológico y red profesional",
@@ -50,7 +44,7 @@ export const appDataText = {
         slider3: {
           title: "Prevención de agresiones sexuales",
           text:
-            "Charla preventiva y detección temprana en sintomatología en ASÍ",
+            "Charla preventiva y detección temprana de sintomatología en ASÍ",
         },
       },
       secondSectionHome: {
@@ -77,12 +71,11 @@ export const appDataText = {
         subtitleIcon3: "Segura",
         subtitleIcon4: "Eficaz",
         textIcon1:
-          "Por Videollamada. Desde el lugar que tu prefieras y en un horario conveniente para ti.",
+          "Desde el lugar que tu prefieras y en un horario conveniente para ti.",
         textIcon2:
           "Nos preocupamos por ti, tu familia y tu historia. 100% confidencial y libre de críticas. ¡Estás en buenas manos!",
         textIcon3: "Mantenemos los más altos estándares de integridad y ética.",
-        textIcon4:
-          "El enfoque es la búsqueda de soluciones para tu situación actual.",
+        textIcon4: "El enfoque es la búsqueda de soluciones a tu necesidad.",
       },
       fourthSectionHome: {
         title: "Nuestros Servicios",
@@ -134,6 +127,16 @@ export const appDataText = {
           title: "Paso Tres",
           description: "Comienza con tus sesiones y mejora tu vida.",
         },
+      },
+      giftSectionHome: {
+        text: (
+          <div>
+            Descarga nuestro pdf{" "}
+            <div STYLE="text-transform:uppercase">gratuito</div>Un cuento para
+            niños y adultos sobre emociones básicas y necesarias.
+          </div>
+        ),
+        buttonText: "Descargar PDF",
       },
     },
 
@@ -326,7 +329,7 @@ export const appDataText = {
               },
             },
             {
-              title: "Carta Astral:",
+              title: "Carta Astral",
               phrase:
                 "“Fortalezas y debilidades de mi personalidad según tu signo del Zodiaco, que debes conocer para ser un triunfador”",
               description:
@@ -430,6 +433,28 @@ export const appDataText = {
             ],
           },
         },
+        serviceNaturalPeople4: {
+          title: "Prestaciones Jurídicas:",
+          description:
+            "Desarrollar asesorías jurídicas cercanas a las personas, que permita la solución efectiva de sus conflictos, mejorando sustancialmente la calidad y eficiencia en los recursos disponibles.",
+          subservices: {
+            subservice1: {
+              title: "En materia de Familia :",
+              description:
+                "Juicios de divorcio, pensiones de alimentos, cuidado personal, régimen comunicacional, medidas de protección por vulneración de Derechos a NNA, entre otros.",
+            },
+            subservice2: {
+              title: "En materia Laboral :",
+              description:
+                "Procedimientos administrativos ante Inspección del Trabajo, despidos injustificados, cobro de prestaciones, nulidad del despido entre otros.",
+            },
+            subservice3: {
+              title: "En materia Civil :",
+              description:
+                "Contratos, cobranza de instrumentos mercantiles como letras de cambio,cheques, etc; legalizaciones de documentos, tercerías y entre otros.",
+            },
+          },
+        },
       },
       profesionalServices: {
         serviceProfesionalServices1: {
@@ -503,14 +528,47 @@ export const appDataText = {
           "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización.",
       },
       offer: {
-        title: "Por si aun no estas convencido de comenzar",
-        subtitle: "Por el precio de dos sesiones simples te ofrecemos :",
+        title:
+          "Por si aún no estas convencido de saber qué necesitas y tu diagnostico",
+        subtitle: "Te ofrecemos :",
         text: "Sesión individual diagnóstica, incluye herramienta psicológica",
         text1: "Sesión de retroalimentación y devolución diagnóstica.",
         text2: "Test gratuito",
+        text3: "Ahorras hasta un 50%",
         buttonText: "Comienza aquí",
       },
+      servicesListForm: {
+        title: "Selecciona un servicios",
+        services: {
+          naturalPeople: {
+            service1: "Psicoterapia",
+            service2: "Terapias complementarias",
+            service3: "Charlas Prevención abuso sexual infantil",
+            service4: "Prestaciones Jurídicas",
+            subservice: {
+              title: "Terapias complementarias",
+              subservice1: "Respiración consciente",
+              subservice2: "Alimentación consciente",
+              subservice3: "Asesorías en sexualidad",
+              subservice4: "Acompañamiento medicina huevo Yoni",
+              subservice5: "Carta Astral",
+              subservice6: "Constelaciones familiares",
+              subservice7: "Tarot Terapéutico",
+            },
+          },
+          profesionalServices: {
+            service1: "Entrenamiento profesional",
+            service2: "Psicoterapia para terapeutas",
+            service3: "Supervisión de casos",
+          },
+          companiesServices: {
+            service1:
+              "Elaboración de programas semestral o anual de auto cuidado",
+          },
+        },
+      },
     },
+
     // contact Us español
     contact: {
       title: "Contacta con nosotros",

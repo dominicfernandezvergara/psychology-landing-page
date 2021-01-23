@@ -1,6 +1,8 @@
 .containerOfferSectionHome {
   display: flex;
-  padding-bottom: 30px;
+  flex-direction: column;
+
+  padding: 0px 10px 30px 10px;
   justify-content: center;
 }
 .containerImage {
@@ -24,7 +26,7 @@
   color: var(--darkPrimaryColor);
 }
 .subtitle {
-  /* text-transform: uppercase; */
+  color: var(--darkSecondaryColor);
   font-size: 20px;
   text-align: center;
   padding: 0px 10px;
@@ -46,12 +48,19 @@
   text-align: center;
   font-weight: bold;
 }
+.discount {
+  text-align: center;
+  font-size: 30px;
+  color: var(--darkSecondaryColor);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 .containerOfferSectionHome :global(.MuiButton-root) {
   font-size: 20px;
 }
 @media screen and (min-width: 768px) {
   .containerOfferSectionHome {
-    padding-top: 20px;
+    padding: 20px 10px 30px 10px;
   }
   .containerOffer {
     border: unset;
@@ -62,7 +71,6 @@
     padding-bottom: 20px;
   }
   .subtitle {
-    color: var(--darkSecondaryColor);
     font-size: 28px;
     font-weight: bold;
   }
@@ -75,8 +83,13 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .containerOfferSectionHome {
+    padding: 30px 30px;
+    box-sizing: border-box;
+  }
   .subContainerOfferSection {
     display: flex;
+    align-self: center;
   }
   .containerOffer {
     display: flex;
@@ -100,8 +113,8 @@
 }
 @media screen and (min-width: 1280px) {
   .containerOfferSectionHome {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 50px;
+    box-sizing: border-box;
   }
   .subtitle {
     font-size: 28px;

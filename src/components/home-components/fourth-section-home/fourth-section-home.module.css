@@ -105,3 +105,8 @@
     background-color: var(--primaryColor);
   }
 }
+@media screen and (min-width: 1920px) {
+  .containerSubServices {
+    min-height: 230px;
+  }
+}
