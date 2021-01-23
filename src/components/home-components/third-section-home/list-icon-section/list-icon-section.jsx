@@ -11,23 +11,22 @@ function ListIconSection() {
   const dataListIconSection = [
     {
       title: appDataText.espanol.home.thirdSectionHome.subtitleIcon1,
-      text:
-        "Por Videollamada. Desde el lugar que tu prefieras y en un horario conveniente para ti.",
+      text: appDataText.espanol.home.thirdSectionHome.text1,
       icon: <AirplayOutlinedIcon />,
     },
     {
       title: "Cuidadosa",
-      text: "100% confidencial y libre de críticas. ¡Estás en buenas manos!",
+      text: appDataText.espanol.home.thirdSectionHome.text2,
       icon: <LoyaltyOutlinedIcon />,
     },
     {
       title: "Segura",
-      text: "Mantenemos los más altos estándares de integridad y ética.",
+      text: appDataText.espanol.home.thirdSectionHome.text3,
       icon: <VerifiedUserOutlinedIcon />,
     },
     {
       title: "EFICAZ",
-      text: "El enfoque es la búsqueda de soluciones para tu situación actual.",
+      text: appDataText.espanol.home.thirdSectionHome.text4,
       icon: <LibraryAddCheckOutlinedIcon />,
     },
   ];

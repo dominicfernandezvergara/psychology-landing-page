@@ -44,7 +44,7 @@ export const appDataText = {
         slider3: {
           title: "Prevención de agresiones sexuales",
           text:
-            "Charla preventiva y detección temprana de sintomatología en ASÍ",
+            "Charlas preventivas y detección temprana de sintomatología en ASÍ",
         },
       },
       secondSectionHome: {
@@ -70,12 +70,11 @@ export const appDataText = {
         subtitleIcon2: "Cuidadosa",
         subtitleIcon3: "Segura",
         subtitleIcon4: "Eficaz",
-        textIcon1:
+        text1:
           "Desde el lugar que tu prefieras y en un horario conveniente para ti.",
-        textIcon2:
-          "Nos preocupamos por ti, tu familia y tu historia. 100% confidencial y libre de críticas. ¡Estás en buenas manos!",
-        textIcon3: "Mantenemos los más altos estándares de integridad y ética.",
-        textIcon4: "El enfoque es la búsqueda de soluciones a tu necesidad.",
+        text2: "100% confidencial y libre de críticas. ¡Estás en buenas manos!",
+        text3: "Mantenemos los más altos estándares de integridad y ética.",
+        text4: "El enfoque es la búsqueda de soluciones a tu necesidad.",
       },
       fourthSectionHome: {
         title: "Nuestros Servicios",
@@ -86,7 +85,7 @@ export const appDataText = {
             description:
               "Podrás disminuir sentimientos de angustia, confusión, inestabilidad emocional, rabia, malestar psíquico en general, a través de psicoterapia individual o grupal , diversas terapias complementarias y psicoeducación.",
             description2:
-              "Además de participar en Charlas preventivas abuso sexual infantil (ASI), para identificar señales en niños, niñas y adolescentes y saber qué debes hacer.",
+              "Además de participar en charlas preventivas de abuso sexual infantil (ASI), para identificar señales en niños, niñas y adolescentes y saber qué debes hacer.",
             service1: "Psicoterapia individual y grupal",
             service2: "Terapias complementarias",
             service3: "Servicios Legales",
