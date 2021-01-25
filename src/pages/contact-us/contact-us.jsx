@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 import styles from "./contact-us.module.css";
 import { appDataText } from "../../appDataText/appDataText";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
-import Form from "./form/form";
+import Form from "../../components/contact-us-components/form";
 import HowItWork from "../../components/contact-us-components/how-it-work";
 import ContactData from "../../components/contact-us-components/contact-data";
 import TransferData from "../../components/contact-us-components/transfer-data";
