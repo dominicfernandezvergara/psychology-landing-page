@@ -18,6 +18,9 @@ function SliderContentThree() {
         <p className={styles.text}>
           {appDataText.espanol.home.fistSectionHome.slider3.text}
         </p>
+        <p className={styles.text2}>
+          {appDataText.espanol.home.fistSectionHome.slider3.text2}
+        </p>
       </div>
       <div className={styles.containerImage}>
         <img src={image} alt="imageSliderOne" className={styles.image} />

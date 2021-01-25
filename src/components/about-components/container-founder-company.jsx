@@ -12,7 +12,7 @@ function ContainerFounderCompany() {
     <Fragment>
       <div className={styles.containerTeamPresentationComponent}>
         <h1 className={styles.title}>
-          {appDataText.espanol.aboutUs.team.title}
+          {appDataText.espanol.aboutUs.founder.title}
         </h1>
         <div className={styles.wrappData}>
           <div className={styles.containerTeamImage}>

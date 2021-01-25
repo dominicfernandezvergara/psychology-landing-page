@@ -28,7 +28,7 @@ function ContainerService({
         <div className={styles.containerTextService}>
           <h3 className={styles.subTitle}>{title}</h3>
           <div className={cn(styles.containerbody, classNameContainerBody)}>
-            {body}{" "}
+            {body}
             <a className={styles.button} href="/contacto">
               Leer más
             </a>

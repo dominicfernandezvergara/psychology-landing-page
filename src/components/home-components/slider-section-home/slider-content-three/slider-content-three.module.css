@@ -36,6 +36,14 @@
   color: var(--darkText);
   font-weight: bold;
 }
+.text2 {
+  font-size: 16px;
+  padding: 30px 15px 0px 15px;
+  text-align: center;
+  color: var(--primaryColor);
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .containerSliderContentThree :global(.MuiButton-root) {
   font-size: 20px;
   background-color: var(--darkSecondaryColor);

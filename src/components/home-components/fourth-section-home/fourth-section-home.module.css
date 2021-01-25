@@ -23,7 +23,7 @@
 .subServices {
   padding-bottom: 5px;
   text-align: justify;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: var(--text);
 }
 .bodyCompanie {
@@ -84,7 +84,7 @@
     margin-left: 0px;
   }
   .containerSubServices {
-    min-height: 320px;
+    min-height: 480px;
   }
   .bodyCompanie {
     min-height: 220px;

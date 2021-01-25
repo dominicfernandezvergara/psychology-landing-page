@@ -18,6 +18,8 @@ function ContactUs() {
         <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
         <div className={styles.textContainerForm}>
           {appDataText.espanol.contact.text}
+          {appDataText.espanol.contact.text2}
+          {appDataText.espanol.contact.text3}
         </div>
         <div className={styles.wrappFormHowItWork}>
           <div className={styles.containerForm}>
@@ -50,6 +52,12 @@ function ContactUs() {
             </h1>
             <div className={styles.textContainerForm}>
               {appDataText.espanol.contact.text}
+            </div>
+            <div className={styles.textContainerForm}>
+              {appDataText.espanol.contact.text2}
+            </div>
+            <div className={styles.textContainerForm}>
+              {appDataText.espanol.contact.text3}
             </div>
             <div className={styles.containerForm}>
               <Form />

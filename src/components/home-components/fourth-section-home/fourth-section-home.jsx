@@ -25,6 +25,12 @@ function FourthSectionHome() {
             .description2
         }
       </div>
+      <div className={styles.subServices}>
+        {
+          appDataText.espanol.home.fourthSectionHome.services.people
+            .description3
+        }
+      </div>
     </div>
   );
 

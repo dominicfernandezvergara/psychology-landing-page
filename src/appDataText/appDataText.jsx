@@ -49,6 +49,8 @@ export const appDataText = {
           title: "Prevención de agresiones sexuales",
           text:
             "Charlas preventivas y detección temprana de sintomatología en ASÍ",
+          text2:
+            "*No disponible terapia y evaluación para niños, niñas y adolescentes",
         },
       },
       secondSectionHome: {
@@ -61,8 +63,8 @@ export const appDataText = {
         text:
           "Queremos poner a tu alcance estas maravillosas disciplinas. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima, entre otros. Te enseñaremos técnicas de relajación y técnicas de la psicología positiva utilizando tus recursos y fortalezas personales.",
         // modificado
-        text2:
-          "También y de suma importancia haremos; charlas para padres, cuidadores y profesionales, para prevenir y saber qué hacer frente al abuso sexual infantil.",
+        // text2:
+        //   "También y de suma importancia haremos; charlas para padres, cuidadores y profesionales, para prevenir y saber qué hacer frente al abuso sexual infantil.",
         buttonText: "Contactános",
       },
       thirdSectionHome: {
@@ -86,13 +88,31 @@ export const appDataText = {
           buttonText: "Más sobre nuestros servicios aqui",
           people: {
             title: "Personas Naturales",
-            description:
-              "Podrás disminuir sentimientos de angustia, confusión, inestabilidad emocional, rabia, malestar psíquico en general, a través de psicoterapia individual o grupal , diversas terapias complementarias y psicoeducación.",
-            description2:
-              "Además de participar en charlas preventivas de abuso sexual infantil (ASI), para identificar señales en niños, niñas y adolescentes y saber qué debes hacer.",
-            service1: "Psicoterapia individual y grupal",
-            service2: "Terapias complementarias",
-            service3: "Servicios Legales",
+            description: (
+              <div>
+                Podrás disminuir sentimientos de angustia, confusión,
+                inestabilidad emocional, rabia, malestar psíquico en general, a
+                través de{" "}
+                <strong>
+                  psicoterapia individual o grupal exclusivo adultos
+                </strong>{" "}
+                y diversas terapias complementarias.
+              </div>
+            ),
+            description2: (
+              <div>
+                Además de participar en{" "}
+                <strong>
+                  charlas preventivas de abuso sexual infantil (ASI),para
+                  adultos
+                </strong>
+                , podrás identificar posibles señales en niños, niñas y
+                adolescentes y saber qué debes hacer frente a este tipo de
+                fenómenos.
+              </div>
+            ),
+            description3:
+              "Desarrollar asesorías jurídicas cercanas a las personas, que permita la solución efectiva de sus conflictos, mejorando sustancialmente la calidad y eficiencia en los recursos disponibles.",
           },
           profesional: {
             title: "Psicólogos y terapeutas profesionales",
@@ -100,18 +120,13 @@ export const appDataText = {
               "Orientado a entrenamiento profesional especializado y a bajo costo en técnicas de diagnóstico en experiencias traumáticas y tipificadas como delitos.",
             description2:
               "Así como también podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas.",
-            service1:
-              "Formación profesional en estrategias de diagnóstico e intervención en experiencias traumáticas",
-            service2:
-              "Terapia individual a psicólogos profesionales o terapeutas complementarios",
-            service3: "Seguimiento de casos",
           },
           companies: {
             title: "Servicios para empresas",
             description:
-              "Elaboración de planes semestrales o anuales de autocuidado de equipos profesionales a medida.",
+              "Elaboración de planes semestrales o anuales de autocuidado de equipos profesionales a medida, basado en enfoque de buenos tratos.",
             description2:
-              "Así también psicoeducación a profesionales co-garantes de derecho (escuela, salud, instituciones generales). A fin de detectar de forma temprana señales de agresiones sexuales o delitos violentos en niños, niñas y adolescentes.",
+              "También puedes recibir psicoeducación para profesionales co-garantes de derecho (profesores/as, educadores/as, enfermeros/as, doctores/as y administrativos. A fin de desarrollar una primera respuesta apropiada y detectar de forma temprana señales de agresiones sexuales o delitos violentos en NNA.",
           },
         },
       },
@@ -155,9 +170,11 @@ export const appDataText = {
       mission: {
         title: "Misión",
         text:
-          "Be Healthy & Holistic es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas y el propio autocuidado. Con especial vocación e interés en ayudar a grupos vulnerables: Niñez, Adolescencia, Mujeres, Minorías Sexuales, Migrantes, personas víctimas de violencias en general.",
+          "Be Healthy &amp; Holistic, es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas y el propio autocuidado.",
         text2:
-          "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano, a través de diferentes servicios.",
+          "Con especial vocación e interés en orientar a grupos vulnerables: Niñez, Adolescencia, Mujeres, Minorías Sexuales, Migrantes, personas víctimas de violencias en general.",
+        text3:
+          "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano.",
       },
       vision: {
         title: "Visión",
@@ -199,23 +216,29 @@ export const appDataText = {
       team: {
         title: "Nuestro equipo",
         subtitle: "Nuestros colaboradores",
-        person1: {
-          name: "Carolina Urbina Cepeda",
-          occupation: "Fundadora de “Be Healthy & Holistic”",
-          body:
-            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
-        },
-        person2: {
-          name: "Dominic Fernandez Vergara",
-          occupation: "psicóloga ",
-          body:
-            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
-        },
-        person3: {
-          name: "Dominic Fernandez Vergara",
-          occupation: "psicóloga ",
-          body:
-            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+        team: {
+          p1: {
+            id: 1,
+            name: "Carolina Urbina Cepeda",
+            occupation: "Fundadora de “Be Healthy & Holistic”",
+            body:
+              "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+          },
+
+          p2: {
+            id: 2,
+            name: "Dominic Fernandez Vergara",
+            occupation: "psicóloga ",
+            body:
+              "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+          },
+          p3: {
+            id: 3,
+            name: "Dominic Fernandez Vergara",
+            occupation: "psicóloga ",
+            body:
+              "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+          },
         },
       },
     },
@@ -599,7 +622,7 @@ export const appDataText = {
         title: "Selecciona un servicios",
         services: {
           naturalPeople: {
-            service1: "Psicoterapia",
+            service1: "Psicoterapia Adulto",
             service2: "Terapias complementarias",
             service3: "Charlas Preventivas Abuso Sexual Infantil",
             service4: "Prestaciones Jurídicas",
@@ -633,7 +656,10 @@ export const appDataText = {
       subtitle2: "Escríbenos",
       subtitle: "Información",
       text:
-        "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste? Y no porque no quisieras cambios, sino que no te hizo sentido? Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque el/ella emplea; ya que existen 7 enfoque tradicionales y normalmente no sabemos cúal de esos nosotros necesitamos.",
+        "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste o no te gusto el psicólogo/a?",
+      text2:
+        "Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque éll/ella emplea; ya que existen 7 enfoque tradicionales en el ejercicio profesional y normalmente NO sabemos cuál de esos nosotros necesitamos, aplicamos principio básico de psicología ”Cada ser humano es único e irrepetible”",
+      text3: <strong>Aquí vamos a usar el que tú necesites!</strong>,
       addresse: {
         title: "Dirección",
         addresse:
