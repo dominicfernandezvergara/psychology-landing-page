@@ -19,7 +19,7 @@ function OfferSectionHome() {
           </p>
           <div className={styles.containerOffer}>
             <p className={styles.text}>
-              {appDataText.espanol.services.offer.text2}
+              {appDataText.espanol.services.offer.text}
             </p>
             <AddIcon />
             <p className={styles.text}>
@@ -27,7 +27,7 @@ function OfferSectionHome() {
             </p>
             <AddIcon />
             <p className={styles.text}>
-              {appDataText.espanol.services.offer.text}
+              {appDataText.espanol.services.offer.text2}
             </p>
           </div>
           <p className={styles.discount}>

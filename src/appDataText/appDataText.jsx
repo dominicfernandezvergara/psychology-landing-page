@@ -11,8 +11,12 @@ export const appDataText = {
         path: "/inicio",
       },
       aboutUs: {
-        name: "Sobre mí",
-        path: "/sobre-mi",
+        name: "Nosotros",
+        path: "/nosotros",
+        subcategories: {
+          name: "Docententes Colaboradores",
+          path: "/team",
+        },
       },
       services: {
         name: "Servicios",
@@ -145,50 +149,73 @@ export const appDataText = {
     // About Us español
     aboutUs: {
       title: "Sobre “Be Healthy & Holistic”",
+      text:
+        "Conoce a nuestro equipo de colaboradores docentes haciendo click aquí",
+      buttonText: "Colaboradores docentes",
       mission: {
         title: "Misión",
         text:
-          "Be Healthy Holistic es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas, en especial de los grupos vulnerables Niñez, Adolescencia, Mujeres, Minorías sexuales, entre otros.",
+          "Be Healthy & Holistic es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas y el propio autocuidado. Con especial vocación e interés en ayudar a grupos vulnerables: Niñez, Adolescencia, Mujeres, Minorías Sexuales, Migrantes, personas víctimas de violencias en general.",
         text2:
           "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano, a través de diferentes servicios.",
       },
       vision: {
         title: "Visión",
         text:
-          "Be Healthy &amp; Holistic trabaja para contribuir al pleno ejercicio de los derechos humanos, considerando La Declaración Universal de los Derechos Humanos , la cual fue proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948, como un ideal común para todos los pueblos y naciones.",
+          "Be Healthy & Holistic trabaja para contribuir al pleno ejercicio de los derechos humanos, considerando La Declaración Universal de los Derechos Humanos , la cual fue proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948, como un ideal común para todos los pueblos y naciones.",
         text2:
-          "Y en especial contribuir significativamente en la protección de los derechos de niños, as y adolescentes, considerando la Convención Internacional del Niño.",
+          "Y en especial contribuir significativamente a la protección de los derechos de niños, as y adolescentes. Bajo el marco, de la Convención Internacional del Niño; tratado internacional de las Naciones Unidas, firmado en 1989 y entró en vigor desde el 2 de septiembre de 1990.",
         text3:
-          "Buscamos contribuir al mejoramiento de calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
+          "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
+      },
+      founder: {
+        title: "Nuestra fundadora",
+        name: "Carolina Urbina Cepeda",
+        occupation: "Fundadora de “Be Healthy & Holistic”",
+        experience: {
+          title: "Experiencia Profesional",
+          text1:
+            "La experiencia profesional en Chile se concentró en el área psicosociojurídica los últimos 6 años. En específico se desarrolló como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME (Servicio Nacional de Menores).",
+          text2:
+            "Trabajó en diversas ONG,s (OPCION, CIUDAD DEL NIÑO Y ADRA) en proyectos PRM (Programa de reparación de maltrato y abuso sexual) y FAE (Programas familias de acogidas) de distintas comunas de Santiago de Chile, y en contacto directo con TRIBUNALES DE FAMILIA Y FISCALÍAS DE CHILE.",
+          text3:
+            "Fue voluntaria durante un año de CORFAPES “Centro de rehabilitación psicosocial para personas con trastornos psicóticos”. Trabajó como terapeuta familiar, con padres o adultos responsables y usuarios.",
+          text4:
+            "También trabajando de forma independiente en consulta particular y en un estudio jurídico. Adquiere conocimiento que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
+        },
+        training: {
+          title: "Formación Profesional",
+          text1:
+            "Profesional psicóloga y licenciada en psicología en la Universidad Autónoma de Chile. Diplomada en diagnóstico e intervención en maltrato y agresiones sexuales, con formación en temáticas de derechos humanos, infancia, género, multiculturalidad, buenos tratos, autocuidado y ergonomía en el trabajo.",
+          text2:
+            "La psicología es una ciencia que estudia el comportamiento humano, durante su viaje profesional, comenzó a sentir que la psicología por sí sola no le permitía en algunos casos avanzar en la intervención, se ve forzada a incorporar distintos enfoques y técnicas desde el psicoanálisis hasta biomagnetismo, (también ciencias.) Por ende, hoy se define como una psicóloga de tipo holística, es decir, toma e incluye otros enfoques según necesite cada uno de sus pacientes e integra los aspectos físico, psíquico, emocional.",
+        },
+        valueFormation: {
+          title: "Formación valórica",
+          text:
+            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+        },
       },
       team: {
+        title: "Nuestro equipo",
+        subtitle: "Nuestros colaboradores",
         person1: {
-          title: "Nuestra fundadora",
-          name: "Carolina Urbina",
+          name: "Carolina Urbina Cepeda",
           occupation: "Fundadora de “Be Healthy & Holistic”",
-          experience: {
-            title: "Experiencia Profesional",
-            text1:
-              "La experiencia profesional en Chile se concentró en el área psicosociojurídica los últimos 6 años. En específico se desarrolló como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME (Servicio Nacional de Menores).",
-            text2:
-              "Trabajó en diversas ONG,s (OPCION, CIUDAD DEL NIÑO Y ADRA) en proyectos PRM (Programa de reparación de maltrato y abuso sexual) y FAE (Programas familias de acogidas) de distintas comunas de Santiago de Chile, y en contacto directo con TRIBUNALES DE FAMILIA Y FISCALÍAS DE CHILE.",
-            text3:
-              "Fue voluntaria durante un año de CORFAPES “Centro de rehabilitación psicosocial para personas con trastornos psicóticos”. Trabajó como terapeuta familiar, con padres o adultos responsables y usuarios.",
-            text4:
-              "También trabajando de forma independiente en consulta particular y en un estudio jurídico. Adquiere conocimiento que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
-          },
-          training: {
-            title: "Formación Profesional",
-            text1:
-              "Profesional psicóloga y licenciada en psicología en la Universidad Autónoma de Chile. Diplomada en diagnóstico e intervención en maltrato y agresiones sexuales, con formación en temáticas de derechos humanos, infancia, género, multiculturalidad, buenos tratos, autocuidado y ergonomía en el trabajo.",
-            text2:
-              "La psicología es una ciencia que estudia el comportamiento humano, durante su viaje profesional, comenzó a sentir que la psicología por sí sola no le permitía en algunos casos avanzar en la intervención, se ve forzada a incorporar distintos enfoques y técnicas desde el psicoanálisis hasta biomagnetismo, (también ciencias.) Por ende, hoy se define como una psicóloga de tipo holística, es decir, toma e incluye otros enfoques según necesite cada uno de sus pacientes e integra los aspectos físico, psíquico, emocional.",
-          },
-          valueFormation: {
-            title: "Formación valórica",
-            text:
-              "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
-          },
+          body:
+            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+        },
+        person2: {
+          name: "Dominic Fernandez Vergara",
+          occupation: "psicóloga ",
+          body:
+            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+        },
+        person3: {
+          name: "Dominic Fernandez Vergara",
+          occupation: "psicóloga ",
+          body:
+            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
         },
       },
     },
@@ -556,12 +583,16 @@ export const appDataText = {
       },
       offer: {
         title:
-          "Por si aún no estas convencido de saber qué necesitas y tu diagnóstico",
+          "Por si aún no estas convencido de iniciar tu proceso de transformación",
         subtitle: "Te ofrecemos :",
-        text: "Sesión individual diagnóstica, incluye herramienta psicológica",
-        text1: "Sesión de retroalimentación y devolución diagnóstica.",
-        text2: "Test gratuito",
-        text3: "Ahorras hasta un 50%",
+        // text: "Sesión individual diagnóstica, incluye herramienta psicológica",
+        // text1: "Sesión de retroalimentación y devolución diagnóstica.",
+        // text2: "Aplicaciónn test gratuito",
+        text: "Aplicación test gratuito",
+        text1: "Sesión psicológica diagnóstica",
+        text2: "Sesión de retroalimentación y apreciación clínica",
+
+        text3: "Ahorrarás hasta un 50%",
         buttonText: "Comienza aquí",
       },
       servicesListForm: {
@@ -602,7 +633,7 @@ export const appDataText = {
       subtitle2: "Escríbenos",
       subtitle: "Información",
       text:
-        "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste? Y no porque no quisieras cambios, sino que no te hizo sentido? Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque el/ella emplea; ya que existen 7 enfoque tradicionales.",
+        "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste? Y no porque no quisieras cambios, sino que no te hizo sentido? Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque el/ella emplea; ya que existen 7 enfoque tradicionales y normalmente no sabemos cúal de esos nosotros necesitamos.",
       addresse: {
         title: "Dirección",
         addresse:

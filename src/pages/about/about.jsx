@@ -3,8 +3,8 @@ import React from "react";
 import styles from "./about.module.css";
 import { appDataText } from "../../appDataText/appDataText";
 // import missionImage from "../../images/imageAbout/imageBrandBluePink.png";
-import TeamPresentationComponent from "../../components/about-components/team-presentation-component";
 import Footer from "../../components/footer";
+import ContainerFounderCompany from "../../components/about-components/container-founder-company";
 
 function About() {
   console.log("appDataText.espanol.aboutUs", appDataText.espanol.aboutUs);
@@ -44,7 +44,7 @@ function About() {
         </p>
       </div>
       <div className={styles.containerTeam}>
-        <TeamPresentationComponent />
+        <ContainerFounderCompany />
       </div>
       <Footer />
     </div>
