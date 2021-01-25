@@ -220,7 +220,7 @@ export const appDataText = {
           p1: {
             id: 1,
             name: "Carolina Urbina Cepeda",
-            occupation: "Fundadora de “Be Healthy & Holistic”",
+            occupation: "Fundadora de “Be Healthy & Holistic” y Psicóloga",
             body:
               "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
           },
