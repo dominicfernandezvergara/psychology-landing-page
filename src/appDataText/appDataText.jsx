@@ -143,27 +143,52 @@ export const appDataText = {
     },
 
     // About Us español
-    AboutUs: {
-      title: "Nosotros",
-      mission: "",
-      vision: "",
+    aboutUs: {
+      title: "Sobre “Be Healthy & Holistic”",
+      mission: {
+        title: "Misión",
+        text:
+          "Be Healthy Holistic es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas, en especial de los grupos vulnerables Niñez, Adolescencia, Mujeres, Minorías sexuales, entre otros.",
+        text2:
+          "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano, a través de diferentes servicios.",
+      },
+      vision: {
+        title: "Visión",
+        text:
+          "Be Healthy &amp; Holistic trabaja para contribuir al pleno ejercicio de los derechos humanos, considerando La Declaración Universal de los Derechos Humanos , la cual fue proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948, como un ideal común para todos los pueblos y naciones.",
+        text2:
+          "Y en especial contribuir significativamente en la protección de los derechos de niños, as y adolescentes, considerando la Convención Internacional del Niño.",
+        text3:
+          "Buscamos contribuir al mejoramiento de calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
+      },
       team: {
         person1: {
+          title: "Nuestra fundadora",
           name: "Carolina Urbina",
-          description1:
-            "Profesional psicóloga y licenciada en psicología en Universidad Autónoma de Chile. Diplomada en diagnóstico e intervención en maltrato y agresiones sexuales, con formación en temáticas de derechos humanos, infancia, género, multiculturalidad, buen trato y ergonomía en el trabajo.",
-          description2:
-            "“Soy mujer, nieta, hija, hermana, tía, amiga, pareja, trabajadora y otros roles. Provengo de una familia de padres separados, con un padre violento y que renunció a su paternidad,  aprendí a mirar ese dolor, cómo afecta lo psíquico, como sanar y lograr relaciones sanas en la adultez.",
-          description3:
-            "La formación no académica, me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada, viví y me formé en un barrio de clase baja hasta los 20 años donde la pobreza y la violencia abunda.",
-          description4:
-            "Agradezco a mi madre por enseñarme la independencia, libertad, felicidad y el amor. Mi familia de origen es pequeña, la componen mis abuelas, mi madre, mis seis hermanos, dos sobrinos y dos cuñadas a quienes amo profundamente.",
-          description5:
-            "Mi familia elegida la componen importantes seres, amigos de infancia, y etapa adulta, a quienes amo y con quienes aprendí otras asignaturas. Mi familia, mis amig@s, la vida, los viajes y la profesión me enseñaron a ser respetuosa, flexible, pausada, cálida, soñadora, valiente, responsable y comprometida”",
-          description6:
-            "La psicología es una ciencia que estudia el comportamiento humano, durante su viaje profesional, comenzó a sentir que la psicología por sí sola no le permitía en algunos casos y/o momentos avanzar en la intervención, ya fuese para entender problemáticas o ayudar de manera eficiente.",
-          description7: ".....",
-          experience: "",
+          occupation: "Fundadora de “Be Healthy & Holistic”",
+          experience: {
+            title: "Experiencia Profesional",
+            text1:
+              "La experiencia profesional en Chile se concentró en el área psicosociojurídica los últimos 6 años. En específico se desarrolló como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME (Servicio Nacional de Menores).",
+            text2:
+              "Trabajó en diversas ONG,s (OPCION, CIUDAD DEL NIÑO Y ADRA) en proyectos PRM (Programa de reparación de maltrato y abuso sexual) y FAE (Programas familias de acogidas) de distintas comunas de Santiago de Chile, y en contacto directo con TRIBUNALES DE FAMILIA Y FISCALÍAS DE CHILE.",
+            text3:
+              "Fue voluntaria durante un año de CORFAPES “Centro de rehabilitación psicosocial para personas con trastornos psicóticos”. Trabajó como terapeuta familiar, con padres o adultos responsables y usuarios.",
+            text4:
+              "También trabajando de forma independiente en consulta particular y en un estudio jurídico. Adquiere conocimiento que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
+          },
+          training: {
+            title: "Formación Profesional",
+            text1:
+              "Profesional psicóloga y licenciada en psicología en la Universidad Autónoma de Chile. Diplomada en diagnóstico e intervención en maltrato y agresiones sexuales, con formación en temáticas de derechos humanos, infancia, género, multiculturalidad, buenos tratos, autocuidado y ergonomía en el trabajo.",
+            text2:
+              "La psicología es una ciencia que estudia el comportamiento humano, durante su viaje profesional, comenzó a sentir que la psicología por sí sola no le permitía en algunos casos avanzar en la intervención, se ve forzada a incorporar distintos enfoques y técnicas desde el psicoanálisis hasta biomagnetismo, (también ciencias.) Por ende, hoy se define como una psicóloga de tipo holística, es decir, toma e incluye otros enfoques según necesite cada uno de sus pacientes e integra los aspectos físico, psíquico, emocional.",
+          },
+          valueFormation: {
+            title: "Formación valórica",
+            text:
+              "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+          },
         },
       },
     },

@@ -1,0 +1,95 @@
+.containerAbout {
+  margin-top: 80px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: var(--lightSecondaryColor);
+  color: var(--darkPrimaryColor);
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.containerText {
+  padding: 20px 20px;
+}
+.subtitle {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  color: var(--primaryColor);
+}
+.text {
+  padding-top: 10px;
+  font-size: 16px;
+  color: var(--text);
+  text-align: justify;
+}
+/* .containerMissionImage {
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.missionImage {
+  width: 200px;
+  height: auto;
+} */
+/* .containerTeam {
+  padding: 10px 20px;
+} */
+.containerTeamImage {
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.teamImage {
+  width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .containerText {
+    padding: 10px 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* .containerMissionImage {
+    display: none;
+  } */
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .containerText {
+    padding: 10px 80px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .containerText {
+    padding: 10px 100px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerText {
+    padding: 10px 200px;
+  }
+  .title {
+    height: 150px;
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+}

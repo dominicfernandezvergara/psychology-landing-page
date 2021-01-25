@@ -82,3 +82,20 @@
     margin-left: 30px;
   }
 }
+@media screen and (min-width: 1920px) {
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    font-size: 40px;
+    background-color: var(--lightSecondaryColor);
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+  .textContainerForm {
+    font-size: 20px;
+  }
+}

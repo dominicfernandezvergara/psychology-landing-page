@@ -1,0 +1,141 @@
+.containerTeamPresentationComponent {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  color: var(--darkPrimaryColor);
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.containerTeamImage {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.teamImage {
+  width: 100%;
+  height: auto;
+  background-color: var(--lightSecondaryColor);
+}
+.name {
+  font-size: 20px;
+  color: var(--darkSecondaryColor);
+}
+.profession {
+  font-size: 20px;
+  color: var(--darkText);
+}
+.subtitle {
+  padding-top: 10px;
+  font-size: 20px;
+  color: var(--primaryColor);
+}
+.text {
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: var(--text);
+  text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .containerTeamPresentationComponent {
+    padding: 0px 50px;
+  }
+  .wrappData {
+    display: flex;
+  }
+  .wrappDataExperience {
+    width: 50%;
+  }
+  .containerTeamImage {
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right: 10px;
+  }
+  .teamImage {
+    padding-top: 50px;
+  }
+  .activeMedium {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .wrappDataExperience {
+    padding-left: 20px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 24px;
+    padding-top: 0px;
+  }
+  .teamImage {
+    padding-top: 20px;
+  }
+  .containerTeamPresentationComponent {
+    padding: 0px 80px;
+  }
+  .wrappDataExperience {
+    width: 50%;
+  }
+  .containerTeamImage {
+    width: 50%;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .activeMedium {
+    display: block;
+  }
+  .desactiveMedium {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .containerTeamPresentationComponent {
+    padding: 0px 100px;
+  }
+  .wrappDataExperience {
+    width: 65%;
+  }
+  .containerTeamImage {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerTeamPresentationComponent {
+    padding: 0px 200px;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .name {
+    font-size: 34px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .profession {
+    font-size: 22px;
+    color: var(--darkText);
+  }
+  .wrappDataExperience {
+    width: 75%;
+  }
+  .containerTeamImage {
+    width: 25%;
+  }
+}

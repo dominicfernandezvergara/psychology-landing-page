@@ -7,6 +7,7 @@ import Header from "./components/header";
 import Home from "./pages/home";
 import Services from "./pages/services";
 import ContactUs from "./pages/contact-us";
+import About from "./pages/about/about";
 import { appDataText } from "./appDataText/appDataText";
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path={appDataText.espanol.header.contactUs.path}>
             <ContactUs />
+          </Route>
+          <Route path={appDataText.espanol.header.aboutUs.path}>
+            <About />
           </Route>
           <Route path="*">
             <Home />

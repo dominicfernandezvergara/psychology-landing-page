@@ -4,9 +4,9 @@ import styles from "./contact-us.module.css";
 import { appDataText } from "../../appDataText/appDataText";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import Form from "./form/form";
-import HowItWork from "../../components/how-it-work";
-import ContactData from "./contact-data/contact-data";
-import TransferData from "./transfer-data/transfer-data";
+import HowItWork from "../../components/contact-us-components/how-it-work";
+import ContactData from "../../components/contact-us-components/contact-data";
+import TransferData from "../../components/contact-us-components/transfer-data";
 import Footer from "../../components/footer";
 
 function ContactUs() {
