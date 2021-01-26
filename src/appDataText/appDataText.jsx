@@ -14,7 +14,7 @@ export const appDataText = {
         name: "Nosotros",
         path: "/nosotros",
         subcategories: {
-          name: "Docententes Colaboradores",
+          name: "Colaboradores",
           path: "/team",
         },
       },
@@ -43,7 +43,7 @@ export const appDataText = {
         // modificado
         slider2: {
           title: "Servicios Online",
-          text: "Atención psicológica de calidad desde tu domicilio.",
+          text: "Asesorías psicológicas de calidad desde tu domicilio.",
         },
         slider3: {
           title: "Prevención de agresiones sexuales",
@@ -61,7 +61,7 @@ export const appDataText = {
           </div>
         ),
         text:
-          "Queremos poner a tu alcance estas maravillosas disciplinas. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima, entre otros. Te enseñaremos técnicas de relajación y técnicas de la psicología positiva utilizando tus recursos y fortalezas personales.",
+          "Queremos poner a tu alcance diversas formas de tratamiento. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima, entre otros. Te enseñaremos técnicas de relajación y técnicas de la psicología positiva utilizando tus recursos y fortalezas personales.",
         // modificado
         // text2:
         //   "También y de suma importancia haremos; charlas para padres, cuidadores y profesionales, para prevenir y saber qué hacer frente al abuso sexual infantil.",
@@ -117,9 +117,9 @@ export const appDataText = {
           profesional: {
             title: "Psicólogos y terapeutas profesionales",
             description:
-              "Orientado a entrenamiento profesional especializado y a bajo costo en técnicas de diagnóstico en experiencias traumáticas y tipificadas como delitos.",
-            description2:
-              "Así como también podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas.",
+              "Orientado a la supervisión profesional, podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas",
+            // description2:
+            //   "Así como también podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas.",
           },
           companies: {
             title: "Servicios para empresas",
@@ -164,9 +164,8 @@ export const appDataText = {
     // About Us español
     aboutUs: {
       title: "Sobre “Be Healthy & Holistic”",
-      text:
-        "Conoce a nuestro equipo de colaboradores docentes haciendo click aquí",
-      buttonText: "Colaboradores docentes",
+      text: "Conoce a nuestro equipo de colaboradores haciendo click aquí",
+      buttonText: "Colaboradores",
       mission: {
         title: "Misión",
         text:
@@ -179,10 +178,8 @@ export const appDataText = {
       vision: {
         title: "Visión",
         text:
-          "Be Healthy & Holistic trabaja para contribuir a Los Buenos Tratos y, al pleno ejercicio de los derechos humanos, considerando La Declaración Universal de los Derechos Humanos , la cual fue proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948, como un ideal común para todos los pueblos y naciones.",
+          "Be Healthy & Holistic trabaja para contribuir a Los Buenos Tratos y, al pleno ejercicio de los derechos humanos, considerando La Declaración Universal de los Derechos Humanos , la cual fue proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948, como un ideal común para todos los pueblos y naciones. Y en especial contribuir significativamente a la protección y prevención de los derechos de niños, as y adolescentes. Bajo el marco, de la Convención Internacional del Niño; tratado internacional de las Naciones Unidas, firmado en 1989 y entró en vigor desde el 2 de septiembre de 1990.",
         text2:
-          "Y en especial contribuir significativamente a la protección y prevención de los derechos de niños, as y adolescentes. Bajo el marco, de la Convención Internacional del Niño; tratado internacional de las Naciones Unidas, firmado en 1989 y entró en vigor desde el 2 de septiembre de 1990.",
-        text3:
           "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
       },
       founder: {
@@ -622,7 +619,7 @@ export const appDataText = {
         title: "Selecciona un servicios",
         services: {
           naturalPeople: {
-            service1: "Psicoterapia Adulto",
+            service1: "Psicoterapia breve Adultos",
             service2: "Terapias complementarias",
             service3: "Charlas Preventivas Abuso Sexual Infantil",
             service4: "Prestaciones Jurídicas",
@@ -663,7 +660,7 @@ export const appDataText = {
       addresse: {
         title: "Dirección",
         addresse:
-          "Sede Praha, República Checa. Servicios y Asesorias Online Resto del mundo y Chile.",
+          "Sede Praha, República Checa. Servicios y Asesorias Online, incluye Chile.",
       },
       email: {
         title: "correo",

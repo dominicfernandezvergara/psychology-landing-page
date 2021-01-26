@@ -5,49 +5,41 @@ export const listServicesForm = [
     name:
       appDataText.espanol.services.servicesListForm.services.naturalPeople
         .service1,
-    id: 1,
   },
   {
     name:
       appDataText.espanol.services.servicesListForm.services.naturalPeople
         .service2,
-    id: 2,
   },
   {
     name:
       appDataText.espanol.services.servicesListForm.services.naturalPeople
         .service3,
-    id: 3,
   },
   {
     name:
       appDataText.espanol.services.servicesListForm.services.naturalPeople
         .service4,
-    id: 4,
   },
-  {
-    name:
-      appDataText.espanol.services.servicesListForm.services.profesionalServices
-        .service1,
-    id: 4,
-  },
-  {
-    name:
-      appDataText.espanol.services.servicesListForm.services.profesionalServices
-        .service2,
-    id: 4,
-  },
+  // {
+  //   name:
+  //     appDataText.espanol.services.servicesListForm.services.profesionalServices
+  //       .service1,
+  // },
+  // {
+  //   name:
+  //     appDataText.espanol.services.servicesListForm.services.profesionalServices
+  //       .service2,
+  // },
   {
     name:
       appDataText.espanol.services.servicesListForm.services.profesionalServices
         .service3,
-    id: 4,
   },
   {
     name:
       appDataText.espanol.services.servicesListForm.services.companiesServices
         .service1,
-    id: 4,
   },
 ];
 export const listSubservicesForm = [

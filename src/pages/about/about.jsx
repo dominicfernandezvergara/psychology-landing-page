@@ -42,9 +42,6 @@ function About() {
         <p className={styles.text}>
           {appDataText.espanol.aboutUs.vision.text2}
         </p>
-        <p className={styles.text}>
-          {appDataText.espanol.aboutUs.vision.text3}
-        </p>
       </div>
       <div className={styles.containerTeam}>
         <ContainerFounderCompany />

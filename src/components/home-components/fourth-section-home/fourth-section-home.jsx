@@ -42,12 +42,6 @@ function FourthSectionHome() {
             .description
         }
       </div>
-      <div className={styles.subServices}>
-        {
-          appDataText.espanol.home.fourthSectionHome.services.profesional
-            .description2
-        }
-      </div>
     </div>
   );
 
