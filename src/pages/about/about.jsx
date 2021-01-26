@@ -26,9 +26,7 @@ function About() {
         <p className={styles.text}>
           {appDataText.espanol.aboutUs.mission.text}
         </p>
-        <p className={styles.text}>
-          {appDataText.espanol.aboutUs.mission.text2}
-        </p>
+
         <p className={styles.text}>
           {appDataText.espanol.aboutUs.mission.text3}
         </p>

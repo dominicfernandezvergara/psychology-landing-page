@@ -173,12 +173,25 @@ export const appDataText = {
         text2:
           "Con especial vocación en orientar y psicoeducar a grupos vulnerables: Niñez, Adolescencia, Mujeres, Minorías Sexuales, Migrantes, personas víctimas de violencias en general.",
         text3:
-          "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los buenos tratos.",
+          "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
       },
       vision: {
         title: "Visión",
-        text:
-          "Be Healthy & Holistic trabaja para contribuir a Los Buenos Tratos y, al pleno ejercicio de los derechos humanos, considerando La Declaración Universal de los Derechos Humanos , la cual fue proclamada por la Asamblea General de las Naciones Unidas en París, el 10 de diciembre de 1948, como un ideal común para todos los pueblos y naciones. Y en especial contribuir significativamente a la protección y prevención de los derechos de niños, as y adolescentes. Bajo el marco, de la Convención Internacional del Niño; tratado internacional de las Naciones Unidas, firmado en 1989 y entró en vigor desde el 2 de septiembre de 1990.",
+        text: (
+          <div>
+            Be Healthy & Holistic trabaja para contribuir a{" "}
+            <strong>los buenos tratos</strong> y, al pleno ejercicio de los
+            derechos humanos, considerando La Declaración Universal de los
+            Derechos Humanos , la cual fue proclamada por la Asamblea General de
+            las Naciones Unidas en París, el 10 de diciembre de 1948, como un
+            ideal común para todos los pueblos y naciones. Y en especial
+            contribuir significativamente a la protección y prevención de los
+            derechos de niños, as y adolescentes. Bajo el marco, de la
+            Convención Internacional del Niño; tratado internacional de las
+            Naciones Unidas, firmado en 1989 y entró en vigor desde el 2 de
+            septiembre de 1990.
+          </div>
+        ),
         text2:
           "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
       },
@@ -654,13 +667,21 @@ export const appDataText = {
       subtitle: "Información",
       text:
         "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste o no te gusto el psicólogo/a?",
-      text2:
-        "Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque cuando vamos al psicólogo no sabemos qué tipo de enfoque él/ella emplea; ya que existen 7 enfoque tradicionales en el ejercicio profesional y normalmente NO sabemos cuál de esos nosotros necesitamos, aplicamos principio básico de psicología ”Cada ser humano es único e irrepetible”",
+      text2: (
+        <div>
+          Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque
+          cuando vamos al psicólogo no sabemos qué tipo de enfoque él/ella
+          emplea; ya que existen 7 enfoque tradicionales en el ejercicio
+          profesional y normalmente NO sabemos cuál de esos nosotros
+          necesitamos, aplicamos principio básico de psicología{" "}
+          <i>Cada ser humano es único e irrepetible</i>.
+        </div>
+      ),
       text3: <strong>Aquí vamos a usar el que tú necesites!</strong>,
       addresse: {
         title: "Dirección",
         addresse:
-          "Sede Praha, República Checa. Servicios y Asesorias Online, incluye Chile.",
+          "Sede Praha, Chequia. Servicios y Asesorias Online resto del mundo.",
       },
       email: {
         title: "correo",
