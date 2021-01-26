@@ -14,8 +14,10 @@ export const appDataText = {
         name: "Nosotros",
         path: "/nosotros",
         subcategories: {
-          name: "Colaboradores",
-          path: "/team",
+          name: "Equipo",
+          path: "/equipo",
+          name2: "Empresa",
+          path2: "/empresa",
         },
       },
       services: {

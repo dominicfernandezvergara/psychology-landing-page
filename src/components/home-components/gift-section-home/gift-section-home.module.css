@@ -28,6 +28,21 @@
   font-size: 16px;
   text-align: center;
 }
+.containerGiftSectionHome :global(.MuiButton-root) {
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--darkPrimaryColor);
+  color: var(--white);
+  width: fit-content;
+  align-self: center;
+}
+.containerGiftSectionHome :global(.MuiButton-root:hover) {
+  background-color: var(--primaryColor);
+}
+.dowloadButton {
+  color: var(--white);
+}
 @media screen and (min-width: 768px) {
   .image {
     width: 300px;

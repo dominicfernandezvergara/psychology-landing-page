@@ -23,7 +23,6 @@
   /* flex-wrap: wrap; */
 }
 .containerPeople {
-  width: 280px;
   padding: 20px 20px;
   border-radius: 4px;
   margin-bottom: 10px;
@@ -33,11 +32,15 @@
 .containerImage {
   width: 100%;
   height: auto;
+  text-align: center;
 }
 .image {
   background-color: var(--lightSecondaryColor);
-  width: 100%;
+  width: 260px;
   height: auto;
+}
+.wrappText {
+  width: 260px;
 }
 .name {
   font-size: 20px;
@@ -48,8 +51,22 @@
   font-size: 18px;
   padding-bottom: 10px;
   color: var(--darkText);
+  line-height: 20px;
 }
 .containerTeam :global(.MuiPaper-root) {
   text-align: justify;
   color: var(--text);
+}
+@media screen and (min-width: 768px) {
+  .wrappTeam {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .containerPeople {
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 }
