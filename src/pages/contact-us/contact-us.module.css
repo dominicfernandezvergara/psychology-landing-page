@@ -20,11 +20,21 @@
   color: var(--text);
 }
 .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  background-color: var(--lightSecondaryColor);
+  color: var(--darkPrimaryColor);
   text-transform: uppercase;
+  font-size: 22px;
+
+  /* text-transform: uppercase;
   font-size: 22px;
   text-align: center;
   letter-spacing: 1px;
-  color: var(--darkPrimaryColor);
+  color: var(--darkPrimaryColor); */
 }
 .wrappFormHowItWork {
   display: flex;
@@ -43,7 +53,7 @@
     box-sizing: border-box;
   }
   .title {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
   .subtitle {
     display: flex;
@@ -75,6 +85,10 @@
   }
   .wrappFormHowItWork {
     padding: 10px 40px;
+  }
+  .title {
+    font-size: 30px;
+    height: 100px;
   }
 }
 @media screen and (min-width: 1280px) {

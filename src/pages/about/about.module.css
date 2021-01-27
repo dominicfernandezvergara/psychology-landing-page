@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 80px;
   width: 100%;
   background-color: var(--lightSecondaryColor);
   color: var(--darkPrimaryColor);
@@ -64,6 +64,7 @@
   } */
   .title {
     font-size: 30px;
+    height: 100px;
   }
   .subtitle {
     font-size: 24px;

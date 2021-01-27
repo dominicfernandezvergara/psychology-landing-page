@@ -27,3 +27,7 @@ button {
 .root .MuiFormLabel-root.Mui-focused {
   color: var(--darkText);
 }
+
+* {
+  outline: none;
+}

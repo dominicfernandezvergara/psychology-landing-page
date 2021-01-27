@@ -8,6 +8,7 @@ import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import SliderSectionHome from "../../components/home-components/slider-section-home";
 import GiftSectionHome from "../../components/home-components/gift-section-home";
 import OfferSectionHome from "../../components/home-components/offer-section-home";
+import TestimonySlider from "../../components/testimony-slider";
 
 function Home() {
   UseScrollToTop();
@@ -20,6 +21,7 @@ function Home() {
       <ThirdSectionHome />
       <OfferSectionHome />
       <GiftSectionHome />
+      <TestimonySlider />
       <Footer />
     </div>
   );

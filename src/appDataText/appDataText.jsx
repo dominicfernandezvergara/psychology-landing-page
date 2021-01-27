@@ -757,33 +757,38 @@ export const appDataText = {
           ),
         },
       },
+    },
+    // Testimony español
+    testimony: {
+      title: "Testimonios",
+      testimony1: {
+        title: "Mujer, 29 años",
+        subtitle: "Trastorno de ansiedad",
+        text:
+          "Desde hace un tiempo estoy asistiendo a sesiones con Carolina, nunca antes había recibido terapia psicológica, lo veía lejano e innecesario, pero no imaginaba lo sanador e importante que sería para mí. Cuando comencé estaba en un momento muy gris de vida, en donde estaba muy confundida y perdida acerca de mis decisiones y sobre lo que yo quería. Actualmente puedo decir que he adquirido las herramientas necesarias para enfrentarme a la vida, eso incluye saber distinguir desde qué vereda decido resolver y tomar decisiones, teniendo en cuenta lo que siento, lo que quiero y pienso. Hoy en día miro hacia atrás, visualizo todo mi avance y me sorprendo, siento que Carolina ha sido un apoyo fundamental, y es por esto que le estoy tremendamente agradecida.",
+      },
+      testimony2: {
+        title: "Hombre, 28 años",
+        subtitle: "Profesional psicólogo y educador sexual",
+        text:
+          "Entrar al área de salud , no fue una experiencia fácil para mí , sentí que salí con pocas herramientas en la universidad y a la vez sentía la obligación de rendir como un buen profesional, por lo que siempre estaba ansioso cada vez que iba a trabajar y salía más ansioso cada vez que me supervisan...Más que un acompañamiento sentía solo un discurso de ego y de poca comprensión por parte de mis compañeros de trabajo y jefaturas.",
+        text2:
+          "Sin embargo; cuando me puse a trabajar con Carolina, me sentí apoyado en todo, me enseñó herramientas útiles y prestaba atención a mi persona, como un ser humano , y no como una marioneta de salud mental.",
+        text3:
+          "En el transcurso del tiempo empecé a trabajar con una metodología más sólida, me sentí más seguro y empecé a tener mejores alcances con mis pacientes por lo que sin duda alguna contribuyó a un cambio de mi experiencia, ahora si voy con ganas al trabajo.",
+      },
+      testimony3: {
+        title: "Mujer 46 años",
+        subtitle: "Problemas de adicción y ansiedad",
+        text:
+          "Comencé mis terapias hace 5 meses con Carolina, vivo hace 13 años en República Checa, con un millón de cambios, carencias, luchando por una adaptación a una cultura fuerte y muy diferente a la mía...No es mala, pero no ha sido fácil, intenté muchas otras terapias, siempre quedé con la sensación de que algo faltaba. Cuando vi el contacto de esta profesional en Facebook, la contacté y desde la primera sesión me sentí muy contenida, fue fuerte, porque en 60 minutos yo quería expresar mi vida completa, incluyendo la pasada. Ella fue muy receptiva con mi emoción, ella para mí ha sido un pilar fundamental para mirarme, ir hacia dentro, ver nuevamente mi esencia y creo que seguiré en terapia de por vida, porque cada vez me siento mejor. Junto con ella, el trabajo deja de ser duro y tortuoso, sino un camino hermoso, lleno de luz y sueños.",
+      },
+      testimony4: {
+        title: "Hombre, 36 años",
+        subtitle: "Viejo y buen amigo",
 
-      // Testimony español
-      testimony: {
-        testimony1: {
-          title: "Mujer, 29 años, trastorno de ansiedad",
-          text:
-            "“Desde hace un tiempo estoy asistiendo a sesiones con Carolina, nunca antes había recibido terapia psicológica, lo veía lejano e innecesario, pero no imaginaba lo sanador e importante que sería para mí. Cuando comencé estaba en un momento muy gris de vida, en donde estaba muy confundida y perdida acerca de mis decisiones y sobre lo que yo quería. Actualmente puedo decir que he adquirido las herramientas necesarias para enfrentarme a la vida, eso incluye saber distinguir desde qué vereda decido resolver y tomar decisiones, teniendo en cuenta lo que siento, lo que quiero y pienso. Hoy en día miro hacia atrás, visualizo todo mi avance y me sorprendo, siento que Carolina ha sido un apoyo fundamental, y es por esto que le estoy tremendamente agradecida”.",
-        },
-        testimony2: {
-          title: "Hombre, 28 años, profesional psicólogo y educador sexual",
-          text:
-            "“Entrar al área de salud , no fue una experiencia fácil para mí , sentí que salí con pocas herramientas en la universidad y a la vez sentía la obligación de rendir como un buen profesional, por lo que siempre estaba ansioso cada vez que iba a trabajar y salía más ansioso cada vez que me supervisan...Más que un acompañamiento sentía solo un discurso de ego y de poca comprensión por parte de mis compañeros de trabajo y jefaturas.",
-          text2:
-            "Sin embargo; cuando me puse a trabajar con Carolina, me sentí apoyado en todo, me enseñó herramientas útiles y prestaba atención a mi persona, como un ser humano , y no como una marioneta de salud mental.",
-          text3:
-            "En el transcurso del tiempo empecé a trabajar con una metodología más sólida, me sentí más seguro y empecé a tener mejores alcances con mis pacientes por lo que sin duda alguna contribuyó a un cambio de mi experiencia, ahora si voy con ganas al trabajo.”",
-        },
-        testimony3: {
-          title: "Mujer 46 años, problemas de adicción y ansiedad",
-          text:
-            "“Comencé mis terapias hace 5 meses con Carolina, vivo hace 13 años en República Checa, con un millón de cambios, carencias, luchando por una adaptación a una cultura fuerte y muy diferente a la mía...No es mala, pero no ha sido fácil, intenté muchas otras terapias, siempre quedé con la sensación de que algo faltaba. Cuando vi el contacto de esta profesional en Facebook, la contacté y desde la primera sesión me sentí muy contenida, fue fuerte, porque en 60 minutos yo quería expresar mi vida completa, incluyendo la pasada. Ella fue muy receptiva con mi emoción, ella para mí ha sido un pilar fundamental para mirarme, ir hacia dentro, ver nuevamente mi esencia y creo que seguiré en terapia de por vida, porque cada vez me siento mejor. Junto con ella, el trabajo deja de ser duro y tortuoso, sino un camino hermoso, lleno de luz y sueños.”",
-        },
-        testimony4: {
-          title: "Hombre, 36 años, viejo y buen amigo",
-          text:
-            "“Ha tenido un impacto conocerla, en mi vida motivacional y emocional. Siempre ha sido una amistad sin discriminación, me ha acompañado en diferentes etapas de la vida, he obtenido un apoyo moral, siempre a estado ahí para seguir generando impactos en mi vida”.",
-        },
+        text:
+          "Ha tenido un impacto conocerla, en mi vida motivacional y emocional. Siempre ha sido una amistad sin discriminación, me ha acompañado en diferentes etapas de la vida, he obtenido un apoyo moral, siempre a estado ahí para seguir generando impactos en mi vida.",
       },
     },
   },
