@@ -102,7 +102,6 @@ function Header() {
         <div className={styles.containerLogo}>
           <Logo />
         </div>
-        <Button text="Request appointment" path="/contacto" color="secondary" />
         <div className={styles.containerButton}>
           <Drawer />
         </div>

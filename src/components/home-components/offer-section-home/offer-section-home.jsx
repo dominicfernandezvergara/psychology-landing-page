@@ -9,32 +9,28 @@ import AddIcon from "@material-ui/icons/Add";
 function OfferSectionHome() {
   return (
     <div className={styles.containerOfferSectionHome}>
-      <h3 className={styles.title}>
-        {appDataText.espanol.services.offer.title}
-      </h3>
+      <h3 className={styles.title}>{appDataText.espanol.home.offer.title}</h3>
       <div className={styles.subContainerOfferSection}>
         <div className={styles.containerData}>
           <p className={styles.subtitle}>
-            {appDataText.espanol.services.offer.subtitle}
+            {appDataText.espanol.home.offer.subtitle}
           </p>
           <div className={styles.containerOffer}>
+            <p className={styles.text}>{appDataText.espanol.home.offer.text}</p>
+            <AddIcon />
             <p className={styles.text}>
-              {appDataText.espanol.services.offer.text}
+              {appDataText.espanol.home.offer.text1}
             </p>
             <AddIcon />
             <p className={styles.text}>
-              {appDataText.espanol.services.offer.text1}
-            </p>
-            <AddIcon />
-            <p className={styles.text}>
-              {appDataText.espanol.services.offer.text2}
+              {appDataText.espanol.home.offer.text2}
             </p>
           </div>
           <p className={styles.discount}>
-            {appDataText.espanol.services.offer.text3}
+            {appDataText.espanol.home.offer.text3}
           </p>
           <ButtonApp
-            text={appDataText.espanol.services.offer.buttonText}
+            text={appDataText.espanol.home.offer.buttonText}
             path="/contacto"
             color="primary"
           />

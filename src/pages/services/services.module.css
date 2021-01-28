@@ -1,13 +1,39 @@
 .containerServices {
-  background-color: #f7f1f103;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 80px;
 }
 .title {
-  color: var(--primary);
-  text-align: center;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  background-color: var(--lightSecondaryColor);
+  color: var(--darkPrimaryColor);
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .title {
-    margin-top: 20px;
+    font-size: 30px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1920px) {
+  .title {
+    height: 120px;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
 }

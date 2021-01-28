@@ -1,0 +1,39 @@
+.containerService {
+  margin-bottom: 20px;
+}
+.titleService {
+  color: var(--primaryColor);
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 10px 0px;
+}
+.phrase {
+  color: var(-darkText);
+  text-align: center;
+  font-family: cursive;
+  margin-bottom: 20px;
+}
+.containerImage {
+  width: 100%;
+  height: auto;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.text {
+  color: var(--text);
+  text-align: justify;
+}
+.subtitle {
+  color: var(--primaryColor);
+  margin-top: 10px;
+}
+.subservices {
+  margin-bottom: 10px;
+}
+.lenguage {
+  color: var(-darkText);
+  margin-top: 10px;
+}

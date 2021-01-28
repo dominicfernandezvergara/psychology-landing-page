@@ -6,7 +6,6 @@
   margin-bottom: 20px;
 }
 .title {
-  /* font-family: "Alfa Slab One"; */
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--darkPrimaryColor);
@@ -23,7 +22,6 @@
 .subServices {
   padding-bottom: 5px;
   text-align: justify;
-  /* font-weight: bold; */
   color: var(--text);
 }
 .bodyCompanie {
@@ -38,7 +36,6 @@
     font-size: 30px;
     padding-bottom: 20px;
   }
-
   .marginLeftContainerBody {
     margin-left: 50px;
   }

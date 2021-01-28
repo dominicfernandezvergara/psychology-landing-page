@@ -41,8 +41,6 @@ export const appDataText = {
           title: "Asesoramiento psicológico y red profesional",
           subtitle: "Piensa - Actúa - Trasciende",
         },
-
-        // modificado
         slider2: {
           title: "Servicios Online",
           text: "Asesorías psicológicas de calidad desde tu domicilio.",
@@ -64,15 +62,11 @@ export const appDataText = {
         ),
         text:
           "Queremos poner a tu alcance diversas formas de tratamiento. Te hablaremos de ansiedad, de estrés, de depresión, de autoestima, entre otros. Te enseñaremos técnicas de relajación y técnicas de la psicología positiva utilizando tus recursos y fortalezas personales.",
-        // modificado
-        // text2:
-        //   "También y de suma importancia haremos; charlas para padres, cuidadores y profesionales, para prevenir y saber qué hacer frente al abuso sexual infantil.",
         buttonText: "Contactános",
       },
       thirdSectionHome: {
         title: "¿Por qué elegirnos?",
         text: "",
-        // "Nos preocupamos por ti, tu familia y tu historia. Puede confiar en que lo trataremos con respeto, dignidad y compasión en cada interacción, mientras mantenemos los más altos estándares de integridad y ética.",
         buttonText: "Comienza hoy",
         subtitleIcon1: "Accesible",
         subtitleIcon2: "Cuidadosa",
@@ -120,8 +114,6 @@ export const appDataText = {
             title: "Psicólogos y terapeutas profesionales",
             description:
               "Orientado a la supervisión profesional, podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas",
-            // description2:
-            //   "Así como también podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en terapeutas.",
           },
           companies: {
             title: "Servicios para empresas",
@@ -161,6 +153,17 @@ export const appDataText = {
         ),
         buttonText: "Descargar PDF",
       },
+      offer: {
+        title:
+          "Por si aún no estás convencido de iniciar tu proceso de transformación",
+        subtitle: "Te ofrecemos :",
+        text: "Aplicación test gratuito",
+        text1: "Sesión psicológica diagnóstica",
+        text2: "Sesión de retroalimentación y apreciación clínica",
+
+        text3: "Ahorrarás hasta un 50%",
+        buttonText: "Comienza aquí",
+      },
     },
 
     // About Us español
@@ -198,9 +201,9 @@ export const appDataText = {
           "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
       },
       founder: {
-        title: "Nuestra fundadora",
+        title: "Nuestra Creadora & Product Manager",
         name: "Carolina Urbina Cepeda",
-        occupation: "Fundadora de “Be Healthy & Holistic”",
+        occupation: "Creadora & Product Manager de 'Be Healthy & Holistic' ",
         experience: {
           title: "Experiencia Profesional",
           text1:
@@ -256,42 +259,62 @@ export const appDataText = {
     },
 
     // Services español
+
     services: {
       title: "Nuestros servicios",
+
       naturalPeopleService: {
+        title: "Servicios Personas Naturales",
         serviceNaturalPeople1: {
-          title: "Psicoterapia",
+          title: "Psicoterapia individual y grupal adultos",
           phrase: "“Tú eres aquello que haces, no aquello que dices que harás”",
           description:
-            "Se ofrece psicoterapia breve de 8 a 10 sesiones de acuerdo a las necesidades y objetivos de cada persona, así como de elementos básicos a considerar desde enfoque psicología sistémica (relación con padres, parejas, historia infantil, adolescencia, rutinas en adultez).",
+            "Cada vez hay más estrategias y herramientas para conseguir resultados terapéuticos más eficaces, gracias a la continua investigación en el área de la psicología clínica y sanitaria. Hemos de tener en cuenta la problemática o trastorno a tratar por un lado, y el perfil y características del paciente, por otro, para recomendarle el tipo de servicio que necesita.",
+          benefits: {
+            title: "Beneficios",
+            description:
+              "Con sólo 8 sesiones, utilizaremos el clásico método de Terapia breve, con esto podrás tener un mapa acerca de ti, tu situación presente, tus heridas, recursos y un plan de acción personalizado!",
+          },
+          note: {
+            title: "Nota",
+            note:
+              "Nuestra mente tiene el potencial para ser feliz y saludable! Quizás manejes este dato, pero nuestro cerebro es como un portátil… ¿Cómo? Sí, es plástico por la neuroplasticidad cerebral, por ende, se puede amoldar, entrenar, programar, revisar, reiniciar, hibernar y claro dañar.",
+          },
+
+          subtitlelanguage: "Idioma : ",
+          language: "Español",
         },
         serviceNaturalPeople2: {
           title: "Terapias complementarias",
           phrase:
             "“Las emociones inexpresadas nunca mueren. Son enterradas vivas y salen más tarde de peores formas (Sigmund Freud)”",
-          subServicesTerapiasComplementarias: [
-            {
+          description:
+            "Terapias complementarias son aquellas que se utilizan conjuntamente con la medicina convencional indicadas por profesionales con la finalidad de complementar a un tratamiento convencional. Hay diversas terapias complementarias que pueden ser de ayuda para aliviar el dolor físico y emocional.",
+          terapiasComplementarias: {
+            terapia1: {
               title: "Respiración consciente",
               phrase: "“ Inhalo Vida y Salud, Exhalo Tensiones y gratitud”",
               description:
-                "Parece mentira que el recurso más maravilloso y accesible con que contamos los seres humanos para el restablecimiento de la salud y el equilibrio de nuestro sistema psico- fisico-emocional sea tan poco utilizado. Nuestro cuerpo sabe cómo respirar sólo necesitamos poner el foco en este recurso. Cuando esta función está bloqueada, limitada o inhibida por alguna situación de estrés o por un hábito de respiración inadecuado resulta afectada, alterándose entre otras cosas los ciclos del sueño, el nivel de energía, la memoria, la concentración o la templanza emocional.",
-              description2:
-                "Resulta vital presentar al diafragma como soporte y músculo principal de la respiración: es una malla elástica que separa la cavidad torácica de la cavidad abdominal. Cuando la respiración es óptima (Completa, Baja, Diafragmática o Yóguica para aquellos que sean practicantes), y durante la inhalación, el diafragma desciende sin restricciones ni limitaciones completando de aire la parte baja de los pulmones. Al mismo tiempo que relaja la tensión en la pared abdominal (habitualmente contraída, producto de los malos hábitos y el estrés), masajea los órganos bajos y el suelo pélvico. Al exhalar, el diafragma asciende hacia su posición natural, y un poco más también, donde junto con los pulmones, masajea suavemente al corazón vaciándose de aire para dar lugar al siguiente movimiento inhalatorio.",
-              Benefits: {
+                "Parece mentira que el recurso más maravilloso y accesible con que contamos los seres humanos para el restablecimiento de la salud y el equilibrio de nuestro sistema psico-físico-emocional sea tan poco utilizado.",
+              note: {
+                title: "Nota",
+                description:
+                  "Nuestro cuerpo sabe cómo respirar sólo necesitamos poner el foco en este recurso. Cuando esta función está bloqueada, limitada o inhibida por alguna situación de estrés o por un hábito de respiración inadecuado resulta afectada, alterándose entre otras cosas los ciclos del sueño, el nivel de energía, la memoria, la concentración o la templanza emocional.",
+              },
+              subtitlelanguage: "Idioma :",
+              language: "Español e Ingles",
+              benefits: {
                 title: "Beneficios",
-                Benefits: {
-                  title: "Beneficios",
-                  Benefits: [
-                    "Recuperación del equilibrio psico- físico- emocional",
-                    "Mejor manejo y gestión de las emociones",
-                    "Disminuyen miedos y temores",
-                    "Mejora las funciones esenciales del organismo",
-                    "Incrementa la creatividad",
-                    "Aumenta la capacidad de concentración",
-                    "Fortalece el sistema inmunitario",
-                    "Mejora la salud en general",
-                  ],
-                },
+                Benefits: [
+                  "Recuperación del equilibrio psico- físico- emocional",
+                  "Mejor manejo y gestión de las emociones",
+                  "Disminuyen miedos y temores",
+                  "Mejora las funciones esenciales del organismo",
+                  "Incrementa la creatividad",
+                  "Aumenta la capacidad de concentración",
+                  "Fortalece el sistema inmunitario",
+                  "Mejora la salud en general",
+                ],
               },
               tips: {
                 title: "Consejos para empezar a respirar adecuadamente",
@@ -304,16 +327,23 @@ export const appDataText = {
                 ],
               },
             },
-            {
+
+            terapia2: {
               title: "Alimentación consciente",
               phrase: "“ Como atento/a, me nutro, me doy lo que necesito”",
-              subtitle:
-                "¿Te ha pasado alguna vez que después de comer te has sentido pesada, incluso te ha dolido el estómago por haber comido demasiado?",
               description:
-                "La alimentación consciente se basa en darle la importancia que se merece al momento de comer. En otras palabras, estar presente mientras comemos, evitando distracciones, saboreando la comida. De forma calmada, aceptando nuestras sensaciones y sentimientos mientras comemos. De hecho, muchos programas para reducir peso utilizan esta técnica de atención plena.",
-              Benefits: {
+                "¿Te ha pasado alguna vez que después de comer te has sentido pesada, incluso te ha dolido el estómago por haber comido demasiado?",
+              description2:
+                "La alimentación consciente se basa en darle la importancia que se merece al momento de comer. En otras palabras, estar presente mientras comemos, evitando distracciones, saboreando la comida, elegir lo que comes.",
+              description3:
+                "Esto de forma calmada, aceptando nuestras sensaciones y sentimientos mientras comemos.",
+              description4:
+                "De hecho, muchos programas para reducir peso utilizan la técnica de “atención plena”",
+              subtitlelanguage: "Idioma :",
+              language: "Español e Ingles",
+              benefits: {
                 title: "Beneficios",
-                Benefits: [
+                benefits: [
                   "Promueve la concentración. Mientras comes de forma consciente y diriges toda tu atención a la tarea que realizas, también estás practicando la concentración.",
                   "Ayuda a diferenciar hambre psicológica y hambre fisiológica. A veces usamos la comida para hacernos sentir mejor, es decir, satisfacer nuestras necesidades emocionales. Por ejemplo, comer por aburrimiento, por tristeza o por estrés. Cuando estamos presentes, podemos diferenciar estas.",
                   "Mejora en controlar tu peso. Cuando estás atento a la comida, como la textura, el sabor, también estás practicando el auto-control. Este autocontrol ayuda a controlar lo que comemos, y necesitamos comer.",
@@ -324,27 +354,51 @@ export const appDataText = {
               tips: {
                 title: "Consejos",
                 tip: [
-                  "Antes de empezar a comer; observa la comida, los colores, las texturas, y agradécete que estás haciendo esto para cuidarte.",
-                  "Si tienes tiempo limitado, ponte una alarma y no vuelvas a mirar el reloj.",
-                  "Come sentado/a.",
-                  "Reduce las distracciones (apagar el móvil, el televisor)",
-                  "Corta las piezas de comida en trozos más pequeños, puedes incluso usar una cucharilla en lugar de una cuchara, o un plato más pequeño para reducir la ración.",
-                  "Identifica los sabores que sientes, sobretodo en los primeros bocados.",
-                  "Explora, come con la mano contraria a la que sueles comer",
-                  "Después de cada bocado, deja los cubiertos en la mesa",
+                  <div>
+                    Antes de empezar a comer; <strong>observa</strong> la
+                    comida, los colores, las texturas, y agradécete que estás
+                    haciendo esto para cuidarte.
+                  </div>,
+                  <div>
+                    Si tienes tiempo limitado, ponte una <strong>alarma</strong>{" "}
+                    y no vuelvas a mirar el reloj.
+                  </div>,
+                  <div>
+                    Come <strong>sentado/a</strong>.
+                  </div>,
+                  <div>
+                    Reduce las <strong>distracciones</strong> (apagar el móvil,
+                    el televisor)
+                  </div>,
+                  <div>
+                    Corta las piezas de comida en{" "}
+                    <strong>trozos más pequeños</strong>, puedes incluso usar
+                    una cucharilla en lugar de una cuchara, o un plato más
+                    pequeño para reducir la ración.
+                  </div>,
+                  <div>
+                    <strong>Explora</strong>, come con la mano contraria a la
+                    que sueles comer.
+                  </div>,
+                  <div>
+                    Después de cada bocado, <strong>deja los cubiertos</strong>{" "}
+                    en la mesa
+                  </div>,
                   "¿Cómo te sientes? ¿Tienes prisa? Permítete sentir y así, conocerte.",
                   "No te obligues a comer todo",
                 ],
               },
             },
-            {
+            terapia3: {
               title: "Asesorías en sexualidad",
               phrase:
                 "“ Dar produce más felicidad que recibir, no porque sea una privación, sino porque en el acto de dar está la expresión de mi vitalidad (Erich Fromm).",
               description:
                 "La consejería en salud sexual, es un servicio de prestación de información y acompañamiento a quien percibe que ciertos factores, eventos o conductas influyen determinantemente sus experiencias respecto a su sexualidad.",
               description2:
-                "Este espacio, no solo contempla ayudar a las personas que presentan un problema, si no también para aquellas que tienen un conjunto considerable de dudas que motivan consultar, para aquellos que tienen dificultades para enfrentar la educación sexual de sus hijos(as/es), y cualquier persona que tenga otras razones acorde a esta temática.",
+                "Este espacio, no solo contempla ayudar a las personas que presentan un problema, si no también para aquellas que tienen un conjunto considerable de dudas que motivan consultar,  para aquellos que tienen dificultades para enfrentar la educación sexual de sus hijos(as/es), y cualquier persona que tenga otras razones acorde a esta temática.",
+              subtitlelanguage: "Idioma :",
+              language: "Español",
               subServices: {
                 subtitle: "Vamos a mencionar algunos",
                 service: [
@@ -372,28 +426,25 @@ export const appDataText = {
                       "Este espacio presta un apoyo educativo y formativo, acorde a la etapa de la persona consultante, analiza la información adquirida personalmente respecto a su motivo de consulta, proporcionar recursos de apoyo que motiven una mayor autonomía, con objetivo de generar una base sólida sobre educación sexual que le permitirá una mejor toma de decisiones a futuro.",
                   },
                   {
-                    title: "Disfunciones Sexuales.",
+                    title: "Disfunciones sexuales.",
                     description:
                       "El aporte de este espacio es la administración de elementos educativos y terapéuticos, ya que se presta información sobre las características de la disfunción que adolece, se analizan los factores que influyen en la mantención de esta complicación, para posteriormente proporcionar herramientas técnicas con el fin de establecer un mejor manejo en la persona, re significando su experiencia y favoreciendo la reactivación de la vida sexual.",
                   },
                 ],
               },
             },
-            {
+            terapia4: {
               title: "Acompañamiento medicina huevo Yoni",
-              phrase: "",
+              phrase:
+                "“Reencuéntrate con el centro energético, tu útero, tu matriz, el amor y fuerza propia”",
               description:
                 "¿Has escuchado hablar de los huevos yoni? Es muy probable que sí, pues en los últimos años se han convertido en una tendencia en el mundo holístico y enfoque vibracional en los temas relacionados con la sanación de la energía sexual, el empoderamiento sexual femenino y la salud sexual de la mujer.",
               description2:
                 "El nombre de estos huevos proviene de la palabra sánscrita yoni, que significa “espacio sagrado” y se suele usar para referirse indistinta o conjuntamente al útero, vulva, vagina o vientre, en el sentido de “fuente de vida”.",
               description3:
                 "Los huevos yoni son piedras preciosas y semipreciosas (cuarzo cristal, cuarzo rosa, jade, obsidiana, amatista, ópalo y aventurina, principalmente) talladas en forma de huevo, con el fin de insertarlas en la vagina durante periodos variables, para obtener sus beneficios físicos y energéticos.",
-              description4:
-                "A estos huevos se les atribuyen diversos beneficios a nivel físico, emocional, energético y sexual. Se dice que su uso proviene de la antigua China, donde sólo eran usados por las reinas y las concubinas del emperador, y está relacionado con las técnicas taoístas.",
-              description5:
-                "En el nivel físico, al introducirlos en la vagina, estos huevos ayudan a fortalecer los músculos vaginales y el suelo pélvico en general, con un efecto similar al de los ejercicios de Kegel. De esta manera, contribuyen a mejorar el flujo sanguíneo en la vagina y la potencia orgásmica de la mujer.",
-              description6:
-                "Por otro lado, ya que a las piedras de las que están elaborados se les atribuyen propiedades energéticas, se cree que al ser introducidos en la vagina, ayudan a la mujer a sanar y potenciar su energía sexual, cada mujer requiere de un mineral, de acuerdo a sus heridas emocionales y físicas, juntas vamos a escogerlos.",
+              subtitlelanguage: "Idioma :",
+              language: "Español",
               use: {
                 title: "¿Cómo se usan los huevos yoni?",
                 description:
@@ -417,7 +468,7 @@ export const appDataText = {
                 ],
               },
             },
-            {
+            terapia5: {
               title: "Carta Astral",
               phrase:
                 "“Fortalezas y debilidades de mi personalidad según tu signo del Zodiaco, que debes conocer para ser un triunfador”",
@@ -427,13 +478,28 @@ export const appDataText = {
                 "Una Carta Natal es un informe personalizado e individual que se elabora en base a tu fecha, hora y lugar de nacimiento. Se requieren esos datos porque con ellos se calcula la posición de los planetas en el cielo en ese mismo momento en que llegaste a esta Tierra y a esta Vida.",
               description3:
                 "Este informe conlleva datos acerca de tu configuración tanto a nivel físico, como emocional y mental y, hasta es posible, determinar cierta línea de aprendizaje que has de transitar de una u otra manera a lo largo de tu vida.",
+              subtitlelanguage: "Idioma :",
+              language: "Español",
               Benefits: {
                 title: "Beneficios",
-                description:
-                  "Por ejemplo, conocer la posición de nuestra Luna natal nos permite acceder a cómo es nuestro mundo interno, nuestro ámbito emocional, el inconsciente, y todo lo referido a nuestros primeros años de vida. La relación con nuestra figura materna y la disposición para las relaciones afectivas. Si, generalmente, experimentamos angustias o muchas dificultades en tu manera de expresar las emociones, puedes pedirle a tu profesional de confianza que, al elaborar tu Carta Natal, haga foco y profundice en tu Luna Natal.",
+                description: (
+                  <div>
+                    Por ejemplo,{" "}
+                    <strong>conocer la posición de nuestra Luna natal</strong>{" "}
+                    nos permite acceder a cómo es nuestro mundo interno, nuestro
+                    ámbito emocional, el inconsciente, y todo lo referido a
+                    nuestros primeros años de vida. La relación con nuestra{" "}
+                    <strong>figura materna</strong> y la disposición para las
+                    <strong>relaciones afectivas</strong>. Si, generalmente,
+                    experimentamos angustias o muchas dificultades en tu manera
+                    de expresar las emociones, puedes pedirle a tu profesional
+                    de confianza que, al elaborar tu Carta Natal, haga foco y
+                    profundice en tu Luna Natal.
+                  </div>
+                ),
               },
             },
-            {
+            terapia6: {
               title: "Constelaciones familiares",
               phrase:
                 "“Quien sana su lealtad familiar, puede alcanzar todo su potencial”.",
@@ -441,39 +507,57 @@ export const appDataText = {
                 "Una Constelación Familiar es un proceso terapéutico que trabaja sobre la parte más profunda de nuestra conciencia. La teoría sobre la que se basa esta técnica es que las personas poseemos ciertos anclajes negativos inconscientes, que nos transmiten sentimientos dolorosos y de los cuales a veces no sabemos desprendernos. Estos anclajes nos conducen a menudo a reproducir determinados comportamientos o vivir ciertas situaciones negativas de forma repetida, sin que sepamos muy bien cómo solucionarlo.",
               description2:
                 "Bert Hellinger, psicoterapeuta alemán y ex sacerdote desarrolló este método a mediados de la década de 1990 y es el fundador de esta técnica. A lo largo de su trayectoria ha tratado y estudiado a familias durante más de 50 años, y observó que muchos de nosotros utilizamos inconscientemente patrones familiares destructivos que nos conducen hacia la ansiedad, la depresión, la ira, la culpa, la soledad, el alcoholismo e incluso la enfermedad como una forma de «pertenencia» a nuestras familias.",
+              subtitlelanguage: "Idioma :",
+              language: "Español",
               Benefits: {
                 title: "Beneficios",
                 description:
-                  "Es una manera de explorar y mejorar la dinámica familiar. Constelar nos sirve para comprender y sanar problemas. Sirve para tomar decisiones. Constelar es una acción muy corta, muy puntual y muy fuerte. Esto hace que rápidamente obtengamos información y comprensión sobre un problema que nos preocupa.",
+                  "Es una manera de explorar y mejorar la dinámica familiar.",
+                description2:
+                  "Constelar nos sirve para comprender y sanar problemas.",
+                description3:
+                  "Constelar es una acción muy corta, muy puntual y muy fuerte. Esto hace que rápidamente obtengamos información y comprensión sobre un problema que nos preocupa.",
               },
-              uso: [
-                "Dificultades en las relaciones familiares.",
-                "Desarrollo personal.",
-                "Traumas de la infancia.",
-                "Conflictos de pareja, actual o relaciones del pasado",
-                "Problemas con los hijos.",
-                "Orientación en momentos vitales de cambio.",
-                "Depresión, tristeza y melancolía, con o sin causa aparente.",
-                "Pérdidas y duelos – Superar sucesos trágicos.",
-                "Recursos para afrontar enfermedades.",
-                "Exclusión y problemas de relaciones sociales.",
-                "Destinos difíciles (muertes prematuras, abortos).",
-                "Sentimiento de Auto-sabotaje para no conseguir éxito económico, profesional, o personal.",
-                "Orientación a nivel profesional y proyectos.",
-              ],
+              uso: {
+                title: "Temas que se pueden constelar :",
+                uso: [
+                  "Dificultades en las relaciones familiares.",
+                  "Desarrollo personal.",
+                  "Traumas de la infancia.",
+                  "Conflictos de pareja, actual o relaciones del pasado",
+                  "Problemas con los hijos.",
+                  "Orientación en momentos vitales de cambio.",
+                  "Depresión, tristeza y melancolía, con o sin causa aparente.",
+                  "Pérdidas y duelos – Superar sucesos trágicos.",
+                  "Recursos para afrontar enfermedades.",
+                  "Exclusión y problemas de relaciones sociales.",
+                  "Destinos difíciles (muertes prematuras, abortos).",
+                  "Sentimiento de Auto-sabotaje para no conseguir éxito económico, profesional, o personal.",
+                  "Orientación a nivel profesional y proyectos.",
+                ],
+              },
             },
-            {
+            terapia7: {
               title: "Tarot Terapéutico",
               phrase:
-                "“ Reflexiona a través de preguntas casuales, pero conectadas”",
+                "“Reflexiona a través de preguntas casuales, pero conectadas”",
               description:
-                "El Tarot Terapéutico es una orientación y una guía que ayuda a quien lo consulte para descubrir dónde nacen las raíces de sus problemas y para que el mismo consultante pueda fluir liberando sus bloqueos. La persona que acuda a su consejo le hará frente a las verdades que el Tarot le muestra y lo impulsará a tener otra visión más abierta, resolutiva y positiva.",
+                "El Tarot Terapéutico es una orientación y una guía que ayuda a quien lo consulte para descubrir dónde nacen las raíces de sus problemas y para que el mismo consultante pueda fluir liberando  sus bloqueos. La persona que acuda a su consejo le hará frente a las verdades que el Tarot le muestra y lo impulsará a tener otra visión más abierta, resolutiva y positiva.",
               description2:
                 "Tarot es una herramienta maravillosa que no se centra en la predicción del futuro sino que observa el presente y nos sitúa en él. A través de la energía de las cartas y su significado, nos despierta al autoconocimiento para que podamos tomar decisiones desde otra perspectiva y, así, sanar y liberar los procesos de crecimiento.",
-              description3:
-                "Somos quienes somos por las decisiones que tomamos y somos responsables de lo que suceda en nuestra vida&quot;, es uno de sus principios. Todo lo que atraemos es porque está en sintonía con lo que sentimos.",
+              description3: (
+                <div>
+                  <strong>
+                    Somos quienes somos por las decisiones que tomamos y somos
+                    responsables de lo que suceda en nuestra vida
+                  </strong>
+                  , es uno de sus principios.
+                </div>
+              ),
               description4:
-                "Las cartas de Tarot nos mostrarán estados de conciencia y cómo se manifiestan para bien o para mal.",
+                "Todo lo que atraemos es porque está en sintonía con lo que sentimos. Las cartas de Tarot nos mostrarán estados de conciencia y cómo se manifiestan para bien o para mal.",
+              subtitlelanguage: "Idioma :",
+              language: "Español e Ingles",
               Benefits: {
                 title: "Beneficios",
                 descriptionBenefits:
@@ -482,15 +566,30 @@ export const appDataText = {
                   "Lo que permite esta herramienta es conocer hechos, comprenderlos y resolverlos: según cómo utilicemos nuestras capacidades será el resultado en nuestro destino.",
               },
             },
-          ],
+          },
         },
         serviceNaturalPeople3: {
-          title: "Charlas a padres para prevenir abuso sexual infantil",
-          phrase: "“Tú eres aquello que haces, no aquello que dices que harás”",
+          title: "Charlas preventivas abuso sexual infantil (ASI) ",
+          // phrase: "“Tú eres aquello que haces, no aquello que dices que harás”",
           description:
-            "Destinado para padres, abuelos o cuidadores de un niño menor de edad, para identificar señales de abuso sexual infantil y cómo proceder de acuerdo al marco ético, legal y emocional. Las agresiones sexuales infantiles están tipificadas como delito, ocurre bastante que cuando un adulto toma conocimiento o recibe relato de este tipo, no sabe lo que debe hacer. Como personas naturales, que reciben un relato de abuso sexual infantil, tenemos un plazo de 48 horas para denunciar a la entidadad judicial que corresponde, o estaremos incurriendo en un delito. Además en términos terapéuticos, la primera respuesta ante una revelación de una situación abusiva, influye notoriamente en el pronóstico de recuperación de un niño o adolescente.",
+            "“El abuso sexual infantil (ASI) es la utilización de un niño/a u adolescente, por un adulto para la satisfacción sexual de sí mismo o de otros”",
           description2:
-            "Es muy importante saber que la mayoría de veces el abusador o abusadora está en casa, el abuso tiene un 75% de prevalencia intrafamiliar. Por eso, acompañar a las familias para que desarrollen habilidades protectoras es muy importante, solo así se puede prevenir cualquier abuso hacia la infancia. O en caso que ya la hubiese sufrido, trabajar la temática y el vínculo parental podría ocasionar en algún momento del desarrollo una develación de tipo tardía, en donde se requieren acciones legales y profesionales.",
+            "Servicio de orientación destinado para padres, cuidadores, adultos en general, para identificar señales de este complejo fenómeno, desde un enfoque preventivo",
+          benefits: {
+            title: "Beneficios de la charla",
+            description:
+              "Podrás detectar posibles señales de abuso sexual infantil en un infante.",
+            description2:
+              "Recibirás orientación en cuanto a; cómo proceder de acuerdo con el marco ético, legal y emocional.",
+          },
+          note: {
+            title: "Nota",
+            note:
+              "Es relevante saber que la mayoría de las veces el agresor/a está en casa, es decir, el agresor/a es parte del grupo familiar. El ASI tiene un 75% de prevalencia intrafamiliar. Por eso, orientar a las familias para que desarrollen habilidades protectoras es vital, para la prevención del fenómeno.",
+          },
+
+          subtitlelanguage: "Idioma : ",
+          language: "Español",
           tips: {
             subtitle: "¿Cómo prevenir el Abuso Sexual Infantil?",
             tip: [
@@ -515,7 +614,7 @@ export const appDataText = {
               "Alteraciones del lenguaje y la motricidad.",
               "Aislamiento.",
               "Agresividad.",
-              "Miedo generalizado o ante la presencia de determinadas personas.",
+              "Miedo generalizado ante la presencia de determinadas personas.",
               "Dificultad para expresar sentimientos",
               "Conocimiento y términos sexuales inapropiados para la edad.",
               "*La presencia de alguno de estos comportamientos no siempre implica que un niño o niña ha sido víctima de abuso sexual.",
@@ -523,10 +622,14 @@ export const appDataText = {
           },
         },
         serviceNaturalPeople4: {
-          title: "Prestaciones Jurídicas:",
+          title: "Prestaciones Jurídicas",
+          phrase: "“El poder del abogado, está en la incertidumbre de la ley”",
           description:
-            "Desarrollar asesorías jurídicas cercanas a las personas, que permita la solución efectiva de sus conflictos, mejorando sustancialmente la calidad y eficiencia en los recursos disponibles.",
+            "Tiene como objetivo desarrollar asesorías jurídicas cercanas a las personas, que permita la solución efectiva de sus conflictos, mejorando sustancialmente la calidad y eficiencia en los recursos disponibles.",
+          subtitlelanguage: "Idioma :",
+          language: "Español",
           subservices: {
+            title: "¿En qué materias?",
             subservice1: {
               title: "En materia de Familia :",
               description:
@@ -546,53 +649,71 @@ export const appDataText = {
         },
       },
       profesionalServices: {
-        serviceProfesionalServices1: {
-          title: "Entrenamiento profesional",
-          phrase:
-            "“ La línea entre el bien y el mal es permeable y casi cualquiera puede ser inducido a cruzarla cuando se ve presionado por fuerzas situacionales (Philip Zimbardo).”",
-          descriptionParagraph1:
-            "El entrenamiento es la educación profesional que busca adaptar al psicólogo a determinado cargo que incluya diagnóstico psicosocial para categorizar nivel de daño asociado a experiencias traumáticas y violentas como maltrato y agresiones sexuales. Sus objetivos se sitúan a corto plazo, son limitados e inmediatos, buscando dar al individuo los elementos esenciales para el ejercicio profesional en un cargo u organización, e implica la transmisión de conocimientos, ya sea información de la empresa, de sus productos, servicios, su organización, su política, etc. En segunda medida, implica un desarrollo de habilidades, entendido como un entrenamiento orientado a las tareas y operaciones que van a ejecutarse.",
-          descriptionParagraph2:
-            "Hablar de agresiones sexuales o experiencias violentas, es abordar un fenómeno complejo por la urgencia de “rescatar”, así como de evaluar el riesgo o el daño e intervenir para ayudar a la presunta víctima. Implica también correr velos en los que la culpa, el secreto y la vergüenza hacen estragos y contribuyen, de manera encubierta, a que el abuso infantil continúe.",
-          descriptionParagraph3:
-            "En los países iberoamericanos existe elevada incidencia del fenómeno, sin embargo, se estima altas cifras no develadas de casos que no fueron detectados ni denunciados en el momento oportuno. Por ello la importancia de conocer los fundamentos conceptuales, teóricos, los factores de riesgo, tipologías, perfiles psicológicos de los ofensores sexuales y el estado de vulnerabilidad de las víctimas de abuso sexual para poder prevenir.",
-          descriptionParagraph4:
-            "La Intervención Pericial en Abuso Sexual se está convirtiendo en el principal requerimiento de asesoría profesional tanto en ámbitos jurídico públicos como privados. La evaluación psicológica forense, la psicología del testimonio, la valoración de daño psicológico y el abordaje criminalístico del abuso infantil, es una de las principales obligaciones de capacitación o especialización para todos los profesionales que abordan el Abuso Sexual Infantil.",
-          descriptionParagraph5:
-            "Esta formación práctica y fuera del espacio universitario surge como respuesta a la necesidad de brindar formación integral para contribuir a la prevención, detección y atención de agresiones sexuales mediante el reconocimiento de los principales aspectos que lo constituyen.",
-          descriptionParagraph6:
-            "Tiene como finalidad proporcionar herramientas prácticas para la prevención, la detección y la intervención psicológica en niños y adolescentes víctimas de abuso sexual, haciendo énfasis en el Peritaje Forense.",
-        },
-        serviceProfesionalServices2: {
-          title: "Psicoterapia para terapeutas",
-          phrase:
-            "“ Nos encontramos constantemente con grandes oportunidades que están brillantemente enmascaradas con problemas irresolubles”.",
-          descriptionParagraph1:
-            "En la sociedad actual aún permanecen y se mantienen una gran cantidad de falsas creencias y mitos acerca del trabajo que realizan los psicólogos o cómo estos deberían ser como personas y profesionales.",
-          descriptionParagraph2:
-            "Un psicólogo tiene la capacidad de ayudar a la persona a enfrentarse a situaciones que, en ocasiones, pueden llegar a superarla y causarle un gran malestar emocional. Sin embargo, esto no implica que los profesionales en psicología no sufran o se sientan angustiados por circunstancias de la vida cotidiana y, por lo tanto, también necesiten la asistencia de otro profesional.",
-          subtitle: "Los psicólogos conocen la importancia de la salud mental",
-          descriptionParagraph3:
-            "No es necesario sufrir un trastorno ni una enfermedad mental para decidir acudir a un terapéuta, igual que tampoco es necesario esperar a que una leve aflicción se convierta en algo más grave, y eso los psicólogos lo comprenden mejor que nadie.",
-          descriptionParagraph4:
-            "Por lo tanto, un psicólogo, al igual que cualquier otra persona, es consciente de que sin salud mental no existe salud de ninguna clase y puede desear acudir a otro profesional para aumentar o mantener su estado de bienestar emocional y así poder disfrutar de una vida plena y satisfactoria.",
-          subtitle2:
-            "Finalmente, los psicólogos saben que disfrutar de una salud mental positiva es esencial por tres razones de base:",
-          descriptionParagraph5: [
-            "Para poder enfrentarse a las dificultades normales que surgen en el día a día.",
-            "Para conservar y mantener la motivación necesaria para conseguir las aspiraciones y objetivos personales.",
-            "Para favorecer y contribuir de forma positiva en el ambiente que le rodea.",
-          ],
-        },
+        // serviceProfesionalServices1: {
+        //   title: "Entrenamiento profesional",
+        //   phrase:
+        //     "“ La línea entre el bien y el mal es permeable y casi cualquiera puede ser inducido a cruzarla cuando se ve presionado por fuerzas situacionales (Philip Zimbardo).”",
+        //   descriptionParagraph1:
+        //     "El entrenamiento es la educación profesional que busca adaptar al psicólogo a determinado cargo que incluya diagnóstico psicosocial para categorizar nivel de daño asociado a experiencias traumáticas y violentas como maltrato y agresiones sexuales. Sus objetivos se sitúan a corto plazo, son limitados e inmediatos, buscando dar al individuo los elementos esenciales para el ejercicio profesional en un cargo u organización, e implica la transmisión de conocimientos, ya sea información de la empresa, de sus productos, servicios, su organización, su política, etc. En segunda medida, implica un desarrollo de habilidades, entendido como un entrenamiento orientado a las tareas y operaciones que van a ejecutarse.",
+        //   descriptionParagraph2:
+        //     "Hablar de agresiones sexuales o experiencias violentas, es abordar un fenómeno complejo por la urgencia de “rescatar”, así como de evaluar el riesgo o el daño e intervenir para ayudar a la presunta víctima. Implica también correr velos en los que la culpa, el secreto y la vergüenza hacen estragos y contribuyen, de manera encubierta, a que el abuso infantil continúe.",
+        //   descriptionParagraph3:
+        //     "En los países iberoamericanos existe elevada incidencia del fenómeno, sin embargo, se estima altas cifras no develadas de casos que no fueron detectados ni denunciados en el momento oportuno. Por ello la importancia de conocer los fundamentos conceptuales, teóricos, los factores de riesgo, tipologías, perfiles psicológicos de los ofensores sexuales y el estado de vulnerabilidad de las víctimas de abuso sexual para poder prevenir.",
+        //   descriptionParagraph4:
+        //     "La Intervención Pericial en Abuso Sexual se está convirtiendo en el principal requerimiento de asesoría profesional tanto en ámbitos jurídico públicos como privados. La evaluación psicológica forense, la psicología del testimonio, la valoración de daño psicológico y el abordaje criminalístico del abuso infantil, es una de las principales obligaciones de capacitación o especialización para todos los profesionales que abordan el Abuso Sexual Infantil.",
+        //   descriptionParagraph5:
+        //     "Esta formación práctica y fuera del espacio universitario surge como respuesta a la necesidad de brindar formación integral para contribuir a la prevención, detección y atención de agresiones sexuales mediante el reconocimiento de los principales aspectos que lo constituyen.",
+        //   descriptionParagraph6:
+        //     "Tiene como finalidad proporcionar herramientas prácticas para la prevención, la detección y la intervención psicológica en niños y adolescentes víctimas de abuso sexual, haciendo énfasis en el Peritaje Forense.",
+        // },
+        // serviceProfesionalServices2: {
+        //   title: "Psicoterapia para terapeutas",
+        //   phrase:
+        //     "“ Nos encontramos constantemente con grandes oportunidades que están brillantemente enmascaradas con problemas irresolubles”.",
+        //   descriptionParagraph1:
+        //     "En la sociedad actual aún permanecen y se mantienen una gran cantidad de falsas creencias y mitos acerca del trabajo que realizan los psicólogos o cómo estos deberían ser como personas y profesionales.",
+        //   descriptionParagraph2:
+        //     "Un psicólogo tiene la capacidad de ayudar a la persona a enfrentarse a situaciones que, en ocasiones, pueden llegar a superarla y causarle un gran malestar emocional. Sin embargo, esto no implica que los profesionales en psicología no sufran o se sientan angustiados por circunstancias de la vida cotidiana y, por lo tanto, también necesiten la asistencia de otro profesional.",
+        //   subtitle: "Los psicólogos conocen la importancia de la salud mental",
+        //   descriptionParagraph3:
+        //     "No es necesario sufrir un trastorno ni una enfermedad mental para decidir acudir a un terapéuta, igual que tampoco es necesario esperar a que una leve aflicción se convierta en algo más grave, y eso los psicólogos lo comprenden mejor que nadie.",
+        //   descriptionParagraph4:
+        //     "Por lo tanto, un psicólogo, al igual que cualquier otra persona, es consciente de que sin salud mental no existe salud de ninguna clase y puede desear acudir a otro profesional para aumentar o mantener su estado de bienestar emocional y así poder disfrutar de una vida plena y satisfactoria.",
+        //   subtitle2:
+        //     "Finalmente, los psicólogos saben que disfrutar de una salud mental positiva es esencial por tres razones de base:",
+        //   descriptionParagraph5: [
+        //     "Para poder enfrentarse a las dificultades normales que surgen en el día a día.",
+        //     "Para conservar y mantener la motivación necesaria para conseguir las aspiraciones y objetivos personales.",
+        //     "Para favorecer y contribuir de forma positiva en el ambiente que le rodea.",
+        //   ],
+        // },
         serviceProfesionalServices3: {
           title: "Supervisión de casos",
           phrase: "“Sigue a tu corazón pero lleva contigo a tu cerebro”",
-          descriptionParagraph1:
-            "El estudio de casos consiste en un método o técnica de investigación cualititiva, habitualmente utilizado en las ciencias de la salud y sociales, el cual se caracteriza por precisar de un proceso de búsqueda e indagación, así como el análisis sistemático de uno o varios casos a fin de resolver nudos criticos en la intervencion y elaborar planes de acción personalizados y reales.",
-          descriptionParagraph2:
-            "El estudio de casos se realiza con la intención de elaborar una serie de hipótesis o teorías acerca de un tópico, paciente o familia para así, a raíz de estas hipotesis mejorar en el ejercicio profesional.",
-          descriptionParagraph3:
-            "No obstante, el estudio de casos puede llevarse a cabo tanto con una sola persona como objeto de investigación, como con varios sujetos que poseen unas características determinadas. Para ello, la persona o personas que llevan a cabo el estudio de caso recurren a técnicas com la observación o la administración de cuestionarios o pruebas psicológicas, entrevistas, entre otros.",
+          descriptionParagraph1: (
+            <div>
+              El <stron>estudio de casos</stron> consiste en un método o técnica
+              de investigación cualitativa, habitualmente utilizado en las
+              ciencias de la salud y sociales, el cual se caracteriza por
+              precisar de un proceso de búsqueda e indagación, así como el{" "}
+              <stron>análisis</stron> sistemático de uno o varios{" "}
+              <stron>casos</stron> a fin de resolver nudos críticos en la
+              intervención y elaborar planes de acción personalizados y reales.
+            </div>
+          ),
+          note: [
+            <strong>
+              Los psicólogos conocen la importancia de la salud mental
+            </strong>,
+            <div>
+              Analizar conjuntamente nuestro quehacer profesional y la{" "}
+              <strong>contratransferencia</strong>. Esto ocurre cuando el
+              analista transfiere elementos de sus problemas pasados o presentes
+              al paciente que está siendo objeto de análisis.
+            </div>,
+            "Un psicólogo tiene la capacidad de ayudar, puede enfrentarse a situaciones que, en ocasiones, pueden llegar a superarlo y causarle un gran malestar emocional.",
+            "Nos rige un código de ética que nos invita a revisar qué nos ocurre personalmente con algunos casos.",
+          ],
           subtitle: "¿Cómo se realiza?",
           step: [
             "Se selecciona un caso",
@@ -606,57 +727,68 @@ export const appDataText = {
         },
       },
       companiesServices: {
-        title: "Elaboración de programas semestral o anual de auto cuidado",
+        title: "Elaboración de programas semestral o anual de Autocuidado",
         phrase:
           "“Cuando miro el mundo soy pesimista, pero cuando miro a la gente soy optimista”",
-        descriptionParagraph1:
-          "Trabajar profesionalmente en áreas de políticas públicas, implica asumir múltiples impactos, asociados a la temática y a la organización de la tarea. Esto ha llevado a que Plan de autocuidado sea una tarea a cumplir en las organizaciones. El objeto del estudio es identificar las estrategias de los profesionales, a nivel individual y de equipo, y conocer la percepción de efectividad de éstas. Se utiliza una metodología cualitativa, con entrevistas y el análisis de los datos para pesquisar estrategias: individuales extra- laborales y laborales; de equipo, recreativas y laborales y necesidades de dichos espacios.",
+        descriptionParagraph1: (
+          <div>
+            Trabajar profesionalmente en áreas de políticas públicas, implica
+            asumir múltiples desafíos y consecuencias, asociados a la temática y
+            a la organización de la tarea y en ocasiones lleva a los
+            profesionales a padecer <strong>burnout</strong>
+          </div>
+        ),
         descriptionParagraph2:
-          "Se elabora plan de autocuidado personalizado desde enfoque psicología positiva , logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información el presupuesto para este ítem es bajo.",
+          "Esto ha llevado a que Plan de autocuidado sea una tarea que cumplir en las organizaciones. El objeto del estudio es identificar las estrategias de los profesionales, a nivel individual y de equipo, y conocer la percepción de efectividad de éstas.",
         descriptionParagraph3:
-          "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización.",
-      },
-      offer: {
-        title:
-          "Por si aún no estas convencido de iniciar tu proceso de transformación",
-        subtitle: "Te ofrecemos :",
-        // text: "Sesión individual diagnóstica, incluye herramienta psicológica",
-        // text1: "Sesión de retroalimentación y devolución diagnóstica.",
-        // text2: "Aplicaciónn test gratuito",
-        text: "Aplicación test gratuito",
-        text1: "Sesión psicológica diagnóstica",
-        text2: "Sesión de retroalimentación y apreciación clínica",
-
-        text3: "Ahorrarás hasta un 50%",
-        buttonText: "Comienza aquí",
-      },
-      servicesListForm: {
-        title: "Selecciona un servicios",
-        services: {
-          naturalPeople: {
-            service1: "Psicoterapia breve Adultos",
-            service2: "Terapias complementarias",
-            service3: "Charlas Preventivas Abuso Sexual Infantil",
-            service4: "Prestaciones Jurídicas",
-            subservice: {
-              title: "Terapias complementarias",
-              subservice1: "Respiración consciente",
-              subservice2: "Alimentación consciente",
-              subservice3: "Asesorías en sexualidad",
-              subservice4: "Acompañamiento medicina huevo Yoni",
-              subservice5: "Carta Astral",
-              subservice6: "Constelaciones familiares",
-              subservice7: "Tarot Terapéutico",
-            },
-          },
-          profesionalServices: {
-            service1: "Entrenamiento profesional",
-            service2: "Psicoterapia para terapeutas",
-            service3: "Supervisión de casos",
-          },
-          companiesServices: {
-            service1:
-              "Elaboración de programas semestral o anual de auto cuidado",
+          "Se elabora plan de autocuidado a distancia, personalizado desde enfoque psicología positiva, logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información  el presupuesto para este ítem es bajo",
+        descriptionParagraph4:
+          "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización y se habilita a las jefaturas para poder implementarlos como parte de sus espacios de descompresión.",
+        note:
+          "La Organización Mundial de la Salud (OMS) ha procedido al reconocimiento oficial del burnout o “síndrome de estar quemado” o de desgaste profesional como enfermedad tras la ratificación de la revisión número 11 de la Clasificación Estadística Internacional de Enfermedades y Problemas de Salud Conexos (CIE-11)",
+        note2:
+          "El término 'burnout' fue acuñado por primera vez en 1974 por Herbert Freudenberger, en su libro “Burnout: The High Cost of High Achievement” Por lo general, el trastorno es consecuencia de un estrés laboral crónico, y se caracteriza por un estado de agotamiento emocional, una actitud cínica o distante frente al trabajo (despersonalización), y una sensación de ineficacia y de no hacer adecuadamente las tareas. A ello se suma la pérdida de habilidades para la comunicación.",
+        note3:
+          "El Síndrome de Burnout se incluye así entre los principales problemas de salud mental y en la antesala de muchas de las patologías psíquicas derivadas de un escaso control y de la carencia de una prevención primaria de este síndrome.",
+        sintomas: {
+          subtitle:
+            "Entre los signos y síntomas más comunes de agotamiento se destacan :",
+          sintomas: {
+            sintomas1: (
+              <div>
+                <strong>
+                  La alienación de las actividades relacionadas con el trabajo :
+                </strong>{" "}
+                las personas que experimentan agotamiento ven sus trabajos como
+                cada vez más estresantes y frustrantes. Pueden volverse cínicos
+                sobre sus condiciones de trabajo y las personas con las que
+                trabajan
+              </div>
+            ),
+            sintomas2: (
+              <div>
+                <strong>Síntomas físicos :</strong> el estrés crónico puede
+                provocar síntomas físicos, como dolores de cabeza y de estómago
+                o problemas intestinales.
+              </div>
+            ),
+            sintomas3: (
+              <div>
+                <strong>Agotamiento emocional :</strong> el agotamiento causa
+                que las personas se sientan agotadas, incapaces de hacer frente
+                y cansadas. A menudo les falta energía para hacer su trabajo.
+              </div>
+            ),
+            sintomas4: (
+              <div>
+                <strong>Rendimiento reducido :</strong> el agotamiento afecta
+                principalmente las tareas cotidianas en el trabajo, o en el
+                hogar, cuando el trabajo principal de alguien consiste en cuidar
+                a los miembros de la familia. Los individuos con agotamiento se
+                sienten negativos sobre las tareas. Tienen dificultad para
+                concentrarse y, a menudo, carecen de creatividad.
+              </div>
+            ),
           },
         },
       },
@@ -707,7 +839,6 @@ export const appDataText = {
       },
       transferData: {
         title: "Datos para transferencias",
-        // nuevo
         text:
           "Pagos se realizan 15 minutos antes de la sesión individual, para otros servicios se reserva cupo con 50% del valor.",
         europe: {
@@ -755,6 +886,36 @@ export const appDataText = {
               <strong>Rut :</strong> 17.986.034-1
             </div>
           ),
+        },
+      },
+      servicesListForm: {
+        title: "Selecciona un servicios",
+        services: {
+          naturalPeople: {
+            service1: "Psicoterapia breve Adultos",
+            service2: "Terapias complementarias",
+            service3: "Charlas Preventivas Abuso Sexual Infantil",
+            service4: "Prestaciones Jurídicas",
+            subservice: {
+              title: "Terapias complementarias",
+              subservice1: "Respiración consciente",
+              subservice2: "Alimentación consciente",
+              subservice3: "Asesorías en sexualidad",
+              subservice4: "Acompañamiento medicina huevo Yoni",
+              subservice5: "Carta Astral",
+              subservice6: "Constelaciones familiares",
+              subservice7: "Tarot Terapéutico",
+            },
+          },
+          profesionalServices: {
+            service1: "Entrenamiento profesional",
+            service2: "Psicoterapia para terapeutas",
+            service3: "Supervisión de casos",
+          },
+          companiesServices: {
+            service1:
+              "Elaboración de programas semestral o anual de auto cuidado",
+          },
         },
       },
     },
