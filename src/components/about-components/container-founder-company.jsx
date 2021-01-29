@@ -7,7 +7,6 @@ import teamImage from "../../images/imageAbout/caro_remove.png";
 import ButtonApp from "../button";
 
 function ContainerFounderCompany() {
-  console.log("appDataText.espanol.aboutUs", appDataText.espanol.aboutUs);
   return (
     <Fragment>
       <div className={styles.containerTeamPresentationComponent}>

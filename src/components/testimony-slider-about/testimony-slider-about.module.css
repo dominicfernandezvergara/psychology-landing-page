@@ -19,13 +19,14 @@
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .title {
+  display: flex;
   text-transform: uppercase;
-  font-size: 22px;
-  padding-top: 20px;
-  margin-bottom: 10px;
+  font-size: 20px;
   text-align: center;
-  letter-spacing: 1px;
-  color: var(--darkPrimaryColor);
+  justify-content: center;
+  color: var(--primaryColor);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .testimonyTitle {
   color: var(--darkPrimaryColor);
@@ -59,7 +60,6 @@
 }
 .text {
   padding: 0px 20px;
-  font-family: cursive;
 }
 .comillaEnd {
   font-size: 80px;
@@ -77,25 +77,22 @@
 }
 
 @media screen and (min-width: 768px) {
-  .title {
+  /* .title {
     font-size: 30px;
-  }
+  } */
   .containerTestimonySlider :global(.slick-slider) {
-    width: 500px;
+    width: 600px;
   }
 }
 @media screen and (min-width: 1024px) {
   .title {
-    font-size: 30px;
-  }
-  .testimonyTitle {
     font-size: 24px;
-  }
-  .testimonySubtitle {
-    font-size: 20px;
   }
   .containerTestimonySlider :global(.slick-slider) {
     width: 800px;
+  }
+  .testimonySubtitle {
+    font-size: 20px;
   }
   .testimonyText {
     max-height: 195px;
@@ -112,5 +109,10 @@
   .testimonyText {
     max-height: 195px;
     padding: 0px 90px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 30px;
   }
 }

@@ -7,14 +7,12 @@ import PeopleCategoryServices from "../../components/services-components/people-
 import TerapiasComplementarias from "../../components/services-components/terapias-complementarias";
 
 function Services() {
-  console.log("holaaa");
+  // <PeopleCategoryServices />
+  // <TerapiasComplementarias />
   return (
     <div className={styles.containerServices}>
       <h1 className={styles.title}>{appDataText.espanol.services.title}</h1>
-      <div className={styles.containerService}>
-        <PeopleCategoryServices />
-        <TerapiasComplementarias />
-      </div>
+      <div className={styles.containerService}></div>
       <Footer />
     </div>
   );

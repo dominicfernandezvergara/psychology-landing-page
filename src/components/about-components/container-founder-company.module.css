@@ -126,6 +126,9 @@
   .containerTeamImage {
     width: 35%;
   }
+  .subtitle {
+    padding-top: 12px;
+  }
 }
 @media screen and (min-width: 1920px) {
   .containerTeamPresentationComponent {

@@ -75,8 +75,8 @@
   .text {
     font-size: 22px;
   }
-  .containerGiftSectionHome :global(.MuiButton-root) {
-    font-size: 24px;
+  .containerOfferSectionHome :global(.MuiButton-root) {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1024px) {

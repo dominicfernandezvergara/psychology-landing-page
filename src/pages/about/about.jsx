@@ -5,19 +5,13 @@ import { appDataText } from "../../appDataText/appDataText";
 // import missionImage from "../../images/imageAbout/imageBrandBluePink.png";
 import Footer from "../../components/footer";
 import ContainerFounderCompany from "../../components/about-components/container-founder-company";
+import TestimonySliderAbout from "../../components/testimony-slider-about";
 
 function About() {
-  console.log("appDataText.espanol.aboutUs", appDataText.espanol.aboutUs);
-  //   <div className={styles.containerMissionImage}>
-  //   <img
-  //     alt="missionImage"
-  //     className={styles.missionImage}
-  //     src={missionImage}
-  //   />
-  // </div>
   return (
     <div className={styles.containerAbout}>
       <h1 className={styles.title}>{appDataText.espanol.aboutUs.title}</h1>
+      <TestimonySliderAbout />
 
       <div className={styles.containerText}>
         <h3 className={styles.subtitle}>

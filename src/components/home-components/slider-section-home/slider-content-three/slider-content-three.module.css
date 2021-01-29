@@ -81,6 +81,7 @@
   }
   .image {
     height: 350px;
+    margin-right: 10px;
   }
   .containerText {
     height: 100%;
