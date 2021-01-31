@@ -7,13 +7,11 @@ import CharlaPreventivaASI from "./charla-preventiva-ASI/charla-preventiva-ASI";
 import PrestacionesJuridicas from "./prestaciones-juridicas/prestaciones-juridicas";
 
 function PeopleCategoryServices() {
-  console.log("holaaa");
   return (
     <div className={styles.containerPeopleCategoryServices}>
       <h1 className={styles.title}>
         {appDataText.espanol.services.naturalPeopleService.title}
       </h1>
-      {/*Psicoterapia individual y grupal adultos */}
       <PsicoterapiaService />
       <CharlaPreventivaASI />
       <PrestacionesJuridicas />

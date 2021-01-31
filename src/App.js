@@ -12,7 +12,6 @@ import { appDataText } from "./appDataText/appDataText";
 import Team from "./pages/team/team";
 
 function App() {
-  // console.log("hola", appDataText.espanol.header.contactUs.path);
   return (
     <Fragment>
       <Router>

@@ -9,6 +9,8 @@ import ContactData from "../../components/contact-us-components/contact-data";
 import TransferData from "../../components/contact-us-components/transfer-data";
 import Footer from "../../components/footer";
 
+// Todo:
+// enlazar backend con formulario
 function ContactUs() {
   UseScrollToTop();
   return (

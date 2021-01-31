@@ -28,12 +28,15 @@ function RespiracionConsciente() {
       <div className={styles.containerImage}>
         <img className={styles.image} alt="" src={imagePsicoterapia} />
       </div>
-      <p className={styles.text}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia1.description
-        }
-      </p>
+      <div className={styles.containerDescripcion}>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia1
+              .description
+          }
+        </p>
+      </div>
       <div className={styles.containerBenefist}>
         <h4 className={styles.subtitle}>
           {
@@ -42,7 +45,7 @@ function RespiracionConsciente() {
               .title
           }
         </h4>
-        <p className={styles.text}>
+        <div className={styles.text}>
           {benefitsList.map((item, index) => {
             return (
               <ul key={index}>
@@ -50,7 +53,7 @@ function RespiracionConsciente() {
               </ul>
             );
           })}
-        </p>
+        </div>
       </div>
       <div className={styles.containerTip}>
         <h4 className={styles.subtitle}>
@@ -59,7 +62,7 @@ function RespiracionConsciente() {
               .serviceNaturalPeople2.terapiasComplementarias.terapia1.tips.title
           }
         </h4>
-        <p className={styles.text}>
+        <div className={styles.text}>
           {tipsList.map((item, index) => {
             return (
               <ul key={index}>
@@ -67,7 +70,7 @@ function RespiracionConsciente() {
               </ul>
             );
           })}
-        </p>
+        </div>
       </div>
       <div className={styles.containerNote}>
         <h4 className={styles.subtitle}>
@@ -76,15 +79,15 @@ function RespiracionConsciente() {
               .serviceNaturalPeople2.terapiasComplementarias.terapia1.note.title
           }
         </h4>
-        <p className={styles.text}>
+        <div className={styles.text}>
           {
             appDataText.espanol.services.naturalPeopleService
               .serviceNaturalPeople2.terapiasComplementarias.terapia1.note
               .description
           }
-        </p>
+        </div>
       </div>
-      <p className={styles.lenguage}>
+      <div className={styles.lenguage}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia1
@@ -94,7 +97,7 @@ function RespiracionConsciente() {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia1.language
         }
-      </p>
+      </div>
     </div>
   );
 }

@@ -10,6 +10,9 @@ import GiftSectionHome from "../../components/home-components/gift-section-home"
 import OfferSectionHome from "../../components/home-components/offer-section-home";
 import TestimonySlider from "../../components/testimony-slider";
 
+// Todo:
+// ver si dejar slider de testimonios
+
 function Home() {
   UseScrollToTop();
 

@@ -3,10 +3,8 @@ import React from "react";
 import styles from "./slider-content-two.module.css";
 import image from "../../../../images/imageSlider/imageSliderTwo2.svg";
 import { appDataText } from "../../../../appDataText/appDataText";
-import ButtonApp from "../../../button";
 
 function SliderContentTwo() {
-  console.log("appDataText", appDataText);
   return (
     <div className={styles.containerSliderContentTwo}>
       <div className={styles.containerImage}>

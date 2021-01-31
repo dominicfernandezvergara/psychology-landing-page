@@ -90,7 +90,6 @@ function Header() {
     };
   }, [startScrolling]);
 
-  console.log("startScrolling", startScrolling);
   return (
     <Fragment>
       {/*HEADER SMALL*/}

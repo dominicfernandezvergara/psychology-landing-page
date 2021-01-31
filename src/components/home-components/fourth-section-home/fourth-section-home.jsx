@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./fourth-section-home.module.css";
-import Button from "@material-ui/core/Button";
 
 import { appDataText } from "../../../appDataText/appDataText";
 import imagePeople from "../../../images/imageHome/imagePeople3.png";
@@ -10,10 +9,6 @@ import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";
 import ContainerService from "./container-service/container-service";
 
 function FourthSectionHome() {
-  const handleClick = () => {
-    console.log("onClick");
-    // history.push("./servicios");
-  };
   const bodyPeople = (
     <div className={styles.containerSubServices}>
       <div className={styles.subServices}>
@@ -76,8 +71,7 @@ function FourthSectionHome() {
           image={imagePeople}
           classNameContainerText={styles.marginLeftContainerText}
           textButton={
-            appDataText.espanol.home.fourthSectionHome.services.people
-              .buttonText
+            appDataText.espanol.home.fourthSectionHome.services.buttonText
           }
         />
         <ContainerService
@@ -88,8 +82,7 @@ function FourthSectionHome() {
           }
           image={imageProfesional}
           textButton={
-            appDataText.espanol.home.fourthSectionHome.services.profesional
-              .buttonText
+            appDataText.espanol.home.fourthSectionHome.services.buttonText
           }
           imageRight={true}
         />
@@ -100,8 +93,7 @@ function FourthSectionHome() {
           }
           image={imageCompanie}
           textButton={
-            appDataText.espanol.home.fourthSectionHome.services.companies
-              .buttonText
+            appDataText.espanol.home.fourthSectionHome.services.buttonText
           }
           classNameContainerText={styles.marginLeftContainerText}
         />

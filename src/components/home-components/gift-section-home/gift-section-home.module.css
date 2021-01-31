@@ -24,7 +24,13 @@
 .text {
   color: var(--darkText);
   font-weight: bold;
-  /* padding: 10px 10px; */
+  font-size: 16px;
+  text-align: center;
+}
+.textUppercase {
+  text-transform: uppercase;
+  color: var(--darkText);
+  font-weight: bold;
   font-size: 16px;
   text-align: center;
 }
@@ -53,6 +59,9 @@
   .containerGiftSectionHome :global(.MuiButton-root) {
     font-size: 20px;
   }
+  .textUppercase {
+    font-size: 24px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .containerText {
@@ -74,6 +83,10 @@
     width: 500px;
   }
   .text {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  .textUppercase {
     font-size: 30px;
     padding-bottom: 30px;
   }

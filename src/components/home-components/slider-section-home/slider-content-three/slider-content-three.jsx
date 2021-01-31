@@ -5,7 +5,6 @@ import image from "../../../../images/imageSlider/imageSliderThree.svg";
 import { appDataText } from "../../../../appDataText/appDataText";
 
 function SliderContentThree() {
-  console.log("appDataText", appDataText);
   return (
     <div className={styles.containerSliderContentThree}>
       <div className={styles.containerText}>

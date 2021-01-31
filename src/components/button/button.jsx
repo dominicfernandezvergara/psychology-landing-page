@@ -14,7 +14,6 @@ function ButtonApp({ text, path, color }) {
   const history = useHistory();
 
   const handleClick = () => {
-    console.log("onClick");
     history.push(path);
   };
   return (

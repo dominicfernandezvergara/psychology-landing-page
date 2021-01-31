@@ -17,17 +17,14 @@ function Form() {
   const [commentary, setCommentary] = useState("");
 
   // useForm
-  const { register, handleSubmit, watch, errors } = useForm();
+  const { register, handleSubmit, errors } = useForm();
 
   // select input Services
   const handleChangeService = (event) => {
-    console.log("handleChangeServices", event.target.value);
-
     setCurrencyService(event.target.value);
   };
   // select input Terapia Complementaria
   const handleChangeTerapia = (event) => {
-    console.log("handleChangeTerapia", event.target.value);
     setCurrencySubservice(event.target.value);
   };
   // Submit info

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
@@ -6,12 +6,14 @@ import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 import styles from "./team.module.css";
+import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import { appDataText } from "../../appDataText/appDataText";
 import Footer from "../../components/footer/footer";
 import { listTeam } from "./listTeam";
 
 function Team() {
-  console.log("listTeam", listTeam);
+  UseScrollToTop();
+
   // <img src="" alt="imgteam" className={styles.image} />
   return (
     <div className={styles.containerTeam}>

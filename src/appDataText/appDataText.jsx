@@ -81,7 +81,7 @@ export const appDataText = {
       fourthSectionHome: {
         title: "Nuestros Servicios",
         services: {
-          buttonText: "Más sobre nuestros servicios aqui",
+          buttonText: "Leer más",
           people: {
             title: "Personas Naturales",
             description: (
@@ -144,13 +144,10 @@ export const appDataText = {
         },
       },
       giftSectionHome: {
-        text: (
-          <div>
-            Descarga nuestro pdf{" "}
-            <div STYLE="text-transform:uppercase">gratuito</div>Un cuento para
-            niños y adultos sobre emociones básicas y necesarias.
-          </div>
-        ),
+        text: "Descarga nuestro pdf",
+        text2: "Gratuito",
+        text3:
+          "Un cuento para niños y adultos sobre emociones básicas y necesarias.",
         buttonText: "Descargar PDF",
       },
       offer: {
@@ -354,36 +351,36 @@ export const appDataText = {
               tips: {
                 title: "Consejos",
                 tip: [
-                  <div>
+                  <p>
                     Antes de empezar a comer; <strong>observa</strong> la
                     comida, los colores, las texturas, y agradécete que estás
                     haciendo esto para cuidarte.
-                  </div>,
-                  <div>
+                  </p>,
+                  <p>
                     Si tienes tiempo limitado, ponte una <strong>alarma</strong>{" "}
                     y no vuelvas a mirar el reloj.
-                  </div>,
-                  <div>
+                  </p>,
+                  <p>
                     Come <strong>sentado/a</strong>.
-                  </div>,
-                  <div>
+                  </p>,
+                  <p>
                     Reduce las <strong>distracciones</strong> (apagar el móvil,
                     el televisor)
-                  </div>,
-                  <div>
+                  </p>,
+                  <p>
                     Corta las piezas de comida en{" "}
                     <strong>trozos más pequeños</strong>, puedes incluso usar
                     una cucharilla en lugar de una cuchara, o un plato más
                     pequeño para reducir la ración.
-                  </div>,
-                  <div>
+                  </p>,
+                  <p>
                     <strong>Explora</strong>, come con la mano contraria a la
                     que sueles comer.
-                  </div>,
-                  <div>
+                  </p>,
+                  <p>
                     Después de cada bocado, <strong>deja los cubiertos</strong>{" "}
                     en la mesa
-                  </div>,
+                  </p>,
                   "¿Cómo te sientes? ¿Tienes prisa? Permítete sentir y así, conocerte.",
                   "No te obligues a comer todo",
                 ],
@@ -400,33 +397,33 @@ export const appDataText = {
               subtitlelanguage: "Idioma :",
               language: "Español",
               subServices: {
-                subtitle: "Vamos a mencionar algunos",
+                subtitle: "Vamos a mencionar algunos :",
                 service: [
                   {
                     title:
-                      "Complicaciones en la lubricación, eyaculación, deseo sexual y orgasmo",
+                      "Complicaciones en la lubricación, eyaculación, deseo sexual y orgasmo : ",
                     description:
                       "La labor que se realiza es especificar qué elementos puntualmente provocan una mala experiencia en la persona, educar respecto a prácticas de autocuidado indispensables, re significar las creencias, y proporcionar un mejor manejo de sus vivencias íntimas consigo mismas y con la pareja o las parejas.",
                   },
                   {
-                    title: "Prácticas Complementarias en la Sexualidad",
+                    title: "Prácticas Complementarias en la Sexualidad : ",
                     description:
                       "Ante estas eventualidades este espacio presta un servicio de información respecto a las necesidades de la persona consigo mismo, y con la(s) pareja(s) para el disfrute de actividades complementarias y exploratorias que puedan enriquecer la vivencia de la práctica sexual, ya sea uso de juguetes, uso de lubricantes, adoptar juegos de rol, y otras pautas lúdicas que favorezcan el aprendizaje y una intimidad sana.",
                   },
                   {
                     title:
-                      "Acompañamiento a personas con VIH (Virus de Inmunodeficiencia Humana) y otras infecciones de transmisión sexual.",
+                      "Acompañamiento a personas con VIH (Virus de Inmunodeficiencia Humana) y otras infecciones de transmisión sexual : ",
                     description:
                       "El trabajo que se realiza es otorgar un acceso a la información sobre la enfermedad, acompañar terapéuticamente a la persona respecto a su proceso de recuperación y/o enfermedad, corregir mitos o información mal administrada, con objetivo de que la persona tenga una conducta adherente al tratamiento, aprenda prácticas de autocuidado libre de riesgos, y favorecer su proceso personal.",
                   },
                   {
                     title:
-                      "Gestión de prácticas sexuales sanas, protegidas, consensuadas e informadas y promoción de autocuidado.",
+                      "Gestión de prácticas sexuales sanas, protegidas, consensuadas e informadas y promoción de autocuidado : ",
                     description:
                       "Este espacio presta un apoyo educativo y formativo, acorde a la etapa de la persona consultante, analiza la información adquirida personalmente respecto a su motivo de consulta, proporcionar recursos de apoyo que motiven una mayor autonomía, con objetivo de generar una base sólida sobre educación sexual que le permitirá una mejor toma de decisiones a futuro.",
                   },
                   {
-                    title: "Disfunciones sexuales.",
+                    title: "Disfunciones sexuales : ",
                     description:
                       "El aporte de este espacio es la administración de elementos educativos y terapéuticos, ya que se presta información sobre las características de la disfunción que adolece, se analizan los factores que influyen en la mantención de esta complicación, para posteriormente proporcionar herramientas técnicas con el fin de establecer un mejor manejo en la persona, re significando su experiencia y favoreciendo la reactivación de la vida sexual.",
                   },
@@ -450,9 +447,9 @@ export const appDataText = {
                 description:
                   "Como ya se mencionó, para usar los huevos yoni es necesario introducirlos en la vagina, ya sea durante algunas horas, a lo largo del día o toda la noche. Para empezar, se recomienda dejarlos adentro durante 2 horas, tres veces a la semana, y aumentar tanto el tiempo como la frecuencia poco a poco, hasta lograr usarlos diariamente. Es generalmente aconsejable llevarlos un máximo de 12 horas consecutivas.",
               },
-              Benefits: {
+              benefits: {
                 title: "Beneficios",
-                Benefits: [
+                benefits: [
                   "Ayudan a regular el ciclo menstrual y al equilibrio hormonal.",
                   "Ayudan a mejorar la lubricación, por lo que son útiles en casos de sequedad vaginal.",
                   "Aumentan el flujo vaginal y con ello las defensas de la vagina.",
@@ -480,10 +477,10 @@ export const appDataText = {
                 "Este informe conlleva datos acerca de tu configuración tanto a nivel físico, como emocional y mental y, hasta es posible, determinar cierta línea de aprendizaje que has de transitar de una u otra manera a lo largo de tu vida.",
               subtitlelanguage: "Idioma :",
               language: "Español",
-              Benefits: {
+              benefits: {
                 title: "Beneficios",
                 description: (
-                  <div>
+                  <p>
                     Por ejemplo,{" "}
                     <strong>conocer la posición de nuestra Luna natal</strong>{" "}
                     nos permite acceder a cómo es nuestro mundo interno, nuestro
@@ -495,7 +492,7 @@ export const appDataText = {
                     de expresar las emociones, puedes pedirle a tu profesional
                     de confianza que, al elaborar tu Carta Natal, haga foco y
                     profundice en tu Luna Natal.
-                  </div>
+                  </p>
                 ),
               },
             },
@@ -509,7 +506,7 @@ export const appDataText = {
                 "Bert Hellinger, psicoterapeuta alemán y ex sacerdote desarrolló este método a mediados de la década de 1990 y es el fundador de esta técnica. A lo largo de su trayectoria ha tratado y estudiado a familias durante más de 50 años, y observó que muchos de nosotros utilizamos inconscientemente patrones familiares destructivos que nos conducen hacia la ansiedad, la depresión, la ira, la culpa, la soledad, el alcoholismo e incluso la enfermedad como una forma de «pertenencia» a nuestras familias.",
               subtitlelanguage: "Idioma :",
               language: "Español",
-              Benefits: {
+              benefits: {
                 title: "Beneficios",
                 description:
                   "Es una manera de explorar y mejorar la dinámica familiar.",
@@ -546,23 +543,23 @@ export const appDataText = {
               description2:
                 "Tarot es una herramienta maravillosa que no se centra en la predicción del futuro sino que observa el presente y nos sitúa en él. A través de la energía de las cartas y su significado, nos despierta al autoconocimiento para que podamos tomar decisiones desde otra perspectiva y, así, sanar y liberar los procesos de crecimiento.",
               description3: (
-                <div>
+                <p>
                   <strong>
                     Somos quienes somos por las decisiones que tomamos y somos
                     responsables de lo que suceda en nuestra vida
                   </strong>
                   , es uno de sus principios.
-                </div>
+                </p>
               ),
               description4:
                 "Todo lo que atraemos es porque está en sintonía con lo que sentimos. Las cartas de Tarot nos mostrarán estados de conciencia y cómo se manifiestan para bien o para mal.",
               subtitlelanguage: "Idioma :",
               language: "Español e Ingles",
-              Benefits: {
+              benefits: {
                 title: "Beneficios",
-                descriptionBenefits:
+                description:
                   "Método que permite descubrir nuestro verdadero potencial y ayuda a disolver bloqueos y resolver problemas.",
-                descriptionBenefits2:
+                description2:
                   "Lo que permite esta herramienta es conocer hechos, comprenderlos y resolverlos: según cómo utilicemos nuestras capacidades será el resultado en nuestro destino.",
               },
             },

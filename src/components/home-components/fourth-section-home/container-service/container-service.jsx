@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import Button from "@material-ui/core/Button";
 import cn from "classnames";
 import PropTypes from "prop-types";
 
@@ -30,14 +29,9 @@ function ContainerService({
           <div className={cn(styles.containerbody, classNameContainerBody)}>
             {body}
             <a className={styles.button} href="/contacto">
-              Leer más
+              {textButton}
             </a>
           </div>
-          {/*<div className={styles.containerButton}>
-            <a className={styles.button} href="/contacto">
-              Leer más
-  </a>
-          </div>*/}
         </div>
       </div>
       {/* Small View */}
@@ -54,7 +48,7 @@ function ContainerService({
           <div className={styles.containerbody}>
             {body}
             <a className={styles.button} href="/contacto">
-              Leer más
+              {textButton}
             </a>
           </div>
         </div>
@@ -70,7 +64,7 @@ function ContainerService({
 ContainerService.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
-  body: PropTypes.string.isRequired,
+  body: PropTypes.object.isRequired,
   textButton: PropTypes.string.isRequired,
   imageRight: PropTypes.bool,
   classNameContainerText: PropTypes.string,

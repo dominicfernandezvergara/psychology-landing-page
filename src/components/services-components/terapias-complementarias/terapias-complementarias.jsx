@@ -4,6 +4,11 @@ import styles from "./terapias-complementarias.module.css";
 import { appDataText } from "../../../appDataText/appDataText";
 import RespiracionConsciente from "./respiracion-consciente";
 import AlimentacionConsciente from "./alimentacion-consciente";
+import AsesoriasSexualidad from "./asesorias-sexualidad";
+import MedicinaHuevoYoni from "./medicina-huevo-yoni";
+import CartaAstral from "./carta-astral/carta-astral";
+import ConstelacionesFamiliares from "./constelaciones-familiares";
+import TarotTerapeutico from "./tarot-terapeutico";
 
 function TerapiasComplementarias() {
   return (
@@ -22,6 +27,11 @@ function TerapiasComplementarias() {
       </p>
       <RespiracionConsciente />
       <AlimentacionConsciente />
+      <AsesoriasSexualidad />
+      <MedicinaHuevoYoni />
+      <CartaAstral />
+      <ConstelacionesFamiliares />
+      <TarotTerapeutico />
     </div>
   );
 }

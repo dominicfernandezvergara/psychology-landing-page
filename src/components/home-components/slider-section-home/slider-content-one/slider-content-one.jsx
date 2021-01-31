@@ -5,7 +5,6 @@ import image from "../../../../images/imageSlider/imageSliderOne.jpg";
 import { appDataText } from "../../../../appDataText/appDataText";
 
 function SliderContentOne() {
-  console.log("appDataText", appDataText);
   return (
     <div className={styles.containerSliderContentOne}>
       <div className={styles.containerText}>

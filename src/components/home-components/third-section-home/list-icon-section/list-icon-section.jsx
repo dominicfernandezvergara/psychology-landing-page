@@ -34,7 +34,7 @@ function ListIconSection() {
     <div className={styles.containerList}>
       {dataListIconSection.map((item, index) => {
         return (
-          <div className={styles.wrapp}>
+          <div className={styles.wrapp} key={index}>
             <div className={styles.containerIcon}>{item.icon}</div>
             <div className={styles.title}>{item.title}</div>
             <hr className={styles.line} />

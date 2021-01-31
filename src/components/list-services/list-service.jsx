@@ -15,7 +15,6 @@ function ListServices() {
   const [activeGestion, setActiveGestion] = useState(true);
   const [activeCursos, setActiveCursos] = useState(true);
 
-  console.log("objectServices", objectServices);
   const handleClickAllServicesActive = () => {
     setActiveAsesoria(true);
     setActiveGestion(true);

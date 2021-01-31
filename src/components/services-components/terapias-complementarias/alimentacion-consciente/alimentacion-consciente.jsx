@@ -19,44 +19,44 @@ function AlimentacionConsciente() {
             .serviceNaturalPeople2.terapiasComplementarias.terapia2.title
         }
       </h3>
-      <p className={styles.phrase}>
+      <div className={styles.phrase}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia2.phrase
         }
-      </p>
+      </div>
       <div className={styles.containerImage}>
         <img className={styles.image} alt="" src={imagePsicoterapia} />
       </div>
-      <div className={styles.containerText}>
-        <p className={styles.text}>
+      <div className={styles.containerDescripcion}>
+        <div className={styles.text}>
           {
             appDataText.espanol.services.naturalPeopleService
               .serviceNaturalPeople2.terapiasComplementarias.terapia2
               .description
           }
-        </p>
-        <p className={styles.text}>
+        </div>
+        <div className={styles.text}>
           {
             appDataText.espanol.services.naturalPeopleService
               .serviceNaturalPeople2.terapiasComplementarias.terapia2
               .description2
           }
-        </p>
-        <p className={styles.text}>
+        </div>
+        <div className={styles.text}>
           {
             appDataText.espanol.services.naturalPeopleService
               .serviceNaturalPeople2.terapiasComplementarias.terapia2
               .description3
           }
-        </p>
-        <p className={styles.text}>
+        </div>
+        <div className={styles.text}>
           {
             appDataText.espanol.services.naturalPeopleService
               .serviceNaturalPeople2.terapiasComplementarias.terapia2
               .description4
           }
-        </p>
+        </div>
       </div>
       <div className={styles.containerBenefist}>
         <h4 className={styles.subtitle}>
@@ -66,7 +66,7 @@ function AlimentacionConsciente() {
               .title
           }
         </h4>
-        <p className={styles.text}>
+        <div className={styles.text}>
           {benefitsList.map((item, index) => {
             return (
               <ul key={index}>
@@ -74,7 +74,7 @@ function AlimentacionConsciente() {
               </ul>
             );
           })}
-        </p>
+        </div>
       </div>
       <div className={styles.containerTip}>
         <h4 className={styles.subtitle}>
@@ -83,7 +83,7 @@ function AlimentacionConsciente() {
               .serviceNaturalPeople2.terapiasComplementarias.terapia2.tips.title
           }
         </h4>
-        <p className={styles.text}>
+        <div className={styles.text}>
           {tipsList.map((item, index) => {
             return (
               <ul key={index}>
@@ -91,9 +91,9 @@ function AlimentacionConsciente() {
               </ul>
             );
           })}
-        </p>
+        </div>
       </div>
-      <p className={styles.lenguage}>
+      <div className={styles.lenguage}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia2
@@ -103,7 +103,7 @@ function AlimentacionConsciente() {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia2.language
         }
-      </p>
+      </div>
     </div>
   );
 }

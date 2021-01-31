@@ -1,13 +1,18 @@
 import React from "react";
 
 import styles from "./about.module.css";
+import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import { appDataText } from "../../appDataText/appDataText";
 // import missionImage from "../../images/imageAbout/imageBrandBluePink.png";
 import Footer from "../../components/footer";
 import ContainerFounderCompany from "../../components/about-components/container-founder-company";
 import TestimonySliderAbout from "../../components/testimony-slider-about";
 
+// todo:
+// -ver si se deja slider de testimonios
+// -enlace pagina team
 function About() {
+  UseScrollToTop();
   return (
     <div className={styles.containerAbout}>
       <h1 className={styles.title}>{appDataText.espanol.aboutUs.title}</h1>
