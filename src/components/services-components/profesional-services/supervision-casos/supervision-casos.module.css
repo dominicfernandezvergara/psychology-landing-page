@@ -1,0 +1,42 @@
+.containerService {
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  padding: 10px;
+}
+.titleService {
+  color: var(--primaryColor);
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 10px 0px;
+}
+.phrase {
+  color: var(-darkText);
+  text-align: center;
+  font-family: cursive;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+.containerImage {
+  width: 100%;
+  height: auto;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+.text {
+  color: var(--text);
+  text-align: justify;
+}
+.subtitle {
+  color: var(--primaryColor);
+  margin-top: 10px;
+}
+.lenguage {
+  color: var(-darkText);
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+}

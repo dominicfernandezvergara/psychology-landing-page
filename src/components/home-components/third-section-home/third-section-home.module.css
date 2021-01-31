@@ -14,23 +14,24 @@
 
 @media screen and (min-width: 768px) {
   .containerThirdSection {
-    padding: 50px 20px;
     box-sizing: border-box;
+    padding: 45px 45px;
   }
+
   .title {
     font-size: 30px;
     padding: 0px 0px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .title {
-    padding-bottom: 30px;
+  .containerThirdSection {
+    padding: 60px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .containerThirdSection {
+  /* .containerThirdSection {
     padding: 50px 80px;
-  }
+  } */
 }
 @media screen and (min-width: 1920px) {
   .containerThirdSection {

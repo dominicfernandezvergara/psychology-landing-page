@@ -77,14 +77,23 @@
 }
 
 @media screen and (min-width: 768px) {
+  .containerTestimonySlider {
+    padding: 45px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+  }
   .title {
     font-size: 30px;
+    padding-top: 0px;
   }
   .containerTestimonySlider :global(.slick-slider) {
     width: 500px;
   }
 }
 @media screen and (min-width: 1024px) {
+  .containerTestimonySlider {
+    padding: 60px;
+  }
   .title {
     font-size: 30px;
   }

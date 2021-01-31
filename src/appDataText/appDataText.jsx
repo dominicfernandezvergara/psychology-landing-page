@@ -646,6 +646,7 @@ export const appDataText = {
         },
       },
       profesionalServices: {
+        title: "Servicios para psicólogos",
         // serviceProfesionalServices1: {
         //   title: "Entrenamiento profesional",
         //   phrase:
@@ -687,7 +688,7 @@ export const appDataText = {
         serviceProfesionalServices3: {
           title: "Supervisión de casos",
           phrase: "“Sigue a tu corazón pero lleva contigo a tu cerebro”",
-          descriptionParagraph1: (
+          description: (
             <div>
               El <stron>estudio de casos</stron> consiste en un método o técnica
               de investigación cualitativa, habitualmente utilizado en las
@@ -698,29 +699,36 @@ export const appDataText = {
               intervención y elaborar planes de acción personalizados y reales.
             </div>
           ),
-          note: [
-            <strong>
-              Los psicólogos conocen la importancia de la salud mental
-            </strong>,
-            <div>
-              Analizar conjuntamente nuestro quehacer profesional y la{" "}
-              <strong>contratransferencia</strong>. Esto ocurre cuando el
-              analista transfiere elementos de sus problemas pasados o presentes
-              al paciente que está siendo objeto de análisis.
-            </div>,
-            "Un psicólogo tiene la capacidad de ayudar, puede enfrentarse a situaciones que, en ocasiones, pueden llegar a superarlo y causarle un gran malestar emocional.",
-            "Nos rige un código de ética que nos invita a revisar qué nos ocurre personalmente con algunos casos.",
-          ],
-          subtitle: "¿Cómo se realiza?",
-          step: [
-            "Se selecciona un caso",
-            "Se elaboran preguntas",
-            "Se elaboran hipótesis",
-            "Se recopilan datos",
-            "Se analiza el tipo de intervención utilizada.",
-            "Análisis e interpretación de los resultados",
-            "Elaboración de nuevas estrategias de intervención.",
-          ],
+          subtitlelanguage: "Idioma :",
+          language: "Español",
+          note: {
+            title: "Nota",
+            note: [
+              <strong>
+                Los psicólogos conocen la importancia de la salud mental
+              </strong>,
+              <p>
+                Analizar conjuntamente nuestro quehacer profesional y la{" "}
+                <strong>contratransferencia</strong>. Esto ocurre cuando el
+                analista transfiere elementos de sus problemas pasados o
+                presentes al paciente que está siendo objeto de análisis.
+              </p>,
+              "Un psicólogo tiene la capacidad de ayudar, puede enfrentarse a situaciones que, en ocasiones, pueden llegar a superarlo y causarle un gran malestar emocional.",
+              "Nos rige un código de ética que nos invita a revisar qué nos ocurre personalmente con algunos casos.",
+            ],
+          },
+          step: {
+            title: "¿Cómo se realiza?",
+            step: [
+              "Se selecciona un caso",
+              "Se elaboran preguntas",
+              "Se elaboran hipótesis",
+              "Se recopilan datos",
+              "Se analiza el tipo de intervención utilizada.",
+              "Análisis e interpretación de los resultados",
+              "Elaboración de nuevas estrategias de intervención.",
+            ],
+          },
         },
       },
       companiesServices: {
@@ -741,12 +749,17 @@ export const appDataText = {
           "Se elabora plan de autocuidado a distancia, personalizado desde enfoque psicología positiva, logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información  el presupuesto para este ítem es bajo",
         descriptionParagraph4:
           "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización y se habilita a las jefaturas para poder implementarlos como parte de sus espacios de descompresión.",
-        note:
-          "La Organización Mundial de la Salud (OMS) ha procedido al reconocimiento oficial del burnout o “síndrome de estar quemado” o de desgaste profesional como enfermedad tras la ratificación de la revisión número 11 de la Clasificación Estadística Internacional de Enfermedades y Problemas de Salud Conexos (CIE-11)",
-        note2:
-          "El término 'burnout' fue acuñado por primera vez en 1974 por Herbert Freudenberger, en su libro “Burnout: The High Cost of High Achievement” Por lo general, el trastorno es consecuencia de un estrés laboral crónico, y se caracteriza por un estado de agotamiento emocional, una actitud cínica o distante frente al trabajo (despersonalización), y una sensación de ineficacia y de no hacer adecuadamente las tareas. A ello se suma la pérdida de habilidades para la comunicación.",
-        note3:
-          "El Síndrome de Burnout se incluye así entre los principales problemas de salud mental y en la antesala de muchas de las patologías psíquicas derivadas de un escaso control y de la carencia de una prevención primaria de este síndrome.",
+        subtitlelanguage: "Idioma :",
+        language: "Español",
+        note: {
+          title: "Nota",
+          note:
+            "La Organización Mundial de la Salud (OMS) ha procedido al reconocimiento oficial del burnout o “síndrome de estar quemado” o de desgaste profesional como enfermedad tras la ratificación de la revisión número 11 de la Clasificación Estadística Internacional de Enfermedades y Problemas de Salud Conexos (CIE-11)",
+          note2:
+            "El término 'burnout' fue acuñado por primera vez en 1974 por Herbert Freudenberger, en su libro “Burnout: The High Cost of High Achievement” Por lo general, el trastorno es consecuencia de un estrés laboral crónico, y se caracteriza por un estado de agotamiento emocional, una actitud cínica o distante frente al trabajo (despersonalización), y una sensación de ineficacia y de no hacer adecuadamente las tareas. A ello se suma la pérdida de habilidades para la comunicación.",
+          note3:
+            "El Síndrome de Burnout se incluye así entre los principales problemas de salud mental y en la antesala de muchas de las patologías psíquicas derivadas de un escaso control y de la carencia de una prevención primaria de este síndrome.",
+        },
         sintomas: {
           subtitle:
             "Entre los signos y síntomas más comunes de agotamiento se destacan :",

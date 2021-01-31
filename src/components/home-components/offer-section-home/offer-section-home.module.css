@@ -7,10 +7,6 @@
 .containerImage {
   display: none;
 }
-.image {
-  width: 180px;
-  height: auto;
-}
 .containerOffer {
   display: flex;
   flex-direction: column;
@@ -43,7 +39,6 @@
 .text {
   color: var(--darkText);
   padding: 10px 10px;
-  /* font-size: 18px; */
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
@@ -58,7 +53,23 @@
 
 @media screen and (min-width: 768px) {
   .containerOfferSectionHome {
-    padding: 20px 10px 30px 10px;
+    padding: 45px;
+  }
+  .subContainerOfferSection {
+    display: flex;
+  }
+  .containerImage {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 50%;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .containerData {
+    width: 50%;
   }
   .containerOffer {
     border: unset;
@@ -78,10 +89,13 @@
   .containerOfferSectionHome :global(.MuiButton-root) {
     font-size: 20px;
   }
+  .discount {
+    font-size: 30px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .containerOfferSectionHome {
-    padding: 30px 30px;
+    padding: 60px;
     box-sizing: border-box;
   }
   .subContainerOfferSection {
@@ -101,19 +115,21 @@
     display: flex;
     flex-direction: column;
   }
-  .containerImage {
-    display: flex;
-  }
-  .image {
-    width: 400px;
-  }
 }
 @media screen and (min-width: 1280px) {
   .containerOfferSectionHome {
-    padding: 50px 50px;
+    /* padding: 50px 50px; */
     box-sizing: border-box;
   }
   .subtitle {
     font-size: 28px;
+  }
+  .containerImage {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .containerImage {
+    width: 35%;
   }
 }

@@ -17,8 +17,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
   border-radius: 50%;
   background-color: var(--primaryColor);
 }
@@ -49,11 +49,21 @@
     flex-direction: row;
   }
   .wrapp {
-    padding: 20px 5px;
+    padding: 10px 5px 0px 5px;
   }
   .textIcon {
     padding-top: 10px;
     font-size: 18px;
+    width: 150px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerIcon {
+    height: 150px;
+    width: 150px;
+  }
+  .textIcon {
+    width: 180px;
   }
 }
 @media screen and (min-width: 1280px) {
