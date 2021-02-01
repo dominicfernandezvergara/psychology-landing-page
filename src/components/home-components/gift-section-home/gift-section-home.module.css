@@ -92,6 +92,9 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .containerGiftSectionHome {
+    padding: 70px 90px;
+  }
   .containerImage {
     width: 35%;
   }

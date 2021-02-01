@@ -6,25 +6,41 @@ import styles from "./header.module.css";
 import { appDataText } from "../../appDataText/appDataText";
 import Logo from "../logo";
 import Drawer from "./drawer";
-import Button from "../button";
 import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapist-semana-da-psicol-psicologa-social-5cc757f9c4bd23.3476718715565680578058.jpg";
 
 export const dataButtonsList = [
   {
     name: appDataText.espanol.header.home.name,
     path: appDataText.espanol.header.home.path,
+    icon: "icon",
     active: true,
     id: 1,
   },
   {
     name: appDataText.espanol.header.aboutUs.name,
     path: appDataText.espanol.header.aboutUs.path,
+    subcategories: {
+      name: appDataText.espanol.header.aboutUs.subcategories.name,
+      path: appDataText.espanol.header.aboutUs.subcategories.path,
+      name2: appDataText.espanol.header.aboutUs.subcategories.name2,
+      path2: appDataText.espanol.header.aboutUs.subcategories.path2,
+    },
     active: false,
     id: 2,
   },
   {
     name: appDataText.espanol.header.services.name,
     path: appDataText.espanol.header.services.path,
+    subcategories: {
+      name: appDataText.espanol.header.services.subcategories.name,
+      path: appDataText.espanol.header.services.subcategories.path,
+      name2: appDataText.espanol.header.services.subcategories.name2,
+      path2: appDataText.espanol.header.services.subcategories.path2,
+      name3: appDataText.espanol.header.services.subcategories.name3,
+      path3: appDataText.espanol.header.services.subcategories.path3,
+      name4: appDataText.espanol.header.services.subcategories.name4,
+      path4: appDataText.espanol.header.services.subcategories.path4,
+    },
     active: false,
     id: 3,
   },

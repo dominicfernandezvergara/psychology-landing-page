@@ -3,6 +3,7 @@ import cn from "classnames";
 import PropTypes from "prop-types";
 import { useHistory } from "react-router-dom";
 import { Clear } from "@material-ui/icons";
+import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 import styles from "./drawer-button-list.module.css";
 import { dataButtonsList } from "../../header";
@@ -31,21 +32,70 @@ const DrawerButtonList = ({ toggleDrawer }) => {
           </button>
         </div>
       </div>
-      <ul className={styles.drawerList}>
+
+      <div className={styles.drawerList}>
         {dataButtonsList.map((item, index) => {
           return (
-            <li key={index.id} className={cn(styles.buttonDrawerList)}>
+            <div key={index.id} className={cn(styles.buttonDrawerList)}>
               <button
                 type="button"
                 className={styles.buttonDrawerList}
                 onClick={() => onClickButtonDrawerList(item)}
               >
-                <div className={styles.name}> {item.name}</div>
+                {item.name}
               </button>
-            </li>
+              {item.subcategories ? (
+                <div className={styles.wrappIconButton}>
+                  <ArrowForwardIosIcon />
+                  <button
+                    type="button"
+                    className={styles.buttonSubDrawerList}
+                    onClick={() => onClickButtonDrawerList(item)}
+                  >
+                    {item.subcategories.name}
+                  </button>
+                </div>
+              ) : null}
+              {item.subcategories ? (
+                <div className={styles.wrappIconButton}>
+                  <ArrowForwardIosIcon />
+                  <button
+                    type="button"
+                    className={styles.buttonSubDrawerList}
+                    onClick={() => onClickButtonDrawerList(item)}
+                  >
+                    {item.subcategories.name2}
+                  </button>
+                </div>
+              ) : null}
+              {item.subcategories ? (
+                <div className={styles.wrappIconButton}>
+                  <ArrowForwardIosIcon />
+                  <button
+                    type="button"
+                    className={styles.buttonSubDrawerList}
+                    onClick={() => onClickButtonDrawerList(item)}
+                  >
+                    {item.subcategories.name3}
+                  </button>
+                </div>
+              ) : null}
+              {item.subcategories ? (
+                <div className={styles.wrappIconButton}>
+                  <ArrowForwardIosIcon />
+                  <button
+                    type="button"
+                    className={styles.buttonSubDrawerList}
+                    onClick={() => onClickButtonDrawerList(item)}
+                  >
+                    {item.subcategories.name4}
+                  </button>
+                </div>
+              ) : null}
+            </div>
           );
         })}
-      </ul>
+      </div>
     </div>
   );
 };

@@ -7,7 +7,7 @@
 .titleService {
   color: var(--primaryColor);
   text-align: center;
-  /* font-size: 20vw; */
+  font-size: 20px;
   letter-spacing: 1px;
   padding: 10px 0px;
 }
@@ -29,6 +29,7 @@
 .text {
   color: var(--text);
   text-align: justify;
+  padding-top: 5px;
 }
 .subtitle {
   color: var(--primaryColor);
@@ -37,4 +38,6 @@
 .lenguage {
   color: var(-darkText);
   margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
 }

@@ -29,9 +29,9 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  /* .containerThirdSection {
-    padding: 50px 80px;
-  } */
+  .containerThirdSection {
+    padding: 70px 90px;
+  }
 }
 @media screen and (min-width: 1920px) {
   .containerThirdSection {

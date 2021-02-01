@@ -1,0 +1,130 @@
+.containerSection {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--darkPrimaryColor);
+  text-align: center;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+}
+.containerService {
+  display: flex;
+  flex-direction: column;
+}
+.titleService {
+  color: var(--secondary);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.containerImage {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.descriptionService {
+  text-align: justify;
+  color: var(--text);
+}
+.button {
+  color: var(--darkPrimaryColor);
+  text-decoration-line: underline;
+  font-size: 18px;
+}
+.titleServiceLarge {
+  display: none;
+}
+.imageLarge {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .containerSection {
+    padding: 45px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .titleService {
+    font-size: 26px;
+  }
+  .descriptionService {
+    font-size: 18px;
+  }
+  .image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .titleService {
+    display: none;
+  }
+  .containerSection {
+    padding: 60px;
+  }
+  .titleServiceLarge {
+    display: block;
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 26px;
+  }
+  .wrappTextImage {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerImage {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerDescription {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  .imageSmall {
+    display: none;
+  }
+  .imageLarge {
+    /* display: flex; */
+    width: 50%;
+    /* align-items: center;
+    justify-content: center; */
+  }
+}
+@media screen and (min-width: 1440px) {
+  .containerSection {
+    padding: 70px 90px;
+  }
+  .image {
+    width: 400px;
+    height: 400px;
+  }
+  .sideImage {
+    width: 350px;
+    height: 350px;
+  }
+  .descriptionService {
+    font-size: 20px;
+  }
+}

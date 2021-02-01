@@ -9,18 +9,21 @@ import SliderSectionHome from "../../components/home-components/slider-section-h
 import GiftSectionHome from "../../components/home-components/gift-section-home";
 import OfferSectionHome from "../../components/home-components/offer-section-home";
 import TestimonySlider from "../../components/testimony-slider";
+import ServicesSectionHome from "../../components/home-components/services-section-home/services-section-home";
 
+import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 // Todo:
 // ver si dejar slider de testimonios
 
 function Home() {
   UseScrollToTop();
 
+  // <FourthSectionHome />
   return (
     <div className={styles.containerHome}>
       <SliderSectionHome />
       <SecondSectionHome />
-      <FourthSectionHome />
+      <ServicesSectionHome />
       <ThirdSectionHome />
       <OfferSectionHome />
       <GiftSectionHome />

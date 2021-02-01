@@ -23,6 +23,16 @@ export const appDataText = {
       services: {
         name: "Servicios",
         path: "/servicios",
+        subcategories: {
+          name: "Serv. Personas Naturales",
+          path: "/servicios-personas-naturales",
+          name2: "Serv. Psicológos",
+          path2: "/servicios-psicológos",
+          name3: "Serv. Empresas",
+          path3: "/servicios-empresas",
+          name4: "Terapias Complementarias",
+          path4: "/terapias-complementarias",
+        },
       },
       contactUs: {
         name: "Contacto",
@@ -299,7 +309,7 @@ export const appDataText = {
                   "Nuestro cuerpo sabe cómo respirar sólo necesitamos poner el foco en este recurso. Cuando esta función está bloqueada, limitada o inhibida por alguna situación de estrés o por un hábito de respiración inadecuado resulta afectada, alterándose entre otras cosas los ciclos del sueño, el nivel de energía, la memoria, la concentración o la templanza emocional.",
               },
               subtitlelanguage: "Idioma :",
-              language: "Español e Ingles",
+              language: "Español e Inglés",
               benefits: {
                 title: "Beneficios",
                 Benefits: [
@@ -337,7 +347,7 @@ export const appDataText = {
               description4:
                 "De hecho, muchos programas para reducir peso utilizan la técnica de “atención plena”",
               subtitlelanguage: "Idioma :",
-              language: "Español e Ingles",
+              language: "Español e Inglés",
               benefits: {
                 title: "Beneficios",
                 benefits: [
@@ -554,7 +564,7 @@ export const appDataText = {
               description4:
                 "Todo lo que atraemos es porque está en sintonía con lo que sentimos. Las cartas de Tarot nos mostrarán estados de conciencia y cómo se manifiestan para bien o para mal.",
               subtitlelanguage: "Idioma :",
-              language: "Español e Ingles",
+              language: "Español e Inglés",
               benefits: {
                 title: "Beneficios",
                 description:
@@ -732,42 +742,43 @@ export const appDataText = {
         },
       },
       companiesServices: {
-        title: "Elaboración de programas semestral o anual de Autocuidado",
-        phrase:
-          "“Cuando miro el mundo soy pesimista, pero cuando miro a la gente soy optimista”",
-        descriptionParagraph1: (
-          <div>
-            Trabajar profesionalmente en áreas de políticas públicas, implica
-            asumir múltiples desafíos y consecuencias, asociados a la temática y
-            a la organización de la tarea y en ocasiones lleva a los
-            profesionales a padecer <strong>burnout</strong>
-          </div>
-        ),
-        descriptionParagraph2:
-          "Esto ha llevado a que Plan de autocuidado sea una tarea que cumplir en las organizaciones. El objeto del estudio es identificar las estrategias de los profesionales, a nivel individual y de equipo, y conocer la percepción de efectividad de éstas.",
-        descriptionParagraph3:
-          "Se elabora plan de autocuidado a distancia, personalizado desde enfoque psicología positiva, logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información  el presupuesto para este ítem es bajo",
-        descriptionParagraph4:
-          "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización y se habilita a las jefaturas para poder implementarlos como parte de sus espacios de descompresión.",
-        subtitlelanguage: "Idioma :",
-        language: "Español",
-        note: {
-          title: "Nota",
-          note:
-            "La Organización Mundial de la Salud (OMS) ha procedido al reconocimiento oficial del burnout o “síndrome de estar quemado” o de desgaste profesional como enfermedad tras la ratificación de la revisión número 11 de la Clasificación Estadística Internacional de Enfermedades y Problemas de Salud Conexos (CIE-11)",
-          note2:
-            "El término 'burnout' fue acuñado por primera vez en 1974 por Herbert Freudenberger, en su libro “Burnout: The High Cost of High Achievement” Por lo general, el trastorno es consecuencia de un estrés laboral crónico, y se caracteriza por un estado de agotamiento emocional, una actitud cínica o distante frente al trabajo (despersonalización), y una sensación de ineficacia y de no hacer adecuadamente las tareas. A ello se suma la pérdida de habilidades para la comunicación.",
-          note3:
-            "El Síndrome de Burnout se incluye así entre los principales problemas de salud mental y en la antesala de muchas de las patologías psíquicas derivadas de un escaso control y de la carencia de una prevención primaria de este síndrome.",
-        },
-        sintomas: {
-          subtitle:
-            "Entre los signos y síntomas más comunes de agotamiento se destacan :",
-          sintomas: {
-            sintomas1: (
+        title: "Servicios para empresas",
+        companieService1: {
+          title: "Elaboración de programas semestral o anual de Autocuidado",
+          phrase:
+            "“Cuando miro el mundo soy pesimista, pero cuando miro a la gente soy optimista”",
+          description1: (
+            <div>
+              Trabajar profesionalmente en áreas de políticas públicas, implica
+              asumir múltiples desafíos y consecuencias, asociados a la temática
+              y a la organización de la tarea y en ocasiones lleva a los
+              profesionales a padecer <strong>burnout</strong>
+            </div>
+          ),
+          description2:
+            "Esto ha llevado a que Plan de autocuidado sea una tarea que cumplir en las organizaciones. El objeto del estudio es identificar las estrategias de los profesionales, a nivel individual y de equipo, y conocer la percepción de efectividad de éstas.",
+          description3:
+            "Se elabora plan de autocuidado a distancia, personalizado desde enfoque psicología positiva, logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información  el presupuesto para este ítem es bajo",
+          description4:
+            "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización y se habilita a las jefaturas para poder implementarlos como parte de sus espacios de descompresión.",
+          subtitlelanguage: "Idioma :",
+          language: "Español",
+          note: {
+            title: "Nota",
+            note:
+              "La Organización Mundial de la Salud (OMS) ha procedido al reconocimiento oficial del burnout o “síndrome de estar quemado” o de desgaste profesional como enfermedad tras la ratificación de la revisión número 11 de la Clasificación Estadística Internacional de Enfermedades y Problemas de Salud Conexos (CIE-11)",
+            note2:
+              "El término 'burnout' fue acuñado por primera vez en 1974 por Herbert Freudenberger, en su libro “Burnout: The High Cost of High Achievement” Por lo general, el trastorno es consecuencia de un estrés laboral crónico, y se caracteriza por un estado de agotamiento emocional, una actitud cínica o distante frente al trabajo (despersonalización), y una sensación de ineficacia y de no hacer adecuadamente las tareas. A ello se suma la pérdida de habilidades para la comunicación.",
+            note3:
+              "El Síndrome de Burnout se incluye así entre los principales problemas de salud mental y en la antesala de muchas de las patologías psíquicas derivadas de un escaso control y de la carencia de una prevención primaria de este síndrome.",
+          },
+          symptoms: {
+            title:
+              "Entre los signos y síntomas más comunes de agotamiento se destacan :",
+            symptoms1: (
               <div>
                 <strong>
-                  La alienación de las actividades relacionadas con el trabajo :
+                  La alienación de las actividades relacionadas con el trabajo:
                 </strong>{" "}
                 las personas que experimentan agotamiento ven sus trabajos como
                 cada vez más estresantes y frustrantes. Pueden volverse cínicos
@@ -775,23 +786,23 @@ export const appDataText = {
                 trabajan
               </div>
             ),
-            sintomas2: (
+            symptoms2: (
               <div>
-                <strong>Síntomas físicos :</strong> el estrés crónico puede
+                <strong>Síntomas físicos:</strong> el estrés crónico puede
                 provocar síntomas físicos, como dolores de cabeza y de estómago
                 o problemas intestinales.
               </div>
             ),
-            sintomas3: (
+            symptoms3: (
               <div>
-                <strong>Agotamiento emocional :</strong> el agotamiento causa
-                que las personas se sientan agotadas, incapaces de hacer frente
-                y cansadas. A menudo les falta energía para hacer su trabajo.
+                <strong>Agotamiento emocional:</strong> el agotamiento causa que
+                las personas se sientan agotadas, incapaces de hacer frente y
+                cansadas. A menudo les falta energía para hacer su trabajo.
               </div>
             ),
-            sintomas4: (
+            symptoms4: (
               <div>
-                <strong>Rendimiento reducido :</strong> el agotamiento afecta
+                <strong>Rendimiento reducido:</strong> el agotamiento afecta
                 principalmente las tareas cotidianas en el trabajo, o en el
                 hogar, cuando el trabajo principal de alguien consiste en cuidar
                 a los miembros de la familia. Los individuos con agotamiento se
