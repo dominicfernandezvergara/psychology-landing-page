@@ -10,47 +10,27 @@
   color: var(--darkPrimaryColor);
   margin-bottom: 10px;
 }
-.containerService {
-}
-.titleService {
-  text-align: center;
-  font-size: 20px;
-  letter-spacing: 1px;
-  color: var(--primaryColor);
-  padding: 10px 0px;
-}
-.phrase {
-  text-align: center;
-  font-family: cursive;
-  margin-bottom: 20px;
-}
-.containerImage {
-  width: 100%;
-  height: auto;
-}
-.image {
-  width: 100%;
-  height: auto;
-}
-.descriptionServices {
-  text-align: justify;
-  color: var(--text);
-}
-.subtitle {
-  color: var(--primaryColor);
-  margin-top: 10px;
-}
-.textBenefits {
-  text-align: justify;
-  color: var(--text);
-}
-.lenguage {
-  color: var(-darkText);
-  margin-top: 10px;
-}
+
 @media screen and (min-width: 768px) {
   .containerPeopleCategoryServices {
     padding: 20px 40px;
-    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerPeopleCategoryServices {
+    padding: 20px 40px;
+  }
+  .title {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .containerPeopleCategoryServices {
+    padding: 20px 150px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerPeopleCategoryServices {
+    padding: 20px 320px;
   }
 }

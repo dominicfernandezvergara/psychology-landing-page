@@ -1,0 +1,23 @@
+.containerHeaderList {
+  display: flex;
+  background-color: var(--lightSecondaryColor);
+}
+.subcategories :global(.MuiSvgIcon-root) {
+  padding-left: 20px;
+  font-size: 18px;
+}
+.containerSubList {
+  display: flex;
+  flex-direction: column;
+}
+.buttonList {
+  width: 120px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buttonList:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}

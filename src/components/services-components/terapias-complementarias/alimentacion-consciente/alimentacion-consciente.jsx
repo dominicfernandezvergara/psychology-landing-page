@@ -2,8 +2,8 @@ import React from "react";
 
 import styles from "./alimentacion-consciente.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeople.jpeg";
-
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageAlimentacionConsciente.jpg";
+// <a href='https://www.freepik.es/vectores/dibujos-animados'>Vector de Dibujos animados creado por vectorjuice - www.freepik.es</a>
 function AlimentacionConsciente() {
   const benefitsList =
     appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople2
@@ -94,15 +94,19 @@ function AlimentacionConsciente() {
         </div>
       </div>
       <div className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia2
-            .subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia2.language
-        }
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia2
+              .subtitlelanguage
+          }
+        </h4>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia2.language
+          }
+        </p>
       </div>
     </div>
   );

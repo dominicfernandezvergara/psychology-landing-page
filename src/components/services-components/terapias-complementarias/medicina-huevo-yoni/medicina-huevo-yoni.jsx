@@ -83,15 +83,19 @@ function MedicinaHuevoYoni() {
         </div>
       </div>
       <div className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia4
-            .subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia4.language
-        }
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia4
+              .subtitlelanguage
+          }
+        </h4>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia4.language
+          }
+        </p>
       </div>
     </div>
   );

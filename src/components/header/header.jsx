@@ -7,6 +7,7 @@ import { appDataText } from "../../appDataText/appDataText";
 import Logo from "../logo";
 import Drawer from "./drawer";
 import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapist-semana-da-psicol-psicologa-social-5cc757f9c4bd23.3476718715565680578058.jpg";
+import HeaderList from "./header-list/header-list";
 
 export const dataButtonsList = [
   {
@@ -50,12 +51,6 @@ export const dataButtonsList = [
     active: false,
     id: 4,
   },
-  // {
-  //   name: appDataText.espanol.header.takeFree.name,
-  //   path: appDataText.espanol.header.takeFree.path,
-  //   active: false,
-  //   id: 5,
-  // },
 ];
 
 function Header() {
@@ -153,11 +148,12 @@ function Header() {
           {buttonHeaderData.map((item, index) => {
             return (
               <div key={index} className={cn(styles.headerButton)}>
+                {}
                 <button
                   className={cn(
                     styles.headerButton,
                     item.active === true ? styles.active : null,
-                    { [styles.colorBlack]: startScrolling }
+                    { [styles.fontSizeChange]: startScrolling }
                   )}
                   type="button"
                   key={item.id}

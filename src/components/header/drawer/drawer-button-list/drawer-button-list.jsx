@@ -6,6 +6,7 @@ import { Clear } from "@material-ui/icons";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 
 import styles from "./drawer-button-list.module.css";
+import DrawerList from "../drawer-list";
 import { dataButtonsList } from "../../header";
 
 // Icon API = https://google.github.io/material-design-icons/
@@ -34,6 +35,7 @@ const DrawerButtonList = ({ toggleDrawer }) => {
       </div>
 
       <div className={styles.drawerList}>
+        <DrawerList />
         {dataButtonsList.map((item, index) => {
           return (
             <div key={index.id} className={cn(styles.buttonDrawerList)}>

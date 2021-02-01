@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./carta-astral.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeople.jpeg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageCartaAstral2.jpg";
 
 function CartaAstral() {
   return (
@@ -62,15 +62,19 @@ function CartaAstral() {
         </div>
       </div>
       <div className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia5
-            .subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia5.language
-        }
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia5
+              .subtitlelanguage
+          }
+        </h4>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia5.language
+          }
+        </p>
       </div>
     </div>
   );

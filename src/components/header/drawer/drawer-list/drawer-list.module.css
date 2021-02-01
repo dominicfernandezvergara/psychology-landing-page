@@ -1,0 +1,9 @@
+.containerDrawerList {
+  width: 100%;
+  width: 260px;
+  background-color: var(--lightSecondaryColor);
+}
+.subcategories :global(.MuiSvgIcon-root) {
+  padding-left: 20px;
+  font-size: 18px;
+}

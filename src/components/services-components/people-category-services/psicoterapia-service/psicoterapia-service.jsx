@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./psicoterapia-service.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeople.jpeg";
+import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/imagePsicoterapiaOnline.jpg";
 
 function PsicoterapiaService() {
   return (
@@ -22,12 +22,14 @@ function PsicoterapiaService() {
       <div className={styles.containerImage}>
         <img className={styles.image} alt="" src={imagePsicoterapia} />
       </div>
-      <p className={styles.text}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople1.description
-        }
-      </p>
+      <div className={styles.containerText}>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople1.description
+          }
+        </p>
+      </div>
       <div className={styles.containerBenefist}>
         <h4 className={styles.subtitle}>
           {
@@ -56,16 +58,20 @@ function PsicoterapiaService() {
           }
         </p>
       </div>
-      <p className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople1.subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople1.language
-        }
-      </p>
+      <div className={styles.lenguage}>
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople1.subtitlelanguage
+          }
+        </h4>
+        <p>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople1.language
+          }
+        </p>
+      </div>
     </div>
   );
 }

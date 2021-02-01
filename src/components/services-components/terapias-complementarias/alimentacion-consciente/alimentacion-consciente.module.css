@@ -21,6 +21,7 @@
 .containerImage {
   width: 100%;
   height: auto;
+  text-align: center;
 }
 .image {
   width: 100%;
@@ -38,5 +39,31 @@
   color: var(-darkText);
   margin-top: 10px;
 }
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 1024px) {
+  .containerService {
+    padding: 20px 40px;
+  }
+  .titleService {
+    font-size: 26px;
+  }
+  .phrase {
+    font-size: 20px;
+  }
+  .containerImage {
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+  }
+  .image {
+    width: auto;
+    max-height: 400px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .containerBenefist {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1920px) {
 }

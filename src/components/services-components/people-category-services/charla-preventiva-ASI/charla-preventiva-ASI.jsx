@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./charla-preventiva-ASI.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageASI.png";
+import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/ASI.jpg";
 
 function CharlaPreventivaASI() {
   const tipList =
@@ -20,7 +20,6 @@ function CharlaPreventivaASI() {
             .serviceNaturalPeople3.title
         }
       </h3>
-
       <div className={styles.containerImage}>
         <img className={styles.image} alt="" src={imagePsicoterapia} />
       </div>
@@ -57,39 +56,41 @@ function CharlaPreventivaASI() {
           }
         </p>
       </div>
-      <div className={styles.containerTips}>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.tips.subtitle
-          }
-        </h4>
-        <p className={styles.text}>
-          {tipList.map((item, index) => {
-            return (
-              <ul key={index}>
-                <li>{item}</li>
-              </ul>
-            );
-          })}
-        </p>
-      </div>
-      <div className={styles.containerAlert}>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.alerts.subtitle
-          }
-        </h4>
-        <p className={styles.text}>
-          {aletList.map((item, index) => {
-            return (
-              <ul key={index}>
-                <li>{item}</li>
-              </ul>
-            );
-          })}
-        </p>
+      <div className={styles.wrapp}>
+        <div className={styles.containerTips}>
+          <h4 className={styles.subtitle}>
+            {
+              appDataText.espanol.services.naturalPeopleService
+                .serviceNaturalPeople3.tips.subtitle
+            }
+          </h4>
+          <p className={styles.text}>
+            {tipList.map((item, index) => {
+              return (
+                <ul key={index}>
+                  <li>{item}</li>
+                </ul>
+              );
+            })}
+          </p>
+        </div>
+        <div className={styles.containerAlert}>
+          <h4 className={styles.subtitle}>
+            {
+              appDataText.espanol.services.naturalPeopleService
+                .serviceNaturalPeople3.alerts.subtitle
+            }
+          </h4>
+          <p className={styles.text}>
+            {aletList.map((item, index) => {
+              return (
+                <ul key={index}>
+                  <li>{item}</li>
+                </ul>
+              );
+            })}
+          </p>
+        </div>
       </div>
       <div className={styles.containerNote}>
         <h4 className={styles.subtitle}>
@@ -105,16 +106,20 @@ function CharlaPreventivaASI() {
           }
         </p>
       </div>
-      <p className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople3.subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople3.language
-        }
-      </p>
+      <div>
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople3.subtitlelanguage
+          }
+        </h4>
+        <p className={styles.lenguage}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople3.language
+          }
+        </p>
+      </div>
     </div>
   );
 }

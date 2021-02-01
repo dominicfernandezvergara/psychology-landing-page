@@ -37,3 +37,35 @@
   color: var(-darkText);
   margin-top: 10px;
 }
+
+@media screen and (min-width: 1024px) {
+  .containerService {
+    padding: 20px 40px;
+  }
+  .titleService {
+    font-size: 26px;
+  }
+  .phrase {
+    font-size: 20px;
+  }
+  .containerImage {
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+  }
+  .image {
+    height: auto;
+    max-height: 400px;
+  }
+}
+@media screen and (min-width: 1440px) {
+}
+@media screen and (min-width: 1920px) {
+  .containerService {
+    padding: 20px;
+  }
+  .image {
+    height: auto;
+    max-height: 400px;
+  }
+}

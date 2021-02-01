@@ -21,6 +21,7 @@
 .containerImage {
   width: 100%;
   height: auto;
+  text-align: center;
 }
 .image {
   width: 100%;
@@ -37,4 +38,44 @@
 .lenguage {
   color: var(-darkText);
   margin-top: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .containerService {
+    padding: 20px 40px;
+  }
+  .titleService {
+    font-size: 26px;
+  }
+  .phrase {
+    font-size: 20px;
+  }
+  .containerImage {
+    width: 45%;
+    float: left;
+    padding-right: 40px;
+  }
+  .image {
+    width: auto;
+    max-height: 400px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .containerImage {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .containerImage {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerImage {
+    width: 35%;
+  }
+  .image {
+    width: auto;
+    max-height: 400px;
+  }
 }

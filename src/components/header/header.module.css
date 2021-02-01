@@ -61,7 +61,6 @@
   }
   .headerButton {
     width: 120px;
-    /* margin-right: 13px; */
     background: transparent;
     border: none;
     font-size: 16px;
@@ -90,7 +89,7 @@
     color: var(--darkSecondaryColor);
   }
   /* css para cambiar de color el header al momento de hacer scroll */
-  .colorBlack {
+  .fontSizeChange {
     font-size: 14px;
   }
   .headerWhite {

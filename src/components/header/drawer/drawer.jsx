@@ -5,12 +5,13 @@ import Drawer from "@material-ui/core/Drawer";
 import Button from "@material-ui/core/Button";
 import DrawerButtonList from "./drawer-button-list";
 import Reorder from "@material-ui/icons/Reorder";
+import DrawerList from "./drawer-list";
 
 // Drawer API : https://material-ui.com/api/drawer/
 
 export default function TemporaryDrawer() {
   const [drawerState, setDrawerState] = useState(false);
-
+  // <DrawerButtonList toggleDrawer={setDrawerState} />
   return (
     <>
       <Button
@@ -26,7 +27,7 @@ export default function TemporaryDrawer() {
         open={drawerState}
         onClose={() => setDrawerState(false)}
       >
-        <DrawerButtonList toggleDrawer={setDrawerState} />
+        <DrawerList open={setDrawerState} />
       </Drawer>
     </>
   );

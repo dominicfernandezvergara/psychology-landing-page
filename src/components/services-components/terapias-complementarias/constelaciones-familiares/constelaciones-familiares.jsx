@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./constelaciones-familiares.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeople.jpeg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageConstelacionesFamiliares.jpg";
 
 function ConstelacionesFamiliares() {
   const useList =

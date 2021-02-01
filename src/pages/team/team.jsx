@@ -34,10 +34,25 @@ function Team() {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                   >
-                    <Typography className={styles.body}>Ver más</Typography>
+                    <Typography className={styles.body}>
+                      {appDataText.espanol.aboutUs.team.buttonText}
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
-                    <Typography>{item.body}</Typography>
+                    <Typography>
+                      <div>
+                        <div className={styles.containerText}>
+                          <p>{item.body}</p>
+                          {item.body2 ? <p>{item.body2}</p> : null}
+                        </div>
+                        <div className={styles.containerDescription}>
+                          <p>{item.description}</p>
+                          {item.description2 ? (
+                            <p>{item.description2}</p>
+                          ) : null}
+                        </div>
+                      </div>
+                    </Typography>
                   </AccordionDetails>
                 </Accordion>
               </div>
@@ -49,4 +64,5 @@ function Team() {
     </div>
   );
 }
+
 export default Team;

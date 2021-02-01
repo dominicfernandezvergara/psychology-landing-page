@@ -20,10 +20,11 @@
 .containerImage {
   width: 100%;
   height: auto;
+  text-align: center;
 }
 .image {
-  width: 100%;
   height: auto;
+  max-height: 450px;
 }
 .text {
   color: var(--text);
@@ -37,6 +38,42 @@
   margin-bottom: 10px;
 }
 .lenguage {
-  color: var(-darkText);
   margin-top: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .containerService {
+    padding: 20px 40px;
+  }
+  .titleService {
+    font-size: 26px;
+  }
+  .phrase {
+    font-size: 20px;
+  }
+  .containerImage {
+    width: 45%;
+    float: left;
+    padding-right: 20px;
+  }
+  .image {
+    max-height: 380px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .containerImage {
+    width: 40%;
+  }
+  .image {
+    max-height: 460px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  /* .lenguage {
+    margin-top: 40px;
+  } */
+}
+@media screen and (min-width: 1920px) {
+  .image {
+    max-height: 430px;
+  }
 }

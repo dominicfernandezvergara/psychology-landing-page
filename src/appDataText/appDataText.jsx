@@ -238,28 +238,42 @@ export const appDataText = {
       team: {
         title: "Nuestro equipo",
         subtitle: "Nuestros colaboradores",
+        buttonText: "Leer más",
         team: {
           p1: {
-            id: 1,
             name: "Carolina Urbina Cepeda",
-            occupation: "Fundadora de “Be Healthy & Holistic” y Psicóloga",
-            body:
+            occupation: "Product Manager y Psicóloga",
+            description:
               "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
           },
 
           p2: {
-            id: 2,
-            name: "Dominic Fernandez Vergara",
-            occupation: "psicóloga ",
+            name: "Wolfgang Abrego Cubillos",
+            occupation: "Asesorías en sexualidad",
             body:
-              "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+              "Escuela Transdisciplinaria de Sexualidad (ETSEX), Chile Licenciado en Psicología, Universidad Los Leones, Chile.",
+            description:
+              "“Mi labor está enfocada en apoyar la salud sexual de las personas mediante un enfoque de derechos sexuales, con objetivo de que cada cliente aprenda a manejar herramientas y estrategias, que le proporcionarán una mejor autonomía al tomar decisiones respecto de su propia vida sexual.",
+            description2:
+              "La educación sexual actual, no es la misma que recibimos en la escuela o en la familia.  Por esto, es indispensable, informarse. Así; nos permite evitar reproducir conductas de alto riesgo que tengan como consecuencia una enfermedad o eventos no deseados”.",
           },
           p3: {
-            id: 3,
-            name: "Dominic Fernandez Vergara",
-            occupation: "psicóloga ",
+            name: "Carmen Gloria Chacón Abarca",
+            occupation: "Terapias complementarias",
             body:
-              "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+              "Terapeuta integral femenina, Shiva & Shakti Alquimia. Astróloga, Astro terapéutica, astrología evolutiva. Viajera, amante de la luz y sombra, infinita.",
+            body2: "Geógrafo, Universidad de Playa Ancha, Valparaíso, Chile.",
+            description:
+              "“A través de un camino de más de 10 años de búsqueda y sanación personal, he podido integrar diversas terapias al servicio de la sanación y de la conexión con las energías femeninas y masculinas. Entre estas, he puesto al servicio Reiki, Masaje tradicional tailandés, Masaje champí y Pindas, Yoga integral, Consteladora familiar, Cosmética Natural, Aroma y gemoterapia, geometría sagrada, entre otras.",
+            description2:
+              "En esta vida, soy viajera en una búsqueda incansable del equilibrio y la magia”.",
+          },
+          p4: {
+            name: "María de Los Ángeles Diaz Figueroa",
+            occupation: "Prestaciones Jurídicas",
+            body: "Abogado, Universidad Santo Tomás, Chile.",
+            description:
+              "“Mujer valiente e interesante”. Con más de 10 años de experiencia y formación especializada en infancia y adolescencia, cuya forma de trabajo se centra esencialmente en las personas de manera comprensiva y empática, procurando siempre acercar las instituciones jurídicas al caso particular. Busca la mayor comprensión posible tanto del conflicto que requiere asesoría profesional como las posibles estrategias para su solución.”",
           },
         },
       },

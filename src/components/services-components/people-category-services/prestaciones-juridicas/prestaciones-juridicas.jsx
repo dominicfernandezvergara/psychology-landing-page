@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./prestaciones-juridicas.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeople.jpeg";
+import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/imageAsesoriaLegal.jpg";
 
 function PrestacionesJuridicas() {
   return (
@@ -36,7 +36,7 @@ function PrestacionesJuridicas() {
           }
         </h3>
         <div className={styles.subservices}>
-          <h4 className={styles.titleSubservices}>
+          <h4 className={styles.subtitle}>
             {
               appDataText.espanol.services.naturalPeopleService
                 .serviceNaturalPeople4.subservices.subservice1.title
@@ -50,7 +50,7 @@ function PrestacionesJuridicas() {
           </p>
         </div>
         <div className={styles.subservices}>
-          <h4 className={styles.titleSubservices}>
+          <h4 className={styles.subtitle}>
             {
               appDataText.espanol.services.naturalPeopleService
                 .serviceNaturalPeople4.subservices.subservice2.title
@@ -64,7 +64,7 @@ function PrestacionesJuridicas() {
           </p>
         </div>
         <div className={styles.subservices}>
-          <h4 className={styles.titleSubservices}>
+          <h4 className={styles.subtitle}>
             {
               appDataText.espanol.services.naturalPeopleService
                 .serviceNaturalPeople4.subservices.subservice3.title
@@ -78,17 +78,20 @@ function PrestacionesJuridicas() {
           </p>
         </div>
       </div>
-
-      <p className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople4.subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople4.language
-        }
-      </p>
+      <div className={styles.lenguage}>
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople4.subtitlelanguage
+          }
+        </h4>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople4.language
+          }
+        </p>
+      </div>
     </div>
   );
 }

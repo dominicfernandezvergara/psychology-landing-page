@@ -43,7 +43,7 @@ function AsesoriasSexualidad() {
         </p>
       </div>
       <div className={styles.containerBenefist}>
-        <h4 className={styles.lenguage}>
+        <h4 className={styles.subtitle}>
           {
             appDataText.espanol.services.naturalPeopleService
               .serviceNaturalPeople2.terapiasComplementarias.terapia3
@@ -66,15 +66,19 @@ function AsesoriasSexualidad() {
         </div>
       </div>
       <div className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia3
-            .subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia3.language
-        }
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia3
+              .subtitlelanguage
+          }
+        </h4>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia3.language
+          }
+        </p>
       </div>
     </div>
   );
