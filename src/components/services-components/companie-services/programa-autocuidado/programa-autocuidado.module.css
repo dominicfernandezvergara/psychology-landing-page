@@ -39,5 +39,50 @@
   color: var(-darkText);
   margin-top: 10px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
+  .containerService {
+    padding: 20px 40px;
+  }
+  .titleService {
+    font-size: 26px;
+  }
+  .phrase {
+    font-size: 20px;
+  }
+  .containerImage {
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+  }
+  .image {
+    width: auto;
+    max-height: 300px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .image {
+    max-height: 400px;
+  }
+  .containerSymptoms {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .image {
+    max-height: 390px;
+  }
+  .containerSymptoms {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerDescripcion {
+    margin-top: 40px;
+  }
+  .containerSymptoms {
+    margin-top: 75px;
+  }
+  .image {
+    max-height: 400px;
+  }
 }

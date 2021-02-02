@@ -10,3 +10,26 @@
   color: var(--darkPrimaryColor);
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .containerCompanieServices {
+    padding: 20px 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerCompanieServices {
+    padding: 20px 40px;
+  }
+  .title {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .containerCompanieServices {
+    padding: 20px 150px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerCompanieServices {
+    padding: 20px 320px;
+  }
+}

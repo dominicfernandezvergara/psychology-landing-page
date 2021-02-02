@@ -10,15 +10,15 @@ import ProfesionalServices from "../../components/services-components/profesiona
 import CompanieServices from "../../components/services-components/companie-services";
 function Services() {
   UseScrollToTop();
-  // <ProfesionalServices />
-  // <CompanieServices />
+
   return (
     <div className={styles.containerServices}>
       <h1 className={styles.title}>{appDataText.espanol.services.title}</h1>
       <div className={styles.containerService}>
         <PeopleCategoryServices />
-
         <TerapiasComplementarias />
+        <ProfesionalServices />
+        <CompanieServices />
       </div>
       <Footer />
     </div>

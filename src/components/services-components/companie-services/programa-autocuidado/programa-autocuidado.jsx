@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./programa-autocuidado.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeople.jpeg";
+import imagePsicoterapia from "../../../../images/imageServices/imageCompanieServices/imageAutocuidado.jpg";
 
 function ProgramaAutocuidado() {
   return (
@@ -42,32 +42,7 @@ function ProgramaAutocuidado() {
           }
         </div>
       </div>
-      <div className={styles.containerNote}>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.companiesServices.companieService1.note
-              .title
-          }
-        </h4>
-        <div className={styles.text}>
-          {
-            appDataText.espanol.services.companiesServices.companieService1.note
-              .note
-          }
-        </div>
-        <div className={styles.text}>
-          {
-            appDataText.espanol.services.companiesServices.companieService1.note
-              .note2
-          }
-        </div>
-        <div className={styles.text}>
-          {
-            appDataText.espanol.services.companiesServices.companieService1.note
-              .note3
-          }
-        </div>
-      </div>
+
       <div className={styles.containerSymptoms}>
         <h4 className={styles.subtitle}>
           {
@@ -102,15 +77,45 @@ function ProgramaAutocuidado() {
           </li>
         </ul>
       </div>
+      <div className={styles.containerNote}>
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.companiesServices.companieService1.note
+              .title
+          }
+        </h4>
+        <div className={styles.text}>
+          {
+            appDataText.espanol.services.companiesServices.companieService1.note
+              .note
+          }
+        </div>
+        <div className={styles.text}>
+          {
+            appDataText.espanol.services.companiesServices.companieService1.note
+              .note2
+          }
+        </div>
+        <div className={styles.text}>
+          {
+            appDataText.espanol.services.companiesServices.companieService1.note
+              .note3
+          }
+        </div>
+      </div>
       <div className={styles.lenguage}>
-        {
-          appDataText.espanol.services.profesionalServices
-            .serviceProfesionalServices3.subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.profesionalServices
-            .serviceProfesionalServices3.language
-        }
+        <h4 className={styles.subtitle}>
+          {
+            appDataText.espanol.services.profesionalServices
+              .serviceProfesionalServices3.subtitlelanguage
+          }
+        </h4>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.profesionalServices
+              .serviceProfesionalServices3.language
+          }
+        </p>
       </div>
     </div>
   );
