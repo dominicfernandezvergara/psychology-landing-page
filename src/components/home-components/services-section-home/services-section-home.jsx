@@ -1,5 +1,6 @@
 import React from "react";
 import cn from "classnames";
+import { useHistory } from "react-router-dom";
 
 import styles from "./services-section-home.module.css";
 
@@ -9,6 +10,27 @@ import imageProfesional from "../../../images/imageHome/imageProfesional3.jpg";
 import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";
 
 function ServicesSectionHome() {
+  const history = useHistory();
+
+  const onClickButtonPeopleServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Personas Naturales", number: 0 },
+    });
+  };
+  const onClickButtonProfesionalServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Psicologos", number: 1 },
+    });
+  };
+  const onClickButtonCompanieServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Empresas", number: 2 },
+    });
+  };
+
   const bodyPeople = (
     <div className={styles.containerService}>
       <h3 className={styles.titleService}>
@@ -40,9 +62,13 @@ function ServicesSectionHome() {
                 .description3
             }
           </div>
-          <a className={styles.button} href="/contacto">
+          <button
+            className={styles.button}
+            type="button"
+            onClick={onClickButtonPeopleServices}
+          >
             {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-          </a>
+          </button>
         </div>
       </div>
     </div>
@@ -70,9 +96,13 @@ function ServicesSectionHome() {
                 .description
             }
           </div>
-          <a className={styles.button} href="/contacto">
+          <button
+            className={styles.button}
+            type="button"
+            onClick={onClickButtonProfesionalServices}
+          >
             {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-          </a>
+          </button>
         </div>
         <div className={cn(styles.containerImage, styles.imageLarge)}>
           <img className={styles.image} alt="" src={imageProfesional} />
@@ -113,9 +143,13 @@ function ServicesSectionHome() {
                 .description2
             }
           </div>
-          <a className={styles.button} href="/contacto">
+          <button
+            className={styles.button}
+            type="button"
+            onClick={onClickButtonCompanieServices}
+          >
             {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-          </a>
+          </button>
         </div>
       </div>
     </div>
