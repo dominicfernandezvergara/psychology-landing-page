@@ -5,8 +5,9 @@ import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import { appDataText } from "../../appDataText/appDataText";
 // import missionImage from "../../images/imageAbout/imageBrandBluePink.png";
 import Footer from "../../components/footer";
-import ContainerFounderCompany from "../../components/about-components/container-founder-company";
+import FounderCompany from "../../components/about-components/container-founder-company";
 import TestimonySliderAbout from "../../components/testimony-slider-about";
+import Team from "../../components/team/team";
 
 // todo:
 // -ver si se deja slider de testimonios
@@ -16,7 +17,6 @@ function About() {
   return (
     <div className={styles.containerAbout}>
       <h1 className={styles.title}>{appDataText.espanol.aboutUs.title}</h1>
-      <TestimonySliderAbout />
 
       <div className={styles.containerText}>
         <h3 className={styles.subtitle}>
@@ -40,9 +40,9 @@ function About() {
           {appDataText.espanol.aboutUs.vision.text2}
         </p>
       </div>
-      <div className={styles.containerTeam}>
-        <ContainerFounderCompany />
-      </div>
+      <FounderCompany />
+      <Team />
+      <TestimonySliderAbout />
       <Footer />
     </div>
   );

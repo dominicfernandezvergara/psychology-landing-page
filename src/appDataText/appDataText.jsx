@@ -13,12 +13,6 @@ export const appDataText = {
       aboutUs: {
         name: "Nosotros",
         path: "/nosotros",
-        subcategories: {
-          name: "Equipo",
-          path: "/equipo",
-          name2: "Empresa",
-          path2: "/empresa",
-        },
       },
       services: {
         name: "Servicios",
@@ -56,9 +50,9 @@ export const appDataText = {
           text: "Asesorías psicológicas de calidad desde tu domicilio.",
         },
         slider3: {
-          title: "Prevención de agresiones sexuales",
+          title: "Prevención universal primaria en delitos sexuales",
           text:
-            "Charlas preventivas y detección temprana de sintomatología en ASÍ",
+            "Charlas preventivas para detección temprano en sintomatología de ASI",
           text2:
             "*No disponible terapia y evaluación para niños, niñas y adolescentes",
         },
@@ -165,7 +159,7 @@ export const appDataText = {
           "Por si aún no estás convencido de iniciar tu proceso de transformación",
         subtitle: "Te ofrecemos :",
         text: "Aplicación test gratuito",
-        text1: "Sesión psicológica diagnóstica",
+        text1: "Sesión psicológica diagnóstica gratuita",
         text2: "Sesión de retroalimentación y apreciación clínica",
 
         text3: "Ahorrarás hasta un 50%",

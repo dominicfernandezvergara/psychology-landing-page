@@ -8,7 +8,6 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import styles from "./team.module.css";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import { appDataText } from "../../appDataText/appDataText";
-import Footer from "../../components/footer/footer";
 import { listTeam } from "./listTeam";
 
 function Team() {
@@ -60,7 +59,6 @@ function Team() {
           );
         })}
       </div>
-      <Footer />
     </div>
   );
 }

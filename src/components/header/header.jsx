@@ -20,12 +20,6 @@ export const dataButtonsList = [
   {
     name: appDataText.espanol.header.aboutUs.name,
     path: appDataText.espanol.header.aboutUs.path,
-    subcategories: {
-      name: appDataText.espanol.header.aboutUs.subcategories.name,
-      path: appDataText.espanol.header.aboutUs.subcategories.path,
-      name2: appDataText.espanol.header.aboutUs.subcategories.name2,
-      path2: appDataText.espanol.header.aboutUs.subcategories.path2,
-    },
     active: false,
     id: 2,
   },

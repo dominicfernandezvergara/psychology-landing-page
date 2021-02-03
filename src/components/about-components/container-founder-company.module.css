@@ -1,29 +1,23 @@
-.containerTeamPresentationComponent {
+.containerFounderCompany {
   display: flex;
   flex-direction: column;
   padding: 0px 20px;
   margin-bottom: 20px;
 }
 .title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 10px;
+  text-align: center;
   padding-bottom: 10px;
-  width: 100%;
   color: var(--darkPrimaryColor);
   text-transform: uppercase;
-  font-size: 22px;
-  letter-spacing: 1px;
+  font-size: 20px;
 }
-.containerTeamImage {
+.containerImage {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
 }
-.teamImage {
-  width: 100%;
-  height: auto;
+.image {
+  width: 80%;
   background-color: var(--lightSecondaryColor);
 }
 .name {
@@ -44,11 +38,56 @@
   color: var(--text);
   text-align: justify;
 }
-.containerButtonGoToColaboradores {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 @media screen and (min-width: 768px) {
+  .containerFounderCompany {
+    padding: 10px 50px;
+    display: block;
+    flex-direction: unset;
+  }
+  .wrappData {
+    display: flex;
+  }
+  .wrappDataExperience {
+    width: 50%;
+  }
+  .containerImage {
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-right: 20px;
+    float: left;
+  }
+  .image {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .title {
+    font-size: 30px;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+  .profession {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .containerImage {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .containerFounderCompany {
+    padding: 10px 80px;
+  }
+}
+/* @media screen and (min-width: 768px) {
   .containerTeamPresentationComponent {
     padding: 0px 50px;
   }
@@ -60,7 +99,6 @@
   }
   .containerTeamImage {
     width: 50%;
-    height: 400px;
     text-align: center;
     box-sizing: border-box;
     padding-right: 10px;
@@ -71,8 +109,9 @@
   .activeMedium {
     display: none;
   }
-}
-@media screen and (min-width: 1024px) {
+} */
+
+/* @media screen and (min-width: 1024px) {
   .wrappDataExperience {
     padding-left: 20px;
   }
@@ -107,8 +146,8 @@
   .desactiveMedium {
     display: block;
   }
-}
-@media screen and (min-width: 1280px) {
+} */
+/* @media screen and (min-width: 1280px) {
   .activeMedium {
     display: block;
   }
@@ -153,4 +192,4 @@
   .containerTeamImage {
     width: 25%;
   }
-}
+} */

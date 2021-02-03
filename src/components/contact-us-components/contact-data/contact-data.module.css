@@ -5,6 +5,9 @@
   padding-left: 30px;
   padding-right: 30px;
   box-sizing: border-box;
+  background-color: var(--lightSecondaryColor);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .subWrappData {
   display: flex;

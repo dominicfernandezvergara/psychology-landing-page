@@ -18,25 +18,30 @@ function ContactUs() {
       {/*Responsive Small*/}
       <div className={styles.containerContactUsResponsiveSmall}>
         <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
+        <div className={styles.containerHowItWork}>
+          <HowItWork />
+        </div>
+        <h1 className={styles.subtitle}>
+          {appDataText.espanol.contact.subtitle2}
+        </h1>
         <div className={styles.textContainerForm}>
           {appDataText.espanol.contact.text}
           {appDataText.espanol.contact.text2}
           {appDataText.espanol.contact.text3}
         </div>
+
         <div className={styles.wrappFormHowItWork}>
           <div className={styles.containerForm}>
             <Form />
           </div>
-          <div className={styles.containerHowItWork}>
-            <HowItWork />
-          </div>
-        </div>
-        <div className={styles.containerHowItWork}>
-          <ContactData />
         </div>
         <div className={styles.containerTransferData}>
           <TransferData />
         </div>
+        <div className={styles.containerHowItWork}>
+          <ContactData />
+        </div>
+
         <div className={styles.containerFooter}>
           <Footer />
         </div>
@@ -46,7 +51,9 @@ function ContactUs() {
       {/*Responsive Medium*/}
       <div className={styles.containerContactUsResponsiveMedium}>
         <h1 className={styles.title}> {appDataText.espanol.contact.title}</h1>
-
+        <div className={styles.containerHowItWork}>
+          <HowItWork />
+        </div>
         <div className={styles.wrappFormHowItWork}>
           <div className={styles.subcontainerwrappFormDataContact}>
             <h1 className={styles.subtitle}>
@@ -73,9 +80,6 @@ function ContactUs() {
               <TransferData />
             </div>
           </div>
-        </div>
-        <div className={styles.containerHowItWork}>
-          <HowItWork />
         </div>
 
         <div className={styles.containerFooter}>

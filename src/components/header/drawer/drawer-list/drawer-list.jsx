@@ -19,11 +19,11 @@ import { appDataText } from "../../../../appDataText/appDataText";
 
 function DrawerList({ open }) {
   const history = useHistory();
-  const [openAbout, setOpenAbout] = useState(false);
   const [openServices, setOpenServices] = useState(false);
 
   const handleClickAbout = () => {
-    setOpenAbout(!openAbout);
+    open(false);
+    history.push(appDataText.espanol.header.aboutUs.path);
   };
   const handleClickServices = () => {
     setOpenServices(!openServices);
@@ -32,14 +32,6 @@ function DrawerList({ open }) {
   const onClickRedirectionInicio = () => {
     open(false);
     history.push(appDataText.espanol.header.home.path);
-  };
-  const onClickRedirectionAboutTeam = () => {
-    open(false);
-    history.push(appDataText.espanol.header.aboutUs.subcategories.path);
-  };
-  const onClickRedirectionAboutCompanie = () => {
-    open(false);
-    history.push(appDataText.espanol.header.aboutUs.path);
   };
   const onClickRedirectionContactUs = () => {
     open(false);
@@ -71,36 +63,7 @@ function DrawerList({ open }) {
           <PeopleIcon />
         </ListItemIcon>
         <ListItemText primary={appDataText.espanol.header.aboutUs.name} />
-        {openAbout ? <ExpandLess /> : <ExpandMore />}
       </ListItem>
-      <Collapse in={openAbout} timeout="auto" unmountOnExit>
-        <List component="div" disablePadding>
-          <ListItem
-            button
-            className={styles.subcategories}
-            onClick={onClickRedirectionAboutTeam}
-          >
-            <ListItemIcon>
-              <ArrowForwardIosIcon />
-            </ListItemIcon>
-            <ListItemText
-              primary={appDataText.espanol.header.aboutUs.subcategories.name}
-            />
-          </ListItem>
-          <ListItem
-            button
-            className={styles.subcategories}
-            onClick={onClickRedirectionAboutCompanie}
-          >
-            <ListItemIcon>
-              <ArrowForwardIosIcon />
-            </ListItemIcon>
-            <ListItemText
-              primary={appDataText.espanol.header.aboutUs.subcategories.name2}
-            />
-          </ListItem>
-        </List>
-      </Collapse>
       <ListItem button onClick={handleClickServices}>
         <ListItemIcon>
           <AssignmentIcon />

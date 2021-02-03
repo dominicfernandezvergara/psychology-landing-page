@@ -16,7 +16,7 @@
   display: flex;
 }
 .headerButton {
-  color: var(--primary);
+  color: var(--darkPrimaryColor);
 }
 
 .shoppingCartButton {
@@ -86,15 +86,17 @@
     background-color: var(--white);
   }
   .headerButton {
-    color: var(--darkSecondaryColor);
+    color: var(--darkPrimaryColor);
   }
   /* css para cambiar de color el header al momento de hacer scroll */
   .fontSizeChange {
-    font-size: 14px;
+    font-size: 18px;
   }
   .headerWhite {
     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
       0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    background-color: #ffffffb8;
+    height: 80px;
   }
   .styleAfterScrollLogo {
     width: 40px;

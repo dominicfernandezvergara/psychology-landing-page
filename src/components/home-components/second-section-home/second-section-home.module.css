@@ -24,17 +24,7 @@
   letter-spacing: 1px;
   color: var(--text);
 }
-.containerSecondSection :global(.MuiButton-root) {
-  font-size: 16px;
-  color: var(--primaryColor);
-  text-transform: uppercase;
-  background: transparent;
-  border: 1px solid;
-  border-radius: 30px;
-}
-.containerSecondSection :global(.MuiButton-root):hover {
-  color: var(--darkSecondaryColor);
-}
+
 @media screen and (min-width: 768px) {
   .containerSecondSection {
     padding: 45px;

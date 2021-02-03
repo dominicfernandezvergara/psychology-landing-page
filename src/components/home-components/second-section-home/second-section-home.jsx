@@ -19,7 +19,7 @@ function SecondSectionHome() {
       <ButtonApp
         text={appDataText.espanol.home.secondSectionHome.buttonText}
         path="./contacto"
-        color="secondary"
+        color="primary"
       />
     </div>
   );

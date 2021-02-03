@@ -1,7 +1,7 @@
 .containerHowItWork {
   text-align: center;
   padding: 30px 20px;
-  background-color: var(--lightSecondaryColor);
+  background-color: var(--white);
 }
 .title {
   text-transform: uppercase;

@@ -27,19 +27,16 @@ function SliderSectionHome() {
     arrows: false,
   };
 
-  const openNewWindow = (event) => {
-    event.preventDefault();
-    window.open("https://www.w3schools.com");
-  };
-
   const firstImage = <SliderContentOne />;
   const secondImage = <SliderContentTwo />;
   const thirdImage = <SliderContentThree />;
+
   return (
     <div className={styles.containerSlider}>
       <Slider {...settings}>
         {firstImage}
         {secondImage}
+
         {thirdImage}
       </Slider>
     </div>
