@@ -8,6 +8,40 @@ export const appDataText = {
     // phrases español
 
     // Header español
+    headerArray: [
+      { name: "Inicio", path: "/inicio" },
+      {
+        name: "Nosotros",
+        path: "/nosotros",
+      },
+      {
+        name: "Servicios",
+        path: "/servicios",
+        subcategories: [
+          {
+            name: "Serv. Personas Naturales",
+            path: "/servicios-personas-naturales",
+            number: 0,
+          },
+          {
+            name: "Serv. Psicológos",
+            path: "/servicios-psicológos",
+            number: 1,
+          },
+          { name: "Serv. Empresas", path: "/servicios-empresas", number: 2 },
+          {
+            name: "Terapias Complementarias",
+            path: "/terapias-complementarias",
+            number: 3,
+          },
+        ],
+      },
+      {
+        name: "Contacto",
+        path: "/contacto",
+      },
+    ],
+
     header: {
       home: {
         name: "Inicio",
@@ -50,12 +84,12 @@ export const appDataText = {
         },
         slider2: {
           title: "Servicios Online",
-          text: "Asesorías psicológicas de calidad desde tu domicilio.",
+          text: "Asesorías profesionales de calidad desde tu domicilio.",
         },
         slider3: {
           title: "Prevención universal primaria en delitos sexuales",
           text:
-            "Charlas preventivas para detección temprano en sintomatología de ASI",
+            "*No disponible terapia y evaluación para niños, niñas y adolescentes",
           text2:
             "*No disponible terapia y evaluación para niños, niñas y adolescentes",
         },
@@ -133,7 +167,7 @@ export const appDataText = {
       },
       fifthSectionHome: {
         title: "¿Cómo funciona?",
-        subtitle: "3 sencillos pasos para empezar a mejorar tu vida.",
+        subtitle: "3 sencillos pasos para empezar tu proceso de cambio.",
         firstStep: {
           title: "Paso Uno",
           description:
@@ -147,7 +181,7 @@ export const appDataText = {
         buttonText: "Comienza Hoy",
         thirdStep: {
           title: "Paso Tres",
-          description: "Comienza con tus sesiones y mejora tu vida.",
+          description: "Comienza con tus sesiones y alcanza tu bienestar.",
         },
       },
       giftSectionHome: {
@@ -224,13 +258,13 @@ export const appDataText = {
           title: "Formación Profesional",
           text1:
             "Profesional psicóloga y licenciada en psicología en la Universidad Autónoma de Chile. Diplomada en diagnóstico e intervención en maltrato y agresiones sexuales, con formación en temáticas de derechos humanos, infancia, género, multiculturalidad, buenos tratos, autocuidado y ergonomía en el trabajo.",
-          text2:
-            "La psicología es una ciencia que estudia el comportamiento humano, durante su viaje profesional, comenzó a sentir que la psicología por sí sola no le permitía en algunos casos avanzar en la intervención, se ve forzada a incorporar distintos enfoques y técnicas desde el psicoanálisis hasta biomagnetismo, (también ciencias.) Por ende, hoy se define como una psicóloga de tipo holística, es decir, toma e incluye otros enfoques según necesite cada uno de sus pacientes e integra los aspectos físico, psíquico, emocional.",
+          // text2:
+          //   "La psicología es una ciencia que estudia el comportamiento humano, durante su viaje profesional, comenzó a sentir que la psicología por sí sola no le permitía en algunos casos avanzar en la intervención, se ve forzada a incorporar distintos enfoques y técnicas desde el psicoanálisis hasta biomagnetismo, (también ciencias.) Por ende, hoy se define como una psicóloga de tipo holística, es decir, toma e incluye otros enfoques según necesite cada uno de sus pacientes e integra los aspectos físico, psíquico, emocional.",
         },
         valueFormation: {
           title: "Formación valórica",
           text:
-            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada”. Proviene de una familia monoparental",
         },
       },
       team: {
@@ -256,7 +290,7 @@ export const appDataText = {
               description:
                 "“Durante mi viaje profesional , comencé  a sentir que la psicología por sí sola no me permitía en algunos casos y/o momentos avanzar en la intervención, por ende, me veo forzada a incorporar distintos enfoques y técnicas de otros enfoques. He sido y continúo siendo el propio conejillo de indias u objeto de estudio, probando diversos tipos de terapia y enfoques; me defino alma curiosa, viajera y valiente. Tengo 5 años de revisión terapéutica y 3 de ellos han sido viajando por Oceanía, Asia, Latinoamérica. Actualmente vivo en República Checa y espero en el futuro visitar África, con el fin de seguir deconstruyéndome y buscando mi lugar físico en la tierra.",
               description2:
-                "También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros.”",
+                "También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros”.",
             },
           },
 
@@ -474,7 +508,7 @@ export const appDataText = {
             terapia3: {
               title: "Asesorías en sexualidad",
               phrase:
-                "“ Dar produce más felicidad que recibir, no porque sea una privación, sino porque en el acto de dar está la expresión de mi vitalidad (Erich Fromm).",
+                "“ Dar produce más felicidad que recibir, no porque sea una privación, sino porque en el acto de dar está la expresión de mi vitalidad” (Erich Fromm).",
               description:
                 "La consejería en salud sexual, es un servicio de prestación de información y acompañamiento a quien percibe que ciertos factores, eventos o conductas influyen determinantemente sus experiencias respecto a su sexualidad.",
               description2:
@@ -628,13 +662,13 @@ export const appDataText = {
               description2:
                 "Tarot es una herramienta maravillosa que no se centra en la predicción del futuro sino que observa el presente y nos sitúa en él. A través de la energía de las cartas y su significado, nos despierta al autoconocimiento para que podamos tomar decisiones desde otra perspectiva y, así, sanar y liberar los procesos de crecimiento.",
               description3: (
-                <p>
+                <div>
                   <strong>
                     Somos quienes somos por las decisiones que tomamos y somos
                     responsables de lo que suceda en nuestra vida
                   </strong>
                   , es uno de sus principios.
-                </p>
+                </div>
               ),
               description4:
                 "Todo lo que atraemos es porque está en sintonía con lo que sentimos. Las cartas de Tarot nos mostrarán estados de conciencia y cómo se manifiestan para bien o para mal.",
@@ -775,12 +809,12 @@ export const appDataText = {
           phrase: "“Sigue a tu corazón pero lleva contigo a tu cerebro”",
           description: (
             <div>
-              El <stron>estudio de casos</stron> consiste en un método o técnica
-              de investigación cualitativa, habitualmente utilizado en las
-              ciencias de la salud y sociales, el cual se caracteriza por
+              El <strong>estudio de casos</strong> consiste en un método o
+              técnica de investigación cualitativa, habitualmente utilizado en
+              las ciencias de la salud y sociales, el cual se caracteriza por
               precisar de un proceso de búsqueda e indagación, así como el{" "}
-              <stron>análisis</stron> sistemático de uno o varios{" "}
-              <stron>casos</stron> a fin de resolver nudos críticos en la
+              <strong>análisis</strong> sistemático de uno o varios{" "}
+              <strong>casos</strong> a fin de resolver nudos críticos en la
               intervención y elaborar planes de acción personalizados y reales.
             </div>
           ),
@@ -1019,16 +1053,14 @@ export const appDataText = {
     testimony: {
       title: "Testimonios",
       testimony1: {
-        title: "Mujer",
-        age: "29 años",
-        subtitle: "Trastorno de ansiedad",
+        title: "Mujer, 29 años",
+        subtitle: "Síntomas de ansiedad y duelo",
         text:
           "Desde hace un tiempo estoy asistiendo a sesiones con Carolina, nunca antes había recibido terapia psicológica, lo veía lejano e innecesario, pero no imaginaba lo sanador e importante que sería para mí. Cuando comencé estaba en un momento muy gris de vida, en donde estaba muy confundida y perdida acerca de mis decisiones y sobre lo que yo quería. Actualmente puedo decir que he adquirido las herramientas necesarias para enfrentarme a la vida, eso incluye saber distinguir desde qué vereda decido resolver y tomar decisiones, teniendo en cuenta lo que siento, lo que quiero y pienso. Hoy en día miro hacia atrás, visualizo todo mi avance y me sorprendo, siento que Carolina ha sido un apoyo fundamental, y es por esto que le estoy tremendamente agradecida.",
       },
       testimony2: {
-        title: "Hombre",
-        age: "28 años",
-        subtitle: "Profesional psicólogo y educador sexual",
+        title: "Hombre, 28 años",
+        subtitle: "Psicólogo",
         text:
           "Entrar al área de salud , no fue una experiencia fácil para mí , sentí que salí con pocas herramientas en la universidad y a la vez sentía la obligación de rendir como un buen profesional, por lo que siempre estaba ansioso cada vez que iba a trabajar y salía más ansioso cada vez que me supervisan...Más que un acompañamiento sentía solo un discurso de ego y de poca comprensión por parte de mis compañeros de trabajo y jefaturas.",
         text2:
@@ -1037,16 +1069,14 @@ export const appDataText = {
           "En el transcurso del tiempo empecé a trabajar con una metodología más sólida, me sentí más seguro y empecé a tener mejores alcances con mis pacientes por lo que sin duda alguna contribuyó a un cambio de mi experiencia, ahora si voy con ganas al trabajo.",
       },
       testimony3: {
-        title: "Mujer",
-        age: "46 años",
-        subtitle: "Problemas de adicción y ansiedad",
+        title: "Mujer, 46 años",
+        subtitle: "Abuso de sustancias y desesperanza",
         text:
           "Comencé mis terapias hace 5 meses con Carolina, vivo hace 13 años en República Checa, con un millón de cambios, carencias, luchando por una adaptación a una cultura fuerte y muy diferente a la mía...No es mala, pero no ha sido fácil, intenté muchas otras terapias, siempre quedé con la sensación de que algo faltaba. Cuando vi el contacto de esta profesional en Facebook, la contacté y desde la primera sesión me sentí muy contenida, fue fuerte, porque en 60 minutos yo quería expresar mi vida completa, incluyendo la pasada. Ella fue muy receptiva con mi emoción, ella para mí ha sido un pilar fundamental para mirarme, ir hacia dentro, ver nuevamente mi esencia y creo que seguiré en terapia de por vida, porque cada vez me siento mejor. Junto con ella, el trabajo deja de ser duro y tortuoso, sino un camino hermoso, lleno de luz y sueños.",
       },
       testimony4: {
-        title: "Hombre",
-        age: "36 años",
-        subtitle: "Viejo y buen amigo",
+        title: "Hombre, 36 años",
+        subtitle: "Profesional con síntomas de ansiedad y déficit atencional",
 
         text:
           "Ha tenido un impacto conocerla, en mi vida motivacional y emocional. Siempre ha sido una amistad sin discriminación, me ha acompañado en diferentes etapas de la vida, he obtenido un apoyo moral, siempre a estado ahí para seguir generando impactos en mi vida.",

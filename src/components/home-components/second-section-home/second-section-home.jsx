@@ -26,15 +26,15 @@ function SecondSectionHome() {
         <p className={styles.textOffer}>
           {appDataText.espanol.home.offer.text2}
         </p>
+        <p className={styles.text}>
+          {appDataText.espanol.home.secondSectionHome.text}
+        </p>
+        <ButtonApp
+          text={appDataText.espanol.home.secondSectionHome.buttonText}
+          path="./contacto"
+          color="primary"
+        />
       </div>
-      <p className={styles.text}>
-        {appDataText.espanol.home.secondSectionHome.text}
-      </p>
-      <ButtonApp
-        text={appDataText.espanol.home.secondSectionHome.buttonText}
-        path="./contacto"
-        color="primary"
-      />
     </div>
   );
 }

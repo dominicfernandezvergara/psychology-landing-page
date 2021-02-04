@@ -11,6 +11,12 @@ import ConstelacionesFamiliares from "./constelaciones-familiares";
 import TarotTerapeutico from "./tarot-terapeutico";
 
 function TerapiasComplementarias() {
+  //   <p className={styles.phrase}>
+  //   {
+  //     appDataText.espanol.services.naturalPeopleService
+  //       .serviceNaturalPeople2.phrase
+  //   }
+  // </p>
   return (
     <div className={styles.containerTerapiasComplementarias}>
       <h1 className={styles.title}>
@@ -19,12 +25,7 @@ function TerapiasComplementarias() {
             .serviceNaturalPeople2.title
         }
       </h1>
-      <p className={styles.phrase}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.phrase
-        }
-      </p>
+
       <RespiracionConsciente />
       <AlimentacionConsciente />
       <AsesoriasSexualidad />

@@ -36,7 +36,6 @@ function SliderSectionHome() {
       <Slider {...settings}>
         {firstImage}
         {secondImage}
-
         {thirdImage}
       </Slider>
     </div>

@@ -47,9 +47,6 @@ function FounderCompany() {
       <p className={styles.text}>
         {appDataText.espanol.aboutUs.founder.training.text1}
       </p>
-      <p className={styles.text}>
-        {appDataText.espanol.aboutUs.founder.training.text2}
-      </p>
       <h3 className={styles.subtitle}>
         {appDataText.espanol.aboutUs.founder.valueFormation.title}
       </h3>

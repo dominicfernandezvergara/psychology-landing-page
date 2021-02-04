@@ -1,23 +1,42 @@
-.containerHeaderList {
-  display: flex;
-  background-color: var(--lightSecondaryColor);
+.headerButton {
+  color: var(--darkPrimaryColor);
 }
-.subcategories :global(.MuiSvgIcon-root) {
-  padding-left: 20px;
-  font-size: 18px;
+
+@media screen and (min-width: 768px) {
+  .containerMenuButton :global(.MuiButton-label) {
+    width: 120px;
+    background: transparent;
+    color: var(--darkPrimaryColor);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: none;
+    font-family: sans-serif;
+  }
+  .headerButton:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  .containerMenuButton :global(.MuiButton-root:hover) {
+    background-color: transparent;
+  }
+  .active {
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid;
+    color: var(--primaryColor);
+  }
+  .containerListButton :global(.MuiButtonBase-root) {
+    background: transparent;
+    color: var(--darkPrimaryColor);
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: none;
+  }
+  .containerListButton:hover :global(.MuiButtonBase-root) {
+    background-color: transparent;
+  }
 }
-.containerSubList {
-  display: flex;
-  flex-direction: column;
-}
-.buttonList {
-  width: 120px;
-  background: transparent;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-}
-.buttonList:hover {
-  transform: scale(1.1);
-  font-weight: bold;
+@media screen and (min-width: 1024px) {
 }

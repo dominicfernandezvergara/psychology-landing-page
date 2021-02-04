@@ -36,9 +36,6 @@ function TestimonySlider() {
           <h3 className={styles.testimonyTitle}>
             {appDataText.espanol.testimony.testimony1.title}
           </h3>
-          <h4 className={styles.testimonySubtitle}>
-            {appDataText.espanol.testimony.testimony1.age}
-          </h4>
           <div className={styles.testimonyText}>
             <p className={styles.comillaStart}>“</p>
             <p className={styles.text}>
@@ -54,9 +51,6 @@ function TestimonySlider() {
           <h3 className={styles.testimonyTitle}>
             {appDataText.espanol.testimony.testimony2.title}
           </h3>
-          <h4 className={styles.testimonySubtitle}>
-            {appDataText.espanol.testimony.testimony2.age}
-          </h4>
           <div className={styles.testimonyText}>
             <p className={styles.comillaStart}>“</p>
             <p className={styles.text}>
@@ -78,9 +72,6 @@ function TestimonySlider() {
           <h3 className={styles.testimonyTitle}>
             {appDataText.espanol.testimony.testimony3.title}
           </h3>
-          <h4 className={styles.testimonySubtitle}>
-            {appDataText.espanol.testimony.testimony3.age}
-          </h4>
           <div className={styles.testimonyText}>
             <p className={styles.comillaStart}>“</p>
             <p className={styles.text}>
@@ -96,9 +87,6 @@ function TestimonySlider() {
           <h3 className={styles.testimonyTitle}>
             {appDataText.espanol.testimony.testimony4.title}
           </h3>
-          <h4 className={styles.testimonySubtitle}>
-            {appDataText.espanol.testimony.testimony4.age}
-          </h4>
           <div className={styles.testimonyText}>
             <p className={styles.comillaStart}>“</p>
             <p className={styles.text}>

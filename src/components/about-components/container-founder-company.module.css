@@ -87,6 +87,16 @@
     padding: 10px 80px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .containerFounderCompany {
+    padding: 10px 100px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerFounderCompany {
+    padding: 10px 200px;
+  }
+}
 /* @media screen and (min-width: 768px) {
   .containerTeamPresentationComponent {
     padding: 0px 50px;
@@ -168,28 +178,4 @@
   .subtitle {
     padding-top: 12px;
   }
-}
-@media screen and (min-width: 1920px) {
-  .containerTeamPresentationComponent {
-    padding: 0px 200px;
-  }
-  .title {
-    font-size: 36px;
-  }
-  .name {
-    font-size: 34px;
-  }
-  .subtitle {
-    font-size: 30px;
-  }
-  .profession {
-    font-size: 22px;
-    color: var(--darkText);
-  }
-  .wrappDataExperience {
-    width: 75%;
-  }
-  .containerTeamImage {
-    width: 25%;
-  }
-} */
+}*/

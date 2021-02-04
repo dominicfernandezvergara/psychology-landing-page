@@ -32,9 +32,9 @@
   background-color: white;
 }
 .testimonyTitle {
-  color: var(--dark);
+  color: var(--darkText);
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 40px;
   margin-bottom: 5px;
   text-align: center;
   text-transform: uppercase;

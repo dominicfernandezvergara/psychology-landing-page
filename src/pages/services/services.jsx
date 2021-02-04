@@ -15,8 +15,8 @@ function Services() {
 
   let location = useLocation();
   console.log("location", location);
-  const [numberValue, setNumberValue] = useState(location.state?.number || 0);
-
+  // const [numberValue, setNumberValue] = useState(location.state?.number || 0);
+  const numberValue = location.state?.number || 0;
   return (
     <div className={styles.containerServices}>
       <h1 className={styles.title}>{appDataText.espanol.services.title}</h1>
@@ -24,7 +24,7 @@ function Services() {
         {numberValue === 0 ? <PeopleCategoryServices /> : null}
         {numberValue === 1 ? <ProfesionalServices /> : null}
         {numberValue === 2 ? <CompanieServices /> : null}
-        <TerapiasComplementarias />
+        {numberValue === 3 ? <TerapiasComplementarias /> : null}
       </div>
       <Footer />
     </div>

@@ -9,44 +9,7 @@ import Drawer from "./drawer";
 import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapist-semana-da-psicol-psicologa-social-5cc757f9c4bd23.3476718715565680578058.jpg";
 import SimpleMenu from "./header-list/header-list";
 
-export const dataButtonsList = [
-  {
-    name: appDataText.espanol.header.home.name,
-    path: appDataText.espanol.header.home.path,
-    icon: "icon",
-    active: true,
-    id: 1,
-  },
-  {
-    name: appDataText.espanol.header.aboutUs.name,
-    path: appDataText.espanol.header.aboutUs.path,
-    active: false,
-    id: 2,
-  },
-  {
-    name: appDataText.espanol.header.services.name,
-    path: appDataText.espanol.header.services.path,
-    subcategories: {
-      name: appDataText.espanol.header.services.subcategories.name,
-      path: appDataText.espanol.header.services.subcategories.path,
-      name2: appDataText.espanol.header.services.subcategories.name2,
-      path2: appDataText.espanol.header.services.subcategories.path2,
-      name3: appDataText.espanol.header.services.subcategories.name3,
-      path3: appDataText.espanol.header.services.subcategories.path3,
-      name4: appDataText.espanol.header.services.subcategories.name4,
-      path4: appDataText.espanol.header.services.subcategories.path4,
-    },
-    active: false,
-    id: 3,
-  },
-  {
-    name: appDataText.espanol.header.contactUs.name,
-    path: appDataText.espanol.header.contactUs.path,
-    active: false,
-    id: 4,
-  },
-];
-
+export const dataButtonsList = appDataText.espanol.headerArray;
 function Header() {
   const history = useHistory();
   const location = useLocation();
@@ -137,24 +100,28 @@ function Header() {
             alt=""
           />
         </button>
-        <SimpleMenu />
         <div className={styles.containerHeaderButton}>
           {buttonHeaderData.map((item, index) => {
+            console.log("item", item);
+            console.log("item.subcategories", item.subcategories);
             return (
               <div key={index} className={cn(styles.headerButton)}>
-                {}
-                <button
-                  className={cn(
-                    styles.headerButton,
-                    item.active === true ? styles.active : null,
-                    { [styles.fontSizeChange]: startScrolling }
-                  )}
-                  type="button"
-                  key={item.id}
-                  onClick={() => onClickHeaderButton(item)}
-                >
-                  {item.name}
-                </button>
+                {item.name === "Servicios" ? (
+                  <SimpleMenu name={item.name} subnames={item.subcategories} />
+                ) : (
+                  <button
+                    className={cn(
+                      styles.headerButton,
+                      item.active === true ? styles.active : null,
+                      { [styles.fontSizeChange]: startScrolling }
+                    )}
+                    type="button"
+                    key={item.id}
+                    onClick={() => onClickHeaderButton(item)}
+                  >
+                    {item.name}
+                  </button>
+                )}
               </div>
             );
           })}

@@ -14,7 +14,7 @@
 .phrase {
   color: var(-darkText);
   text-align: center;
-  font-family: cursive;
+  font-weight: bold;
   margin-bottom: 20px;
   letter-spacing: 0.5px;
 }
@@ -39,8 +39,22 @@
   color: var(-darkText);
   margin-top: 10px;
 }
-
 @media screen and (min-width: 1024px) {
+  .containerService {
+    padding: 20px 40px;
+  }
+  .titleService {
+    font-size: 26px;
+  }
+  .phrase {
+    font-size: 20px;
+  }
+  .image {
+    height: auto;
+    width: 50%;
+  }
+}
+/* @media screen and (min-width: 1024px) {
   .containerService {
     padding: 20px 40px;
   }
@@ -78,4 +92,4 @@
     width: auto;
     max-height: 400px;
   }
-}
+} */
