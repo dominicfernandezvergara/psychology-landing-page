@@ -7,7 +7,7 @@ import { appDataText } from "../../appDataText/appDataText";
 import Logo from "../logo";
 import Drawer from "./drawer";
 import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapist-semana-da-psicol-psicologa-social-5cc757f9c4bd23.3476718715565680578058.jpg";
-import HeaderList from "./header-list/header-list";
+import SimpleMenu from "./header-list/header-list";
 
 export const dataButtonsList = [
   {
@@ -137,7 +137,7 @@ function Header() {
             alt=""
           />
         </button>
-
+        <SimpleMenu />
         <div className={styles.containerHeaderButton}>
           {buttonHeaderData.map((item, index) => {
             return (

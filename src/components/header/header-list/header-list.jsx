@@ -1,42 +1,74 @@
-import React, { useState, useLayoutEffect } from "react";
-import TreeView from "@material-ui/lab/TreeView";
-import ExpandMore from "@material-ui/icons/ExpandMore";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import TreeItem from "@material-ui/lab/TreeItem";
+import React from "react";
+import Button from "@material-ui/core/Button";
+import ClickAwayListener from "@material-ui/core/ClickAwayListener";
+import Grow from "@material-ui/core/Grow";
+import Paper from "@material-ui/core/Paper";
+import Popper from "@material-ui/core/Popper";
+import MenuItem from "@material-ui/core/MenuItem";
+import MenuList from "@material-ui/core/MenuList";
 
-import styles from "./header-list.module.css";
-import { appDataText } from "../../../appDataText/appDataText";
+export default function SimpleMenu() {
+  const [open, setOpen] = React.useState(false);
+  const anchorRef = React.useRef(null);
 
-function HeaderList() {
+  const handleClose = (event) => {
+    setOpen(false);
+  };
+
+  const handleOpen = () => {
+    setOpen((prevOpen) => !prevOpen);
+  };
+
+  function handleListKeyDown(event) {
+    if (event.key === "Tab") {
+      event.preventDefault();
+      setOpen(false);
+    }
+  }
+
   return (
-    <div className={styles.containerHeaderList}>
-      <botton className={styles.buttonList}>
-        {appDataText.espanol.header.home.name}
-      </botton>
-      <TreeView
-        className={styles.containerHeaderList}
-        defaultCollapseIcon={<ExpandLess />}
-        defaultExpandIcon={<ExpandMore />}
+    <div>
+      <Button
+        // onClick={handleToggle}
+        ref={anchorRef}
+        aria-controls={open ? "menu-list-grow" : undefined}
+        aria-haspopup="true"
+        onMouseEnter={handleOpen}
+        onMouseLeave={handleClose}
       >
-        <TreeItem nodeId="1" label="Inicio">
-          <button>
-            <TreeItem nodeId="2" label="Calendar" />
-          </button>
-
-          <TreeItem nodeId="3" label="Chrome" />
-          <TreeItem nodeId="4" label="Webstorm" />
-        </TreeItem>
-        <TreeItem nodeId="5" label="Documents">
-          <TreeItem nodeId="10" label="OSS" />
-          <TreeItem nodeId="6" label="Material-UI">
-            <TreeItem nodeId="7" label="src">
-              <TreeItem nodeId="8" label="index.js" />
-              <TreeItem nodeId="9" label="tree-view.js" />
-            </TreeItem>
-          </TreeItem>
-        </TreeItem>
-      </TreeView>
+        Open Menu
+      </Button>
+      <Popper
+        open={open}
+        anchorEl={anchorRef.current}
+        role={undefined}
+        transition
+        disablePortal
+      >
+        {({ TransitionProps, placement }) => (
+          <Grow
+            {...TransitionProps}
+            style={{
+              transformOrigin:
+                placement === "bottom" ? "center top" : "center bottom",
+            }}
+          >
+            <Paper>
+              <ClickAwayListener onClickAway={handleClose}>
+                <MenuList
+                  autoFocusItem={open}
+                  id="menu-list-grow"
+                  onKeyDown={handleListKeyDown}
+                >
+                  <MenuItem onClick={handleClose}>Profile</MenuItem>
+                  <MenuItem onClick={handleClose}>My account</MenuItem>
+                  <MenuItem onClick={handleClose}>Logout</MenuItem>
+                </MenuList>
+              </ClickAwayListener>
+            </Paper>
+          </Grow>
+        )}
+      </Popper>
     </div>
   );
 }
-export default HeaderList;
