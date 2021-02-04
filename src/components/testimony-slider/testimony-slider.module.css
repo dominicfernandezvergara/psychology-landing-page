@@ -5,6 +5,7 @@
   width: 100%;
   align-items: center;
   margin-bottom: 40px;
+  background-color: var(--lightSecondaryColor);
 }
 .containerTestimonySlider :global(.slick-next:before) {
   color: black;
@@ -27,17 +28,19 @@
   letter-spacing: 1px;
   color: var(--darkPrimaryColor);
 }
+.slider {
+  background-color: white;
+}
 .testimonyTitle {
-  color: var(--darkPrimaryColor);
+  color: var(--dark);
   font-weight: bold;
   margin-top: 15px;
-
   margin-bottom: 5px;
   text-align: center;
   text-transform: uppercase;
 }
 .testimonySubtitle {
-  color: var(--text);
+  color: var(--darkText);
   margin-bottom: 5px;
   text-align: center;
   padding-left: 30px;

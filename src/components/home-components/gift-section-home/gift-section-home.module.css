@@ -1,11 +1,41 @@
 .containerGiftSectionHome {
   display: flex;
-  background-color: var(--lightSecondaryColor);
+  justify-content: center;
+  background-color: var(--white);
   padding: 20px;
 }
+.containerTitle {
+  padding-bottom: 20px;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+  color: var(--darkPrimaryColor);
+}
+.textUppercase {
+  text-transform: uppercase;
+  color: var(--darkSecondaryColor);
+  font-size: 20px;
+  text-align: center;
+}
+.containerText {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+}
+.text {
+  color: var(--darkText);
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 .containerImage {
   height: auto;
-  width: 50%;
+  width: 80%;
   text-align: center;
   align-self: center;
 }
@@ -13,32 +43,10 @@
   width: 100%;
   height: auto;
 }
-.containerText {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  width: 50%;
-}
-.text {
-  color: var(--darkPrimaryColor);
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-}
-.textUppercase {
-  text-transform: uppercase;
-  color: var(--darkSecondaryColor);
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-}
 .containerGiftSectionHome :global(.MuiButton-root) {
   border-radius: 0px;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 20px;
   background-color: var(--darkPrimaryColor);
-  color: var(--white);
-  width: fit-content;
   align-self: center;
 }
 .containerGiftSectionHome :global(.MuiButton-root:hover) {
@@ -47,48 +55,52 @@
 .dowloadButton {
   color: var(--white);
 }
+.containerImageLarge {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .containerGiftSectionHome {
     padding: 45px;
   }
-
+  .title {
+    font-size: 30px;
+  }
+  .textUppercase {
+    font-size: 30px;
+  }
   .text {
     font-size: 24px;
   }
-  .containerGiftSectionHome :global(.MuiButton-root) {
-    font-size: 20px;
-  }
-  .textUppercase {
-    font-size: 24px;
+  .containerImage {
+    width: 70%;
   }
 }
 @media screen and (min-width: 1024px) {
   .containerGiftSectionHome {
     padding: 60px;
   }
+  .containerTitle {
+    display: flex;
+    justify-content: center;
+  }
+  .textUppercase {
+    margin-left: 10px;
+  }
   .text {
     font-size: 30px;
   }
-  .textUppercase {
-    font-size: 30px;
+  .containerGiftSectionHome :global(.MuiButton-root) {
+    font-size: 22px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .containerGiftSectionHome {
-    justify-content: center;
-  }
-  .text {
-    font-size: 38px;
-  }
-  .textUppercase {
-    font-size: 38px;
-  }
-  .containerGiftSectionHome :global(.MuiButton-root) {
-    margin-top: 30px;
+  .containerImageLarge {
+    display: block;
+    width: 60%;
   }
   .containerImage {
-    width: 40%;
+    display: none;
   }
 }
 @media screen and (min-width: 1440px) {

@@ -50,31 +50,18 @@
   .phrase {
     font-size: 20px;
   }
-  .containerImage {
-    width: 45%;
-    float: left;
-    padding-right: 20px;
-  }
   .image {
-    max-height: 380px;
-    max-height: 450px;
+    height: auto;
+    width: 50%;
   }
 }
 @media screen and (min-width: 1280px) {
-  .containerImage {
-    width: 40%;
-  }
   .image {
-    max-height: 460px;
+    width: 40%;
   }
 }
 @media screen and (min-width: 1440px) {
-  /* .lenguage {
-    margin-top: 40px;
-  } */
-}
-@media screen and (min-width: 1920px) {
   .image {
-    max-height: 430px;
+    width: 35%;
   }
 }

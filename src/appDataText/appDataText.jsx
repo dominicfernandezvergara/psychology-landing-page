@@ -1,4 +1,7 @@
 import React from "react";
+import imagep1 from "../images/imageAbout/caro_remove.png";
+import imageP5 from "../images/imageAbout/imageTeam/imageTeamMaria.png";
+import imageP6 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
 
 export const appDataText = {
   espanol: {
@@ -155,8 +158,9 @@ export const appDataText = {
         buttonText: "Descargar PDF",
       },
       offer: {
-        title:
-          "Por si aún no estás convencido de iniciar tu proceso de transformación",
+        // title:
+        //   "Por si aún no estás convencido de iniciar tu proceso de transformación",
+        title: "Para iniciar tu proceso de transformación te ofrecemos :",
         subtitle: "Te ofrecemos :",
         text: "Aplicación test gratuito",
         text1: "Sesión psicológica diagnóstica gratuita",
@@ -233,43 +237,106 @@ export const appDataText = {
         title: "Nuestro equipo",
         subtitle: "Nuestros colaboradores",
         buttonText: "Leer más",
-        team: {
-          p1: {
+        team: [
+          {
+            image: imagep1,
             name: "Carolina Urbina Cepeda",
-            occupation: "Product Manager y Psicóloga",
-            description:
-              "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada. Proviene de una familia de padres separados, con un padre violento y que renunció a su paternidad.",
+            occupation: "Coordinadora y Psicóloga",
+            formacion: {
+              title: "Formación",
+              description:
+                "Psicóloga y Licenciada en Psicología, Universidad Autónoma de Chile. Título Revalidado en Universita Karlova, Czech Republic.",
+              description2:
+                "Diplomada en estrategias de diagnóstico e intervención en agresiones sexuales infantiles, CICLOS Consultores, U. Academia Humanismo Cristiano",
+              description3:
+                "Última Formación en Herramientas de trabajo, para psicólogos pandemia, CEP,Colegio de Psicólogos de Chile.",
+            },
+            description: {
+              title: "Descripción",
+              description:
+                "“Durante mi viaje profesional , comencé  a sentir que la psicología por sí sola no me permitía en algunos casos y/o momentos avanzar en la intervención, por ende, me veo forzada a incorporar distintos enfoques y técnicas de otros enfoques. He sido y continúo siendo el propio conejillo de indias u objeto de estudio, probando diversos tipos de terapia y enfoques; me defino alma curiosa, viajera y valiente. Tengo 5 años de revisión terapéutica y 3 de ellos han sido viajando por Oceanía, Asia, Latinoamérica. Actualmente vivo en República Checa y espero en el futuro visitar África, con el fin de seguir deconstruyéndome y buscando mi lugar físico en la tierra.",
+              description2:
+                "También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros.”",
+            },
           },
 
-          p2: {
-            name: "Wolfgang Abrego Cubillos",
-            occupation: "Asesorías en sexualidad",
-            body:
-              "Escuela Transdisciplinaria de Sexualidad (ETSEX), Chile Licenciado en Psicología, Universidad Los Leones, Chile.",
-            description:
-              "“Mi labor está enfocada en apoyar la salud sexual de las personas mediante un enfoque de derechos sexuales, con objetivo de que cada cliente aprenda a manejar herramientas y estrategias, que le proporcionarán una mejor autonomía al tomar decisiones respecto de su propia vida sexual.",
-            description2:
-              "La educación sexual actual, no es la misma que recibimos en la escuela o en la familia.  Por esto, es indispensable, informarse. Así; nos permite evitar reproducir conductas de alto riesgo que tengan como consecuencia una enfermedad o eventos no deseados”.",
+          {
+            image: imagep1,
+            name: "Clara Montes Montero",
+            occupation: "Apoyo en supervisión profesional",
+            formacion: {
+              title: "Formación",
+              description:
+                "Psicóloga, mención Clínica y de la Salud (Universidad Complutense de Madrid, título revalidado por la Universidad de Chile). Terapeuta Floral, sistemas Bach y California (Instituto Mount Vernon, Santiago de Chile). Coach Transpersonal (Escuela Innerkey, Madrid).",
+            },
+            description: {
+              title: "Descripción",
+              description:
+                "““Durante muchos años, en mi labor como psicóloga en el servicio público, desarrollé varias actividades dirigidas a la comunidad con el objetivo de hacer más accesibles algunos temas relacionados con la salud mental, promoviendo así la vital importancia de nuestro bienestar emocional. Hoy, en el desempeño de mi profesión en el ámbito privado, quiero aportar a la comunidad para una mejor salud mental en la sociedad en general.”",
+            },
           },
-          p3: {
-            name: "Carmen Gloria Chacón Abarca",
-            occupation: "Terapias complementarias",
-            body:
-              "Terapeuta integral femenina, Shiva & Shakti Alquimia. Astróloga, Astro terapéutica, astrología evolutiva. Viajera, amante de la luz y sombra, infinita.",
-            body2: "Geógrafo, Universidad de Playa Ancha, Valparaíso, Chile.",
-            description:
-              "“A través de un camino de más de 10 años de búsqueda y sanación personal, he podido integrar diversas terapias al servicio de la sanación y de la conexión con las energías femeninas y masculinas. Entre estas, he puesto al servicio Reiki, Masaje tradicional tailandés, Masaje champí y Pindas, Yoga integral, Consteladora familiar, Cosmética Natural, Aroma y gemoterapia, geometría sagrada, entre otras.",
-            description2:
-              "En esta vida, soy viajera en una búsqueda incansable del equilibrio y la magia”.",
+
+          {
+            image: imagep1,
+            name: "Lorena",
+            occupation: "",
+            formacion: {
+              title: "Formación",
+              description: "",
+            },
+            description: {
+              title: "Descripción",
+              description: "",
+            },
           },
-          p4: {
-            name: "María de Los Ángeles Diaz Figueroa",
+
+          {
+            image: imagep1,
+            name: "sin nombre",
+            occupation: "Psicóloga y Asesorías en sexualidad",
+            formacion: {
+              title: "Formación",
+              description: "",
+            },
+            description: {
+              title: "Descripción",
+              description: "",
+            },
+          },
+
+          {
+            image: imageP5,
+            name: "María Diaz Figueroa",
             occupation: "Prestaciones Jurídicas",
-            body: "Abogado, Universidad Santo Tomás, Chile.",
-            description:
-              "“Mujer valiente e interesante”. Con más de 10 años de experiencia y formación especializada en infancia y adolescencia, cuya forma de trabajo se centra esencialmente en las personas de manera comprensiva y empática, procurando siempre acercar las instituciones jurídicas al caso particular. Busca la mayor comprensión posible tanto del conflicto que requiere asesoría profesional como las posibles estrategias para su solución.”",
+            formacion: {
+              title: "Formación",
+              description: "Abogado, Universidad Santo Tomás, Chile.",
+            },
+            description: {
+              title: "Descripción",
+              description:
+                "“Mujer valiente e interesante”. Con más de 10 años de experiencia y formación especializada en infancia y adolescencia, cuya forma de trabajo se centra esencialmente en las personas de manera comprensiva y empática, procurando siempre acercar las instituciones jurídicas al caso particular. Busca la mayor comprensión posible tanto del conflicto que requiere asesoría profesional como las posibles estrategias para su solución.”",
+            },
           },
-        },
+
+          {
+            image: imageP6,
+            name: "Carmen Chacón Abarca",
+            occupation: "Terapias complementarias",
+            formacion: {
+              title: "Formación",
+              description:
+                "Terapeuta integral femenina, Shiva & Shakti Alquimia. Astróloga, Astro terapéutica, astrología evolutiva. Viajera, amante de la luz y sombra, infinita.",
+            },
+            description: {
+              title: "Descripción",
+              description:
+                "“A través de un camino de más de 10 años de búsqueda y sanación personal, he podido integrar diversas terapias al servicio de la sanación y de la conexión con las energías femeninas y masculinas. Entre estas, he puesto al servicio Reiki, Masaje tradicional tailandés, Masaje champí y Pindas, Yoga integral, Consteladora familiar, Cosmética Natural, Aroma y gemoterapia, geometría sagrada, entre otras.",
+              description2:
+                "En esta vida, soy viajera en una búsqueda incansable del equilibrio y la magia”.",
+            },
+          },
+        ],
       },
     },
 
@@ -952,13 +1019,15 @@ export const appDataText = {
     testimony: {
       title: "Testimonios",
       testimony1: {
-        title: "Mujer, 29 años",
+        title: "Mujer",
+        age: "29 años",
         subtitle: "Trastorno de ansiedad",
         text:
           "Desde hace un tiempo estoy asistiendo a sesiones con Carolina, nunca antes había recibido terapia psicológica, lo veía lejano e innecesario, pero no imaginaba lo sanador e importante que sería para mí. Cuando comencé estaba en un momento muy gris de vida, en donde estaba muy confundida y perdida acerca de mis decisiones y sobre lo que yo quería. Actualmente puedo decir que he adquirido las herramientas necesarias para enfrentarme a la vida, eso incluye saber distinguir desde qué vereda decido resolver y tomar decisiones, teniendo en cuenta lo que siento, lo que quiero y pienso. Hoy en día miro hacia atrás, visualizo todo mi avance y me sorprendo, siento que Carolina ha sido un apoyo fundamental, y es por esto que le estoy tremendamente agradecida.",
       },
       testimony2: {
-        title: "Hombre, 28 años",
+        title: "Hombre",
+        age: "28 años",
         subtitle: "Profesional psicólogo y educador sexual",
         text:
           "Entrar al área de salud , no fue una experiencia fácil para mí , sentí que salí con pocas herramientas en la universidad y a la vez sentía la obligación de rendir como un buen profesional, por lo que siempre estaba ansioso cada vez que iba a trabajar y salía más ansioso cada vez que me supervisan...Más que un acompañamiento sentía solo un discurso de ego y de poca comprensión por parte de mis compañeros de trabajo y jefaturas.",
@@ -968,13 +1037,15 @@ export const appDataText = {
           "En el transcurso del tiempo empecé a trabajar con una metodología más sólida, me sentí más seguro y empecé a tener mejores alcances con mis pacientes por lo que sin duda alguna contribuyó a un cambio de mi experiencia, ahora si voy con ganas al trabajo.",
       },
       testimony3: {
-        title: "Mujer 46 años",
+        title: "Mujer",
+        age: "46 años",
         subtitle: "Problemas de adicción y ansiedad",
         text:
           "Comencé mis terapias hace 5 meses con Carolina, vivo hace 13 años en República Checa, con un millón de cambios, carencias, luchando por una adaptación a una cultura fuerte y muy diferente a la mía...No es mala, pero no ha sido fácil, intenté muchas otras terapias, siempre quedé con la sensación de que algo faltaba. Cuando vi el contacto de esta profesional en Facebook, la contacté y desde la primera sesión me sentí muy contenida, fue fuerte, porque en 60 minutos yo quería expresar mi vida completa, incluyendo la pasada. Ella fue muy receptiva con mi emoción, ella para mí ha sido un pilar fundamental para mirarme, ir hacia dentro, ver nuevamente mi esencia y creo que seguiré en terapia de por vida, porque cada vez me siento mejor. Junto con ella, el trabajo deja de ser duro y tortuoso, sino un camino hermoso, lleno de luz y sueños.",
       },
       testimony4: {
-        title: "Hombre, 36 años",
+        title: "Hombre",
+        age: "36 años",
         subtitle: "Viejo y buen amigo",
 
         text:

@@ -48,27 +48,22 @@
   .phrase {
     font-size: 20px;
   }
-  .containerImage {
-    width: 45%;
-    float: left;
-    padding-right: 40px;
-  }
   .image {
-    width: auto;
-    max-height: 400px;
+    height: auto;
+    width: 50%;
   }
 }
 @media screen and (min-width: 1280px) {
-  .containerImage {
-    width: 35%;
+  .image {
+    width: 40%;
   }
 }
 @media screen and (min-width: 1440px) {
-  .containerService {
-    padding: 20px;
+  .image {
+    width: 35%;
   }
 }
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
   .containerService {
     padding: 20px;
   }
@@ -76,4 +71,4 @@
     height: auto;
     max-height: 350px;
   }
-}
+} */

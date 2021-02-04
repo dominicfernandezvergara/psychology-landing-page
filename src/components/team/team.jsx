@@ -8,17 +8,19 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import styles from "./team.module.css";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import { appDataText } from "../../appDataText/appDataText";
-import { listTeam } from "./listTeam";
 
 function Team() {
   UseScrollToTop();
 
   // <img src="" alt="imgteam" className={styles.image} />
+  const teamList = appDataText.espanol.aboutUs.team.team;
+
   return (
     <div className={styles.containerTeam}>
       <h1 className={styles.title}>{appDataText.espanol.aboutUs.team.title}</h1>
       <div className={styles.wrappTeam}>
-        {listTeam.map((item, index) => {
+        {teamList.map((item, index) => {
+          console.log("item", item);
           return (
             <div className={styles.containerPeople} key={index}>
               <div className={styles.containerImage}>
@@ -34,21 +36,46 @@ function Team() {
                     id="panel1a-header"
                   >
                     <Typography className={styles.body}>
-                      {appDataText.espanol.aboutUs.team.buttonText}
+                      {item.formacion.title}
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
                       <div>
                         <div className={styles.containerText}>
-                          <p>{item.body}</p>
-                          {item.body2 ? <p>{item.body2}</p> : null}
+                          <p>{item.formacion.description}</p>
+                          {item.description.description2 && (
+                            <p>{item.formacion.description2}</p>
+                          )}
+                          {item.formacion.description3 && (
+                            <p>{item.formacion.description3}</p>
+                          )}
                         </div>
-                        <div className={styles.containerDescription}>
-                          <p>{item.description}</p>
-                          {item.description2 ? (
-                            <p>{item.description2}</p>
-                          ) : null}
+                      </div>
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header"
+                  >
+                    <Typography className={styles.body}>
+                      {item.description.title}
+                    </Typography>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    <Typography>
+                      <div>
+                        <div className={styles.containerText}>
+                          <p>{item.description.description}</p>
+                          {item.description.description2 && (
+                            <p>{item.description.description2}</p>
+                          )}
+                          {item.description.description3 && (
+                            <p>{item.description.description3}</p>
+                          )}
                         </div>
                       </div>
                     </Typography>

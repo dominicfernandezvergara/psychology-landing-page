@@ -6,8 +6,8 @@ import { appDataText } from "../../appDataText/appDataText";
 // import missionImage from "../../images/imageAbout/imageBrandBluePink.png";
 import Footer from "../../components/footer";
 import FounderCompany from "../../components/about-components/container-founder-company";
-import TestimonySliderAbout from "../../components/testimony-slider-about";
 import Team from "../../components/team/team";
+import TestimonySlider from "../../components/testimony-slider/testimony-slider";
 
 // todo:
 // -ver si se deja slider de testimonios
@@ -42,7 +42,7 @@ function About() {
       </div>
       <FounderCompany />
       <Team />
-      <TestimonySliderAbout />
+      <TestimonySlider />
       <Footer />
     </div>
   );
