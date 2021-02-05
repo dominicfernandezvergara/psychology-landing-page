@@ -13,7 +13,7 @@ function TransferData() {
         {appDataText.espanol.contact.transferData.text}
       </p>
       <div className={styles.wrappBankData}>
-        <div className={styles.containerChileTransferData}>
+        <div className={styles.containerBankData}>
           <div className={styles.subtitle}>
             {appDataText.espanol.contact.transferData.chile.title}
           </div>
@@ -30,7 +30,7 @@ function TransferData() {
             {appDataText.espanol.contact.transferData.chile.run}
           </div>
         </div>
-        <div className={styles.containerEuropeTransferData}>
+        <div className={styles.containerBankData}>
           <div className={styles.subtitle}>
             {appDataText.espanol.contact.transferData.europe.title}
           </div>

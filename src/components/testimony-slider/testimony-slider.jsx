@@ -98,6 +98,21 @@ function TestimonySlider() {
             </h4>
           </div>
         </div>
+        <div className={styles.curved}>
+          <h3 className={styles.testimonyTitle}>
+            {appDataText.espanol.testimony.testimony5.title}
+          </h3>
+          <div className={styles.testimonyText}>
+            <p className={styles.comillaStart}>“</p>
+            <p className={styles.text}>
+              {appDataText.espanol.testimony.testimony5.text}
+            </p>
+            <p className={styles.comillaEnd}>”</p>
+            <h4 className={styles.testimonySubtitle}>
+              {appDataText.espanol.testimony.testimony5.subtitle}
+            </h4>
+          </div>
+        </div>
       </Slider>
     </div>
   );

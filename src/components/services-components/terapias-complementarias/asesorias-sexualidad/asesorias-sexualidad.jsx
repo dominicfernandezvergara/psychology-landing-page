@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./asesorias-sexualidad.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeople.jpeg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageAsesoriaSexual.jpeg";
 
 function AsesoriasSexualidad() {
   const advisoryList =

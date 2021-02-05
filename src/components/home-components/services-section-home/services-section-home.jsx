@@ -41,9 +41,6 @@ function ServicesSectionHome() {
           <img className={styles.image} alt="" src={imagePeople} />
         </div>
         <div className={styles.containerDescription}>
-          <h3 className={styles.titleServiceLarge}>
-            {appDataText.espanol.home.fourthSectionHome.services.people.title}
-          </h3>
           <div className={styles.descriptionService}>
             {
               appDataText.espanol.home.fourthSectionHome.services.people
@@ -84,12 +81,6 @@ function ServicesSectionHome() {
           <img className={styles.image} alt="" src={imageProfesional} />
         </div>
         <div className={styles.containerDescription}>
-          <h3 className={styles.titleServiceLarge}>
-            {
-              appDataText.espanol.home.fourthSectionHome.services.profesional
-                .title
-            }
-          </h3>
           <div className={styles.descriptionService}>
             {
               appDataText.espanol.home.fourthSectionHome.services.profesional
@@ -125,12 +116,6 @@ function ServicesSectionHome() {
           />
         </div>
         <div className={styles.containerDescription}>
-          <h3 className={styles.titleServiceLarge}>
-            {
-              appDataText.espanol.home.fourthSectionHome.services.companies
-                .title
-            }
-          </h3>
           <div className={styles.descriptionService}>
             {
               appDataText.espanol.home.fourthSectionHome.services.companies

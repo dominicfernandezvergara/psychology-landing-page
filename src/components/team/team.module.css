@@ -85,7 +85,7 @@
 }
 @media screen and (min-width: 1280px) {
   .containerTeam {
-    padding: 10px 80px;
+    /* padding: 10px 80px; */
   }
   .containerPeople {
     margin-bottom: 40px;
@@ -95,11 +95,11 @@
 }
 @media screen and (min-width: 1440px) {
   .containerTeam {
-    padding: 10px 100px;
+    /* padding: 10px 100px; */
   }
 }
 @media screen and (min-width: 1920px) {
   .containerTeam {
-    padding: 10px 200px;
+    /* padding: 10px 200px; */
   }
 }

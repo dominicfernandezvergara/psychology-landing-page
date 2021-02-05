@@ -86,7 +86,6 @@ function ContactUs() {
           <Footer />
         </div>
       </div>
-      {/*Responsive Medium*/}
     </Fragment>
   );
 }

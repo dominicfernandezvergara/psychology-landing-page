@@ -1,7 +1,7 @@
 .containerFounderCompany {
   display: flex;
   flex-direction: column;
-  padding: 0px 20px;
+  /* padding: 0px 20px; */
   margin-bottom: 20px;
 }
 .title {
@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 768px) {
   .containerFounderCompany {
-    padding: 10px 50px;
+    /* padding: 10px 50px; */
     display: block;
     flex-direction: unset;
   }
@@ -84,17 +84,17 @@
 }
 @media screen and (min-width: 1280px) {
   .containerFounderCompany {
-    padding: 10px 80px;
+    /* padding: 10px 80px; */
   }
 }
 @media screen and (min-width: 1440px) {
   .containerFounderCompany {
-    padding: 10px 100px;
+    /* padding: 10px 100px; */
   }
 }
 @media screen and (min-width: 1920px) {
   .containerFounderCompany {
-    padding: 10px 200px;
+    /* padding: 10px 200px; */
   }
 }
 /* @media screen and (min-width: 768px) {

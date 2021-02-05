@@ -23,9 +23,20 @@
 .text {
   font-size: 18px;
   text-align: center;
-  letter-spacing: 1px;
   color: var(--darkText);
   padding-bottom: 20px;
+  text-align: justify;
+}
+.containerDescription {
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+.description {
+  padding-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: var(--darkText);
+  text-align: justify;
 }
 .containerOffer {
   display: flex;
@@ -74,8 +85,19 @@
     padding-top: 20px;
     font-size: 22px;
   }
+  .containerDescription {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+  }
+  .description {
+    font-size: 22px;
+  }
   .containerOffer {
     margin-bottom: 0px;
+    width: 620px;
+    padding: 20px 50px;
+    box-sizing: border-box;
   }
   .textOffer {
     font-size: 20px;
@@ -86,7 +108,10 @@
     padding: 60px;
   }
   .subtitle {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+  }
+  .containerOffer {
+    width: 680px;
   }
   .textOffer {
     font-size: 22px;
@@ -102,8 +127,14 @@
   .textOffer {
     font-size: 24px;
   }
+  .containerOffer {
+    margin-bottom: 0px;
+    width: 720px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+  }
   .text {
-    padding: 40px 100px;
+    padding: 40px 20px;
   }
 }
 @media screen and (min-width: 1440px) {

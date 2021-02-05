@@ -1,59 +1,140 @@
 import React from "react";
+import cn from "classnames";
+import { useHistory } from "react-router-dom";
 
 import styles from "./fourth-section-home.module.css";
 
+import ButtonApp from "../../button";
 import { appDataText } from "../../../appDataText/appDataText";
 import imagePeople from "../../../images/imageHome/imagePeople3.png";
 import imageProfesional from "../../../images/imageHome/imageProfesional3.jpg";
 import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";
-import ContainerService from "./container-service/container-service";
 
-function FourthSectionHome() {
+function ServicesSectionHomeTest() {
+  const history = useHistory();
+
+  const onClickButtonPeopleServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Personas Naturales", number: 0 },
+    });
+  };
+  const onClickButtonProfesionalServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Psicologos", number: 1 },
+    });
+  };
+  const onClickButtonCompanieServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Empresas", number: 2 },
+    });
+  };
+
   const bodyPeople = (
-    <div className={styles.containerSubServices}>
-      <div className={styles.subServices}>
-        {appDataText.espanol.home.fourthSectionHome.services.people.description}
+    <div className={styles.containerService}>
+      <h3 className={styles.titleService}>
+        {appDataText.espanol.home.fourthSectionHome.services.people.title}
+      </h3>
+      <div className={styles.wrappTextImage}>
+        <div className={styles.containerImage}>
+          <img className={styles.image} alt="" src={imagePeople} />
+        </div>
+        <div className={styles.containerDescription}>
+          <div className={styles.descriptionService}>
+            {
+              appDataText.espanol.home.fourthSectionHome.services.people
+                .description
+            }
+          </div>
+          <div className={styles.descriptionService}>
+            {
+              appDataText.espanol.home.fourthSectionHome.services.people
+                .description2
+            }
+          </div>
+          <div className={styles.descriptionService}>
+            {
+              appDataText.espanol.home.fourthSectionHome.services.people
+                .description3
+            }
+          </div>
+        </div>
       </div>
-      <div className={styles.subServices}>
-        {
-          appDataText.espanol.home.fourthSectionHome.services.people
-            .description2
-        }
-      </div>
-      <div className={styles.subServices}>
-        {
-          appDataText.espanol.home.fourthSectionHome.services.people
-            .description3
-        }
-      </div>
+      <button
+        className={styles.button}
+        type="button"
+        onClick={onClickButtonPeopleServices}
+      >
+        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+      </button>
     </div>
   );
 
   const bodyProfesional = (
-    <div className={styles.containerSubServices}>
-      <div className={styles.subServices}>
-        {
-          appDataText.espanol.home.fourthSectionHome.services.profesional
-            .description
-        }
+    <div className={styles.containerService}>
+      <h3 className={styles.titleService}>
+        {appDataText.espanol.home.fourthSectionHome.services.profesional.title}
+      </h3>
+      <div className={styles.wrappTextImage}>
+        <div className={cn(styles.containerImage, styles.imageSmall)}>
+          <img className={styles.image} alt="" src={imageProfesional} />
+        </div>
+        <div className={styles.containerDescription}>
+          <div className={styles.descriptionService}>
+            {
+              appDataText.espanol.home.fourthSectionHome.services.profesional
+                .description
+            }
+          </div>
+        </div>
       </div>
+      <button
+        className={styles.button}
+        type="button"
+        onClick={onClickButtonProfesionalServices}
+      >
+        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+      </button>
     </div>
   );
 
   const bodyCompanie = (
-    <div className={styles.containerSubServices}>
-      <div className={styles.subServices}>
-        {
-          appDataText.espanol.home.fourthSectionHome.services.companies
-            .description
-        }
+    <div className={styles.containerService}>
+      <h3 className={styles.titleService}>
+        {appDataText.espanol.home.fourthSectionHome.services.companies.title}
+      </h3>
+      <div className={styles.wrappTextImage}>
+        <div className={styles.containerImage}>
+          <img
+            className={cn(styles.image, styles.sideImage)}
+            alt=""
+            src={imageCompanie}
+          />
+        </div>
+        <div className={styles.containerDescription}>
+          <div className={styles.descriptionService}>
+            {
+              appDataText.espanol.home.fourthSectionHome.services.companies
+                .description
+            }
+          </div>
+          <div className={styles.descriptionService}>
+            {
+              appDataText.espanol.home.fourthSectionHome.services.companies
+                .description2
+            }
+          </div>
+        </div>
       </div>
-      <div className={styles.subServices}>
-        {
-          appDataText.espanol.home.fourthSectionHome.services.companies
-            .description2
-        }
-      </div>
+      <button
+        className={styles.button}
+        type="button"
+        onClick={onClickButtonCompanieServices}
+      >
+        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+      </button>
     </div>
   );
 
@@ -63,42 +144,11 @@ function FourthSectionHome() {
         {appDataText.espanol.home.fourthSectionHome.title}
       </h2>
       <div className={styles.services}>
-        <ContainerService
-          body={bodyPeople}
-          title={
-            appDataText.espanol.home.fourthSectionHome.services.people.title
-          }
-          image={imagePeople}
-          classNameContainerText={styles.marginLeftContainerText}
-          textButton={
-            appDataText.espanol.home.fourthSectionHome.services.buttonText
-          }
-        />
-        <ContainerService
-          body={bodyProfesional}
-          title={
-            appDataText.espanol.home.fourthSectionHome.services.profesional
-              .title
-          }
-          image={imageProfesional}
-          textButton={
-            appDataText.espanol.home.fourthSectionHome.services.buttonText
-          }
-          imageRight={true}
-        />
-        <ContainerService
-          body={bodyCompanie}
-          title={
-            appDataText.espanol.home.fourthSectionHome.services.companies.title
-          }
-          image={imageCompanie}
-          textButton={
-            appDataText.espanol.home.fourthSectionHome.services.buttonText
-          }
-          classNameContainerText={styles.marginLeftContainerText}
-        />
+        <div className={styles.wrappService}>{bodyPeople}</div>
+        <div className={styles.wrappService}>{bodyProfesional}</div>
+        <div className={styles.wrappService}>{bodyCompanie}</div>
       </div>
     </div>
   );
 }
-export default FourthSectionHome;
+export default ServicesSectionHomeTest;

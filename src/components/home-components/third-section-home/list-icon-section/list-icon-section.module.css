@@ -4,14 +4,27 @@
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
+  align-items: center;
 }
 .wrapp {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 0px 0px 15px;
+  padding: 20px 15px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 2%), 0px 4px 5px 0px rgb(0 0 0 / 2%),
+    0px 1px 10px 0px rgb(0 0 0 / 2%);
+  /* box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%); */
+  width: 100%;
+  background-color: var(--white);
   box-sizing: border-box;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  box-sizing: border-box; */
 }
 .containerIcon {
   display: flex;
@@ -20,6 +33,7 @@
   height: 130px;
   width: 130px;
   border-radius: 50%;
+  margin-bottom: 15px;
   background-color: var(--primaryColor);
 }
 
@@ -32,7 +46,6 @@
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
-  padding-top: 20px;
 }
 .line {
   height: 5px;
@@ -46,31 +59,47 @@
 }
 @media screen and (min-width: 768px) {
   .containerList {
-    flex-direction: row;
+    display: flex;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .wrapp {
-    padding: 10px 5px 0px 5px;
+    width: 300px;
+    margin: 10px;
   }
   .textIcon {
-    padding-top: 10px;
     font-size: 18px;
-    width: 150px;
   }
 }
 @media screen and (min-width: 1024px) {
+  /* .containerList {
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+  }
   .containerIcon {
     height: 150px;
     width: 150px;
   }
   .textIcon {
-    width: 180px;
-  }
-  .textIcon {
+    padding-top: 10px;
     font-size: 20px;
+    width: 100%;
   }
+  .wrapp {
+    margin: 0px 10px;
+    width: 210px;
+    padding: 20px 5px 20px 5px;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  } */
 }
 @media screen and (min-width: 1280px) {
+}
+
+@media screen and (min-width: 1280px) {
   .wrapp {
-    padding: 0px 30px;
+    width: 290px;
   }
 }

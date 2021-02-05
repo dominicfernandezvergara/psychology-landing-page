@@ -9,11 +9,20 @@
   letter-spacing: 1px;
   color: var(--darkPrimaryColor);
   margin-bottom: 10px;
+  /* box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%); */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .containerPeopleCategoryServices {
     padding: 20px 40px;
+  }
+  .title {
+    font-size: 22px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -30,6 +39,9 @@
   }
 }
 @media screen and (min-width: 1920px) {
+  .title {
+    font-size: 34px;
+  }
   .containerPeopleCategoryServices {
     padding: 20px 320px;
   }

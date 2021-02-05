@@ -1,7 +1,7 @@
 .containerTransferData {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 100%; */
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
@@ -16,9 +16,10 @@
   color: var(--primaryColor);
 }
 .subtitle {
-  color: var(--darkText);
+  color: var(--primaryColor);
   font-weight: bold;
-  padding-top: 20px;
+  padding-top: 10px;
+  text-align: center;
 }
 .textTransfer {
   color: var(--text);
@@ -27,28 +28,32 @@
 }
 @media screen and (min-width: 768px) {
   .containerTransferData {
-    padding-left: 0px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 40px;
-    background-color: transparent;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
   }
-  .textTransfer {
-    padding-top: 10px;
-  }
-  .subtitle {
-    padding-top: 10px;
-  }
+}
+@media screen and (min-width: 1024px) {
 }
 @media screen and (min-width: 1280px) {
   .subtitle {
     padding-bottom: 10px;
   }
   .wrappBankData {
-    display: flex;
+    /* width: 60%; */
+    align-self: center;
   }
-  .containerChileTransferData {
-    padding-right: 50px;
+}
+@media screen and (min-width: 1440px) {
+  .wrappBankData {
+    display: flex;
+    align-self: center;
+  }
+  .containerBankData {
+    margin: 10px;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -63,5 +68,8 @@
   }
   .textTransferData {
     font-size: 20px;
+  }
+  .containerBankData {
+    margin: 20px;
   }
 }

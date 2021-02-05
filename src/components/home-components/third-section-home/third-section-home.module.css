@@ -1,6 +1,8 @@
 .containerThirdSection {
   width: 100%;
   background-color: var(--lightSecondaryColor);
+  padding: 40px;
+  box-sizing: border-box;
 }
 .title {
   /* font-family: "Alfa Slab One"; */
@@ -25,7 +27,7 @@
 }
 @media screen and (min-width: 1024px) {
   .containerThirdSection {
-    padding: 60px;
+    padding: 45px;
   }
 }
 @media screen and (min-width: 1440px) {

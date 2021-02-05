@@ -38,5 +38,9 @@
     background-color: transparent;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
+  .containerMenuButton :global(.MuiButton-label) {
+    width: 150px;
+    font-size: 20px;
+  }
 }

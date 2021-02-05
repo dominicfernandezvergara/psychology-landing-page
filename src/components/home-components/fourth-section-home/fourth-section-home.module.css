@@ -3,108 +3,166 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  padding: 40px;
 }
 .title {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--darkPrimaryColor);
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 10px;
 }
 .services {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100%;
 }
-.subServices {
-  padding-bottom: 5px;
+.containerService {
+  display: flex;
+  flex-direction: column;
+}
+.titleService {
+  color: var(--primaryColor);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.containerImage {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.descriptionService {
   text-align: justify;
   color: var(--text);
 }
-.bodyCompanie {
-  text-align: center;
+.button {
+  border-radius: 4px;
+  margin-top: 15px;
+  align-self: center;
+  color: var(--white);
+  background-color: var(--darkPrimaryColor);
+  width: fit-content;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 8px;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.titleServiceLarge {
+  display: none;
+}
+.imageLarge {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .containerSection {
-    padding: 45px 45px;
-    margin-bottom: 0px;
+    padding: 45px;
   }
   .title {
     font-size: 30px;
-    padding-bottom: 20px;
-    padding: 0px;
   }
-  .marginLeftContainerBody {
-    margin-left: 50px;
+  .containerService {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #f4f5f6;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 450px;
   }
-  .subServices {
-    padding-bottom: 10px;
+  .titleService {
+    margin-top: 0px;
+  }
+  .titleService {
+    font-size: 30px;
+  }
+
+  .descriptionService {
+    font-size: 18px;
+  }
+  .image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .containerSection {
     padding: 60px;
   }
   .services {
-    width: 80%;
-    margin-bottom: 20px;
+    display: flex;
   }
-  .marginLeftContainerText {
-    margin-left: 50px;
+  .wrappService {
+    display: flex;
+    justify-content: center;
   }
-  .subServices {
-    /* padding-left: 20px;
-    padding-right: 20px; */
+  .containerService {
+    width: 90%;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  .titleService {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .wrappTextImage {
+    display: flex;
+    align-items: center;
+  }
+  .containerImage {
+    width: 40%;
+  }
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+  .containerDescription {
+    width: 60%;
+  }
+  .button {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .subServices {
-    font-size: 18px;
+  .wrappTextImage {
+    padding: 10px 50px;
   }
+  .containerImage {
+    width: 30%;
+    margin-right: 80px;
+  }
+  .descriptionService {
+    font-size: 20px;
+  }
+  .titleService {
+    font-size: 34px;
+  }
+}
+@media screen and (min-width: 1440px) {
   .containerSection {
-    padding-inline-start: unset;
+    padding: 70px 90px;
   }
-  .title {
-    padding-bottom: 40px;
+  .containerService {
+    width: 80%;
   }
-  .services {
-    display: flex;
-    justify-content: center;
-    flex-direction: unset;
-    align-items: unset;
-    width: 100%;
-  }
-  .marginLeftContainerBody {
-    margin-left: 0px;
-  }
-  .containerSubServices {
-    min-height: 480px;
-  }
-  .bodyCompanie {
-    min-height: 220px;
-    font-size: 18px;
-  }
-
-  .containerSection :global(.MuiButton-root) {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 24px;
-    border-radius: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
-    color: var(--white);
-    background-color: var(--darkPrimaryColor);
-  }
-  .containerSection :global(.MuiButton-root:hover) {
-    background-color: var(--primaryColor);
+  .image {
+    width: 300px;
+    height: 300px;
   }
 }
 @media screen and (min-width: 1920px) {
-  .containerSubServices {
-    min-height: 230px;
+  .containerSection {
+    padding: 70px 90px;
+  }
+  .containerService {
+    width: 70%;
   }
 }

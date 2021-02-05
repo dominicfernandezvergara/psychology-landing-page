@@ -86,6 +86,10 @@
   .textUppercase {
     margin-left: 10px;
   }
+  .containerImage {
+    width: 50%;
+  }
+
   .text {
     font-size: 30px;
   }
@@ -97,7 +101,7 @@
 @media screen and (min-width: 1280px) {
   .containerImageLarge {
     display: block;
-    width: 60%;
+    width: 50%;
   }
   .containerImage {
     display: none;
@@ -109,5 +113,20 @@
   }
   .containerImage {
     width: 35%;
+  }
+  .containerText {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerImageLarge {
+    width: 500px;
+  }
+  .containerText {
+    width: 500px;
+    padding-left: 70px;
   }
 }

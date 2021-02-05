@@ -6,6 +6,9 @@ import ButtonApp from "../../button";
 import { appDataText } from "../../../appDataText/appDataText";
 
 function SecondSectionHome() {
+  //   <p className={styles.text}>
+  //   {appDataText.espanol.home.secondSectionHome.text}
+  // </p>
   return (
     <div className={styles.containerSecondSection}>
       <div className={styles.title}>
@@ -26,9 +29,18 @@ function SecondSectionHome() {
         <p className={styles.textOffer}>
           {appDataText.espanol.home.offer.text2}
         </p>
-        <p className={styles.text}>
-          {appDataText.espanol.home.secondSectionHome.text}
-        </p>
+        <ul className={styles.containerDescription}>
+          <li className={styles.description}>
+            {appDataText.espanol.home.secondSectionHome.description}
+          </li>
+          <li className={styles.description}>
+            {appDataText.espanol.home.secondSectionHome.description2}
+          </li>
+          <li className={styles.description}>
+            {appDataText.espanol.home.secondSectionHome.description3}
+          </li>
+        </ul>
+
         <ButtonApp
           text={appDataText.espanol.home.secondSectionHome.buttonText}
           path="./contacto"

@@ -57,9 +57,9 @@
     box-sizing: border-box;
     background-color: var(--lightSecondaryColor);
   }
-  .title {
-    margin-bottom: 20px;
-  }
+  /* .title {
+    background-color: var(--white);
+  } */
   .subtitle {
     display: flex;
     text-transform: uppercase;
@@ -69,16 +69,22 @@
     justify-content: center;
     padding-bottom: 10px;
     color: var(--primaryColor);
+    background-color: var(--white);
   }
   .textContainerForm {
     font-size: 16px;
     padding-top: 0px;
+    background-color: var(--white);
   }
   .wrappFormHowItWork {
     flex-direction: unset;
   }
   .subcontainerwrappFormDataContact {
+    background-color: var(--white);
+    margin: 10px;
     width: 50%;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
   }
   .wrappContactTransferData {
     width: 50%;
@@ -86,7 +92,7 @@
 }
 @media screen and (min-width: 1024px) {
   .subcontainerwrappFormDataContact {
-    padding-right: 50px;
+    /* padding-right: 50px; */
   }
   .wrappFormHowItWork {
     padding: 10px 40px;
@@ -97,6 +103,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .wrappFormHowItWork {
+    padding: 40px 100px;
+  }
   .wrappContactTransferData {
     margin-left: 30px;
   }
@@ -109,10 +118,12 @@
     height: 120px;
     font-size: 40px;
     background-color: var(--lightSecondaryColor);
-    margin-bottom: 20px;
   }
   .subtitle {
-    font-size: 24px;
+    font-size: 30px;
+  }
+  .wrappFormHowItWork {
+    padding: 40px 200px;
   }
   .textContainerForm {
     font-size: 20px;

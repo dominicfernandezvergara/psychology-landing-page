@@ -62,7 +62,10 @@
     font-size: 30px;
   }
   .titleService {
-    font-size: 26px;
+    font-size: 30px;
+  }
+  .containerDescription {
+    padding: 0px 120px;
   }
   .descriptionService {
     font-size: 18px;
@@ -71,6 +74,9 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
+  }
+  .button {
+    padding: 0px 120px;
   }
 }
 
@@ -85,6 +91,8 @@
   }
   .titleService {
     height: 80px;
+    font-size: 26px;
+    margin-bottom: 10px;
   }
   .image {
     width: 200px;
@@ -92,6 +100,10 @@
   }
   .containerDescription {
     min-height: 520px;
+    padding: 0px 0px;
+  }
+  .button {
+    padding: 0px 0px;
   }
 }
 @media screen and (min-width: 1280px) {

@@ -13,15 +13,16 @@ function PsicoterapiaService() {
             .serviceNaturalPeople1.title
         }
       </h3>
+
+      <div className={styles.containerImage}>
+        <img className={styles.image} alt="" src={imagePsicoterapia} />
+      </div>
       <p className={styles.phrase}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople1.phrase
         }
       </p>
-      <div className={styles.containerImage}>
-        <img className={styles.image} alt="" src={imagePsicoterapia} />
-      </div>
       <div className={styles.containerText}>
         <p className={styles.text}>
           {

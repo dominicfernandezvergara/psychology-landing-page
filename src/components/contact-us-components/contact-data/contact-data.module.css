@@ -1,7 +1,7 @@
 .contactData {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 100%; */
   padding-left: 30px;
   padding-right: 30px;
   box-sizing: border-box;
@@ -37,11 +37,16 @@
 .textContactData {
   color: var(--text);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .contactData {
-    padding-left: 0px;
-    padding-top: 0px;
+    background-color: var(--white);
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
   }
+}
+@media screen and (min-width: 1024px) {
   .iconLink :global(.MuiSvgIcon-root) {
     font-size: 40px;
     padding-right: 20px;
