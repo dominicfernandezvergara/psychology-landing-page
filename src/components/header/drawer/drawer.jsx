@@ -3,15 +3,13 @@ import React, { useState } from "react";
 import styles from "./drawer.module.css";
 import Drawer from "@material-ui/core/Drawer";
 import Button from "@material-ui/core/Button";
-import DrawerButtonList from "./drawer-button-list";
 import Reorder from "@material-ui/icons/Reorder";
-import DrawerList from "./drawer-list";
+import DrawerList from "./drawer-list/drawer-list";
 
 // Drawer API : https://material-ui.com/api/drawer/
 
 export default function TemporaryDrawer() {
   const [drawerState, setDrawerState] = useState(false);
-  // <DrawerButtonList toggleDrawer={setDrawerState} />
   return (
     <>
       <Button
