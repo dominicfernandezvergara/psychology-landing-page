@@ -1,7 +1,10 @@
 import React from "react";
 import imagep1 from "../images/imageAbout/caro_remove.png";
-import imageP5 from "../images/imageAbout/imageTeam/imageTeamMaria.png";
-import imageP6 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
+import imageP4 from "../images/imageAbout/imageTeam/imageTeamAndrea.png";
+import imageP5 from "../images/imageAbout/imageTeam/imageTeamArnaldo.png";
+
+import imageP6 from "../images/imageAbout/imageTeam/imageTeamMaria.png";
+import imageP7 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
 
 export const appDataText = {
   espanol: {
@@ -105,7 +108,7 @@ export const appDataText = {
         description:
           "Queremos poner a tu alcance diversas formas de tratamiento.",
         description2:
-          "Te hablaremos de ansiedad, de estrés, de depresión, de depresión, de autoestima, entre otros",
+          "Te hablaremos de ansiedad, de estrés, de depresión, de autoestima, entre otros",
         description3:
           "Te enseñaremos técnicas de relajación y técnicas de la psicología positiva utilizando tus recursos y fortalezas personales.",
       },
@@ -176,52 +179,7 @@ export const appDataText = {
           },
         },
       },
-      // fourthSectionHome: {
-      //   title: "Nuestros Servicios",
-      //   services: {
-      //     buttonText: "Leer más",
-      //     people: {
-      //       title: "Personas Naturales",
-      //       description: (
-      //         <div>
-      //           Podrás disminuir sentimientos de angustia, confusión,
-      //           inestabilidad emocional, rabia, malestar psíquico en general, a
-      //           través de{" "}
-      //           <strong>
-      //             psicoterapia individual o grupal exclusivo adultos
-      //           </strong>{" "}
-      //           y diversas terapias complementarias.
-      //         </div>
-      //       ),
-      //       description2: (
-      //         <div>
-      //           Además de participar en{" "}
-      //           <strong>
-      //             charlas preventivas de abuso sexual infantil (ASI),para
-      //             adultos
-      //           </strong>
-      //           , podrás identificar posibles señales en niños, niñas y
-      //           adolescentes y saber qué debes hacer frente a este tipo de
-      //           fenómenos.
-      //         </div>
-      //       ),
-      //       description3:
-      //         "Desarrollar asesorías jurídicas cercanas a las personas, que permita la solución efectiva de sus conflictos, mejorando sustancialmente la calidad y eficiencia en los recursos disponibles.",
-      //     },
-      //     profesional: {
-      //       title: "Psicólogos y terapeutas profesionales",
-      //       description:
-      //         "Orientado a la supervisión profesional, podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en profesionales",
-      //     },
-      //     companies: {
-      //       title: "Servicios para empresas",
-      //       description:
-      //         "Elaboración de planes semestrales o anuales de autocuidado de equipos profesionales a medida, basado en enfoque de buenos tratos.",
-      //       description2:
-      //         "También puedes recibir psicoeducación para profesionales co-garantes de derecho (profesores/as, educadores/as, enfermeros/as, doctores/as y administrativos. A fin de desarrollar una primera respuesta apropiada y detectar de forma temprana señales de agresiones sexuales o delitos violentos en NNA.",
-      //     },
-      //   },
-      // },
+
       fifthSectionHome: {
         title: "¿Cómo funciona?",
         subtitle: "3 sencillos pasos para empezar tu proceso de cambio.",
@@ -264,7 +222,15 @@ export const appDataText = {
 
     // About Us español
     aboutUs: {
-      title: "Sobre “Be Healthy & Holistic”",
+      // borrar
+      especialText:
+        "Awareness Consultant es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas y el propio autocuidado.",
+      especialText2:
+        "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
+      especialText3:
+        "Con especial vocación en orientar y psicoeducar a grupos vulnerables: Niñez, Adolescencia, Mujeres, Minorías Sexuales, Migrantes, personas víctimas de violencias en general.",
+      // borrar
+      title: "Sobre “Awareness Consultant”",
       text: "Conoce a nuestro equipo de colaboradores haciendo click aquí",
       buttonText: "Colaboradores",
       mission: {
@@ -297,7 +263,7 @@ export const appDataText = {
           "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
       },
       founder: {
-        title: "Nuestra Creadora y coordinadora",
+        title: "Creadora y coordinadora",
         name: "Carolina Urbina Cepeda",
         occupation: "Creadora & Product Manager de 'Be Healthy & Holistic' ",
         experience: {
@@ -336,7 +302,7 @@ export const appDataText = {
             formacion: {
               title: "Formación",
               description:
-                "Psicóloga y Licenciada en Psicología, Universidad Autónoma de Chile. Título Revalidado en Universita Karlova, Czech Republic.",
+                "Psicóloga y Licenciada en Psicología, Universidad Autónoma de Chile. Título Revalidado en Univerzita Karlova, Czech Republic.",
               description2:
                 "Diplomada en estrategias de diagnóstico e intervención en agresiones sexuales infantiles, CICLOS Consultores, U. Academia Humanismo Cristiano",
               description3:
@@ -354,7 +320,7 @@ export const appDataText = {
           {
             image: imagep1,
             name: "Clara Montes Montero",
-            occupation: "Apoyo en supervisión profesional",
+            occupation: "Psicóloga /Apoyo en supervisión profesional",
             formacion: {
               title: "Formación",
               description:
@@ -370,7 +336,7 @@ export const appDataText = {
           {
             image: imagep1,
             name: "Lorena",
-            occupation: "",
+            occupation: "Trabajadora social /apoyo técnico y comunitario.",
             formacion: {
               title: "Formación",
               description: "",
@@ -382,21 +348,40 @@ export const appDataText = {
           },
 
           {
-            image: imagep1,
-            name: "sin nombre",
-            occupation: "Psicóloga y Asesorías en sexualidad",
+            image: imageP4,
+            name: "Andrea Marcus Romero",
+            occupation: "Psicólogo Infanto Juvenil y adultos",
             formacion: {
               title: "Formación",
-              description: "",
+              description:
+                "Psicóloga y Licenciada en Psicología, Universidad de Viña del Mar. Diplomada en Sexualidad Humana en Escuela Transdisciplinaria de Sexualidad (ETSEX).",
             },
             description: {
               title: "Descripción",
-              description: "",
+              description:
+                "Soy hija, hermana, sobrina, tía, nieta y amiga. Me gusta mucho hacer trekking.",
+              description2:
+                "Soy psicóloga con 4 años de experiencia, actualmente me desenvuelvo en el área educacional. Y, puesto que durante el último año me he especializado en Sexualidad humana (área que me apasiona y motiva muchísimo) he decidido complementar mi ejercicio laboral con atención individualizada de consejería en sexualidad a quienes tengan problemáticas relacionadas, así como también, implementar talleres que buscan educar, empoderar y desmitificar mitos y creencias erróneas en torno al mismo.",
             },
           },
-
           {
             image: imageP5,
+            name: "Arnaldo Bustos Ortega",
+            occupation: "Psicólogo Infanto Juvenil y adultos",
+            formacion: {
+              title: "Formación",
+              description:
+                "Licenciado en psicología y psicólogo profesional, Universidad Autónoma de Chile. Diplomado en Psicología Jurídica: Evaluación Psicológica Forense, Pontífice Universidad Católica de Chile. Diplomado en literatura infanto- juvenil: Creación, edición y publicación. Universidad de Santiago de Chile. Diplomado en abordaje de estrategias psicológicas en salud mental, psicoanálisis lacaniano. Universidad Andrés bello. Certificado en Parentalidad Positiva (Triple P – Nivel 4 Estándar). Universidad de Queensland. Magister en neuropsicología (formación), Universidad Mayor.",
+            },
+            description: {
+              title: "Descripción",
+              description:
+                "Una persona dedicada a la lectura, ética, respetuoso y responsable.",
+            },
+          },
+
+          {
+            image: imageP6,
             name: "María Diaz Figueroa",
             occupation: "Prestaciones Jurídicas",
             formacion: {
@@ -411,7 +396,7 @@ export const appDataText = {
           },
 
           {
-            image: imageP6,
+            image: imageP7,
             name: "Carmen Chacón Abarca",
             occupation: "Terapias complementarias",
             formacion: {
@@ -1143,6 +1128,12 @@ export const appDataText = {
         subtitle: "Diagnóstico Trastorno obsesivo compulsivo y Asperger.",
         text:
           "“Para mi tomar terapia con Carolina ha sido muy gratificante, ya que ella tiene un enfoque holístico del tratamiento. En Praga. República Checa, me costó encontrar alguien que no sólo usara la terapia cognitiva conductual y que estuviera dispuesta a incorporal elementos de terapias alternativas y mindfulness, que son bastante buenas para trabajar con problemas de trastorno obsesivo compulsivo y déficit atencional. Después de terminar la Universidad estuve super cansada y desorganizada, y con las terapias con Carolina ya puedo organizarme y enfrentar un ritmo normal”.",
+      },
+      testimony6: {
+        title: "Madre e hijos, terapia familiar",
+        subtitle: "",
+        text:
+          "“Llegué a Carolina buscando apoyo para mi hijo y estamos muy contentos de haberla encontrado. Su método de trabajo envolvió a toda nuestra familia y gracias a ella nos dimos cuenta de muchas cosas que habíamos pasado por alto como familia y nos ayudó muchísimo. Me gustó también su manera de ver las cosas: “mamá feliz, hijos felices”. Al final, terminé yo tomando más sesiones con Carolina que mis hijos, le agradezco que me haya llevado por ese camino porque significó una gran ayuda para mí e ir resolviendo temas desde mi niñez. Hoy hemos avanzado mucho, toda la familia. Hoy tenemos una vida mucho más tranquila y en armonía. ¡Muchas gracias!”.",
       },
     },
   },

@@ -1,5 +1,5 @@
 .containerSection {
-  background-color: var(--white);
+  background-color: var(--lightSecondaryColor);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +18,7 @@
 .containerService {
   display: flex;
   flex-direction: column;
+  background-color: var(--white);
 }
 .titleService {
   color: var(--primaryColor);

@@ -1,5 +1,5 @@
 .containerSection {
-  background-color: var(--white);
+  background-color: var(--lightSecondaryColor);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,11 +18,15 @@
 .containerService {
   display: flex;
   flex-direction: column;
+  /* border: 3px solid #f4f5f6; */
+  margin-bottom: 30px;
+  background-color: var(--white);
+  padding: 20px;
+  box-sizing: border-box;
 }
 .titleService {
   color: var(--primaryColor);
   text-align: center;
-  margin-top: 20px;
   font-size: 24px;
 }
 .containerImage {
@@ -40,7 +44,6 @@
   color: var(--text);
 }
 .button {
-  border-radius: 4px;
   margin-top: 15px;
   align-self: center;
   color: var(--white);
@@ -50,9 +53,12 @@
   border: none;
   cursor: pointer;
   text-transform: uppercase;
-  padding: 8px;
+  padding: 20px;
   box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
     0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.button:hover {
+  background-color: var(--primaryColor);
 }
 .titleServiceLarge {
   display: none;
@@ -61,7 +67,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .containerSection {
     padding: 45px;
   }
@@ -71,14 +77,11 @@
   .containerService {
     display: flex;
     flex-direction: column;
-    border: 3px solid #f4f5f6;
     margin-bottom: 30px;
     padding: 20px;
     width: 450px;
   }
-  .titleService {
-    margin-top: 0px;
-  }
+
   .titleService {
     font-size: 30px;
   }
@@ -91,11 +94,17 @@
     height: 300px;
     border-radius: 50%;
   }
-}
+} */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .containerSection {
-    padding: 60px;
+    padding: 50px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .titleService {
+    font-size: 30px;
   }
   .services {
     display: flex;
@@ -105,9 +114,9 @@
     justify-content: center;
   }
   .containerService {
-    width: 90%;
-    margin: 10px;
+    width: 100%;
     box-sizing: border-box;
+    padding: 20px 40px 20px 20px;
   }
   .titleService {
     font-size: 30px;
@@ -121,34 +130,51 @@
     width: 40%;
   }
   .image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
   .containerDescription {
     width: 60%;
   }
   .button {
-    font-size: 20px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerSection {
+    padding: 60px;
+  }
+  .containerService {
+    padding: 20px 60px 20px 20px;
+  }
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+  .descriptionService {
+    font-size: 18px;
+  }
+  .button {
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1280px) {
   .wrappTextImage {
     padding: 10px 50px;
+    justify-content: center;
   }
   .containerImage {
     width: 30%;
     margin-right: 80px;
   }
-  .descriptionService {
-    font-size: 20px;
-  }
+
   .titleService {
     font-size: 34px;
   }
 }
 @media screen and (min-width: 1440px) {
   .containerSection {
-    padding: 70px 90px;
+    padding: 90px;
   }
   .containerService {
     width: 80%;
@@ -157,12 +183,15 @@
     width: 300px;
     height: 300px;
   }
+  .descriptionService {
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 1920px) {
   .containerSection {
-    padding: 70px 90px;
+    padding: 90px 300px;
   }
   .containerService {
-    width: 70%;
+    width: 100%;
   }
 }

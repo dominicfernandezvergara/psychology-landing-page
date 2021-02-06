@@ -3,12 +3,39 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import cn from "classnames";
+import { useHistory } from "react-router-dom";
 
 import styles from "./footer.module.css";
 import Logo from "../logo";
 import { appDataText } from "../../appDataText/appDataText";
 
 function Footer() {
+  const history = useHistory();
+
+  const onClickButtonPeopleServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Personas Naturales", number: 0 },
+    });
+  };
+  const onClickButtonProfesionalServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Psicologos", number: 1 },
+    });
+  };
+  const onClickButtonCompanieServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Empresas", number: 2 },
+    });
+  };
+  const onClickButtonTerapieServices = () => {
+    history.push({
+      pathname: "/servicios",
+      state: { service: "Servicios Empresas", number: 3 },
+    });
+  };
   return (
     <div className={styles.containerFooter}>
       <div className={styles.containerLogo}>
@@ -22,31 +49,55 @@ function Footer() {
           <div className={styles.icon}>
             <ArrowForwardIosIcon />
           </div>
-          <a href="/servicios" className={styles.text}>
+          <button
+            onClick={onClickButtonPeopleServices}
+            className={styles.button}
+          >
             {appDataText.espanol.home.fourthSectionHome.services.people.title}
-          </a>
+          </button>
         </div>
+
         <div className={styles.containerText}>
           <div className={styles.icon}>
             <ArrowForwardIosIcon />
           </div>
-          <a href="/servicios" className={styles.text}>
+          <button
+            onClick={onClickButtonProfesionalServices}
+            className={styles.button}
+          >
             {
               appDataText.espanol.home.fourthSectionHome.services.profesional
                 .title
             }
-          </a>
+          </button>
         </div>
         <div className={styles.containerText}>
           <div className={styles.icon}>
             <ArrowForwardIosIcon />
           </div>
-          <a href="/servicios" className={styles.text}>
+          <button
+            onClick={onClickButtonCompanieServices}
+            className={styles.button}
+          >
             {
               appDataText.espanol.home.fourthSectionHome.services.companies
                 .title
             }
-          </a>
+          </button>
+        </div>
+        <div className={styles.containerText}>
+          <div className={styles.icon}>
+            <ArrowForwardIosIcon />
+          </div>
+          <button
+            onClick={onClickButtonTerapieServices}
+            className={styles.button}
+          >
+            {
+              appDataText.espanol.services.naturalPeopleService
+                .serviceNaturalPeople2.title
+            }
+          </button>
         </div>
       </div>
       <div className={styles.data}>

@@ -1,9 +1,22 @@
 .containerDrawerList {
   width: 100%;
   width: 260px;
-  background-color: var(--lightSecondaryColor);
+}
+.containerDrawerList :global(.MuiListSubheader-root) {
+  text-transform: uppercase;
+  color: var(--darkText);
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.button :global(.MuiTypography-body1) {
+  font-size: 20px;
 }
 .subcategories :global(.MuiSvgIcon-root) {
+  color: var(--darkPrimaryColor);
   padding-left: 20px;
   font-size: 18px;
+}
+.icon :global(.MuiSvgIcon-root) {
+  color: var(--darkText);
 }

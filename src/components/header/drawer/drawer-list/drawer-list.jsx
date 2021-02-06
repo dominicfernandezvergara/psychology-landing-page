@@ -37,35 +37,79 @@ function DrawerList({ open }) {
     open(false);
     history.push(appDataText.espanol.header.contactUs.path);
   };
-  const onClickRedirectionServices = () => {
+  const onClickRedirectionServices1 = () => {
     open(false);
-    history.push(appDataText.espanol.header.home.path);
+    history.push({
+      pathname: "/servicios",
+      state: {
+        service: appDataText.espanol.header.services.subcategories.name,
+        number: 1,
+      },
+    });
+  };
+  const onClickRedirectionServices2 = () => {
+    open(false);
+    history.push({
+      pathname: "/servicios",
+      state: {
+        service: appDataText.espanol.header.services.subcategories.name2,
+        number: 2,
+      },
+    });
+  };
+  const onClickRedirectionServices3 = () => {
+    open(false);
+    history.push({
+      pathname: "/servicios",
+      state: {
+        service: appDataText.espanol.header.services.subcategories.name3,
+        number: 3,
+      },
+    });
+  };
+  const onClickRedirectionServices4 = () => {
+    open(false);
+    history.push({
+      pathname: "/servicios",
+      state: {
+        service: appDataText.espanol.header.services.subcategories.name4,
+        number: 4,
+      },
+    });
   };
   return (
     <List
       component="nav"
       aria-labelledby="nested-list-subheader"
       subheader={
-        <ListSubheader component="div" id="nested-list-subheader">
-          Nombre de la empresa
+        <ListSubheader
+          className={styles.title}
+          component="div"
+          id="nested-list-subheader"
+        >
+          Awareness Consultant
         </ListSubheader>
       }
       className={styles.containerDrawerList}
     >
-      <ListItem button onClick={onClickRedirectionInicio}>
-        <ListItemIcon>
+      <ListItem
+        button
+        onClick={onClickRedirectionInicio}
+        className={styles.button}
+      >
+        <ListItemIcon className={styles.icon}>
           <HomeIcon />
         </ListItemIcon>
         <ListItemText primary={appDataText.espanol.header.home.name} />
       </ListItem>
-      <ListItem button onClick={handleClickAbout}>
-        <ListItemIcon>
+      <ListItem button onClick={handleClickAbout} className={styles.button}>
+        <ListItemIcon className={styles.icon}>
           <PeopleIcon />
         </ListItemIcon>
         <ListItemText primary={appDataText.espanol.header.aboutUs.name} />
       </ListItem>
-      <ListItem button onClick={handleClickServices}>
-        <ListItemIcon>
+      <ListItem button onClick={handleClickServices} className={styles.button}>
+        <ListItemIcon className={styles.icon}>
           <AssignmentIcon />
         </ListItemIcon>
         <ListItemText primary={appDataText.espanol.header.services.name} />
@@ -73,32 +117,48 @@ function DrawerList({ open }) {
       </ListItem>
       <Collapse in={openServices} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          <ListItem button className={styles.subcategories}>
-            <ListItemIcon>
+          <ListItem
+            button
+            className={styles.subcategories}
+            onClick={onClickRedirectionServices1}
+          >
+            <ListItemIcon className={styles.icon}>
               <ArrowForwardIosIcon />
             </ListItemIcon>
             <ListItemText
               primary={appDataText.espanol.header.services.subcategories.name}
             />
           </ListItem>
-          <ListItem button className={styles.subcategories}>
-            <ListItemIcon>
+          <ListItem
+            button
+            className={styles.subcategories}
+            onClick={onClickRedirectionServices2}
+          >
+            <ListItemIcon className={styles.icon}>
               <ArrowForwardIosIcon />
             </ListItemIcon>
             <ListItemText
               primary={appDataText.espanol.header.services.subcategories.name2}
             />
           </ListItem>
-          <ListItem button className={styles.subcategories}>
-            <ListItemIcon>
+          <ListItem
+            button
+            className={styles.subcategories}
+            onClick={onClickRedirectionServices3}
+          >
+            <ListItemIcon className={styles.icon}>
               <ArrowForwardIosIcon />
             </ListItemIcon>
             <ListItemText
               primary={appDataText.espanol.header.services.subcategories.name3}
             />
           </ListItem>
-          <ListItem button className={styles.subcategories}>
-            <ListItemIcon>
+          <ListItem
+            button
+            className={styles.subcategories}
+            onClick={onClickRedirectionServices4}
+          >
+            <ListItemIcon className={styles.icon}>
               <ArrowForwardIosIcon />
             </ListItemIcon>
             <ListItemText
@@ -107,8 +167,12 @@ function DrawerList({ open }) {
           </ListItem>
         </List>
       </Collapse>
-      <ListItem button onClick={onClickRedirectionContactUs}>
-        <ListItemIcon>
+      <ListItem
+        button
+        onClick={onClickRedirectionContactUs}
+        className={styles.button}
+      >
+        <ListItemIcon className={styles.icon}>
           <ContactMailIcon />
         </ListItemIcon>
         <ListItemText primary={appDataText.espanol.header.contactUs.name} />

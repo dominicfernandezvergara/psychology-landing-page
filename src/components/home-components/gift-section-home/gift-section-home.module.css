@@ -1,8 +1,8 @@
 .containerGiftSectionHome {
   display: flex;
   justify-content: center;
-  background-color: var(--white);
-  padding: 20px;
+  background-color: var(--lightSecondaryColor);
+  padding: 40px;
 }
 .containerTitle {
   padding-bottom: 20px;
@@ -109,7 +109,7 @@
 }
 @media screen and (min-width: 1440px) {
   .containerGiftSectionHome {
-    padding: 70px 90px;
+    padding: 90px;
   }
   .containerImage {
     width: 35%;
@@ -122,6 +122,9 @@
   }
 }
 @media screen and (min-width: 1920px) {
+  .containerGiftSectionHome {
+    padding: 90px 300px;
+  }
   .containerImageLarge {
     width: 500px;
   }

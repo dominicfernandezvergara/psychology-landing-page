@@ -1,16 +1,9 @@
 .containerOfferSectionHome {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 20px 20px 20px;
-  justify-content: center;
+  box-sizing: border-box;
+  padding: 40px;
 }
-.containerImage {
-  display: none;
-}
-.containerOffer {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+ul {
+  padding-inline-start: 20px;
 }
 .title {
   text-transform: uppercase;
@@ -20,118 +13,165 @@
   color: var(--darkPrimaryColor);
 }
 .subtitle {
-  color: var(--darkText);
+  color: var(--primaryColor);
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  padding: 0px 10px;
+  margin-top: 20px;
 }
-.containerOffer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* border: 1px solid var(--lightPrimaryColor); */
-  border-radius: 10px;
-  margin: 20px;
-  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+.subtitleRight {
+  font-weight: bold;
+  text-align: center;
+  color: var(--darkText);
+}
+.containerIcon :global(.MuiSvgIcon-root) {
+  color: var(--darkText);
+  font-size: 50px;
+}
+.price {
+  color: var(--darkText);
 }
 .text {
-  color: var(--darkText);
-  padding: 10px 10px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
+  font-size: 16px;
+  text-align: justify;
+  color: var(--text);
 }
-.discount {
-  text-align: center;
-  font-size: 22px;
-  color: var(--darkSecondaryColor);
+.textRight {
   font-weight: bold;
-  padding-bottom: 10px;
+  color: var(--darkText);
+  text-transform: uppercase;
+}
+.containerRight {
+  box-sizing: border-box;
+  background-color: var(--lightSecondaryColor);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+.containerOffer {
+  margin-top: 20px;
+}
+
+.button {
+  color: var(--white);
+  background-color: var(--darkPrimaryColor);
+  width: -webkit-fill-available;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 20px;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  margin-top: 30px;
+  align-self: center;
+  border-radius: 30px;
+}
+.button:hover {
+  background-color: var(--primaryColor);
+}
+.containerLeft {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
   .containerOfferSectionHome {
-    padding: 45px;
-  }
-  .subContainerOfferSection {
-    display: flex;
-  }
-  .containerImage {
-    display: flex;
-    justify-content: center;
-    height: auto;
-    width: 50%;
-  }
-  .image {
-    width: 100%;
-    height: auto;
-  }
-  .containerData {
-    width: 50%;
-  }
-  .containerOffer {
-    border: unset;
-    box-shadow: unset;
+    padding: 50px;
   }
   .title {
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 24px;
   }
   .subtitle {
-    font-size: 28px;
-    font-weight: bold;
-  }
-  .text {
-    font-size: 22px;
-  }
-  .containerOfferSectionHome :global(.MuiButton-root) {
-    font-size: 20px;
-  }
-  .discount {
     font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: initial;
+  }
+  .price {
+    font-size: 46px;
+    color: var(--primaryColor);
+  }
+  .wrappContainer {
+    display: flex;
+    /* flex-direction: row-reverse; */
+  }
+  .containerLeft {
+    display: block;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 50px;
+  }
+  .containerText {
+    margin-bottom: 30px;
+  }
+  .containerRight {
+    width: 50%;
+    padding: 40px;
+  }
+  .buttonLeft {
+    align-self: flex-start;
+    border-radius: 0px;
+    width: fit-content;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .containerOfferSectionHome {
     padding: 60px;
-    box-sizing: border-box;
   }
-  .subContainerOfferSection {
-    display: flex;
-    align-self: center;
+  .title {
+    font-size: 30px;
+    padding-bottom: 40px;
   }
-  .containerOffer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: unset;
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: unset;
+  .containerLeft {
+    margin-right: 90px;
   }
-  .containerData {
-    display: flex;
-    flex-direction: column;
+  .containerRight {
+    padding: 50px;
+  }
+  .textRight {
+    font-size: 18px;
+  }
+  .text {
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1280px) {
   .containerOfferSectionHome {
-    box-sizing: border-box;
+    padding: 80px;
   }
-  .subtitle {
-    font-size: 28px;
+  .wrappContainer {
+    justify-content: center;
   }
-  .containerImage {
-    width: 40%;
+  .containerRight {
+    width: 30%;
+  }
+  .containerLeft {
+    margin-right: 0px;
+  }
+  .containerText {
+    width: 400px;
   }
 }
 @media screen and (min-width: 1440px) {
   .containerOfferSectionHome {
-    padding: 70px 90px;
+    padding: 90px;
   }
-  .containerImage {
-    width: 35%;
+  .containerRight {
+    width: 30%;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .textRight {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .containerOfferSectionHome {
+    padding: 90px 300px;
   }
 }
