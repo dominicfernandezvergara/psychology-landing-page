@@ -18,7 +18,6 @@
 .containerService {
   display: flex;
   flex-direction: column;
-  /* border: 3px solid #f4f5f6; */
   margin-bottom: 30px;
   background-color: var(--white);
   padding: 20px;
@@ -63,37 +62,8 @@
 .titleServiceLarge {
   display: none;
 }
-.imageLarge {
+/* .imageLarge {
   display: none;
-}
-
-/* @media screen and (min-width: 768px) {
-  .containerSection {
-    padding: 45px;
-  }
-  .title {
-    font-size: 30px;
-  }
-  .containerService {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-    padding: 20px;
-    width: 450px;
-  }
-
-  .titleService {
-    font-size: 30px;
-  }
-
-  .descriptionService {
-    font-size: 18px;
-  }
-  .image {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-  }
 } */
 
 @media screen and (min-width: 768px) {

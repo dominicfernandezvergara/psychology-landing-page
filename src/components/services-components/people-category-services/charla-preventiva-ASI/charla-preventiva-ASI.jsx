@@ -5,120 +5,62 @@ import { appDataText } from "../../../../appDataText/appDataText";
 import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/ASI.jpg";
 
 function CharlaPreventivaASI() {
-  const tipList =
-    appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople3.tips
-      .tip;
-  const aletList =
-    appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople3
-      .alerts.tip;
-
   return (
     <div className={styles.containerService}>
-      <h3 className={styles.titleService}>
+      <h2 className={styles.titleService}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople3.title
         }
-      </h3>
-      <div className={styles.containerImage}>
-        <img className={styles.image} alt="" src={imagePsicoterapia} />
-      </div>
-      <div className={styles.containerText}></div>
-      <p className={styles.text}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople3.description
-        }
-      </p>
-      <p className={styles.text}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople3.description2
-        }
-      </p>
-      <div className={styles.containerBenefist}>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.benefits.title
-          }
-        </h4>
-        <p className={styles.text}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.benefits.description
-          }
-        </p>
-        <p className={styles.text}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.benefits.description2
-          }
-        </p>
-      </div>
-      <div className={styles.wrapp}>
-        <div className={styles.containerTips}>
-          <h4 className={styles.subtitle}>
+      </h2>
+      <div className={styles.wrappContainer}>
+        <div className={styles.containerImage}>
+          <img className={styles.image} alt="" src={imagePsicoterapia} />
+        </div>
+        <div className={styles.containerRight}>
+          <div className={styles.containerText}></div>
+          <p className={styles.text}>
             {
               appDataText.espanol.services.naturalPeopleService
-                .serviceNaturalPeople3.tips.subtitle
+                .serviceNaturalPeople3.description2
             }
-          </h4>
-          <p className={styles.text}>
-            {tipList.map((item, index) => {
-              return (
-                <ul key={index}>
-                  <li>{item}</li>
-                </ul>
-              );
-            })}
           </p>
-        </div>
-        <div className={styles.containerAlert}>
-          <h4 className={styles.subtitle}>
+          <p className={styles.text}>
             {
               appDataText.espanol.services.naturalPeopleService
-                .serviceNaturalPeople3.alerts.subtitle
+                .serviceNaturalPeople3.description3
             }
-          </h4>
-          <p className={styles.text}>
-            {aletList.map((item, index) => {
-              return (
-                <ul key={index}>
-                  <li>{item}</li>
-                </ul>
-              );
-            })}
           </p>
+          <div className={styles.containerBenefist}>
+            <h4 className={styles.subtitle}>
+              {
+                appDataText.espanol.services.naturalPeopleService
+                  .serviceNaturalPeople3.benefits.title
+              }
+            </h4>
+
+            <p className={styles.text}>
+              {
+                appDataText.espanol.services.naturalPeopleService
+                  .serviceNaturalPeople3.benefits.description2
+              }
+            </p>
+          </div>
+          <div className={styles.lenguage}>
+            <h4 className={styles.subtitleLenguage}>
+              {
+                appDataText.espanol.services.naturalPeopleService
+                  .serviceNaturalPeople3.subtitlelanguage
+              }
+            </h4>
+            <p className={styles.text}>
+              {
+                appDataText.espanol.services.naturalPeopleService
+                  .serviceNaturalPeople3.language
+              }
+            </p>
+          </div>
         </div>
-      </div>
-      <div className={styles.containerNote}>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.note.title
-          }
-        </h4>
-        <p className={styles.text}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.note.note
-          }
-        </p>
-      </div>
-      <div>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.subtitlelanguage
-          }
-        </h4>
-        <p className={styles.lenguage}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople3.language
-          }
-        </p>
       </div>
     </div>
   );

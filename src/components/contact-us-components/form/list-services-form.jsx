@@ -21,16 +21,6 @@ export const listServicesForm = [
       appDataText.espanol.contact.servicesListForm.services.naturalPeople
         .service4,
   },
-  // {
-  //   name:
-  //     appDataText.espanol.services.servicesListForm.services.profesionalServices
-  //       .service1,
-  // },
-  // {
-  //   name:
-  //     appDataText.espanol.services.servicesListForm.services.profesionalServices
-  //       .service2,
-  // },
   {
     name:
       appDataText.espanol.contact.servicesListForm.services.profesionalServices
@@ -40,6 +30,11 @@ export const listServicesForm = [
     name:
       appDataText.espanol.contact.servicesListForm.services.companiesServices
         .service1,
+  },
+  {
+    name:
+      appDataText.espanol.contact.servicesListForm.services.naturalPeople
+        .service5,
   },
 ];
 export const listSubservicesForm = [

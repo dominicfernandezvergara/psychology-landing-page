@@ -1,6 +1,5 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import WbIncandescentIcon from "@material-ui/icons/WbIncandescent";
 import AddIcon from "@material-ui/icons/Add";
 import FingerprintIcon from "@material-ui/icons/Fingerprint";
 import cn from "classnames";
@@ -46,7 +45,9 @@ function OfferSectionHome() {
           <div className={styles.containerIcon}>
             <FingerprintIcon />
           </div>
-          <h1 className={styles.subtitleRight}>Promoción</h1>
+          <h1 className={styles.subtitleRight}>
+            Servicio recomendado para empezar psicoterapia.
+          </h1>
           <h1 className={styles.price}>€39</h1>
           <div className={styles.containerOffer}>
             <p className={styles.textRight}>

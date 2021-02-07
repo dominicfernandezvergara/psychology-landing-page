@@ -92,7 +92,7 @@ export const appDataText = {
         slider3: {
           title: "Prevención universal primaria en delitos sexuales",
           text:
-            "*No disponible terapia y evaluación para niños, niñas y adolescentes",
+            "Servicio orientado a adultos, padres o cuidadores de niños/as.",
         },
       },
       secondSectionHome: {
@@ -236,7 +236,7 @@ export const appDataText = {
       mission: {
         title: "Misión",
         text:
-          "Be Healthy Holistic, es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas y el propio autocuidado.",
+          "Es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas y el propio autocuidado.",
         text2:
           "Con especial vocación en orientar y psicoeducar a grupos vulnerables: Niñez, Adolescencia, Mujeres, Minorías Sexuales, Migrantes, personas víctimas de violencias en general.",
         text3:
@@ -246,14 +246,13 @@ export const appDataText = {
         title: "Visión",
         text: (
           <div>
-            Be Healthy & Holistic trabaja para contribuir a{" "}
-            <strong>los buenos tratos</strong> y, al pleno ejercicio de los
-            derechos humanos, considerando La Declaración Universal de los
-            Derechos Humanos , la cual fue proclamada por la Asamblea General de
-            las Naciones Unidas en París, el 10 de diciembre de 1948, como un
-            ideal común para todos los pueblos y naciones. Y en especial
-            contribuir significativamente a la protección y prevención de los
-            derechos de niños, as y adolescentes. Bajo el marco, de la
+            Trabaja para contribuir a <strong>los buenos tratos</strong> y, al
+            pleno ejercicio de los derechos humanos, considerando La Declaración
+            Universal de los Derechos Humanos , la cual fue proclamada por la
+            Asamblea General de las Naciones Unidas en París, el 10 de diciembre
+            de 1948, como un ideal común para todos los pueblos y naciones. Y en
+            especial contribuir significativamente a la protección y prevención
+            de los derechos de niños, as y adolescentes. Bajo el marco, de la
             Convención Internacional del Niño; tratado internacional de las
             Naciones Unidas, firmado en 1989 y entró en vigor desde el 2 de
             septiembre de 1990.
@@ -265,7 +264,6 @@ export const appDataText = {
       founder: {
         title: "Creadora y coordinadora",
         name: "Carolina Urbina Cepeda",
-        occupation: "Creadora & Product Manager de 'Be Healthy & Holistic' ",
         experience: {
           title: "Experiencia Profesional",
           text1:
@@ -281,13 +279,6 @@ export const appDataText = {
           title: "Formación Profesional",
           text1:
             "Profesional psicóloga y licenciada en psicología en la Universidad Autónoma de Chile. Diplomada en diagnóstico e intervención en maltrato y agresiones sexuales, con formación en temáticas de derechos humanos, infancia, género, multiculturalidad, buenos tratos, autocuidado y ergonomía en el trabajo.",
-          // text2:
-          //   "La psicología es una ciencia que estudia el comportamiento humano, durante su viaje profesional, comenzó a sentir que la psicología por sí sola no le permitía en algunos casos avanzar en la intervención, se ve forzada a incorporar distintos enfoques y técnicas desde el psicoanálisis hasta biomagnetismo, (también ciencias.) Por ende, hoy se define como una psicóloga de tipo holística, es decir, toma e incluye otros enfoques según necesite cada uno de sus pacientes e integra los aspectos físico, psíquico, emocional.",
-        },
-        valueFormation: {
-          title: "Formación valórica",
-          text:
-            "Respecto de la formación no académica, la profesional señala “me la entregó mi madre y mis hermanos mayores, quienes me enseñaron la importancia de ayudar a las personas, ser noble, valiente, práctica, y por sobre todo a no olvidar mi origen; soy de una familia chilena obrera y esforzada”. Proviene de una familia monoparental",
         },
       },
       team: {
@@ -427,7 +418,7 @@ export const appDataText = {
           title: "Psicoterapia individual y grupal adultos",
           phrase: "“Tú eres aquello que haces, no aquello que dices que harás”",
           description:
-            "Cada vez hay más estrategias y herramientas para conseguir resultados terapéuticos más eficaces, gracias a la continua investigación en el área de la psicología clínica y sanitaria. Hemos de tener en cuenta la problemática o trastorno a tratar por un lado, y el perfil y características del paciente, por otro, para recomendarle el tipo de servicio que necesita.",
+            "Hemos de tener en cuenta la problemática o trastorno a tratar por un lado, y el perfil y características del paciente, por otro, para recomendarle el tipo de servicio que necesita.",
           benefits: {
             title: "Beneficios",
             description:
@@ -728,22 +719,28 @@ export const appDataText = {
         },
         serviceNaturalPeople3: {
           title: "Charlas preventivas abuso sexual infantil (ASI) ",
-          // phrase: "“Tú eres aquello que haces, no aquello que dices que harás”",
           description:
-            "“El abuso sexual infantil (ASI) es la utilización de un niño/a u adolescente, por un adulto para la satisfacción sexual de sí mismo o de otros”",
+            "En enero 2021, un informe de la PDI muestra que las denuncias por agresiones sexuales, cuyas víctimas mayoritarias son niños y niñas, disminuyeron más de 50% con relación a 2019. Contrario a lo esperado, esta no es una buena noticia, pues la baja puede explicarse por temor: obligados a convivir con el agresor producto del Covid, las víctimas no se atreven a contar. (CIPER, Chile, 2021).",
           description2:
-            "Servicio de orientación destinado para padres, cuidadores, adultos en general, para identificar señales de este complejo fenómeno, desde un enfoque preventivo",
+            "Lo primero es destacar que, en el contexto de pandemia y especialmente en cuarentena, se ha descrito el aumento de algunos factores de riesgo a nivel familiar identificados para el abuso infantil. Por ejemplo, aislamiento social, aumento de consumo de alcohol, conflictividad en el hogar y dificultades de salud mental. Además, se ha mencionado que el estrés familiar y social a causa de la pandemia aumenta el riesgo de violencia (Pereda y Díaz-Faes, 2020; Tener et al., in press).",
+          description3:
+            "Se ha visto que las agresiones sexuales se producen en distintos niveles socioeconómicos y diferentes contextos. Lo que tiende a ocurrir es que los niveles socioeconómicos más altos denuncian menos estos hechos (Smith y Bentovim, 1994).",
+          // phrase: "“Tú eres aquello que haces, no aquello que dices que harás”",
+          // description:
+          //   "“El abuso sexual infantil (ASI) es la utilización de un niño/a u adolescente, por un adulto para la satisfacción sexual de sí mismo o de otros”",
+          // description2:
+          //   "Servicio de orientación destinado para padres, cuidadores, adultos en general, para identificar señales de este complejo fenómeno, desde un enfoque preventivo",
           benefits: {
-            title: "Beneficios de la charla",
+            title: "Beneficios",
             description:
               "Podrás detectar posibles señales de abuso sexual infantil en un infante.",
             description2:
               "Recibirás orientación en cuanto a; cómo proceder de acuerdo con el marco ético, legal y emocional.",
-          },
-          note: {
-            title: "Nota",
-            note:
-              "Es relevante saber que la mayoría de las veces el agresor/a está en casa, es decir, el agresor/a es parte del grupo familiar. El ASI tiene un 75% de prevalencia intrafamiliar. Por eso, orientar a las familias para que desarrollen habilidades protectoras es vital, para la prevención del fenómeno.",
+            // },
+            // note: {
+            //   title: "Nota",
+            //   note:
+            //     "Es relevante saber que la mayoría de las veces el agresor/a está en casa, es decir, el agresor/a es parte del grupo familiar. El ASI tiene un 75% de prevalencia intrafamiliar. Por eso, orientar a las familias para que desarrollen habilidades protectoras es vital, para la prevención del fenómeno.",
           },
 
           subtitlelanguage: "Idioma : ",
@@ -975,11 +972,11 @@ export const appDataText = {
         "Te ha ocurrido que has probado terapia en el pasado y no seguistes, abandonaste o no te gusto el psicólogo/a?",
       text2: (
         <div>
-          Si tu respuesta es SÍ, estás en el lugar correcto, eso ocurre porque
-          cuando vamos al psicólogo no sabemos qué tipo de enfoque él/ella
-          emplea; ya que existen 7 enfoque tradicionales en el ejercicio
-          profesional y normalmente NO sabemos cuál de esos nosotros
-          necesitamos, aplicamos principio básico de psicología{" "}
+          Entonces estás en el lugar correcto, eso ocurre porque cuando vamos al
+          psicólogo no sabemos qué tipo de enfoque él/ella emplea; ya que
+          existen 7 enfoque tradicionales en el ejercicio profesional y
+          normalmente NO sabemos cuál de esos nosotros necesitamos, aplicamos
+          principio básico de psicología{" "}
           <i>Cada ser humano es único e irrepetible</i>.
         </div>
       ),
@@ -1068,6 +1065,7 @@ export const appDataText = {
             service2: "Terapias complementarias",
             service3: "Charlas Preventivas Abuso Sexual Infantil",
             service4: "Prestaciones Jurídicas",
+            service5: "Necesito orientación, no lo sé",
             subservice: {
               title: "Terapias complementarias",
               subservice1: "Respiración consciente",

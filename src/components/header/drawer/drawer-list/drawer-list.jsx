@@ -43,7 +43,7 @@ function DrawerList({ open }) {
       pathname: "/servicios",
       state: {
         service: appDataText.espanol.header.services.subcategories.name,
-        number: 1,
+        number: 0,
       },
     });
   };
@@ -53,7 +53,7 @@ function DrawerList({ open }) {
       pathname: "/servicios",
       state: {
         service: appDataText.espanol.header.services.subcategories.name2,
-        number: 2,
+        number: 1,
       },
     });
   };
@@ -63,7 +63,7 @@ function DrawerList({ open }) {
       pathname: "/servicios",
       state: {
         service: appDataText.espanol.header.services.subcategories.name3,
-        number: 3,
+        number: 2,
       },
     });
   };
@@ -73,7 +73,7 @@ function DrawerList({ open }) {
       pathname: "/servicios",
       state: {
         service: appDataText.espanol.header.services.subcategories.name4,
-        number: 4,
+        number: 3,
       },
     });
   };

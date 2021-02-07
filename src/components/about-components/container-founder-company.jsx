@@ -23,9 +23,6 @@ function FounderCompany() {
       <h1 className={styles.name}>
         {appDataText.espanol.aboutUs.founder.name}
       </h1>
-      <h3 className={styles.profession}>
-        {appDataText.espanol.aboutUs.founder.occupation}
-      </h3>
       <h3 className={styles.subtitle}>
         {appDataText.espanol.aboutUs.founder.experience.title}
       </h3>
@@ -46,12 +43,6 @@ function FounderCompany() {
       </h3>
       <p className={styles.text}>
         {appDataText.espanol.aboutUs.founder.training.text1}
-      </p>
-      <h3 className={styles.subtitle}>
-        {appDataText.espanol.aboutUs.founder.valueFormation.title}
-      </h3>
-      <p className={styles.text}>
-        {appDataText.espanol.aboutUs.founder.valueFormation.text}
       </p>
     </div>
   );
