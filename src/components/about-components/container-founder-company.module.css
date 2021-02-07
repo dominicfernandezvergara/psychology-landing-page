@@ -1,7 +1,6 @@
 .containerFounderCompany {
   display: flex;
   flex-direction: column;
-  /* padding: 0px 20px; */
   margin-bottom: 20px;
 }
 .title {
@@ -41,7 +40,6 @@
 
 @media screen and (min-width: 768px) {
   .containerFounderCompany {
-    /* padding: 10px 50px; */
     display: block;
     flex-direction: unset;
   }
@@ -93,89 +91,7 @@
   }
 }
 @media screen and (min-width: 1920px) {
-  .containerFounderCompany {
-    /* padding: 10px 200px; */
+  .containerTraining {
+    margin-top: 30px;
   }
 }
-/* @media screen and (min-width: 768px) {
-  .containerTeamPresentationComponent {
-    padding: 0px 50px;
-  }
-  .wrappData {
-    display: flex;
-  }
-  .wrappDataExperience {
-    width: 50%;
-  }
-  .containerTeamImage {
-    width: 50%;
-    text-align: center;
-    box-sizing: border-box;
-    padding-right: 10px;
-  }
-  .teamImage {
-    padding-top: 50px;
-  }
-  .activeMedium {
-    display: none;
-  }
-} */
-
-/* @media screen and (min-width: 1024px) {
-  .wrappDataExperience {
-    padding-left: 20px;
-  }
-  .name {
-    font-size: 30px;
-  }
-  .title {
-    font-size: 30px;
-  }
-  .subtitle {
-    font-size: 24px;
-    padding-top: 0px;
-  }
-  .teamImage {
-    padding-top: 20px;
-  }
-  .containerTeamPresentationComponent {
-    padding: 0px 80px;
-  }
-  .wrappDataExperience {
-    width: 50%;
-  }
-  .containerTeamImage {
-    width: 50%;
-  }
-  .text {
-    font-size: 20px;
-  }
-  .activeMedium {
-    display: none;
-  }
-  .desactiveMedium {
-    display: block;
-  }
-} */
-/* @media screen and (min-width: 1280px) {
-  .activeMedium {
-    display: block;
-  }
-  .desactiveMedium {
-    display: none;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .containerTeamPresentationComponent {
-    padding: 0px 100px;
-  }
-  .wrappDataExperience {
-    width: 65%;
-  }
-  .containerTeamImage {
-    width: 35%;
-  }
-  .subtitle {
-    padding-top: 12px;
-  }
-}*/

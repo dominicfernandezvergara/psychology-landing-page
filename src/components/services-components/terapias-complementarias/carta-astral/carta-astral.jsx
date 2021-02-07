@@ -7,21 +7,15 @@ import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasCom
 function CartaAstral() {
   return (
     <div className={styles.containerService}>
-      <h3 className={styles.titleService}>
+      <div className={styles.containerImage}>
+        <img className={styles.image} alt="" src={imagePsicoterapia} />
+      </div>
+      <h2 className={styles.titleService}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia5.title
         }
-      </h3>
-      <p className={styles.phrase}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia5.phrase
-        }
-      </p>
-      <div className={styles.containerImage}>
-        <img className={styles.image} alt="" src={imagePsicoterapia} />
-      </div>
+      </h2>
       <div className={styles.containerDescripcion}>
         <p className={styles.text}>
           {
@@ -62,7 +56,7 @@ function CartaAstral() {
         </div>
       </div>
       <div className={styles.lenguage}>
-        <h4 className={styles.subtitle}>
+        <h4 className={styles.subtitleLenguage}>
           {
             appDataText.espanol.services.naturalPeopleService
               .serviceNaturalPeople2.terapiasComplementarias.terapia5

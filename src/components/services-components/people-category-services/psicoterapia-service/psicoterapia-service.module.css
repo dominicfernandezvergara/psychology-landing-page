@@ -6,7 +6,6 @@
 }
 .titleService {
   color: var(--primaryColor);
-  text-align: center;
   padding: 10px 0px;
 }
 .containerImage {
@@ -23,7 +22,7 @@
   text-align: justify;
 }
 .subtitle {
-  color: var(--primaryColor);
+  color: var(--lightPrimaryColor);
   margin-top: 10px;
 }
 .lenguage {
@@ -32,12 +31,15 @@
   color: var(--text);
 }
 .subtitleLenguage {
-  color: var(--primaryColor);
+  color: var(--lightPrimaryColor);
 }
 @media screen and (min-width: 768px) {
   .image {
     height: auto;
     width: 50%;
+  }
+  .containerService {
+    width: 610px;
   }
   .containerRight {
     display: flex;
@@ -46,9 +48,6 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .containerService {
-    width: 610px;
-  }
   .text {
     font-size: 18px;
   }

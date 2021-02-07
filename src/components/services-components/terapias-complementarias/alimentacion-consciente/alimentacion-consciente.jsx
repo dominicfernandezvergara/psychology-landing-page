@@ -13,21 +13,15 @@ function AlimentacionConsciente() {
       .terapiasComplementarias.terapia2.tips.tip;
   return (
     <div className={styles.containerService}>
-      <h3 className={styles.titleService}>
+      <div className={styles.containerImage}>
+        <img className={styles.image} alt="" src={imagePsicoterapia} />
+      </div>
+      <h2 className={styles.titleService}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia2.title
         }
-      </h3>
-      <div className={styles.phrase}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia2.phrase
-        }
-      </div>
-      <div className={styles.containerImage}>
-        <img className={styles.image} alt="" src={imagePsicoterapia} />
-      </div>
+      </h2>
       <div className={styles.containerDescripcion}>
         <div className={styles.text}>
           {
@@ -94,7 +88,7 @@ function AlimentacionConsciente() {
         </div>
       </div>
       <div className={styles.lenguage}>
-        <h4 className={styles.subtitle}>
+        <h4 className={styles.subtitleLenguage}>
           {
             appDataText.espanol.services.naturalPeopleService
               .serviceNaturalPeople2.terapiasComplementarias.terapia2

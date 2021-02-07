@@ -13,22 +13,16 @@ function SupervisionCasos() {
       .step.step;
   return (
     <div className={styles.containerService}>
-      <h3 className={styles.titleService}>
+      <div className={styles.containerImage}>
+        <img className={styles.image} alt="" src={imagePsicoterapia} />
+      </div>
+      <h2 className={styles.titleService}>
         {
           appDataText.espanol.services.profesionalServices
             .serviceProfesionalServices3.title
         }
-      </h3>
-      <div className={styles.phrase}>
-        {
-          appDataText.espanol.services.profesionalServices
-            .serviceProfesionalServices3.phrase
-        }
-      </div>
-      <div className={styles.containerImage}>
-        <img className={styles.image} alt="" src={imagePsicoterapia} />
-      </div>
-      <div className={styles.containerDescripcion}>
+      </h2>
+      <div className={styles.containerText}>
         <div className={styles.text}>
           {
             appDataText.espanol.services.profesionalServices
@@ -72,7 +66,7 @@ function SupervisionCasos() {
         </ul>
       </div>
       <div className={styles.lenguage}>
-        <h4 className={styles.subtitle}>
+        <h4 className={styles.subtitleLenguage}>
           {
             appDataText.espanol.services.profesionalServices
               .serviceProfesionalServices3.subtitlelanguage

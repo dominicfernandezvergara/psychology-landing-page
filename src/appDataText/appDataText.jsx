@@ -223,12 +223,12 @@ export const appDataText = {
     // About Us español
     aboutUs: {
       // borrar
+
       especialText:
-        "Awareness Consultant es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas y el propio autocuidado.",
+        "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
       especialText2:
         "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
-      especialText3:
-        "Con especial vocación en orientar y psicoeducar a grupos vulnerables: Niñez, Adolescencia, Mujeres, Minorías Sexuales, Migrantes, personas víctimas de violencias en general.",
+
       // borrar
       title: "Sobre “Awareness Consultant”",
       text: "Conoce a nuestro equipo de colaboradores haciendo click aquí",
@@ -239,8 +239,6 @@ export const appDataText = {
           "Es una asociación privada de profesionales éticos y comprometidos con el bienestar físico, psíquico y emocional de las personas y el propio autocuidado.",
         text2:
           "Con especial vocación en orientar y psicoeducar a grupos vulnerables: Niñez, Adolescencia, Mujeres, Minorías Sexuales, Migrantes, personas víctimas de violencias en general.",
-        text3:
-          "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
       },
       vision: {
         title: "Visión",
@@ -258,8 +256,6 @@ export const appDataText = {
             septiembre de 1990.
           </div>
         ),
-        text2:
-          "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
       },
       founder: {
         title: "Creadora y coordinadora",
@@ -723,8 +719,14 @@ export const appDataText = {
             "En enero 2021, un informe de la PDI muestra que las denuncias por agresiones sexuales, cuyas víctimas mayoritarias son niños y niñas, disminuyeron más de 50% con relación a 2019. Contrario a lo esperado, esta no es una buena noticia, pues la baja puede explicarse por temor: obligados a convivir con el agresor producto del Covid, las víctimas no se atreven a contar. (CIPER, Chile, 2021).",
           description2:
             "Lo primero es destacar que, en el contexto de pandemia y especialmente en cuarentena, se ha descrito el aumento de algunos factores de riesgo a nivel familiar identificados para el abuso infantil. Por ejemplo, aislamiento social, aumento de consumo de alcohol, conflictividad en el hogar y dificultades de salud mental. Además, se ha mencionado que el estrés familiar y social a causa de la pandemia aumenta el riesgo de violencia (Pereda y Díaz-Faes, 2020; Tener et al., in press).",
-          description3:
-            "Se ha visto que las agresiones sexuales se producen en distintos niveles socioeconómicos y diferentes contextos. Lo que tiende a ocurrir es que los niveles socioeconómicos más altos denuncian menos estos hechos (Smith y Bentovim, 1994).",
+          description3: (
+            <strong>
+              Se ha visto que las agresiones sexuales se producen en distintos
+              niveles socioeconómicos y diferentes contextos. Lo que tiende a
+              ocurrir es que los niveles socioeconómicos más altos denuncian
+              menos estos hechos (Smith y Bentovim, 1994).
+            </strong>
+          ),
           // phrase: "“Tú eres aquello que haces, no aquello que dices que harás”",
           // description:
           //   "“El abuso sexual infantil (ASI) es la utilización de un niño/a u adolescente, por un adulto para la satisfacción sexual de sí mismo o de otros”",
@@ -1083,8 +1085,7 @@ export const appDataText = {
             service3: "Supervisión de casos",
           },
           companiesServices: {
-            service1:
-              "Elaboración de programas semestral o anual de auto cuidado",
+            service1: "Elaboración de programa autocuidado",
           },
         },
       },
@@ -1096,7 +1097,7 @@ export const appDataText = {
         title: "Mujer, 29 años",
         subtitle: "Síntomas de ansiedad y duelo",
         text:
-          "Desde hace un tiempo estoy asistiendo a sesiones con Carolina, nunca antes había recibido terapia psicológica, lo veía lejano e innecesario, pero no imaginaba lo sanador e importante que sería para mí. Cuando comencé estaba en un momento muy gris de vida, en donde estaba muy confundida y perdida acerca de mis decisiones y sobre lo que yo quería. Actualmente puedo decir que he adquirido las herramientas necesarias para enfrentarme a la vida, eso incluye saber distinguir desde qué vereda decido resolver y tomar decisiones, teniendo en cuenta lo que siento, lo que quiero y pienso. Hoy en día miro hacia atrás, visualizo todo mi avance y me sorprendo, siento que Carolina ha sido un apoyo fundamental, y es por esto que le estoy tremendamente agradecida.",
+          "Desde hace un tiempo estoy asistiendo a sesiones, nunca antes había recibido terapia psicológica, lo veía lejano e innecesario, pero no imaginaba lo sanador e importante que sería para mí. Cuando comencé estaba en un momento muy gris de vida, en donde estaba muy confundida y perdida acerca de mis decisiones y sobre lo que yo quería. Actualmente puedo decir que he adquirido las herramientas necesarias para enfrentarme a la vida, eso incluye saber distinguir desde qué vereda decido resolver y tomar decisiones, teniendo en cuenta lo que siento, lo que quiero y pienso. Hoy en día miro hacia atrás, visualizo todo mi avance y me sorprendo, siento que mi psicóloga ha sido un apoyo fundamental, y es por esto que le estoy tremendamente agradecida.",
       },
       testimony2: {
         title: "Hombre, 28 años",
@@ -1104,7 +1105,7 @@ export const appDataText = {
         text:
           "Entrar al área de salud , no fue una experiencia fácil para mí , sentí que salí con pocas herramientas en la universidad y a la vez sentía la obligación de rendir como un buen profesional, por lo que siempre estaba ansioso cada vez que iba a trabajar y salía más ansioso cada vez que me supervisan...Más que un acompañamiento sentía solo un discurso de ego y de poca comprensión por parte de mis compañeros de trabajo y jefaturas.",
         text2:
-          "Sin embargo; cuando me puse a trabajar con Carolina, me sentí apoyado en todo, me enseñó herramientas útiles y prestaba atención a mi persona, como un ser humano , y no como una marioneta de salud mental.",
+          "Sin embargo; cuando me puse a trabajar con mi psicóloga, me sentí apoyado en todo, me enseñó herramientas útiles y prestaba atención a mi persona, como un ser humano , y no como una marioneta de salud mental.",
         text3:
           "En el transcurso del tiempo empecé a trabajar con una metodología más sólida, me sentí más seguro y empecé a tener mejores alcances con mis pacientes por lo que sin duda alguna contribuyó a un cambio de mi experiencia, ahora si voy con ganas al trabajo.",
       },
@@ -1112,7 +1113,7 @@ export const appDataText = {
         title: "Mujer, 46 años",
         subtitle: "Abuso de sustancias y desesperanza",
         text:
-          "Comencé mis terapias hace 5 meses con Carolina, vivo hace 13 años en República Checa, con un millón de cambios, carencias, luchando por una adaptación a una cultura fuerte y muy diferente a la mía...No es mala, pero no ha sido fácil, intenté muchas otras terapias, siempre quedé con la sensación de que algo faltaba. Cuando vi el contacto de esta profesional en Facebook, la contacté y desde la primera sesión me sentí muy contenida, fue fuerte, porque en 60 minutos yo quería expresar mi vida completa, incluyendo la pasada. Ella fue muy receptiva con mi emoción, ella para mí ha sido un pilar fundamental para mirarme, ir hacia dentro, ver nuevamente mi esencia y creo que seguiré en terapia de por vida, porque cada vez me siento mejor. Junto con ella, el trabajo deja de ser duro y tortuoso, sino un camino hermoso, lleno de luz y sueños.",
+          "Comencé mis terapias hace 5 meses, vivo hace 13 años en República Checa, con un millón de cambios, carencias, luchando por una adaptación a una cultura fuerte y muy diferente a la mía...No es mala, pero no ha sido fácil, intenté muchas otras terapias, siempre quedé con la sensación de que algo faltaba. Cuando vi el contacto de esta profesional en Facebook, la contacté y desde la primera sesión me sentí muy contenida, fue fuerte, porque en 60 minutos yo quería expresar mi vida completa, incluyendo la pasada. Ella fue muy receptiva con mi emoción, ella para mí ha sido un pilar fundamental para mirarme, ir hacia dentro, ver nuevamente mi esencia y creo que seguiré en terapia de por vida, porque cada vez me siento mejor. Junto con ella, el trabajo deja de ser duro y tortuoso, sino un camino hermoso, lleno de luz y sueños.",
       },
       testimony4: {
         title: "Hombre, 36 años",
@@ -1125,7 +1126,7 @@ export const appDataText = {
         title: "Mujer, 32 años",
         subtitle: "Diagnóstico Trastorno obsesivo compulsivo y Asperger.",
         text:
-          "“Para mi tomar terapia con Carolina ha sido muy gratificante, ya que ella tiene un enfoque holístico del tratamiento. En Praga. República Checa, me costó encontrar alguien que no sólo usara la terapia cognitiva conductual y que estuviera dispuesta a incorporal elementos de terapias alternativas y mindfulness, que son bastante buenas para trabajar con problemas de trastorno obsesivo compulsivo y déficit atencional. Después de terminar la Universidad estuve super cansada y desorganizada, y con las terapias con Carolina ya puedo organizarme y enfrentar un ritmo normal”.",
+          "“Para mi tomar terapia ha sido muy gratificante, ya que tiene un enfoque holístico del tratamiento. En Praga. República Checa, me costó encontrar alguien que no sólo usara la terapia cognitiva conductual y que estuviera dispuesta a incorporal elementos de terapias alternativas y mindfulness, que son bastante buenas para trabajar con problemas de trastorno obsesivo compulsivo y déficit atencional. Después de terminar la Universidad estuve super cansada y desorganizada, y con las terapias ya puedo organizarme y enfrentar un ritmo normal”.",
       },
       testimony6: {
         title: "Madre e hijos, terapia familiar",

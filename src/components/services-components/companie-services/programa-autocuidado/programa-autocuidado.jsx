@@ -7,15 +7,12 @@ import imagePsicoterapia from "../../../../images/imageServices/imageCompanieSer
 function ProgramaAutocuidado() {
   return (
     <div className={styles.containerService}>
-      <h3 className={styles.titleService}>
-        {appDataText.espanol.services.companiesServices.companieService1.title}
-      </h3>
-      <div className={styles.phrase}>
-        {appDataText.espanol.services.companiesServices.companieService1.phrase}
-      </div>
       <div className={styles.containerImage}>
         <img className={styles.image} alt="" src={imagePsicoterapia} />
       </div>
+      <h2 className={styles.titleService}>
+        {appDataText.espanol.services.companiesServices.companieService1.title}
+      </h2>
       <div className={styles.containerDescripcion}>
         <div className={styles.text}>
           {
@@ -104,7 +101,7 @@ function ProgramaAutocuidado() {
         </div>
       </div>
       <div className={styles.lenguage}>
-        <h4 className={styles.subtitle}>
+        <h4 className={styles.subtitleLenguage}>
           {
             appDataText.espanol.services.profesionalServices
               .serviceProfesionalServices3.subtitlelanguage

@@ -6,12 +6,6 @@ import { appDataText } from "../../appDataText/appDataText";
 import teamImage from "../../images/imageAbout/caro_remove.png";
 
 function FounderCompany() {
-  //   <p className={cn(styles.text, styles.desactiveMedium)}>
-  //   {appDataText.espanol.aboutUs.founder.experience.text3}
-  // </p>
-  // <p className={cn(styles.text, styles.desactiveMedium)}>
-  //   {appDataText.espanol.aboutUs.founder.experience.text4}
-  // </p>
   return (
     <div className={styles.containerFounderCompany}>
       <h1 className={styles.title}>
@@ -38,12 +32,14 @@ function FounderCompany() {
       <p className={styles.text}>
         {appDataText.espanol.aboutUs.founder.experience.text4}
       </p>
-      <h3 className={cn(styles.subtitle, styles.subtitleTraining)}>
-        {appDataText.espanol.aboutUs.founder.training.title}
-      </h3>
-      <p className={styles.text}>
-        {appDataText.espanol.aboutUs.founder.training.text1}
-      </p>
+      <div className={styles.containerTraining}>
+        <h3 className={cn(styles.subtitle, styles.subtitleTraining)}>
+          {appDataText.espanol.aboutUs.founder.training.title}
+        </h3>
+        <p className={styles.text}>
+          {appDataText.espanol.aboutUs.founder.training.text1}
+        </p>
+      </div>
     </div>
   );
 }

@@ -7,21 +7,15 @@ import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasCom
 function TarotTerapeutico() {
   return (
     <div className={styles.containerService}>
-      <h3 className={styles.titleService}>
+      <div className={styles.containerImage}>
+        <img className={styles.image} alt="" src={imagePsicoterapia} />
+      </div>
+      <h2 className={styles.titleService}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia7.title
         }
-      </h3>
-      <p className={styles.phrase}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia7.phrase
-        }
-      </p>
-      <div className={styles.containerImage}>
-        <img className={styles.image} alt="" src={imagePsicoterapia} />
-      </div>
+      </h2>
       <div className={styles.containerDescripcion}>
         <p className={styles.text}>
           {
@@ -77,15 +71,19 @@ function TarotTerapeutico() {
       </div>
 
       <div className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia7
-            .subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia7.language
-        }
+        <h4 className={styles.subtitleLenguage}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia7
+              .subtitlelanguage
+          }
+        </h4>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia7.language
+          }
+        </p>
       </div>
     </div>
   );

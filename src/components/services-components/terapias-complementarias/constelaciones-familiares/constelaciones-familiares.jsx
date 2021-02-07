@@ -10,21 +10,15 @@ function ConstelacionesFamiliares() {
       .terapiasComplementarias.terapia6.uso.uso;
   return (
     <div className={styles.containerService}>
-      <h3 className={styles.titleService}>
+      <div className={styles.containerImage}>
+        <img className={styles.image} alt="" src={imagePsicoterapia} />
+      </div>
+      <h2 className={styles.titleService}>
         {
           appDataText.espanol.services.naturalPeopleService
             .serviceNaturalPeople2.terapiasComplementarias.terapia6.title
         }
-      </h3>
-      <p className={styles.phrase}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia6.phrase
-        }
-      </p>
-      <div className={styles.containerImage}>
-        <img className={styles.image} alt="" src={imagePsicoterapia} />
-      </div>
+      </h2>
       <div className={styles.containerDescripcion}>
         <p className={styles.text}>
           {
@@ -88,15 +82,19 @@ function ConstelacionesFamiliares() {
       </div>
 
       <div className={styles.lenguage}>
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia6
-            .subtitlelanguage
-        }
-        {
-          appDataText.espanol.services.naturalPeopleService
-            .serviceNaturalPeople2.terapiasComplementarias.terapia6.language
-        }
+        <h4 className={styles.subtitleLenguage}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia6
+              .subtitlelanguage
+          }
+        </h4>
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople2.terapiasComplementarias.terapia6.language
+          }
+        </p>
       </div>
     </div>
   );

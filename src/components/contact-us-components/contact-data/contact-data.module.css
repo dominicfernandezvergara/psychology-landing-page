@@ -19,7 +19,7 @@
   font-size: 22px;
   text-align: center;
   letter-spacing: 1px;
-  color: var(--primaryColor);
+  color: var(--lightPrimaryColor);
 }
 .subtitle {
   color: var(--darkText);
