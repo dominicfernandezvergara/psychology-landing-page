@@ -13,7 +13,7 @@ import AboutSectionHome from "../../components/home-components/about-section-hom
 // todo:
 // -ver si se deja slider de testimonios
 // -enlace pagina team
-
+// <TestimonySlider />
 function About() {
   UseScrollToTop();
   return (
@@ -21,33 +21,39 @@ function About() {
       <h1 className={styles.title}>{appDataText.espanol.aboutUs.title}</h1>
 
       <div className={styles.containerPadding}>
-        <div className={styles.containerText}>
-          <h3 className={styles.subtitle}>
-            {appDataText.espanol.aboutUs.mission.title}
-          </h3>
-          <p className={styles.text}>
-            {appDataText.espanol.aboutUs.mission.text}
-          </p>
+        <div className={styles.wrappContainer}>
+          <div className={styles.containerTextMission}>
+            <h3 className={styles.subtitle}>
+              {appDataText.espanol.aboutUs.mission.title}
+            </h3>
+            <p className={styles.text}>
+              {appDataText.espanol.aboutUs.mission.text}
+            </p>
 
-          <p className={styles.text}>
-            {appDataText.espanol.aboutUs.mission.text3}
-          </p>
+            <p className={styles.text}>
+              {appDataText.espanol.aboutUs.mission.text3}
+            </p>
+          </div>
+          <div className={styles.containerText}>
+            <h3 className={styles.subtitle}>
+              {appDataText.espanol.aboutUs.vision.title}
+            </h3>
+            <p className={styles.text}>
+              {appDataText.espanol.aboutUs.vision.text}
+            </p>
+            <p className={styles.text}>
+              {appDataText.espanol.aboutUs.vision.text2}
+            </p>
+          </div>
         </div>
-        <div className={styles.containerText}>
-          <h3 className={styles.subtitle}>
-            {appDataText.espanol.aboutUs.vision.title}
-          </h3>
-          <p className={styles.text}>
-            {appDataText.espanol.aboutUs.vision.text}
-          </p>
-          <p className={styles.text}>
-            {appDataText.espanol.aboutUs.vision.text2}
-          </p>
+        <div className={styles.wrappContainer}>
+          <FounderCompany />
         </div>
-        <FounderCompany />
-        <Team />
+        <div className={styles.wrappContainer}>
+          <Team />
+        </div>
       </div>
-      <TestimonySlider />
+
       <Footer />
     </div>
   );

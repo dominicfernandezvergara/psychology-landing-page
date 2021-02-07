@@ -7,14 +7,20 @@
   justify-content: center;
   padding: 20px 0px;
   width: 100%;
-  background-color: var(--darkPrimaryColor);
+  background-color: var(--primaryColor);
   color: var(--white);
   text-transform: uppercase;
   font-size: 26px;
   text-align: center;
 }
+
 .containerPadding {
   padding: 20px 20px;
+}
+.wrappContainer {
+  border: 3px solid #f4f5f6;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 .subtitle {
   margin-top: 10px;
@@ -36,8 +42,11 @@
   .containerPadding {
     padding: 10px 50px;
   }
-  .containerText {
+  .containerTextMission {
     margin-bottom: 20px;
+  }
+  .wrappContainer {
+    padding: 20px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -45,7 +54,10 @@
     font-size: 30px;
     height: 100px;
   }
-  .containerText {
+  .wrappContainer {
+    padding: 20px 40px;
+  }
+  .containerTextMission {
     margin-bottom: 40px;
   }
   .subtitle {

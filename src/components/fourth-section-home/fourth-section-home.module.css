@@ -8,8 +8,13 @@
 .title {
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--darkPrimaryColor);
   text-align: center;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: var(--white);
+  color: var(--darkPrimaryColor);
 }
 .services {
   display: flex;
@@ -146,6 +151,9 @@
   .containerSection {
     padding: 90px;
   }
+  .title {
+    width: 80%;
+  }
   .containerService {
     width: 80%;
   }
@@ -160,6 +168,9 @@
 @media screen and (min-width: 1920px) {
   .containerSection {
     padding: 90px 300px;
+  }
+  .title {
+    width: 100%;
   }
   .containerService {
     width: 100%;

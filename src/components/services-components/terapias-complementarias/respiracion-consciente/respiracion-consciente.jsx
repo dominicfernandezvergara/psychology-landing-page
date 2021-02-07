@@ -66,21 +66,6 @@ function RespiracionConsciente() {
           })}
         </div>
       </div>
-      <div className={styles.containerNote}>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople2.terapiasComplementarias.terapia1.note.title
-          }
-        </h4>
-        <div className={styles.text}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople2.terapiasComplementarias.terapia1.note
-              .description
-          }
-        </div>
-      </div>
       <div className={styles.lenguage}>
         <h4 className={styles.subtitleLenguage}>
           {

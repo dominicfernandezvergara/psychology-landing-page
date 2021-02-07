@@ -420,11 +420,11 @@ export const appDataText = {
             description:
               "Con sólo 8 sesiones, utilizaremos el clásico método de Terapia breve, con esto podrás tener un mapa acerca de ti, tu situación presente, tus heridas, recursos y un plan de acción personalizado!",
           },
-          note: {
-            title: "Nota",
-            note:
-              "Nuestra mente tiene el potencial para ser feliz y saludable! Quizás manejes este dato, pero nuestro cerebro es como un portátil… ¿Cómo? Sí, es plástico por la neuroplasticidad cerebral, por ende, se puede amoldar, entrenar, programar, revisar, reiniciar, hibernar y claro dañar.",
-          },
+          // note: {
+          //   title: "Nota",
+          //   note:
+          //     "Nuestra mente tiene el potencial para ser feliz y saludable! Quizás manejes este dato, pero nuestro cerebro es como un portátil… ¿Cómo? Sí, es plástico por la neuroplasticidad cerebral, por ende, se puede amoldar, entrenar, programar, revisar, reiniciar, hibernar y claro dañar.",
+          // },
 
           subtitlelanguage: "Idioma : ",
           language: "Español",
@@ -438,14 +438,14 @@ export const appDataText = {
           terapiasComplementarias: {
             terapia1: {
               title: "Respiración consciente",
-              phrase: "“ Inhalo Vida y Salud, Exhalo Tensiones y gratitud”",
+              // phrase: "“ Inhalo Vida y Salud, Exhalo Tensiones y gratitud”",
               description:
                 "Parece mentira que el recurso más maravilloso y accesible con que contamos los seres humanos para el restablecimiento de la salud y el equilibrio de nuestro sistema psico-físico-emocional sea tan poco utilizado.",
-              note: {
-                title: "Nota",
-                description:
-                  "Nuestro cuerpo sabe cómo respirar sólo necesitamos poner el foco en este recurso. Cuando esta función está bloqueada, limitada o inhibida por alguna situación de estrés o por un hábito de respiración inadecuado resulta afectada, alterándose entre otras cosas los ciclos del sueño, el nivel de energía, la memoria, la concentración o la templanza emocional.",
-              },
+              // note: {
+              //   title: "Nota",
+              //   description:
+              //     "Nuestro cuerpo sabe cómo respirar sólo necesitamos poner el foco en este recurso. Cuando esta función está bloqueada, limitada o inhibida por alguna situación de estrés o por un hábito de respiración inadecuado resulta afectada, alterándose entre otras cosas los ciclos del sueño, el nivel de energía, la memoria, la concentración o la templanza emocional.",
+              // },
               subtitlelanguage: "Idioma :",
               language: "Español e Inglés",
               benefits: {
@@ -747,36 +747,36 @@ export const appDataText = {
 
           subtitlelanguage: "Idioma : ",
           language: "Español",
-          tips: {
-            subtitle: "¿Cómo prevenir el Abuso Sexual Infantil?",
-            tip: [
-              "Habla con claridad a los niños acerca de los riesgos que los rodean en casa, escuela, barrio.",
-              "Conversa con ellos niños respecto del daño y brindarles confianza",
-              "Enséñale a tu hijo/a que existen partes del cuerpo íntimas y fortalece su autoestima.",
-              "Debes monitorear las actividades diarias.",
-              "Los niños deben conocer los teléfonos de las personas de confianza.",
-              "No envíes a tus hijos a lugares sin supervisión de un adulto de confianza.",
-              "Enséñale a tu hijo la diferencia entre secretos malos y buenos.",
-              "Supervisa los sitios web que visitan tus hijos.",
-              "Enséñale a tus hijos a no aceptar ‘regalos’ a cambio de favores",
-            ],
-          },
-          alerts: {
-            subtitle: "¿Cómo saber cuándo un niño es víctima de Abuso Sexual?",
-            tip: [
-              "Pesadillas y problemas de sueño.",
-              "Desórdenes alimentarios.",
-              "Ideas e intentos suicidas.",
-              "Cambios en el rendimiento escolar.",
-              "Alteraciones del lenguaje y la motricidad.",
-              "Aislamiento.",
-              "Agresividad.",
-              "Miedo generalizado ante la presencia de determinadas personas.",
-              "Dificultad para expresar sentimientos",
-              "Conocimiento y términos sexuales inapropiados para la edad.",
-              "*La presencia de alguno de estos comportamientos no siempre implica que un niño o niña ha sido víctima de abuso sexual.",
-            ],
-          },
+          // tips: {
+          //   subtitle: "¿Cómo prevenir el Abuso Sexual Infantil?",
+          //   tip: [
+          //     "Habla con claridad a los niños acerca de los riesgos que los rodean en casa, escuela, barrio.",
+          //     "Conversa con ellos niños respecto del daño y brindarles confianza",
+          //     "Enséñale a tu hijo/a que existen partes del cuerpo íntimas y fortalece su autoestima.",
+          //     "Debes monitorear las actividades diarias.",
+          //     "Los niños deben conocer los teléfonos de las personas de confianza.",
+          //     "No envíes a tus hijos a lugares sin supervisión de un adulto de confianza.",
+          //     "Enséñale a tu hijo la diferencia entre secretos malos y buenos.",
+          //     "Supervisa los sitios web que visitan tus hijos.",
+          //     "Enséñale a tus hijos a no aceptar ‘regalos’ a cambio de favores",
+          //   ],
+          // },
+          // alerts: {
+          //   subtitle: "¿Cómo saber cuándo un niño es víctima de Abuso Sexual?",
+          //   tip: [
+          //     "Pesadillas y problemas de sueño.",
+          //     "Desórdenes alimentarios.",
+          //     "Ideas e intentos suicidas.",
+          //     "Cambios en el rendimiento escolar.",
+          //     "Alteraciones del lenguaje y la motricidad.",
+          //     "Aislamiento.",
+          //     "Agresividad.",
+          //     "Miedo generalizado ante la presencia de determinadas personas.",
+          //     "Dificultad para expresar sentimientos",
+          //     "Conocimiento y términos sexuales inapropiados para la edad.",
+          //     "*La presencia de alguno de estos comportamientos no siempre implica que un niño o niña ha sido víctima de abuso sexual.",
+          //   ],
+          // },
         },
         serviceNaturalPeople4: {
           title: "Prestaciones Jurídicas",

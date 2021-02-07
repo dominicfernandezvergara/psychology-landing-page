@@ -2,8 +2,8 @@ import React from "react";
 import AddIcon from "@material-ui/icons/Add";
 
 import styles from "./second-section-home.module.css";
-import ButtonApp from "../../button";
-import { appDataText } from "../../../appDataText/appDataText";
+import ButtonApp from "../button";
+import { appDataText } from "../../appDataText/appDataText";
 
 function SecondSectionHome() {
   //   <p className={styles.text}>

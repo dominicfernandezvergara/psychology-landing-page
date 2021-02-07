@@ -1,10 +1,10 @@
 import React from "react";
 
-import styles from "./third-section-home.module.css";
+import styles from "./why-choose-us.module.css";
 import { appDataText } from "../../../appDataText/appDataText";
 import ListIconSection from "./list-icon-section/list-icon-section";
 
-function ThirdSectionHome() {
+function WhyChooseUs() {
   return (
     <div className={styles.containerThirdSection}>
       <h1 className={styles.title}>
@@ -15,4 +15,4 @@ function ThirdSectionHome() {
   );
 }
 
-export default ThirdSectionHome;
+export default WhyChooseUs;

@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./fourth-section-home.module.css";
 
-import { appDataText } from "../../../appDataText/appDataText";
+import { appDataText } from "../../appDataText/appDataText";
 import imagePeople from "../../../images/imageHome/imagePeople3.png";
 import imageProfesional from "../../../images/imageHome/imageProfesional3.jpg";
 import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";

@@ -42,7 +42,12 @@ function CharlaPreventivaASI() {
               .serviceNaturalPeople3.benefits.title
           }
         </h4>
-
+        <p className={styles.text}>
+          {
+            appDataText.espanol.services.naturalPeopleService
+              .serviceNaturalPeople3.benefits.description
+          }
+        </p>
         <p className={styles.text}>
           {
             appDataText.espanol.services.naturalPeopleService

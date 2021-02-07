@@ -60,14 +60,14 @@ function ServicesSectionHome() {
             }
           </div>
         </div>
-        <button
-          className={styles.button}
-          type="button"
-          onClick={onClickButtonPeopleServices}
-        >
-          {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-        </button>
       </div>
+      <button
+        className={styles.button}
+        type="button"
+        onClick={onClickButtonPeopleServices}
+      >
+        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+      </button>
     </div>
   );
 
@@ -88,17 +88,14 @@ function ServicesSectionHome() {
             }
           </div>
         </div>
-        <button
-          className={styles.button}
-          type="button"
-          onClick={onClickButtonProfesionalServices}
-        >
-          {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-        </button>
-        <div className={cn(styles.containerImage, styles.imageLarge)}>
-          <img className={styles.image} alt="" src={imageProfesional} />
-        </div>
       </div>
+      <button
+        className={styles.button}
+        type="button"
+        onClick={onClickButtonProfesionalServices}
+      >
+        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+      </button>
     </div>
   );
 
@@ -129,14 +126,14 @@ function ServicesSectionHome() {
             }
           </div>
         </div>
-        <button
-          className={styles.button}
-          type="button"
-          onClick={onClickButtonCompanieServices}
-        >
-          {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-        </button>
       </div>
+      <button
+        className={styles.button}
+        type="button"
+        onClick={onClickButtonCompanieServices}
+      >
+        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+      </button>
     </div>
   );
 
