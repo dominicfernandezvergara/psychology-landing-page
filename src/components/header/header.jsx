@@ -112,8 +112,7 @@ function Header() {
                   <button
                     className={cn(
                       styles.headerButton,
-                      item.active === true ? styles.active : null,
-                      { [styles.fontSizeChange]: startScrolling }
+                      item.active === true ? styles.active : null
                     )}
                     type="button"
                     key={item.id}

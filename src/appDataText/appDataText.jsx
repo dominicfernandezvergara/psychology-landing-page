@@ -2,14 +2,11 @@ import React from "react";
 import imagep1 from "../images/imageAbout/caro_remove.png";
 import imageP4 from "../images/imageAbout/imageTeam/imageTeamAndrea.png";
 import imageP5 from "../images/imageAbout/imageTeam/imageTeamArnaldo.png";
-
 import imageP6 from "../images/imageAbout/imageTeam/imageTeamMaria.png";
 import imageP7 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
 
 export const appDataText = {
   espanol: {
-    // phrases español
-
     // Header español
     headerArray: [
       { name: "Inicio", path: "/inicio" },
@@ -43,6 +40,10 @@ export const appDataText = {
         name: "Contacto",
         path: "/contacto",
       },
+      {
+        name: "Blog",
+        path: "/blog",
+      },
     ],
 
     header: {
@@ -72,16 +73,16 @@ export const appDataText = {
         name: "Contacto",
         path: "/contacto",
       },
-      takeFree: {
-        name: "Para ti",
-        path: "/para-ti",
+      blog: {
+        name: "Blog",
+        path: "/blog",
       },
     },
 
     // home español
     home: {
       banner: {
-        title: "Awarenness Consultant",
+        title: "Awareness Consultant",
         text: "Orientación psicológica, social y juridica",
         buttonText: "Comienza hoy",
         path: "/contacto",
@@ -165,8 +166,14 @@ export const appDataText = {
           },
           profesional: {
             title: "Psicólogos y terapeutas profesionales",
-            description:
-              "Orientado a la supervisión profesional, podrás resolver nudos críticos en la intervención y ejercicio profesional diario, y amortiguar sentimientos de malestar y/o agotamiento en profesionales",
+            description: (
+              <div>
+                Orientado a la <strong>supervisión profesional</strong>, podrás
+                resolver nudos críticos en la intervención y ejercicio
+                profesional diario, y amortiguar sentimientos de malestar y/o
+                agotamiento en profesionales.
+              </div>
+            ),
           },
           companies: {
             title: "Servicios para empresas",
@@ -192,12 +199,12 @@ export const appDataText = {
         firstStep: {
           title: "Paso Uno",
           description:
-            "Dinos qué servicio necesita a través de nuestra página de contacto.",
+            "Dinos qué servicio te interesa a través de nuestra página de contacto.",
         },
         secondStep: {
           title: "Paso Dos",
           description:
-            "Nos pondremos en contacto contigo para programar una cita y darte todos los detalles que necesitas saber.",
+            "Nos pondremos en contacto contigo, y darte todos los detalles que necesitas saber.",
         },
         buttonText: "Comienza Hoy",
         thirdStep: {
@@ -213,8 +220,6 @@ export const appDataText = {
         buttonText: "Descargar PDF",
       },
       offer: {
-        // title:
-        //   "Por si aún no estás convencido de iniciar tu proceso de transformación",
         title: "Promoción para iniciar tu proceso de cambio",
         subtitle: "Servicio recomendado para empezar psicoterapia",
         text: "Aplicación test gratuito",
@@ -264,18 +269,13 @@ export const appDataText = {
         experience: {
           title: "Experiencia Profesional",
           text1:
-            "La experiencia profesional en Chile se concentró en el área psicosociojurídica los últimos 6 años. En específico se desarrolló como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME (Servicio Nacional de Menores).",
+            "La experiencia profesional en Chile se concentró en el área psicosociojurídica. En específico se desarrolló como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME (Servicio Nacional de Menores).",
           text2:
             "Trabajó en diversas ONG,s (OPCION, CIUDAD DEL NIÑO Y ADRA) en proyectos PRM (Programa de reparación de maltrato y abuso sexual) y FAE (Programas familias de acogidas) de distintas comunas de Santiago de Chile, y en contacto directo con TRIBUNALES DE FAMILIA Y FISCALÍAS DE CHILE.",
           text3:
             "Fue voluntaria durante un año de CORFAPES “Centro de rehabilitación psicosocial para personas con trastornos psicóticos”. Trabajó como terapeuta familiar, con padres o adultos responsables y usuarios.",
           text4:
             "También trabajando de forma independiente en consulta particular y en un estudio jurídico. Adquiere conocimiento que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
-        },
-        training: {
-          title: "Formación Profesional",
-          text1:
-            "Profesional psicóloga y licenciada en psicología en la Universidad Autónoma de Chile. Diplomada en diagnóstico e intervención en maltrato y agresiones sexuales, con formación en temáticas de derechos humanos, infancia, género, multiculturalidad, buenos tratos, autocuidado y ergonomía en el trabajo.",
         },
       },
       team: {
@@ -308,7 +308,7 @@ export const appDataText = {
           {
             image: imagep1,
             name: "Clara Montes Montero",
-            occupation: "Psicóloga /Apoyo en supervisión profesional",
+            occupation: "Psicóloga /Apoyo técnico y comunitario.",
             formacion: {
               title: "Formación",
               description:
@@ -317,14 +317,14 @@ export const appDataText = {
             description: {
               title: "Descripción",
               description:
-                "““Durante muchos años, en mi labor como psicóloga en el servicio público, desarrollé varias actividades dirigidas a la comunidad con el objetivo de hacer más accesibles algunos temas relacionados con la salud mental, promoviendo así la vital importancia de nuestro bienestar emocional. Hoy, en el desempeño de mi profesión en el ámbito privado, quiero aportar a la comunidad para una mejor salud mental en la sociedad en general.”",
+                "“Durante muchos años, en mi labor como psicóloga en el servicio público, desarrollé varias actividades dirigidas a la comunidad con el objetivo de hacer más accesibles algunos temas relacionados con la salud mental, promoviendo así la vital importancia de nuestro bienestar emocional. Hoy, en el desempeño de mi profesión en el ámbito privado, quiero aportar a la comunidad para una mejor salud mental en la sociedad en general.”",
             },
           },
 
           {
             image: imagep1,
             name: "Lorena",
-            occupation: "Trabajadora social /apoyo técnico y comunitario.",
+            occupation: "Trabajadora social /Apoyo técnico y comunitario.",
             formacion: {
               title: "Formación",
               description: "",
@@ -347,8 +347,6 @@ export const appDataText = {
             description: {
               title: "Descripción",
               description:
-                "Soy hija, hermana, sobrina, tía, nieta y amiga. Me gusta mucho hacer trekking.",
-              description2:
                 "Soy psicóloga con 4 años de experiencia, actualmente me desenvuelvo en el área educacional. Y, puesto que durante el último año me he especializado en Sexualidad humana (área que me apasiona y motiva muchísimo) he decidido complementar mi ejercicio laboral con atención individualizada de consejería en sexualidad a quienes tengan problemáticas relacionadas, así como también, implementar talleres que buscan educar, empoderar y desmitificar mitos y creencias erróneas en torno al mismo.",
             },
           },
@@ -379,7 +377,7 @@ export const appDataText = {
             description: {
               title: "Descripción",
               description:
-                "“Mujer valiente e interesante”. Con más de 10 años de experiencia y formación especializada en infancia y adolescencia, cuya forma de trabajo se centra esencialmente en las personas de manera comprensiva y empática, procurando siempre acercar las instituciones jurídicas al caso particular. Busca la mayor comprensión posible tanto del conflicto que requiere asesoría profesional como las posibles estrategias para su solución.”",
+                "Con más de 10 años de experiencia y formación especializada en infancia y adolescencia, cuya forma de trabajo se centra esencialmente en las personas de manera comprensiva y empática, procurando siempre acercar las instituciones jurídicas al caso particular. Busca la mayor comprensión posible tanto del conflicto que requiere asesoría profesional como las posibles estrategias para su solución.”",
             },
           },
 
@@ -421,11 +419,6 @@ export const appDataText = {
             description:
               "Con sólo 8 sesiones, utilizaremos el clásico método de Terapia breve, con esto podrás tener un mapa acerca de ti, tu situación presente, tus heridas, recursos y un plan de acción personalizado!",
           },
-          // note: {
-          //   title: "Nota",
-          //   note:
-          //     "Nuestra mente tiene el potencial para ser feliz y saludable! Quizás manejes este dato, pero nuestro cerebro es como un portátil… ¿Cómo? Sí, es plástico por la neuroplasticidad cerebral, por ende, se puede amoldar, entrenar, programar, revisar, reiniciar, hibernar y claro dañar.",
-          // },
 
           subtitlelanguage: "Idioma : ",
           language: "Español",
@@ -439,14 +432,8 @@ export const appDataText = {
           terapiasComplementarias: {
             terapia1: {
               title: "Respiración consciente",
-              // phrase: "“ Inhalo Vida y Salud, Exhalo Tensiones y gratitud”",
               description:
                 "Parece mentira que el recurso más maravilloso y accesible con que contamos los seres humanos para el restablecimiento de la salud y el equilibrio de nuestro sistema psico-físico-emocional sea tan poco utilizado.",
-              // note: {
-              //   title: "Nota",
-              //   description:
-              //     "Nuestro cuerpo sabe cómo respirar sólo necesitamos poner el foco en este recurso. Cuando esta función está bloqueada, limitada o inhibida por alguna situación de estrés o por un hábito de respiración inadecuado resulta afectada, alterándose entre otras cosas los ciclos del sueño, el nivel de energía, la memoria, la concentración o la templanza emocional.",
-              // },
               subtitlelanguage: "Idioma :",
               language: "Español e Inglés",
               benefits: {
@@ -495,43 +482,6 @@ export const appDataText = {
                   "Mejora en controlar tu peso. Cuando estás atento a la comida, como la textura, el sabor, también estás practicando el auto-control. Este autocontrol ayuda a controlar lo que comemos, y necesitamos comer.",
                   "Reduce el estrés y ansiedad. Evitar comer de forma compulsiva nos permite estar más consciente de nuestras emociones. De esta forma, estar presente y consciente nos permite reducir los sentimientos de estrés y ansiedad.",
                   "Pérdida de peso. Pararse a disfrutar de la comida nos permite detectar cuando estamos saciados, lo que lleva a una reducción de peso.",
-                ],
-              },
-              tips: {
-                title: "Consejos",
-                tip: [
-                  <p>
-                    Antes de empezar a comer; <strong>observa</strong> la
-                    comida, los colores, las texturas, y agradécete que estás
-                    haciendo esto para cuidarte.
-                  </p>,
-                  <p>
-                    Si tienes tiempo limitado, ponte una <strong>alarma</strong>{" "}
-                    y no vuelvas a mirar el reloj.
-                  </p>,
-                  <p>
-                    Come <strong>sentado/a</strong>.
-                  </p>,
-                  <p>
-                    Reduce las <strong>distracciones</strong> (apagar el móvil,
-                    el televisor)
-                  </p>,
-                  <p>
-                    Corta las piezas de comida en{" "}
-                    <strong>trozos más pequeños</strong>, puedes incluso usar
-                    una cucharilla en lugar de una cuchara, o un plato más
-                    pequeño para reducir la ración.
-                  </p>,
-                  <p>
-                    <strong>Explora</strong>, come con la mano contraria a la
-                    que sueles comer.
-                  </p>,
-                  <p>
-                    Después de cada bocado, <strong>deja los cubiertos</strong>{" "}
-                    en la mesa
-                  </p>,
-                  "¿Cómo te sientes? ¿Tienes prisa? Permítete sentir y así, conocerte.",
-                  "No te obligues a comer todo",
                 ],
               },
             },
@@ -655,15 +605,6 @@ export const appDataText = {
                 "Bert Hellinger, psicoterapeuta alemán y ex sacerdote desarrolló este método a mediados de la década de 1990 y es el fundador de esta técnica. A lo largo de su trayectoria ha tratado y estudiado a familias durante más de 50 años, y observó que muchos de nosotros utilizamos inconscientemente patrones familiares destructivos que nos conducen hacia la ansiedad, la depresión, la ira, la culpa, la soledad, el alcoholismo e incluso la enfermedad como una forma de «pertenencia» a nuestras familias.",
               subtitlelanguage: "Idioma :",
               language: "Español",
-              benefits: {
-                title: "Beneficios",
-                description:
-                  "Es una manera de explorar y mejorar la dinámica familiar.",
-                description2:
-                  "Constelar nos sirve para comprender y sanar problemas.",
-                description3:
-                  "Constelar es una acción muy corta, muy puntual y muy fuerte. Esto hace que rápidamente obtengamos información y comprensión sobre un problema que nos preocupa.",
-              },
               uso: {
                 title: "Temas que se pueden constelar :",
                 uso: [
@@ -719,65 +660,26 @@ export const appDataText = {
           description:
             "En enero 2021, un informe de la PDI muestra que las denuncias por agresiones sexuales, cuyas víctimas mayoritarias son niños y niñas, disminuyeron más de 50% con relación a 2019. Contrario a lo esperado, esta no es una buena noticia, pues la baja puede explicarse por temor: obligados a convivir con el agresor producto del Covid, las víctimas no se atreven a contar. (CIPER, Chile, 2021).",
           description2:
-            "Lo primero es destacar que, en el contexto de pandemia y especialmente en cuarentena, se ha descrito el aumento de algunos factores de riesgo a nivel familiar identificados para el abuso infantil. Por ejemplo, aislamiento social, aumento de consumo de alcohol, conflictividad en el hogar y dificultades de salud mental. Además, se ha mencionado que el estrés familiar y social a causa de la pandemia aumenta el riesgo de violencia (Pereda y Díaz-Faes, 2020; Tener et al., in press).",
+            "Lo primero es destacar que, en el contexto de pandemia y especialmente en cuarentena, se ha descrito el aumento de algunos factores de riesgo a nivel familiar identificados para el abuso infantil. Por ejemplo, aislamiento social, aumento de consumo de alcohol, conflictividad en el hogar y dificultades de salud mental. Además, se ha mencionado que el estrés familiar y social a causa de la pandemia aumenta el riesgo de violencia (Pereda y Díaz-Faes, 2020).",
           description3: (
-            <strong>
-              Se ha visto que las agresiones sexuales se producen en distintos
-              niveles socioeconómicos y diferentes contextos. Lo que tiende a
-              ocurrir es que los niveles socioeconómicos más altos denuncian
-              menos estos hechos (Smith y Bentovim, 1994).
-            </strong>
+            <div>
+              <strong>
+                Se ha visto que las agresiones sexuales se producen en distintos
+                niveles socioeconómicos y diferentes contextos. Lo que tiende a
+                ocurrir es que los niveles socioeconómicos más altos denuncian
+                menos estos hechos
+              </strong>
+              (Smith y Bentovim, 1994).
+            </div>
           ),
-          // phrase: "“Tú eres aquello que haces, no aquello que dices que harás”",
-          // description:
-          //   "“El abuso sexual infantil (ASI) es la utilización de un niño/a u adolescente, por un adulto para la satisfacción sexual de sí mismo o de otros”",
-          // description2:
-          //   "Servicio de orientación destinado para padres, cuidadores, adultos en general, para identificar señales de este complejo fenómeno, desde un enfoque preventivo",
           benefits: {
             title: "Beneficios",
             description:
-              "Podrás detectar posibles señales de abuso sexual infantil en un infante.",
-            description2:
               "Recibirás orientación en cuanto a; cómo proceder de acuerdo con el marco ético, legal y emocional.",
-            // },
-            // note: {
-            //   title: "Nota",
-            //   note:
-            //     "Es relevante saber que la mayoría de las veces el agresor/a está en casa, es decir, el agresor/a es parte del grupo familiar. El ASI tiene un 75% de prevalencia intrafamiliar. Por eso, orientar a las familias para que desarrollen habilidades protectoras es vital, para la prevención del fenómeno.",
           },
 
           subtitlelanguage: "Idioma : ",
           language: "Español",
-          // tips: {
-          //   subtitle: "¿Cómo prevenir el Abuso Sexual Infantil?",
-          //   tip: [
-          //     "Habla con claridad a los niños acerca de los riesgos que los rodean en casa, escuela, barrio.",
-          //     "Conversa con ellos niños respecto del daño y brindarles confianza",
-          //     "Enséñale a tu hijo/a que existen partes del cuerpo íntimas y fortalece su autoestima.",
-          //     "Debes monitorear las actividades diarias.",
-          //     "Los niños deben conocer los teléfonos de las personas de confianza.",
-          //     "No envíes a tus hijos a lugares sin supervisión de un adulto de confianza.",
-          //     "Enséñale a tu hijo la diferencia entre secretos malos y buenos.",
-          //     "Supervisa los sitios web que visitan tus hijos.",
-          //     "Enséñale a tus hijos a no aceptar ‘regalos’ a cambio de favores",
-          //   ],
-          // },
-          // alerts: {
-          //   subtitle: "¿Cómo saber cuándo un niño es víctima de Abuso Sexual?",
-          //   tip: [
-          //     "Pesadillas y problemas de sueño.",
-          //     "Desórdenes alimentarios.",
-          //     "Ideas e intentos suicidas.",
-          //     "Cambios en el rendimiento escolar.",
-          //     "Alteraciones del lenguaje y la motricidad.",
-          //     "Aislamiento.",
-          //     "Agresividad.",
-          //     "Miedo generalizado ante la presencia de determinadas personas.",
-          //     "Dificultad para expresar sentimientos",
-          //     "Conocimiento y términos sexuales inapropiados para la edad.",
-          //     "*La presencia de alguno de estos comportamientos no siempre implica que un niño o niña ha sido víctima de abuso sexual.",
-          //   ],
-          // },
         },
         serviceNaturalPeople4: {
           title: "Prestaciones Jurídicas",
@@ -808,44 +710,6 @@ export const appDataText = {
       },
       profesionalServices: {
         title: "Servicios para psicólogos o terapeutas",
-        // serviceProfesionalServices1: {
-        //   title: "Entrenamiento profesional",
-        //   phrase:
-        //     "“ La línea entre el bien y el mal es permeable y casi cualquiera puede ser inducido a cruzarla cuando se ve presionado por fuerzas situacionales (Philip Zimbardo).”",
-        //   descriptionParagraph1:
-        //     "El entrenamiento es la educación profesional que busca adaptar al psicólogo a determinado cargo que incluya diagnóstico psicosocial para categorizar nivel de daño asociado a experiencias traumáticas y violentas como maltrato y agresiones sexuales. Sus objetivos se sitúan a corto plazo, son limitados e inmediatos, buscando dar al individuo los elementos esenciales para el ejercicio profesional en un cargo u organización, e implica la transmisión de conocimientos, ya sea información de la empresa, de sus productos, servicios, su organización, su política, etc. En segunda medida, implica un desarrollo de habilidades, entendido como un entrenamiento orientado a las tareas y operaciones que van a ejecutarse.",
-        //   descriptionParagraph2:
-        //     "Hablar de agresiones sexuales o experiencias violentas, es abordar un fenómeno complejo por la urgencia de “rescatar”, así como de evaluar el riesgo o el daño e intervenir para ayudar a la presunta víctima. Implica también correr velos en los que la culpa, el secreto y la vergüenza hacen estragos y contribuyen, de manera encubierta, a que el abuso infantil continúe.",
-        //   descriptionParagraph3:
-        //     "En los países iberoamericanos existe elevada incidencia del fenómeno, sin embargo, se estima altas cifras no develadas de casos que no fueron detectados ni denunciados en el momento oportuno. Por ello la importancia de conocer los fundamentos conceptuales, teóricos, los factores de riesgo, tipologías, perfiles psicológicos de los ofensores sexuales y el estado de vulnerabilidad de las víctimas de abuso sexual para poder prevenir.",
-        //   descriptionParagraph4:
-        //     "La Intervención Pericial en Abuso Sexual se está convirtiendo en el principal requerimiento de asesoría profesional tanto en ámbitos jurídico públicos como privados. La evaluación psicológica forense, la psicología del testimonio, la valoración de daño psicológico y el abordaje criminalístico del abuso infantil, es una de las principales obligaciones de capacitación o especialización para todos los profesionales que abordan el Abuso Sexual Infantil.",
-        //   descriptionParagraph5:
-        //     "Esta formación práctica y fuera del espacio universitario surge como respuesta a la necesidad de brindar formación integral para contribuir a la prevención, detección y atención de agresiones sexuales mediante el reconocimiento de los principales aspectos que lo constituyen.",
-        //   descriptionParagraph6:
-        //     "Tiene como finalidad proporcionar herramientas prácticas para la prevención, la detección y la intervención psicológica en niños y adolescentes víctimas de abuso sexual, haciendo énfasis en el Peritaje Forense.",
-        // },
-        // serviceProfesionalServices2: {
-        //   title: "Psicoterapia para terapeutas",
-        //   phrase:
-        //     "“ Nos encontramos constantemente con grandes oportunidades que están brillantemente enmascaradas con problemas irresolubles”.",
-        //   descriptionParagraph1:
-        //     "En la sociedad actual aún permanecen y se mantienen una gran cantidad de falsas creencias y mitos acerca del trabajo que realizan los psicólogos o cómo estos deberían ser como personas y profesionales.",
-        //   descriptionParagraph2:
-        //     "Un psicólogo tiene la capacidad de ayudar a la persona a enfrentarse a situaciones que, en ocasiones, pueden llegar a superarla y causarle un gran malestar emocional. Sin embargo, esto no implica que los profesionales en psicología no sufran o se sientan angustiados por circunstancias de la vida cotidiana y, por lo tanto, también necesiten la asistencia de otro profesional.",
-        //   subtitle: "Los psicólogos conocen la importancia de la salud mental",
-        //   descriptionParagraph3:
-        //     "No es necesario sufrir un trastorno ni una enfermedad mental para decidir acudir a un terapéuta, igual que tampoco es necesario esperar a que una leve aflicción se convierta en algo más grave, y eso los psicólogos lo comprenden mejor que nadie.",
-        //   descriptionParagraph4:
-        //     "Por lo tanto, un psicólogo, al igual que cualquier otra persona, es consciente de que sin salud mental no existe salud de ninguna clase y puede desear acudir a otro profesional para aumentar o mantener su estado de bienestar emocional y así poder disfrutar de una vida plena y satisfactoria.",
-        //   subtitle2:
-        //     "Finalmente, los psicólogos saben que disfrutar de una salud mental positiva es esencial por tres razones de base:",
-        //   descriptionParagraph5: [
-        //     "Para poder enfrentarse a las dificultades normales que surgen en el día a día.",
-        //     "Para conservar y mantener la motivación necesaria para conseguir las aspiraciones y objetivos personales.",
-        //     "Para favorecer y contribuir de forma positiva en el ambiente que le rodea.",
-        //   ],
-        // },
         serviceProfesionalServices3: {
           title: "Supervisión de casos",
           phrase: "“Sigue a tu corazón pero lleva contigo a tu cerebro”",
@@ -866,7 +730,7 @@ export const appDataText = {
             title: "Nota",
             note: [
               <strong>
-                Los psicólogos conocen la importancia de la salud mental
+                Los psicólogos conocen la importancia de la salud mental.
               </strong>,
               <p>
                 Analizar conjuntamente nuestro quehacer profesional y la{" "}
@@ -881,12 +745,12 @@ export const appDataText = {
           step: {
             title: "¿Cómo se realiza?",
             step: [
-              "Se selecciona un caso",
-              "Se elaboran preguntas",
-              "Se elaboran hipótesis",
-              "Se recopilan datos",
+              "Se selecciona un caso.",
+              "Se elaboran preguntas.",
+              "Se elaboran hipótesis.",
+              "Se recopilan datos.",
               "Se analiza el tipo de intervención utilizada.",
-              "Análisis e interpretación de los resultados",
+              "Análisis e interpretación de los resultados.",
               "Elaboración de nuevas estrategias de intervención.",
             ],
           },
@@ -903,13 +767,13 @@ export const appDataText = {
               Trabajar profesionalmente en áreas de políticas públicas, implica
               asumir múltiples desafíos y consecuencias, asociados a la temática
               y a la organización de la tarea y en ocasiones lleva a los
-              profesionales a padecer <strong>burnout</strong>
+              profesionales a padecer <strong>burnout</strong>.
             </div>
           ),
           description2:
             "Esto ha llevado a que Plan de autocuidado sea una tarea que cumplir en las organizaciones. El objeto del estudio es identificar las estrategias de los profesionales, a nivel individual y de equipo, y conocer la percepción de efectividad de éstas.",
           description3:
-            "Se elabora plan de autocuidado a distancia, personalizado desde enfoque psicología positiva, logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información  el presupuesto para este ítem es bajo",
+            "Se elabora plan de autocuidado a distancia, personalizado desde enfoque psicología positiva, logrando visualizar y conectar con los recursos disponibles, toda vez que se maneja información  el presupuesto para este ítem es bajo.",
           description4:
             "Se ofrece un plan de acuerdo “al bolsillo” de cada proyecto u organización y se habilita a las jefaturas para poder implementarlos como parte de sus espacios de descompresión.",
           subtitlelanguage: "Idioma :",
@@ -917,7 +781,7 @@ export const appDataText = {
           note: {
             title: "Nota",
             note:
-              "La Organización Mundial de la Salud (OMS) ha procedido al reconocimiento oficial del burnout o “síndrome de estar quemado” o de desgaste profesional como enfermedad tras la ratificación de la revisión número 11 de la Clasificación Estadística Internacional de Enfermedades y Problemas de Salud Conexos (CIE-11)",
+              "La Organización Mundial de la Salud (OMS) ha procedido al reconocimiento oficial del burnout o “síndrome de estar quemado” o de desgaste profesional como enfermedad tras la ratificación de la revisión número 11 de la Clasificación Estadística Internacional de Enfermedades y Problemas de Salud Conexos (CIE-11).",
             note2:
               "El término 'burnout' fue acuñado por primera vez en 1974 por Herbert Freudenberger, en su libro “Burnout: The High Cost of High Achievement” Por lo general, el trastorno es consecuencia de un estrés laboral crónico, y se caracteriza por un estado de agotamiento emocional, una actitud cínica o distante frente al trabajo (despersonalización), y una sensación de ineficacia y de no hacer adecuadamente las tareas. A ello se suma la pérdida de habilidades para la comunicación.",
             note3:
@@ -934,7 +798,7 @@ export const appDataText = {
                 las personas que experimentan agotamiento ven sus trabajos como
                 cada vez más estresantes y frustrantes. Pueden volverse cínicos
                 sobre sus condiciones de trabajo y las personas con las que
-                trabajan
+                trabajan.
               </div>
             ),
             symptoms2: (
@@ -984,6 +848,7 @@ export const appDataText = {
         </div>
       ),
       text3: <strong>Aquí vamos a usar el que tú necesites!</strong>,
+      textFooter: "Contacta con nosotros",
       addresse: {
         title: "Dirección",
         addresse:
@@ -994,7 +859,7 @@ export const appDataText = {
         correo: "asesorias.profesionales.holistic@gmail.com",
       },
       fono: {
-        title: "Celular",
+        title: "Whatsapp",
         fono: 420776212480,
       },
       giro: {
@@ -1065,11 +930,11 @@ export const appDataText = {
         title: "Selecciona un servicios",
         services: {
           naturalPeople: {
-            service1: "Psicoterapia breve Adultos",
+            service1: "Psicoterapia Breve Adultos",
             service2: "Terapias complementarias",
             service3: "Charlas Preventivas Abuso Sexual Infantil",
             service4: "Prestaciones Jurídicas",
-            service5: "Necesito orientación, no lo sé",
+            service5: "Necesito orientación de un profesional",
             subservice: {
               title: "Terapias complementarias",
               subservice1: "Respiración consciente",
@@ -1137,6 +1002,11 @@ export const appDataText = {
           "“Llegué a Carolina buscando apoyo para mi hijo y estamos muy contentos de haberla encontrado. Su método de trabajo envolvió a toda nuestra familia y gracias a ella nos dimos cuenta de muchas cosas que habíamos pasado por alto como familia y nos ayudó muchísimo. Me gustó también su manera de ver las cosas: “mamá feliz, hijos felices”. Al final, terminé yo tomando más sesiones con Carolina que mis hijos, le agradezco que me haya llevado por ese camino porque significó una gran ayuda para mí e ir resolviendo temas desde mi niñez. Hoy hemos avanzado mucho, toda la familia. Hoy tenemos una vida mucho más tranquila y en armonía. ¡Muchas gracias!”.",
       },
     },
+    blog: {
+      title: "Blog",
+      text: "",
+      buttonText: "Descargar PDF",
+    },
   },
 
   //--------------English------------------
@@ -1161,145 +1031,3 @@ export const appDataText = {
     },
   },
 };
-
-//   header: {
-//     home: {
-//       name: "Home",
-//       path: "/home",
-//     },
-//     aboutUs: {
-//       name: "About Us",
-//       path: "/about-Us",
-//     },
-//     services: {
-//       name: "Services",
-//       path: "/services",
-//     },
-//     contactUs: {
-//       name: "Contact Us",
-//       path: "/contact-us",
-//     },
-//   },
-
-//   home: {
-//     fistSectionHome: {
-//       slider1: {
-//         title: "Psychological counseling and professional network",
-//         subtitle: "Think, act, transcend",
-//         buttonText: "Contact us",
-//       },
-//       slider2: {
-//         title:
-//           "La palabra “felicidad” perdería su sentido si no se equilibra con tristeza",
-//         autor: "(C. G. Jung)",
-//         buttonText: "Contact us",
-//       },
-//     },
-//     SecondSectionHome: {
-//       title:
-//         "Anguish, confusion, emotional instability, anger, general mental distress",
-//       subtitle: "We can help you!",
-//       buttonText: "Contact us",
-//     },
-//     thirdSectionHome: {
-//       title: "We are ready when you are!",
-//       subtitle:
-//         "We care about you, your family, and your story. You can trust that we will treat you with respect, dignity and compassion in every interaction, while maintaining the highest standards for integrity and ethics.",
-//       buttonText: "Get Started Today",
-//       text1: "More than 150 happy customers",
-//       text2: "Loyal customers",
-//       text3: "Our clients recommend us",
-//     },
-//     fourthSectionHome: {
-//       title: "Our services",
-//       services: {
-//         buttonText: "Our services here",
-//         people: {
-//           title: "Services for natural persons",
-//           service1: "Individual and group psychotherapy",
-//           service2: "Complementary therapies",
-//           service3: "Legal services",
-//         },
-//         profesional: {
-//           title: "Services for professional psychologists and therapists",
-//           service1:
-//             "Professional training in diagnosis and intervention strategies in traumatic experiences",
-//           service2:
-//             "Individual therapy to professional psychologists or complementary therapists",
-//           service3: "Case monitoring",
-//         },
-//         companies: {
-//           title: "Services for companies",
-//           description: "Semester or annual self-care programs",
-//         },
-//       },
-//     },
-//     fifthSectionHome: {
-//       title: "How it work?",
-//       subtitle: "3 Simple steps to start improving your life.",
-//       firstStep: "Tell us what service you need through our contact page.",
-//       secondStep:
-//         "We will contact you to schedule an appointment and give you all the details you need to know.",
-//       thirdStep: "Start your sessions and improve your life.",
-//       buttonText: "Start today",
-//     },
-//   },
-
-//   Sevices: {
-//     title: "Services",
-//     services: [
-//       {
-//         title: "self-care therapy",
-//         description:
-//           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//         buttonText: "more",
-//       },
-//       {
-//         title: "group therapy",
-//         description:
-//           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//         buttonText: "more",
-//       },
-//       {
-//         title: "Training for professional psychologists",
-//         description:
-//           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//         buttonText: "more",
-//       },
-//       {
-//         title: "Therapy for professional psychologists",
-//         description:
-//           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//         buttonText: "more",
-//       },
-//       {
-//         title: "Therapy for professionals in the health area",
-//         description:
-//           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//         buttonText: "more",
-//       },
-//       {
-//         title: "Complementary therapies",
-//         description:
-//           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-//         buttonText: "more",
-//       },
-//     ],
-//   },
-
-//   contact: {
-//     title: "Contact Us",
-//     text:
-//       "I know this is hard. You've likely been debating seeking help for months, if not years. But I'm so glad you found me and have taken the courageous step of being here.",
-//     addresse: "Czech Republic and Chile",
-//     email: "asesorias.profesionales.holistic@gmail.com",
-//     fono: "Fono :420776212480",
-//     buttonText: "Submit",
-//     input: {
-//       name: "Name",
-//       email: "Email",
-//       comment: "Comment",
-//       errorRequiredInformation: "Required information",
-//     },
-//   },
-// },

@@ -1,6 +1,6 @@
 import React from "react";
 import RoomIcon from "@material-ui/icons/Room";
-import PhoneIcon from "@material-ui/icons/Phone";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 
 import styles from "./contact-data.module.css";
@@ -26,7 +26,7 @@ function ContactData() {
         </div>
         <div className={styles.subWrappData}>
           <div className={styles.iconLink}>
-            <PhoneIcon />
+            <WhatsAppIcon />
           </div>
           <div className={styles.containerText}>
             <p className={styles.subtitle}>

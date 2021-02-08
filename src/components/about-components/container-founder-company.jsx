@@ -14,33 +14,27 @@ function FounderCompany() {
       <div className={styles.containerImage}>
         <img alt="missionImage" className={styles.image} src={teamImage} />
       </div>
-      <h1 className={styles.titleLarge}>
-        {appDataText.espanol.aboutUs.founder.title}
-      </h1>
-      <h1 className={styles.name}>
-        {appDataText.espanol.aboutUs.founder.name}
-      </h1>
-      <h3 className={styles.subtitle}>
-        {appDataText.espanol.aboutUs.founder.experience.title}
-      </h3>
-      <p className={styles.text}>
-        {appDataText.espanol.aboutUs.founder.experience.text1}
-      </p>
-      <p className={styles.text}>
-        {appDataText.espanol.aboutUs.founder.experience.text2}
-      </p>
-      <p className={styles.text}>
-        {appDataText.espanol.aboutUs.founder.experience.text3}
-      </p>
-      <p className={styles.text}>
-        {appDataText.espanol.aboutUs.founder.experience.text4}
-      </p>
-      <div className={styles.containerTraining}>
-        <h3 className={cn(styles.subtitle, styles.subtitleTraining)}>
-          {appDataText.espanol.aboutUs.founder.training.title}
+      <div className={styles.wrapper}>
+        <h1 className={styles.titleLarge}>
+          {appDataText.espanol.aboutUs.founder.title}
+        </h1>
+        <h1 className={styles.name}>
+          {appDataText.espanol.aboutUs.founder.name}
+        </h1>
+        <h3 className={styles.subtitle}>
+          {appDataText.espanol.aboutUs.founder.experience.title}
         </h3>
         <p className={styles.text}>
-          {appDataText.espanol.aboutUs.founder.training.text1}
+          {appDataText.espanol.aboutUs.founder.experience.text1}
+        </p>
+        <p className={styles.text}>
+          {appDataText.espanol.aboutUs.founder.experience.text2}
+        </p>
+        <p className={styles.text}>
+          {appDataText.espanol.aboutUs.founder.experience.text3}
+        </p>
+        <p className={styles.text}>
+          {appDataText.espanol.aboutUs.founder.experience.text4}
         </p>
       </div>
     </div>

@@ -17,44 +17,46 @@ function OfferSectionHome() {
   // </div>
   return (
     <div className={styles.containerOfferSectionHome}>
-      <h1 className={styles.title}>{appDataText.espanol.home.offer.title}</h1>
-      <div className={styles.wrappContainer}>
-        <div className={styles.containerLeft}>
-          <div className={styles.containerText}>
-            <div className={styles.containerDescription}>
-              <p className={styles.text}>
-                {appDataText.espanol.home.offer.text3}
+      <div className={styles.border}>
+        <h1 className={styles.title}>{appDataText.espanol.home.offer.title}</h1>
+        <div className={styles.wrappContainer}>
+          <div className={styles.containerLeft}>
+            <div className={styles.containerText}>
+              <div className={styles.containerDescription}>
+                <p className={styles.text}>
+                  {appDataText.espanol.home.offer.text3}
+                </p>
+                <p className={styles.text}>
+                  {appDataText.espanol.home.offer.text4}
+                </p>
+              </div>
+            </div>
+            <Button variant="contained" onClick={onClick}>
+              {appDataText.espanol.home.offer.buttonText}
+            </Button>
+          </div>
+          <div className={styles.containerRight}>
+            <h2 className={styles.subtitleRight}>
+              {appDataText.espanol.home.offer.subtitle}
+            </h2>
+            <h1 className={styles.price}>€45</h1>
+            <div className={styles.containerOffer}>
+              <p className={styles.textRight}>
+                {appDataText.espanol.home.offer.text}
               </p>
-              <p className={styles.text}>
-                {appDataText.espanol.home.offer.text4}
+              <AddIcon />
+              <p className={styles.textRight}>
+                {appDataText.espanol.home.offer.text1}
+              </p>
+              <AddIcon />
+              <p className={styles.textRight}>
+                {appDataText.espanol.home.offer.text2}
               </p>
             </div>
+            <Button variant="contained" onClick={onClick}>
+              {appDataText.espanol.home.offer.buttonText2}
+            </Button>
           </div>
-          <Button variant="contained" onClick={onClick}>
-            {appDataText.espanol.home.offer.buttonText}
-          </Button>
-        </div>
-        <div className={styles.containerRight}>
-          <h2 className={styles.subtitleRight}>
-            {appDataText.espanol.home.offer.subtitle}
-          </h2>
-          <h1 className={styles.price}>€39</h1>
-          <div className={styles.containerOffer}>
-            <p className={styles.textRight}>
-              {appDataText.espanol.home.offer.text}
-            </p>
-            <AddIcon />
-            <p className={styles.textRight}>
-              {appDataText.espanol.home.offer.text1}
-            </p>
-            <AddIcon />
-            <p className={styles.textRight}>
-              {appDataText.espanol.home.offer.text2}
-            </p>
-          </div>
-          <Button variant="contained" onClick={onClick}>
-            {appDataText.espanol.home.offer.buttonText2}
-          </Button>
         </div>
       </div>
     </div>

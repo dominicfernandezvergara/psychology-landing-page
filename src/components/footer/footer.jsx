@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
-import PhoneIcon from "@material-ui/icons/Phone";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 import cn from "classnames";
 import { useHistory } from "react-router-dom";
@@ -101,13 +101,15 @@ function Footer() {
         </div>
       </div>
       <div className={styles.data}>
-        <h3 className={styles.title}>Contacta con nosotros</h3>
+        <h3 className={styles.title}>
+          {appDataText.espanol.contact.textFooter}
+        </h3>
         <p className={styles.addresse}>
           {appDataText.espanol.contact.addresse.addresse}
         </p>
         <div className={styles.containerText}>
           <div className={styles.iconLink}>
-            <PhoneIcon />
+            <WhatsAppIcon />
           </div>
           <a href="tel:5551234567" className={styles.text}>
             {appDataText.espanol.contact.fono.fono}

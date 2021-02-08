@@ -35,36 +35,6 @@ function ConstelacionesFamiliares() {
           }
         </p>
       </div>
-      <div className={styles.containerBenefist}>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople2.terapiasComplementarias.terapia6.benefits
-              .title
-          }
-        </h4>
-        <p className={styles.text}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople2.terapiasComplementarias.terapia6.benefits
-              .description
-          }
-        </p>
-        <p className={styles.text}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople2.terapiasComplementarias.terapia6.benefits
-              .description2
-          }
-        </p>
-        <p className={styles.text}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople2.terapiasComplementarias.terapia6.benefits
-              .description3
-          }
-        </p>
-      </div>
       <div className={styles.containerUso}>
         <h4 className={styles.subtitle}>
           {

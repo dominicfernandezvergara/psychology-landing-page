@@ -46,9 +46,7 @@
     display: block;
     flex-direction: unset;
   }
-  .wrappData {
-    display: flex;
-  }
+
   .wrappDataExperience {
     width: 50%;
   }

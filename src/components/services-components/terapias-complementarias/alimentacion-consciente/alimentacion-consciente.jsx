@@ -8,9 +8,7 @@ function AlimentacionConsciente() {
   const benefitsList =
     appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople2
       .terapiasComplementarias.terapia2.benefits.benefits;
-  const tipsList =
-    appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople2
-      .terapiasComplementarias.terapia2.tips.tip;
+
   return (
     <div className={styles.containerService}>
       <div className={styles.containerImage}>
@@ -62,23 +60,6 @@ function AlimentacionConsciente() {
         </h4>
         <div className={styles.text}>
           {benefitsList.map((item, index) => {
-            return (
-              <ul key={index}>
-                <li>{item}</li>
-              </ul>
-            );
-          })}
-        </div>
-      </div>
-      <div className={styles.containerTip}>
-        <h4 className={styles.subtitle}>
-          {
-            appDataText.espanol.services.naturalPeopleService
-              .serviceNaturalPeople2.terapiasComplementarias.terapia2.tips.title
-          }
-        </h4>
-        <div className={styles.text}>
-          {tipsList.map((item, index) => {
             return (
               <ul key={index}>
                 <li>{item}</li>
