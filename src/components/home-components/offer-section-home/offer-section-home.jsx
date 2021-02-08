@@ -17,28 +17,26 @@ function OfferSectionHome() {
   // </div>
   return (
     <div className={styles.containerOfferSectionHome}>
-      <h1 className={styles.title}>
-        Promoción para iniciar tu proceso de cambio
-      </h1>
+      <h1 className={styles.title}>{appDataText.espanol.home.offer.title}</h1>
       <div className={styles.wrappContainer}>
         <div className={styles.containerLeft}>
           <div className={styles.containerText}>
             <div className={styles.containerDescription}>
               <p className={styles.text}>
-                {appDataText.espanol.aboutUs.especialText}
+                {appDataText.espanol.home.offer.text3}
               </p>
               <p className={styles.text}>
-                {appDataText.espanol.aboutUs.especialText2}
+                {appDataText.espanol.home.offer.text4}
               </p>
             </div>
           </div>
           <Button variant="contained" onClick={onClick}>
-            {appDataText.espanol.home.banner.buttonText}
+            {appDataText.espanol.home.offer.buttonText}
           </Button>
         </div>
         <div className={styles.containerRight}>
           <h2 className={styles.subtitleRight}>
-            Servicio recomendado para empezar psicoterapia.
+            {appDataText.espanol.home.offer.subtitle}
           </h2>
           <h1 className={styles.price}>€39</h1>
           <div className={styles.containerOffer}>
@@ -55,7 +53,7 @@ function OfferSectionHome() {
             </p>
           </div>
           <Button variant="contained" onClick={onClick}>
-            {appDataText.espanol.home.banner.buttonText}
+            {appDataText.espanol.home.offer.buttonText2}
           </Button>
         </div>
       </div>

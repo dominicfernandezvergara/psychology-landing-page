@@ -1,7 +1,7 @@
 .containerGiftSectionHome {
   display: flex;
   justify-content: center;
-  background-color: var(--lightSecondaryColor);
+  background-color: var(--white);
   padding: 40px;
 }
 .containerTitle {

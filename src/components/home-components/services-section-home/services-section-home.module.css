@@ -68,8 +68,11 @@
   .title {
     font-size: 30px;
   }
-  .titleService {
+  .titleServiceLarge {
+    display: block;
     font-size: 30px;
+    color: var(--primaryColor);
+    margin-bottom: 10px;
   }
   .services {
     display: flex;
@@ -90,6 +93,7 @@
   .wrappTextImage {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
   }
   .containerImage {
     width: 40%;
@@ -100,6 +104,9 @@
   }
   .containerDescription {
     width: 60%;
+  }
+  .titleService {
+    display: none;
   }
 }
 @media screen and (min-width: 1024px) {

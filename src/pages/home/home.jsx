@@ -13,13 +13,12 @@ import OfferSectionHome from "../../components/home-components/offer-section-hom
 
 function Home() {
   UseScrollToTop();
-  // <OfferSectionHome />
 
   return (
     <div className={styles.containerHome}>
       <Banner />
-      <SliderSectionHome />
       <ServicesSectionHome />
+      <OfferSectionHome />
       <WhyChooseUs />
       <GiftSectionHome />
       <TestimonySlider />

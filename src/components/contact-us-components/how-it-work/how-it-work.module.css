@@ -63,7 +63,10 @@
 }
 @media screen and (min-width: 768px) {
   .containerHowItWork {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
     padding: 15px 10px;
+    margin: 10px;
   }
   .containerIconsSection {
     flex-direction: unset;
@@ -96,6 +99,9 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .containerHowItWork {
+    margin: 20px 50px 10px;
+  }
   .title {
     font-size: 24px;
   }
@@ -119,14 +125,18 @@
     font-size: 70px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
+  .containerHowItWork {
+    margin: 40px 110px 0px;
+  }
   .containerHowItWork {
     padding: 40px 100px;
   }
 }
 @media screen and (min-width: 1920px) {
   .containerHowItWork {
-    padding: 40px 200px;
+    margin: 40px 210px 0px;
+    /* padding: 40px 200px; */
     padding-bottom: 50px;
   }
   .title {

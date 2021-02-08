@@ -82,7 +82,7 @@ export const appDataText = {
     home: {
       banner: {
         title: "Awarenness Consultant",
-        text: "Entregamos orientación psicológica y apoyo psicosocial",
+        text: "Orientación psicológica, social y juridica",
         buttonText: "Comienza hoy",
         path: "/contacto",
       },
@@ -215,27 +215,22 @@ export const appDataText = {
       offer: {
         // title:
         //   "Por si aún no estás convencido de iniciar tu proceso de transformación",
-        title: "Para iniciar tu proceso de cambio te ofrecemos :",
-        subtitle: "Te ofrecemos :",
+        title: "Promoción para iniciar tu proceso de cambio",
+        subtitle: "Servicio recomendado para empezar psicoterapia",
         text: "Aplicación test gratuito",
         text1: "Sesión psicológica diagnóstica gratuita",
         text2: "Sesión de retroalimentación y apreciación clínica",
-
-        text3: "Ahorrarás hasta un 50%",
-        buttonText: "Comienza aquí",
+        text3:
+          "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
+        text4:
+          "Brindamos asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
+        buttonText: "Contactanos",
+        buttonText2: "Comienza hoy",
       },
     },
 
     // About Us español
     aboutUs: {
-      // borrar
-
-      especialText:
-        "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
-      especialText2:
-        "Brindamos asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
-
-      // borrar
       title: "Sobre “Awareness Consultant”",
       text: "Conoce a nuestro equipo de colaboradores haciendo click aquí",
       buttonText: "Colaboradores",
@@ -1127,7 +1122,7 @@ export const appDataText = {
         subtitle: "Profesional con síntomas de ansiedad y déficit atencional",
 
         text:
-          "Ha tenido un impacto conocerla, en mi vida motivacional y emocional. Siempre ha sido una amistad sin discriminación, me ha acompañado en diferentes etapas de la vida, he obtenido un apoyo moral, siempre a estado ahí para seguir generando impactos en mi vida.",
+          "Ha tenido un impacto conocerla, en mi vida motivacional y emocional. Siempre ha sido una relación sin discriminación, me ha acompañado en diferentes etapas de la vida, he obtenido un apoyo moral, siempre a estado ahí para seguir generando impactos en mi vida.",
       },
       testimony5: {
         title: "Mujer, 32 años",

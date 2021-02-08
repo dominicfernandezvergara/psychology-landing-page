@@ -4,6 +4,11 @@ export const listServicesForm = [
   {
     name:
       appDataText.espanol.contact.servicesListForm.services.naturalPeople
+        .service5,
+  },
+  {
+    name:
+      appDataText.espanol.contact.servicesListForm.services.naturalPeople
         .service1,
   },
   {
@@ -30,11 +35,6 @@ export const listServicesForm = [
     name:
       appDataText.espanol.contact.servicesListForm.services.companiesServices
         .service1,
-  },
-  {
-    name:
-      appDataText.espanol.contact.servicesListForm.services.naturalPeople
-        .service5,
   },
 ];
 export const listSubservicesForm = [

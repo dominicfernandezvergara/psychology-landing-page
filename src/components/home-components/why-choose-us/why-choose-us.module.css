@@ -1,6 +1,6 @@
 .containerThirdSection {
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--lightSecondaryColor);
   padding: 40px;
   box-sizing: border-box;
 }

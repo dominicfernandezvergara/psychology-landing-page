@@ -5,7 +5,7 @@
   width: 100%;
   align-items: center;
   padding-bottom: 40px;
-  background-color: var(--white);
+  background-color: var(--lightSecondaryColor);
   border: 3px solid #f4f5f6;
 }
 .containerTestimonySlider :global(.slick-next:before) {

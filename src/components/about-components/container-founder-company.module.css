@@ -37,6 +37,9 @@
   color: var(--text);
   text-align: justify;
 }
+.titleLarge {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .containerFounderCompany {
@@ -59,9 +62,19 @@
   .image {
     width: 100%;
   }
+  .titleLarge {
+    display: block;
+    padding-bottom: 10px;
+    color: var(--darkPrimaryColor);
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .title {
+    display: none;
+  }
 }
 @media screen and (min-width: 1024px) {
-  .title {
+  .titleLarge {
     font-size: 30px;
   }
   .name {
