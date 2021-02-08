@@ -80,6 +80,12 @@ export const appDataText = {
 
     // home español
     home: {
+      banner: {
+        title: "Awarenness Consultant",
+        text: "Entregamos orientación psicológica y apoyo psicosocial",
+        buttonText: "Comienza hoy",
+        path: "/contacto",
+      },
       fistSectionHome: {
         slider1: {
           title: "Asesoramiento psicológico y red profesional",
@@ -203,7 +209,7 @@ export const appDataText = {
         text: "Descarga nuestro pdf",
         text2: "Gratuito",
         text3:
-          "Un cuento para niños y adultos sobre emociones básicas y necesarias.",
+          "Un cuento para niños y adultos sobre emociones básicas y esenciales.",
         buttonText: "Descargar PDF",
       },
       offer: {
@@ -227,7 +233,7 @@ export const appDataText = {
       especialText:
         "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
       especialText2:
-        "Brinda asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
+        "Brindamos asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
 
       // borrar
       title: "Sobre “Awareness Consultant”",
@@ -1005,6 +1011,7 @@ export const appDataText = {
       input: {
         name: "Nombre",
         email: "Correo electrónico",
+        country: "País",
         comment: "Comentario",
         errorRequiredInformation: "Informacion requerida para continuar",
       },

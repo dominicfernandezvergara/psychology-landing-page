@@ -74,9 +74,27 @@ function Form() {
         />
       </div>
       {errors.email && (
-        <span className={styles.errorInput}>{errors.email.message}</span>
+        <span className={styles.errorInput}>
+          {appDataText.espanol.contact.input.errorRequiredInformation}
+        </span>
       )}
-
+      {/* Country input */}
+      <div className={styles.inputBox}>
+        <TextField
+          id="country"
+          variant="outlined"
+          label={appDataText.espanol.contact.input.country}
+          type="text"
+          name="country"
+          className={styles.input}
+          inputRef={register({ required: true })}
+        />
+      </div>
+      {errors.country && (
+        <span className={styles.errorInput}>
+          {appDataText.espanol.contact.input.errorRequiredInformation}
+        </span>
+      )}
       {/* Select input Services*/}
       <div className={styles.inputBoxSelect}>
         <TextField

@@ -1,5 +1,6 @@
 import React from "react";
 import cn from "classnames";
+import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
 
 import styles from "./services-section-home.module.css";
@@ -61,13 +62,9 @@ function ServicesSectionHome() {
           </div>
         </div>
       </div>
-      <button
-        className={styles.button}
-        type="button"
-        onClick={onClickButtonPeopleServices}
-      >
+      <Button variant="contained" onClick={onClickButtonPeopleServices}>
         {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-      </button>
+      </Button>
     </div>
   );
 
@@ -89,13 +86,9 @@ function ServicesSectionHome() {
           </div>
         </div>
       </div>
-      <button
-        className={styles.button}
-        type="button"
-        onClick={onClickButtonProfesionalServices}
-      >
+      <Button variant="contained" onClick={onClickButtonProfesionalServices}>
         {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-      </button>
+      </Button>
     </div>
   );
 
@@ -127,13 +120,9 @@ function ServicesSectionHome() {
           </div>
         </div>
       </div>
-      <button
-        className={styles.button}
-        type="button"
-        onClick={onClickButtonCompanieServices}
-      >
+      <Button variant="contained" onClick={onClickButtonCompanieServices}>
         {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-      </button>
+      </Button>
     </div>
   );
 

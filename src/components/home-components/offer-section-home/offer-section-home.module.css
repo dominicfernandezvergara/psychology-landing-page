@@ -24,12 +24,13 @@ ul {
   text-align: center;
   color: var(--darkText);
 }
-.containerIcon :global(.MuiSvgIcon-root) {
+/* .containerIcon :global(.MuiSvgIcon-root) {
   color: var(--darkText);
   font-size: 50px;
-}
+} */
 .price {
-  color: var(--darkText);
+  color: var(--darkPrimaryColor);
+  font-size: 40px;
 }
 .text {
   font-size: 16px;
@@ -51,25 +52,19 @@ ul {
 }
 .containerOffer {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
-
-.button {
-  color: var(--white);
+.containerRight :global(.MuiButton-root) {
   background-color: var(--darkPrimaryColor);
-  width: -webkit-fill-available;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  padding: 20px;
-  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
-    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
-  margin-top: 30px;
-  align-self: center;
-  border-radius: 30px;
+  color: var(--white);
 }
-.button:hover {
+.containerOfferSectionHome :global(.MuiButton-root:hover) {
   background-color: var(--primaryColor);
+}
+.containerLeft :global(.MuiButton-root) {
+  background-color: var(--darkPrimaryColor);
+  color: var(--white);
+  width: fit-content;
 }
 .containerLeft {
   display: none;
@@ -77,10 +72,10 @@ ul {
 
 @media screen and (min-width: 768px) {
   .containerOfferSectionHome {
-    padding: 50px;
+    padding: 45px;
   }
   .title {
-    font-size: 24px;
+    font-size: 30px;
   }
   .subtitle {
     font-size: 30px;
@@ -94,7 +89,7 @@ ul {
   }
   .wrappContainer {
     display: flex;
-    /* flex-direction: row-reverse; */
+    justify-content: center;
   }
   .containerLeft {
     display: block;
@@ -104,17 +99,12 @@ ul {
     width: 50%;
     margin-right: 50px;
   }
-  .containerText {
-    margin-bottom: 30px;
+  .text {
+    margin-bottom: 20px;
   }
   .containerRight {
     width: 50%;
-    padding: 40px;
-  }
-  .buttonLeft {
-    align-self: flex-start;
-    border-radius: 0px;
-    width: fit-content;
+    padding: 30px;
   }
 }
 
@@ -127,16 +117,17 @@ ul {
     padding-bottom: 40px;
   }
   .containerLeft {
-    margin-right: 90px;
-  }
-  .containerRight {
-    padding: 50px;
+    margin-right: 70px;
+    width: 40%;
   }
   .textRight {
     font-size: 18px;
   }
   .text {
     font-size: 18px;
+  }
+  .containerOfferSectionHome :global(.MuiButton-root) {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1280px) {

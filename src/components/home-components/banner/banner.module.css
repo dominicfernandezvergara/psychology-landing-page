@@ -1,0 +1,76 @@
+.containerBanner {
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+  padding: 40px;
+  background-color: var(--lightSecondaryColor);
+  background-image: url(../../../images/imageHome/banner/imageBanner.jpeg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerText {
+  box-sizing: border-box;
+  background-color: #ffffff94;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+}
+.title {
+  color: var(--darkPrimaryColor);
+  text-transform: uppercase;
+}
+.text {
+  color: var(--darkPrimaryColor);
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.containerBanner :global(.MuiButton-root) {
+  background-color: var(--darkPrimaryColor);
+  color: var(--white);
+}
+.containerBanner :global(.MuiButton-root:hover) {
+  background-color: var(--primaryColor);
+}
+@media screen and (min-width: 768px) {
+  .containerBanner {
+    height: 400px;
+  }
+  .containerText {
+    padding: 20px;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .text {
+    width: 400px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .containerBanner :global(.MuiButton-root) {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerBanner {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  /* .containerBanner {
+    height: 500px;
+  } */
+}
+@media screen and (min-width: 1920px) {
+  .containerBanner {
+    height: 600px;
+  }
+}

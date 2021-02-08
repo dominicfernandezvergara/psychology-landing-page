@@ -1,8 +1,8 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
 import AddIcon from "@material-ui/icons/Add";
 import FingerprintIcon from "@material-ui/icons/Fingerprint";
-import cn from "classnames";
 
 import styles from "./offer-section-home.module.css";
 import { appDataText } from "../../../appDataText/appDataText";
@@ -10,8 +10,11 @@ import { appDataText } from "../../../appDataText/appDataText";
 function OfferSectionHome() {
   const history = useHistory();
   const onClick = () => {
-    history.push("/Nosotros");
+    history.push("/contacto");
   };
+  //   <div className={styles.containerIcon}>
+  //   <FingerprintIcon />
+  // </div>
   return (
     <div className={styles.containerOfferSectionHome}>
       <h1 className={styles.title}>
@@ -19,35 +22,24 @@ function OfferSectionHome() {
       </h1>
       <div className={styles.wrappContainer}>
         <div className={styles.containerLeft}>
-          <h3 className={styles.subtitle}>¿Tienes alguna pregunta?</h3>
           <div className={styles.containerText}>
             <div className={styles.containerDescription}>
               <p className={styles.text}>
-                {appDataText.espanol.home.secondSectionHome.description}
+                {appDataText.espanol.aboutUs.especialText}
               </p>
               <p className={styles.text}>
-                {appDataText.espanol.home.secondSectionHome.description2}
-              </p>
-              <p className={styles.text}>
-                {appDataText.espanol.home.secondSectionHome.description3}
+                {appDataText.espanol.aboutUs.especialText2}
               </p>
             </div>
           </div>
-          <button
-            className={cn(styles.button, styles.buttonLeft)}
-            type="button"
-            onClick={onClick}
-          >
-            Contactanos
-          </button>
+          <Button variant="contained" onClick={onClick}>
+            {appDataText.espanol.home.banner.buttonText}
+          </Button>
         </div>
         <div className={styles.containerRight}>
-          <div className={styles.containerIcon}>
-            <FingerprintIcon />
-          </div>
-          <h1 className={styles.subtitleRight}>
+          <h2 className={styles.subtitleRight}>
             Servicio recomendado para empezar psicoterapia.
-          </h1>
+          </h2>
           <h1 className={styles.price}>€39</h1>
           <div className={styles.containerOffer}>
             <p className={styles.textRight}>
@@ -62,9 +54,9 @@ function OfferSectionHome() {
               {appDataText.espanol.home.offer.text2}
             </p>
           </div>
-          <button className={styles.button} type="button" onClick={onClick}>
-            Comienza Aquí
-          </button>
+          <Button variant="contained" onClick={onClick}>
+            {appDataText.espanol.home.banner.buttonText}
+          </Button>
         </div>
       </div>
     </div>
