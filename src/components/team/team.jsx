@@ -20,7 +20,6 @@ function Team() {
       <h1 className={styles.title}>{appDataText.espanol.aboutUs.team.title}</h1>
       <div className={styles.wrappTeam}>
         {teamList.map((item, index) => {
-          console.log("item", item);
           return (
             <div className={styles.containerPeople} key={index}>
               <div className={styles.containerImage}>
@@ -75,6 +74,18 @@ function Team() {
                           )}
                           {item.description.description3 && (
                             <p>{item.description.description3}</p>
+                          )}
+                          {item.description.description4 && (
+                            <p>{item.description.description4}</p>
+                          )}
+                          {item.description.description5 && (
+                            <p>{item.description.description5}</p>
+                          )}
+                          {item.description.description6 && (
+                            <p>{item.description.description6}</p>
+                          )}
+                          {item.description.description7 && (
+                            <p>{item.description.description7}</p>
                           )}
                         </div>
                       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./terapias-complementarias.module.css";
+import UseScrollToTop from "../../../hooks/use-scroll-to-top";
 import { appDataText } from "../../../appDataText/appDataText";
 import RespiracionConsciente from "./respiracion-consciente";
 import AlimentacionConsciente from "./alimentacion-consciente";
@@ -11,6 +12,7 @@ import ConstelacionesFamiliares from "./constelaciones-familiares";
 import TarotTerapeutico from "./tarot-terapeutico";
 
 function TerapiasComplementarias() {
+  UseScrollToTop();
   return (
     <div className={styles.containerTerapiasComplementarias}>
       <h1 className={styles.title}>

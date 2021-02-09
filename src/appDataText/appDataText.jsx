@@ -1,9 +1,19 @@
 import React from "react";
-import imagep1 from "../images/imageAbout/caro_remove.png";
+
+// Team images
+import imageP1 from "../images/imageAbout/imageTeam/imageTeamCarolina 2.png";
+import imageP2 from "../images/imageAbout/imageTeam/imageTeamClara.png";
+import imageP3 from "../images/imageAbout/imageTeam/imageTeamLorena.png";
 import imageP4 from "../images/imageAbout/imageTeam/imageTeamAndrea.png";
 import imageP5 from "../images/imageAbout/imageTeam/imageTeamArnaldo.png";
 import imageP6 from "../images/imageAbout/imageTeam/imageTeamMaria.png";
 import imageP7 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
+import imageP8 from "../images/imageAbout/imageTeam/imageTeamLuis.png";
+
+//Take Free images
+import imageTakeFree1 from "../images/imageServices/imagePeople.jpeg";
+//Take Free docs
+import docTakeFree1 from "../docs/cuentoGift.pdf";
 
 export const appDataText = {
   espanol: {
@@ -41,8 +51,8 @@ export const appDataText = {
         path: "/contacto",
       },
       {
-        name: "Blog",
-        path: "/blog",
+        name: "Para ti ",
+        path: "/para-ti",
       },
     ],
 
@@ -73,9 +83,9 @@ export const appDataText = {
         name: "Contacto",
         path: "/contacto",
       },
-      blog: {
-        name: "Blog",
-        path: "/blog",
+      takeFree: {
+        name: "Para ti",
+        path: "/para-ti",
       },
     },
 
@@ -312,7 +322,7 @@ export const appDataText = {
         buttonText: "Leer más",
         team: [
           {
-            image: imagep1,
+            image: imageP1,
             name: "Carolina Urbina Cepeda",
             occupation: "Coordinadora y Psicóloga",
             formacion: {
@@ -321,26 +331,43 @@ export const appDataText = {
                 "Psicóloga y Licenciada en Psicología, Universidad Autónoma de Chile. Título Revalidado en Univerzita Karlova, Czech Republic.",
               description2:
                 "Diplomada en estrategias de diagnóstico e intervención en agresiones sexuales infantiles, CICLOS Consultores, U. Academia Humanismo Cristiano",
-              description3:
-                "Última Formación en Herramientas de trabajo, para psicólogos pandemia, CEP,Colegio de Psicólogos de Chile.",
+              description3: (
+                <div>
+                  Última Formación en{" "}
+                  <strong>
+                    Herramientas de trabajo, para psicólogos pandemia, CEP
+                  </strong>
+                  ,Colegio de Psicólogos de Chile.
+                </div>
+              ),
             },
             description: {
               title: "Descripción",
               description:
-                "“Durante mi viaje profesional , comencé  a sentir que la psicología por sí sola no me permitía en algunos casos y/o momentos avanzar en la intervención, por ende, me veo forzada a incorporar distintos enfoques y técnicas de otros enfoques. He sido y continúo siendo el propio conejillo de indias u objeto de estudio, probando diversos tipos de terapia y enfoques; me defino alma curiosa, viajera y valiente. Tengo 5 años de revisión terapéutica y 3 de ellos han sido viajando por Oceanía, Asia, Latinoamérica. Actualmente vivo en República Checa y espero en el futuro visitar África, con el fin de seguir deconstruyéndome y buscando mi lugar físico en la tierra.",
+                "La experiencia profesional en Chile se concentró en área psicosociojurídica.",
               description2:
-                "También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros”.",
+                "Se desarrolló como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME.",
+              description3:
+                "Trabajó en diversas ONG,s en proyectos PRM (Programa de reparación de maltrato y abuso sexual) y FAE (Programas familias de acogidas) y en contacto directo con TRIBUNALES DE FAMILIA Y FISCALÍAS DE CHILE.",
+              description4:
+                "Fue voluntaria durante un año de CORFAPES “Centro de rehabilitación psicosocial para personas con trastornos psicóticos.",
+              description5:
+                "Trabajó en consulta particular y en un estudio jurídico.",
+              description6:
+                "Concluyo que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
+              description7:
+                "También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros.",
             },
           },
 
           {
-            image: imagep1,
+            image: imageP2,
             name: "Clara Montes Montero",
             occupation: "Psicóloga /Apoyo técnico y comunitario.",
             formacion: {
               title: "Formación",
               description:
-                "Psicóloga, con 17 años de experiencia. mención Clínica y de la Salud (Universidad Complutense de Madrid, título revalidado por la Universidad de Chile). Terapeuta Floral, sistemas Bach y California (Instituto Mount Vernon, Santiago de Chile). Coach Transpersonal (Escuela Innerkey, Madrid).",
+                "Psicóloga, con 17 años de experiencia. Mención Clínica y de la Salud (Universidad Complutense de Madrid, título revalidado por la Universidad de Chile). Terapeuta Floral, sistemas Bach y California (Instituto Mount Vernon, Santiago de Chile). Coach Transpersonal (Escuela Innerkey, Madrid).",
             },
             description: {
               title: "Descripción",
@@ -350,7 +377,7 @@ export const appDataText = {
           },
 
           {
-            image: imagep1,
+            image: imageP3,
             name: "Lorena",
             occupation: "Trabajadora social /Apoyo técnico y comunitario.",
             formacion: {
@@ -375,7 +402,7 @@ export const appDataText = {
             description: {
               title: "Descripción",
               description:
-                "Soy psicóloga con 4 años de experiencia, actualmente me desenvuelvo en el área educacional. Y, puesto que durante el último año me he especializado en Sexualidad humana (área que me apasiona y motiva muchísimo) he decidido complementar mi ejercicio laboral con atención individualizada de consejería en sexualidad a quienes tengan problemáticas relacionadas, así como también, implementar talleres que buscan educar, empoderar y desmitificar mitos y creencias erróneas en torno al mismo.",
+                "Psicóloga con 4 años de experiencia, actualmente me desenvuelvo en el área educacional. Y, puesto que durante el último año me he especializado en Sexualidad humana (área que me apasiona y motiva muchísimo) he decidido complementar mi ejercicio laboral con atención individualizada de consejería en sexualidad a quienes tengan problemáticas relacionadas, así como también, implementar talleres que buscan educar, empoderar y desmitificar mitos y creencias erróneas en torno al mismo.",
             },
           },
           {
@@ -424,6 +451,23 @@ export const appDataText = {
                 "“A través de un camino de más de 10 años de búsqueda y sanación personal, he podido integrar diversas terapias al servicio de la sanación y de la conexión con las energías femeninas y masculinas. Entre estas, he puesto al servicio Reiki, Masaje tradicional tailandés, Masaje champí y Pindas, Yoga integral, Consteladora familiar, Cosmética Natural, Aroma y gemoterapia, geometría sagrada, entre otras.",
               description2:
                 "En esta vida, soy viajera en una búsqueda incansable del equilibrio y la magia”.",
+            },
+          },
+          {
+            image: imageP8,
+            name: "Luis Morgado Santibañez",
+            occupation: "Terapias complementarias",
+            formacion: {
+              title: "Formación",
+              description:
+                "Administrador de Redes Computacionales (DUOC UC Sede Melipilla, Chile). General English, Explore English School (Melbourne) Diploma of Project Management and Information Technology ECA (Education Centre Australia Campus Melbourne). Bachelor of Business Information System (Torrens University, Melbourne, Australia).",
+            },
+            description: {
+              title: "Descripción",
+              description:
+                "“Una persona altamente motivada y confiable, amante de la tecnología y sistemas de la información. Mi solida ética de trabajo y mis habilidades de comunicación, me permiten ser parte de un equipo de alto rendimiento.",
+              description2:
+                " Decidí mudarme a un país de habla inglesa para seguir ampliando mis conocimientos en tecnología y lenguajes de programación, así como ampliar la red social multicultural. En la era Digital tengo un gran interés por la inteligencia artificial y como los seres humanos seremos capaces de relacionarnos con ella”.",
             },
           },
         ],
@@ -1050,10 +1094,18 @@ export const appDataText = {
           "“Llegué buscando apoyo para mi hijo y estamos muy contentos de haberlo encontrado. Su método de trabajo envolvió a toda nuestra familia y gracias a el nos dimos cuenta de muchas cosas que habíamos pasado por alto como familia y nos ayudó muchísimo. Me gustó también su manera de ver las cosas: “mamá feliz, hijos felices”. Al final, terminé yo tomando más sesiones que mis hijos, le agradezco que me haya llevado por ese camino porque significó una gran ayuda para mí e ir resolviendo temas desde mi niñez. Hoy hemos avanzado mucho, toda la familia. Hoy tenemos una vida mucho más tranquila y en armonía. ¡Muchas gracias!”.",
       },
     },
-    blog: {
-      title: "Blog",
-      text: "",
-      buttonText: "Descargar PDF",
+    takeFree: {
+      title: "Para ti",
+      body: [
+        {
+          title: "Psicoterapia para terapeutas",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: imageTakeFree1,
+          doc: docTakeFree1,
+          buttonText: "Descargar PDF",
+        },
+      ],
     },
   },
 

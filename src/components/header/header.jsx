@@ -102,8 +102,6 @@ function Header() {
         </button>
         <div className={styles.containerHeaderButton}>
           {buttonHeaderData.map((item, index) => {
-            console.log("item", item);
-            console.log("item.subcategories", item.subcategories);
             return (
               <div key={index} className={cn(styles.headerButton)}>
                 {item.name === "Servicios" ? (

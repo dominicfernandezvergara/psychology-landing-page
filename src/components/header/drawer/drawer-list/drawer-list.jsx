@@ -7,6 +7,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Collapse from "@material-ui/core/Collapse";
 import HomeIcon from "@material-ui/icons/Home";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
+import FolderSpecialIcon from "@material-ui/icons/FolderSpecial";
 import AssignmentIcon from "@material-ui/icons/Assignment";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import PeopleIcon from "@material-ui/icons/People";
@@ -36,6 +37,10 @@ function DrawerList({ open }) {
   const onClickRedirectionContactUs = () => {
     open(false);
     history.push(appDataText.espanol.header.contactUs.path);
+  };
+  const onClickRedirectionTakeFree = () => {
+    open(false);
+    history.push(appDataText.espanol.header.takeFree.path);
   };
   const onClickRedirectionServices1 = () => {
     open(false);
@@ -77,6 +82,7 @@ function DrawerList({ open }) {
       },
     });
   };
+
   return (
     <List
       component="nav"
@@ -87,7 +93,7 @@ function DrawerList({ open }) {
           component="div"
           id="nested-list-subheader"
         >
-          Awareness Consultant
+          {appDataText.espanol.home.banner.title}
         </ListSubheader>
       }
       className={styles.containerDrawerList}
@@ -176,6 +182,16 @@ function DrawerList({ open }) {
           <ContactMailIcon />
         </ListItemIcon>
         <ListItemText primary={appDataText.espanol.header.contactUs.name} />
+      </ListItem>
+      <ListItem
+        button
+        onClick={onClickRedirectionTakeFree}
+        className={styles.button}
+      >
+        <ListItemIcon className={styles.icon}>
+          <FolderSpecialIcon />
+        </ListItemIcon>
+        <ListItemText primary={appDataText.espanol.header.takeFree.name} />
       </ListItem>
     </List>
   );

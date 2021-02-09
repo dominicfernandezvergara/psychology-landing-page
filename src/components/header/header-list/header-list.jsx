@@ -14,8 +14,6 @@ import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import styles from "./header-list.module.css";
 
 export default function SimpleMenu({ name, subnames }) {
-  console.log("name", name);
-  console.log("subnames", subnames);
   const history = useHistory();
   const [open, setOpen] = useState(false);
   const anchorRef = useRef(null);

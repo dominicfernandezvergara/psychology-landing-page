@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useLocation } from "react-router-dom";
 
 import styles from "./services.module.css";
@@ -14,8 +14,6 @@ function Services() {
   UseScrollToTop();
 
   let location = useLocation();
-  console.log("location", location);
-  // const [numberValue, setNumberValue] = useState(location.state?.number || 0);
   const numberValue = location.state?.number || 0;
   return (
     <div className={styles.containerServices}>

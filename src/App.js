@@ -9,7 +9,7 @@ import Services from "./pages/services";
 import ContactUs from "./pages/contact-us";
 import About from "./pages/about/about";
 import { appDataText } from "./appDataText/appDataText";
-import Blog from "./pages/blog";
+import TakeFree from "./pages/takeFree";
 
 function App() {
   return (
@@ -29,8 +29,8 @@ function App() {
           <Route path={appDataText.espanol.header.aboutUs.path}>
             <About />
           </Route>
-          <Route path={appDataText.espanol.header.blog.path}>
-            <Blog />
+          <Route path={appDataText.espanol.header.takeFree.path}>
+            <TakeFree />
           </Route>
           <Route path="*">
             <Home />
