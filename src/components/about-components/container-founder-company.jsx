@@ -14,16 +14,13 @@ function FounderCompany() {
       <div className={styles.containerImage}>
         <img alt="missionImage" className={styles.image} src={teamImage} />
       </div>
-      <div className={styles.wrapper}>
+      <div className={styles.wrapperText}>
         <h1 className={styles.titleLarge}>
           {appDataText.espanol.aboutUs.founder.title}
         </h1>
         <h1 className={styles.name}>
           {appDataText.espanol.aboutUs.founder.name}
         </h1>
-        <h3 className={styles.subtitle}>
-          {appDataText.espanol.aboutUs.founder.experience.title}
-        </h3>
         <p className={styles.text}>
           {appDataText.espanol.aboutUs.founder.experience.text1}
         </p>

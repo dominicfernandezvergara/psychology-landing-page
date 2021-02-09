@@ -8,7 +8,7 @@
   padding-bottom: 10px;
   color: var(--darkPrimaryColor);
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 19px;
 }
 .containerImage {
   width: 100%;
@@ -16,20 +16,20 @@
   box-sizing: border-box;
 }
 .image {
-  width: 80%;
+  width: 100%;
   background-color: var(--lightSecondaryColor);
 }
 .name {
   font-size: 20px;
   color: var(--darkSecondaryColor);
 }
-.profession {
+/* .profession {
   font-size: 20px;
   color: var(--darkText);
-}
+} */
 .subtitle {
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   color: var(--primaryColor);
 }
 .text {
@@ -43,29 +43,31 @@
 
 @media screen and (min-width: 768px) {
   .containerFounderCompany {
-    display: block;
+    display: flex;
     flex-direction: unset;
   }
-
   .wrappDataExperience {
     width: 50%;
   }
   .containerImage {
     width: 50%;
-    text-align: center;
     box-sizing: border-box;
-    padding-right: 20px;
-    float: left;
+    border: 3px solid var(--lightSecondaryColor);
+    display: flex;
+    margin-right: 20px;
+    padding: 10px;
   }
   .image {
     width: 100%;
   }
   .titleLarge {
     display: block;
-    padding-bottom: 10px;
     color: var(--darkPrimaryColor);
     text-transform: uppercase;
     font-size: 20px;
+  }
+  .wrapperText {
+    width: 50%;
   }
   .title {
     display: none;
@@ -73,7 +75,7 @@
 }
 @media screen and (min-width: 1024px) {
   .titleLarge {
-    font-size: 30px;
+    font-size: 24px;
   }
   .name {
     font-size: 24px;
@@ -89,6 +91,9 @@
   }
   .containerImage {
     width: 35%;
+  }
+  .wrapperText {
+    width: 75%;
   }
 }
 @media screen and (min-width: 1280px) {

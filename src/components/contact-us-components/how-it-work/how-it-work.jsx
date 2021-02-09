@@ -11,7 +11,6 @@ function HowItWork() {
   return (
     <div className={styles.containerHowItWork}>
       <h1 className={styles.title}>
-        {/*appDataText.espanol.home.fifthSectionHome.title*/}
         {appDataText[language].home.fifthSectionHome.title}
       </h1>
       <h4 className={styles.subtitle}>

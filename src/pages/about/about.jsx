@@ -1,9 +1,9 @@
 import React from "react";
+import cn from "classnames";
 
 import styles from "./about.module.css";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import { appDataText } from "../../appDataText/appDataText";
-// import missionImage from "../../images/imageAbout/imageBrandBluePink.png";
 import Footer from "../../components/footer";
 import FounderCompany from "../../components/about-components/container-founder-company";
 import Team from "../../components/team/team";
@@ -19,7 +19,18 @@ function About() {
 
       <div className={styles.containerPadding}>
         <div className={styles.wrappContainer}>
-          <div className={styles.containerTextMission}>
+          <div className={cn(styles.containerText, styles.marginBottom)}>
+            <h3 className={styles.subtitle}>
+              {appDataText.espanol.aboutUs.subtitle}
+            </h3>
+            <p className={styles.text}>{appDataText.espanol.aboutUs.text}</p>
+
+            <p className={styles.text}>{appDataText.espanol.aboutUs.text2}</p>
+            <p className={styles.text}>{appDataText.espanol.aboutUs.text3}</p>
+            <p className={styles.text}>{appDataText.espanol.aboutUs.text4}</p>
+            <p className={styles.text}>{appDataText.espanol.aboutUs.text5}</p>
+          </div>
+          <div className={cn(styles.containerText, styles.marginBottom)}>
             <h3 className={styles.subtitle}>
               {appDataText.espanol.aboutUs.mission.title}
             </h3>

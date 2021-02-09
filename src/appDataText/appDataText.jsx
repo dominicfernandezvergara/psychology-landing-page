@@ -141,7 +141,7 @@ export const appDataText = {
             title: "Personas Naturales",
             description: (
               <div>
-                Podrás disminuir malestastares psíquicos en general, a través de{" "}
+                Podrás disminuir malestares psíquicos en general, a través de{" "}
                 <strong>
                   psicoterapia individual o grupal exclusivo adultos
                 </strong>{" "}
@@ -152,8 +152,7 @@ export const appDataText = {
               <div>
                 Además contamos con{" "}
                 <strong>
-                  charlas preventivas de abuso sexual infantil (ASI), para
-                  adultos.
+                  charlas preventivas de abuso sexual infantil (ASI).
                 </strong>
               </div>
             ),
@@ -229,15 +228,49 @@ export const appDataText = {
           "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
         text4:
           "Brindamos asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
-        buttonText: "Contactanos",
+        buttonText: "contáctanos",
         buttonText2: "Comienza hoy",
       },
     },
 
     // About Us español
     aboutUs: {
-      title: "Sobre “Awareness Consultant”",
-      text: "Conoce a nuestro equipo de colaboradores haciendo click aquí",
+      title: "Awareness Consultant",
+      subtitle: "Sobre “Awareness Consultant”",
+      text: (
+        <div>
+          <strong>Awareness Consultant</strong> surge un año después desde que
+          comienza a sentirse el COVID en Europa. La pandemia del COVID-19 ha
+          tenido un efecto enorme en nuestras vidas. Muchos de nosotros nos
+          enfrentamos a situaciones que pueden ser estresantes, abrumadoras y
+          provocar crisis en adultos y niños.
+        </div>
+      ),
+      text2: (
+        <div>
+          Las medidas de salud pública, como el distanciamiento social, son
+          necesarias para reducir la propagación del COVID-19, pero pueden
+          hacernos sentir aislados y aumentar el estrés y la ansiedad.{" "}
+          <strong>
+            Aprender a sobrellevar el estrés de manera sana permitirá que usted
+            y las personas con las que está en contacto desarrollen nuevas
+            estrategias de afrontamiento y solución de conflictos.
+          </strong>
+        </div>
+      ),
+      text3:
+        "El estrés puede provocar diversas consecuencias negativas para la salud mental de las personas. Esto incluye también a los profesionales de la salud y quienes estamos en primera línea desde distintos roles.",
+      text4:
+        "Ser psicólogo en tiempos de pandemia, supone crisis no normativa; ya sea personales o profesionales, debido a la sobrecarga emocional que recibimos a diario. Si bien debemos analizarnos; y supervisar nuestros casos como parte del código de ética que nos rige, en la práctica no es precisamente lo que sucede con todos los profesionales.",
+      text5: (
+        <div>
+          En <strong>Awareness Consultant</strong>; queremos entregar servicios
+          profesionales de calidad, siendo éticamente responsables de la
+          relación asimétrica que se genera entre profesional – paciente. Por lo
+          que, cada profesional que participa aquí, es supervisado en su
+          ejercicio profesional.
+        </div>
+      ),
       buttonText: "Colaboradores",
       mission: {
         title: "Misión",
@@ -267,15 +300,10 @@ export const appDataText = {
         title: "Creadora y coordinadora",
         name: "Carolina Urbina Cepeda",
         experience: {
-          title: "Experiencia Profesional",
           text1:
-            "La experiencia profesional en Chile se concentró en el área psicosociojurídica. En específico se desarrolló como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME (Servicio Nacional de Menores).",
+            "Desde hace un año nuestra coordinadora reside en República Checa. Acompaña terapéuticamente personas de habla hispana, residentes en Unión Europea y otros de Chile. Cree urgente y necesario tener colegas de confianza y éticos, para una mejor sociedad en el futuro.",
           text2:
-            "Trabajó en diversas ONG,s (OPCION, CIUDAD DEL NIÑO Y ADRA) en proyectos PRM (Programa de reparación de maltrato y abuso sexual) y FAE (Programas familias de acogidas) de distintas comunas de Santiago de Chile, y en contacto directo con TRIBUNALES DE FAMILIA Y FISCALÍAS DE CHILE.",
-          text3:
-            "Fue voluntaria durante un año de CORFAPES “Centro de rehabilitación psicosocial para personas con trastornos psicóticos”. Trabajó como terapeuta familiar, con padres o adultos responsables y usuarios.",
-          text4:
-            "También trabajando de forma independiente en consulta particular y en un estudio jurídico. Adquiere conocimiento que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
+            "Así como además, la pregunta más frecuente en su ejercicio profesional desde los pacientes, es los intentos fallido por tomar psicoterapia, por lo que, hoy en día se dedica a asesorar a quienes consultas y derivar donde cada persona necesite.",
         },
       },
       team: {
@@ -312,7 +340,7 @@ export const appDataText = {
             formacion: {
               title: "Formación",
               description:
-                "Psicóloga, mención Clínica y de la Salud (Universidad Complutense de Madrid, título revalidado por la Universidad de Chile). Terapeuta Floral, sistemas Bach y California (Instituto Mount Vernon, Santiago de Chile). Coach Transpersonal (Escuela Innerkey, Madrid).",
+                "Psicóloga, con 17 años de experiencia. mención Clínica y de la Salud (Universidad Complutense de Madrid, título revalidado por la Universidad de Chile). Terapeuta Floral, sistemas Bach y California (Instituto Mount Vernon, Santiago de Chile). Coach Transpersonal (Escuela Innerkey, Madrid).",
             },
             description: {
               title: "Descripción",
@@ -338,7 +366,7 @@ export const appDataText = {
           {
             image: imageP4,
             name: "Andrea Marcus Romero",
-            occupation: "Psicólogo Infanto Juvenil y adultos",
+            occupation: "Psicólogo y consejera sexual",
             formacion: {
               title: "Formación",
               description:
@@ -357,7 +385,7 @@ export const appDataText = {
             formacion: {
               title: "Formación",
               description:
-                "Licenciado en psicología y psicólogo profesional, Universidad Autónoma de Chile. Diplomado en Psicología Jurídica: Evaluación Psicológica Forense, Pontífice Universidad Católica de Chile. Diplomado en literatura infanto- juvenil: Creación, edición y publicación. Universidad de Santiago de Chile. Diplomado en abordaje de estrategias psicológicas en salud mental, psicoanálisis lacaniano. Universidad Andrés bello. Certificado en Parentalidad Positiva (Triple P – Nivel 4 Estándar). Universidad de Queensland. Magister en neuropsicología (formación), Universidad Mayor.",
+                "Psicólogo con 6 años de experiencia. Licenciado en psicología y psicólogo profesional, Universidad Autónoma de Chile. Diplomado en Psicología Jurídica: Evaluación Psicológica Forense, Pontífice Universidad Católica de Chile. Diplomado en literatura infanto- juvenil: Creación, edición y publicación. Universidad de Santiago de Chile. Diplomado en abordaje de estrategias psicológicas en salud mental, psicoanálisis lacaniano. Universidad Andrés bello. Certificado en Parentalidad Positiva (Triple P – Nivel 4 Estándar). Universidad de Queensland. Magister en neuropsicología (formación), Universidad Mayor.",
             },
             description: {
               title: "Descripción",
@@ -369,7 +397,7 @@ export const appDataText = {
           {
             image: imageP6,
             name: "María Diaz Figueroa",
-            occupation: "Prestaciones Jurídicas",
+            occupation: "Abogado",
             formacion: {
               title: "Formación",
               description: "Abogado, Universidad Santo Tomás, Chile.",
@@ -780,10 +808,30 @@ export const appDataText = {
           language: "Español",
           note: {
             title: "Nota",
-            note:
-              "La Organización Mundial de la Salud (OMS) ha procedido al reconocimiento oficial del burnout o “síndrome de estar quemado” o de desgaste profesional como enfermedad tras la ratificación de la revisión número 11 de la Clasificación Estadística Internacional de Enfermedades y Problemas de Salud Conexos (CIE-11).",
-            note2:
-              "El término 'burnout' fue acuñado por primera vez en 1974 por Herbert Freudenberger, en su libro “Burnout: The High Cost of High Achievement” Por lo general, el trastorno es consecuencia de un estrés laboral crónico, y se caracteriza por un estado de agotamiento emocional, una actitud cínica o distante frente al trabajo (despersonalización), y una sensación de ineficacia y de no hacer adecuadamente las tareas. A ello se suma la pérdida de habilidades para la comunicación.",
+            note: (
+              <strong>
+                La Organización Mundial de la Salud (OMS) ha procedido al
+                reconocimiento oficial del burnout o “síndrome de estar quemado”
+                o de desgaste profesional como enfermedad tras la ratificación
+                de la revisión número 11 de la Clasificación Estadística
+                Internacional de Enfermedades y Problemas de Salud Conexos
+                (CIE-11).
+              </strong>
+            ),
+            note2: (
+              <div>
+                El término 'burnout' fue acuñado por primera vez en 1974 por
+                Herbert Freudenberger, en su libro “Burnout: The High Cost of
+                High Achievement” Por lo general, el trastorno es consecuencia
+                de un estrés laboral crónico, y se caracteriza por{" "}
+                <strong>
+                  un estado de agotamiento emocional, una actitud cínica o
+                  distante frente al trabajo (despersonalización), y una
+                  sensación de ineficacia y de no hacer adecuadamente las tareas
+                </strong>
+                . A ello se suma la pérdida de habilidades para la comunicación.
+              </div>
+            ),
             note3:
               "El Síndrome de Burnout se incluye así entre los principales problemas de salud mental y en la antesala de muchas de las patologías psíquicas derivadas de un escaso control y de la carencia de una prevención primaria de este síndrome.",
           },
@@ -999,7 +1047,7 @@ export const appDataText = {
         title: "Madre e hijos, terapia familiar",
         subtitle: "",
         text:
-          "“Llegué a Carolina buscando apoyo para mi hijo y estamos muy contentos de haberla encontrado. Su método de trabajo envolvió a toda nuestra familia y gracias a ella nos dimos cuenta de muchas cosas que habíamos pasado por alto como familia y nos ayudó muchísimo. Me gustó también su manera de ver las cosas: “mamá feliz, hijos felices”. Al final, terminé yo tomando más sesiones con Carolina que mis hijos, le agradezco que me haya llevado por ese camino porque significó una gran ayuda para mí e ir resolviendo temas desde mi niñez. Hoy hemos avanzado mucho, toda la familia. Hoy tenemos una vida mucho más tranquila y en armonía. ¡Muchas gracias!”.",
+          "“Llegué buscando apoyo para mi hijo y estamos muy contentos de haberlo encontrado. Su método de trabajo envolvió a toda nuestra familia y gracias a el nos dimos cuenta de muchas cosas que habíamos pasado por alto como familia y nos ayudó muchísimo. Me gustó también su manera de ver las cosas: “mamá feliz, hijos felices”. Al final, terminé yo tomando más sesiones que mis hijos, le agradezco que me haya llevado por ese camino porque significó una gran ayuda para mí e ir resolviendo temas desde mi niñez. Hoy hemos avanzado mucho, toda la familia. Hoy tenemos una vida mucho más tranquila y en armonía. ¡Muchas gracias!”.",
       },
     },
     blog: {
