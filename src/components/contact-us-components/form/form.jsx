@@ -17,7 +17,7 @@ function Form() {
   const [commentary, setCommentary] = useState("");
 
   // useForm
-  const { register, handleSubmit, errors } = useForm();
+  const { register, handleSubmit, errors, reset } = useForm();
 
   // select input Services
   const handleChangeService = (event) => {
@@ -28,8 +28,40 @@ function Form() {
     setCurrencySubservice(event.target.value);
   };
   // Submit info
-  const onSubmit = (data) => {
-    console.log("data", data);
+  const onSubmit = async (data) => {
+    const dataPostBackend = {
+      userName: data.name,
+      companyName: "AWARENESS CONSULTANT",
+      email: data.email,
+      companyEmail: "dominic.fernandezv@gmail.com",
+      phoneNumber: "+491779702512",
+      description: data.Comentario,
+      template: "serviceContactEmail",
+      subject: "Awareness Consultant contactando contigo",
+      service: currencyService + " " + currencySubservice,
+    };
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(dataPostBackend),
+    };
+    try {
+      const fetchResponse = await fetch(
+        "https://emails-service.herokuapp.com/api/v1/email/contact",
+        requestOptions
+      );
+      const data2 = await fetchResponse.json();
+      reset();
+      setCurrencyService("");
+      setCurrencySubservice("");
+      setCommentary("");
+      return data2;
+    } catch (e) {
+      reset();
+      setCurrencyService("");
+      setCurrencySubservice("");
+      setCommentary("");
+    }
   };
 
   // commentary input
@@ -99,12 +131,14 @@ function Form() {
       <div className={styles.inputBoxSelect}>
         <TextField
           id="outlined-select-currency"
+          variant="outlined"
+          label={appDataText.espanol.contact.input.service}
+          type="text"
+          name="servicio"
           select
-          label="Servicio"
-          helperText="Selecciona un servicio"
+          helperText={appDataText.espanol.contact.input.service2}
           value={currencyService}
           onChange={handleChangeService}
-          variant="outlined"
         >
           {listServicesForm.map((item, index) => (
             <MenuItem key={index} value={item.name}>
@@ -120,10 +154,12 @@ function Form() {
           <TextField
             id="outlined-select-currency"
             select
-            label="Terapia complementaria"
+            label={appDataText.espanol.contact.input.terapiaComplementaria}
             value={currencySubservice}
             onChange={handleChangeTerapia}
-            helperText="Selecciona una terapia complementaria"
+            helperText={
+              appDataText.espanol.contact.input.terapiaComplementaria2
+            }
             variant="outlined"
           >
             {listSubservicesForm.map((item, index) => (

@@ -2,7 +2,8 @@ import React from "react";
 
 import styles from "./medicina-huevo-yoni.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageHuevoYoni.jpg";
+// import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageHuevoYoni.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/Huevo yoni.jpg";
 
 function MedicinaHuevoYoni() {
   const benefitsList =

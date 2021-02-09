@@ -2,7 +2,9 @@ import React from "react";
 
 import styles from "./carta-astral.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageCartaAstral2.jpg";
+// import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageCartaAstral2.jpg";
+
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/carta astral 1.jpg";
 
 function CartaAstral() {
   return (

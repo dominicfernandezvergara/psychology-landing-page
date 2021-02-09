@@ -2,7 +2,8 @@ import React from "react";
 
 import styles from "./constelaciones-familiares.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageConstelacionesFamiliares.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/arbol familiar.jpg";
+// import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageConstelacionesFamiliares.jpg";
 
 function ConstelacionesFamiliares() {
   const useList =

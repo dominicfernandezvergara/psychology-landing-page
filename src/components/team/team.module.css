@@ -83,24 +83,19 @@
   .title {
     font-size: 30px;
   }
+  .containerPeople {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
 }
 @media screen and (min-width: 1280px) {
-  .containerTeam {
-    /* padding: 10px 80px; */
-  }
   .containerPeople {
     margin-bottom: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .containerTeam {
-    /* padding: 10px 100px; */
-  }
 }
 @media screen and (min-width: 1920px) {
-  .containerTeam {
-    /* padding: 10px 200px; */
-  }
 }

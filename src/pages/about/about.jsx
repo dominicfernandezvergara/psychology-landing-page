@@ -53,9 +53,6 @@ function About() {
           </div>
         </div>
         <div className={styles.wrappContainer}>
-          <FounderCompany />
-        </div>
-        <div className={styles.wrappContainer}>
           <Team />
         </div>
       </div>

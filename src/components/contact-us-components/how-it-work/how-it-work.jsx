@@ -25,9 +25,9 @@ function HowItWork() {
             <h3 className={styles.step}>
               {appDataText.espanol.home.fifthSectionHome.firstStep.title}
             </h3>
-            <p className={styles.descriptionStep}>
+            <div className={styles.descriptionStep}>
               {appDataText.espanol.home.fifthSectionHome.firstStep.description}
-            </p>
+            </div>
           </div>
         </div>
         <div className={styles.iconsSection}>
@@ -38,9 +38,9 @@ function HowItWork() {
             <h3 className={styles.step}>
               {appDataText.espanol.home.fifthSectionHome.secondStep.title}
             </h3>
-            <p className={styles.descriptionStep}>
+            <div className={styles.descriptionStep}>
               {appDataText.espanol.home.fifthSectionHome.secondStep.description}
-            </p>
+            </div>
           </div>
         </div>
         <div className={styles.iconsSection}>
@@ -51,9 +51,9 @@ function HowItWork() {
             <h3 className={styles.step}>
               {appDataText.espanol.home.fifthSectionHome.thirdStep.title}
             </h3>
-            <p className={styles.descriptionStep}>
+            <div className={styles.descriptionStep}>
               {appDataText.espanol.home.fifthSectionHome.thirdStep.description}
-            </p>
+            </div>
           </div>
         </div>
       </div>

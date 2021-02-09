@@ -9,9 +9,9 @@ function TransferData() {
       <h3 className={styles.title}>
         {appDataText.espanol.contact.transferData.title}
       </h3>
-      <p className={styles.textTransfer}>
+      <div className={styles.textTransfer}>
         {appDataText.espanol.contact.transferData.text}
-      </p>
+      </div>
       <div className={styles.wrappBankData}>
         <div className={styles.containerBankData}>
           <div className={styles.subtitle}>

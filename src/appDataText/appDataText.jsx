@@ -356,7 +356,7 @@ export const appDataText = {
               description6:
                 "Concluyo que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
               description7:
-                "También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros.",
+                "“También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros”.",
             },
           },
 
@@ -378,15 +378,19 @@ export const appDataText = {
 
           {
             image: imageP3,
-            name: "Lorena",
+            name: "Lorena Marambio Vera",
             occupation: "Trabajadora social /Apoyo técnico y comunitario.",
             formacion: {
               title: "Formación",
-              description: "",
+              description:
+                "Asistente Social, Licenciada en Trabajo social, Universidad Academia de Humanismo Cristiano.",
+              description2:
+                "Diplomada en: Programación Neurolingüística, Prevención y tratamiento de adicciones, Mediación familiar, Políticas públicas y Derechos Humanos, Magister en Trabajo Social.",
             },
             description: {
               title: "Descripción",
-              description: "",
+              description:
+                "Profesional con más de 16 años de ejercicio de la profesión, con amplia formación profesional y cargo de Dirección en Programa de Reparación en Maltrato Grave y Abuso Sexual constitutiva de delito a niños, niñas y adolescente.",
             },
           },
 
@@ -456,7 +460,7 @@ export const appDataText = {
           {
             image: imageP8,
             name: "Luis Morgado Santibañez",
-            occupation: "Terapias complementarias",
+            occupation: "Asesor digital",
             formacion: {
               title: "Formación",
               description:
@@ -964,6 +968,10 @@ export const appDataText = {
         name: "Nombre",
         email: "Correo electrónico",
         country: "País",
+        service: "Servicio",
+        service2: "Selecciona un servicio",
+        terapiaComplementaria: "Terapia Complementaria",
+        terapiaComplementaria2: "Selecciona una terapia complementaria",
         comment: "Comentario",
         errorRequiredInformation: "Informacion requerida para continuar",
       },

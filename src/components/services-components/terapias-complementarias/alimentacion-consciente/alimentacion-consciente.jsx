@@ -2,7 +2,9 @@ import React from "react";
 
 import styles from "./alimentacion-consciente.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageAlimentacionConsciente.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/alimentacion consciente.png";
+
+// import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageAlimentacionConsciente.jpg";
 // <a href='https://www.freepik.es/vectores/dibujos-animados'>Vector de Dibujos animados creado por vectorjuice - www.freepik.es</a>
 function AlimentacionConsciente() {
   const benefitsList =

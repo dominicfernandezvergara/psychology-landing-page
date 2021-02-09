@@ -16,12 +16,12 @@ function ContactData() {
             <RoomIcon />
           </div>
           <div className={styles.containerText}>
-            <p className={styles.subtitle}>
+            <div className={styles.subtitle}>
               {appDataText.espanol.contact.addresse.title}
-            </p>
-            <p className={styles.textContactData}>
+            </div>
+            <div className={styles.textContactData}>
               {appDataText.espanol.contact.addresse.addresse}
-            </p>
+            </div>
           </div>
         </div>
         <div className={styles.subWrappData}>
@@ -29,9 +29,9 @@ function ContactData() {
             <WhatsAppIcon />
           </div>
           <div className={styles.containerText}>
-            <p className={styles.subtitle}>
+            <div className={styles.subtitle}>
               {appDataText.espanol.contact.fono.title}
-            </p>
+            </div>
             <a href="tel:5551234567" className={styles.textContactData}>
               {appDataText.espanol.contact.fono.fono}
             </a>
@@ -42,9 +42,9 @@ function ContactData() {
             <EmailIcon />
           </div>
           <div className={styles.containerText}>
-            <p className={styles.subtitle}>
+            <div className={styles.subtitle}>
               {appDataText.espanol.contact.email.title}
-            </p>
+            </div>
 
             <a
               href="mailto: abc@example.com"
