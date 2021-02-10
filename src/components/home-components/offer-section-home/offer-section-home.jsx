@@ -2,7 +2,6 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import { useHistory } from "react-router-dom";
 import AddIcon from "@material-ui/icons/Add";
-import FingerprintIcon from "@material-ui/icons/Fingerprint";
 
 import styles from "./offer-section-home.module.css";
 import { appDataText } from "../../../appDataText/appDataText";
@@ -12,9 +11,7 @@ function OfferSectionHome() {
   const onClick = () => {
     history.push("/contacto");
   };
-  //   <div className={styles.containerIcon}>
-  //   <FingerprintIcon />
-  // </div>
+
   return (
     <div className={styles.containerOfferSectionHome}>
       <div className={styles.border}>

@@ -5,7 +5,6 @@ import styles from "./about.module.css";
 import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import { appDataText } from "../../appDataText/appDataText";
 import Footer from "../../components/footer";
-import FounderCompany from "../../components/about-components/container-founder-company";
 import Team from "../../components/team/team";
 
 function About() {

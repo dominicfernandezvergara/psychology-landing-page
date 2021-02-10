@@ -1,5 +1,4 @@
 import React from "react";
-import cn from "classnames";
 
 import styles from "./container-founder-company.module.css";
 import { appDataText } from "../../appDataText/appDataText";
