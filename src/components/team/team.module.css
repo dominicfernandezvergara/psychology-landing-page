@@ -55,10 +55,14 @@
   line-height: 20px;
   min-height: 40px;
 }
-.containerTeam :global(.MuiPaper-root) {
+
+.containerTeam :global(.MuiAccordionSummary-content) {
+  color: var(--darkText);
+}
+.list {
   text-align: justify;
   color: var(--text);
-  max-height: 200px;
+  max-height: 350px;
   overflow: auto;
 }
 .containerDescription {

@@ -8,12 +8,12 @@ import imageP4 from "../images/imageAbout/imageTeam/imageTeamAndrea.png";
 import imageP5 from "../images/imageAbout/imageTeam/imageTeamArnaldo.png";
 import imageP6 from "../images/imageAbout/imageTeam/imageTeamMaria.png";
 import imageP7 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
-import imageP8 from "../images/imageAbout/imageTeam/imageTeamLuis.png";
+import imageP8 from "../images/imageAbout/imageTeam/output-onlinepngtools (3).png";
 
 //Take Free images
-import imageTakeFree1 from "../images/imageServices/imagePeople.jpeg";
+import imageTakeFree1 from "../images/imageTakeFree/imageTakeFree1.jpg";
 //Take Free docs
-import docTakeFree1 from "../docs/cuentoGift.pdf";
+import docTakeFree1 from "../docs/takeFreeDocs/Capítulo Psicoanálisis y Feminismo 2021.pdf";
 
 export const appDataText = {
   espanol: {
@@ -51,8 +51,8 @@ export const appDataText = {
         path: "/contacto",
       },
       {
-        name: "Para ti ",
-        path: "/para-ti",
+        name: "Libreria colectiva ",
+        path: "/libreria-colectiva",
       },
     ],
 
@@ -84,8 +84,8 @@ export const appDataText = {
         path: "/contacto",
       },
       takeFree: {
-        name: "Para ti",
-        path: "/para-ti",
+        name: "Libreria colectiva ",
+        path: "/libreria-colectiva",
       },
     },
 
@@ -185,7 +185,7 @@ export const appDataText = {
             ),
           },
           companies: {
-            title: "Servicios para empresas",
+            title: "Equipos profesionales y Empresas",
             description: (
               <div>
                 Elaboración de{" "}
@@ -252,32 +252,50 @@ export const appDataText = {
           <strong>Awareness Consultant</strong> surge un año después desde que
           comienza a sentirse el COVID en Europa. La pandemia del COVID-19 ha
           tenido un efecto enorme en nuestras vidas. Muchos de nosotros nos
-          enfrentamos a situaciones que pueden ser estresantes, abrumadoras y
-          provocar crisis en adultos y niños.
+          hemos visto enfrentados a nuevas situaciones,
+          emociones,comportamientos y creencias. Esto puede ser altamente
+          estresante, abrumador y provocador de crisis en distintas edades.
         </div>
       ),
       text2: (
         <div>
           Las medidas de salud pública, como el distanciamiento social, son
           necesarias para reducir la propagación del COVID-19, pero pueden
-          hacernos sentir aislados y aumentar el estrés y la ansiedad.{" "}
+          hacernos sentir aislados y aumentar el estrés y la ansiedad. (Según
+          estudio reciente, que correlaciona COVID y salud mental{" "}
           <strong>
-            Aprender a sobrellevar el estrés de manera sana permitirá que usted
-            y las personas con las que está en contacto desarrollen nuevas
-            estrategias de afrontamiento y solución de conflictos.
+            estrés, ansiedad e insomnio, son las principales consecuencias
+            psíquicas en los seres humanos.)
           </strong>
         </div>
       ),
-      text3:
-        "El estrés puede provocar diversas consecuencias negativas para la salud mental de las personas. Esto incluye también a los profesionales de la salud y quienes estamos en primera línea desde distintos roles.",
+      text3: (
+        <strong>
+          {" "}
+          Aprender a sobrellevar el estrés de manera sana permitirá que usted y
+          las personas con las que está en contacto desarrollen nuevas
+          estrategias de afrontamiento y solución de conflictos
+        </strong>
+      ),
       text4:
-        "Ser psicólogo en tiempos de pandemia, supone crisis no normativa; ya sea personales o profesionales, debido a la sobrecarga emocional que recibimos a diario. Si bien debemos analizarnos; y supervisar nuestros casos como parte del código de ética que nos rige, en la práctica no es precisamente lo que sucede con todos los profesionales.",
-      text5: (
+        "El estrés puede provocar diversas consecuencias negativas para la salud mental de las personas. Esto incluye a todos los seres humanos, sin importar raza, etnia o sexo",
+      text5:
+        "Respecto de los profesionales de la salud y quienes estamos en primera línea desde distintos roles.  Ser profesional en tiempos de pandemia, podría suponer crisis no normativa; debido a la sobrecarga emocional de los pacientes y la propia.",
+      text6: "",
+      text7: (
+        <div>
+          Los psicólogos si bien{" "}
+          <strong>debemos analizarnos y supervisar nuestros casos</strong> como
+          parte del código de ética que nos rige, en la práctica se desconoce y
+          queda al libre albedrío del profesional
+        </div>
+      ),
+      text8: (
         <div>
           En <strong>Awareness Consultant</strong>; queremos entregar servicios
           profesionales de calidad, siendo éticamente responsables de la
           relación asimétrica que se genera entre profesional – paciente. Por lo
-          que, cada profesional que participa aquí, es supervisado en su
+          que, cada profesional que participa aquí, es monitoreado en su
           ejercicio profesional.
         </div>
       ),
@@ -833,7 +851,7 @@ export const appDataText = {
         },
       },
       companiesServices: {
-        title: "Servicios para empresas",
+        title: "Equipos profesionales y Empresas",
         companieService1: {
           title: "Elaboración de programas semestral o anual de Autocuidado",
           phrase:
@@ -1103,12 +1121,21 @@ export const appDataText = {
       },
     },
     takeFree: {
-      title: "Para ti",
+      title: "Libreria colectiva",
       body: [
         {
-          title: "Psicoterapia para terapeutas",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          title: "“No se nace mujer; se llega a serlo”",
+          text:
+            "Generalmente las mujeres hemos vivido por largos momentos de la historia, con introyectos sociales de tener que estar siempre disponible para los demás. Desarrollando labores de crianza , cuidado, y cargando con sentimientos de  culpa y roles sociales impuestos por otros/as; esto, por el hecho de nacer mujeres.",
+          text2:
+            "Es políticamente correcto decir siempre que sí o aceptar determinadas situaciones a pesar de que nos sean incómodas, dolorosas o no deseadas, lo que puede perpetuar nuestra postergación como ser humano",
+          text3: (
+            <strong>
+              ¿EN QUÉ MOMENTO O SITUACIONES DAS MÁS DE LO QUE PUEDES Y QUIERES?
+            </strong>
+          ),
+          text4:
+            "Revisión sistemática  “El Segundo Sexo, 1949”. Feminismo Europeo.",
           image: imageTakeFree1,
           doc: docTakeFree1,
           buttonText: "Descargar PDF",

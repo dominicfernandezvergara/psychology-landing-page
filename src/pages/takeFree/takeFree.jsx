@@ -21,7 +21,10 @@ function TakeFree() {
                 />
               </div>
               <h3 className={styles.subtitle}>{item.title}</h3>
-              <p className={styles.text}>{item.description}</p>
+              <p className={styles.text}>{item.text}</p>
+              {item.text2 && <p className={styles.text}>{item.text2}</p>}
+              {item.text3 && <p className={styles.text}>{item.text3}</p>}
+              {item.text4 && <p className={styles.text}>{item.text4}</p>}
               <Button variant="contained">
                 <a
                   href={item.doc}

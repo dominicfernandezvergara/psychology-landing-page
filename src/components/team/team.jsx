@@ -33,23 +33,22 @@ function Team() {
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"
                     id="panel1a-header"
+                    className={styles.headerAcordion}
                   >
                     <Typography className={styles.body}>
                       {item.formacion.title}
                     </Typography>
                   </AccordionSummary>
-                  <AccordionDetails>
+                  <AccordionDetails className={styles.list}>
                     <Typography>
-                      <div>
-                        <div className={styles.containerText}>
-                          <p>{item.formacion.description}</p>
-                          {item.description.description2 && (
-                            <p>{item.formacion.description2}</p>
-                          )}
-                          {item.formacion.description3 && (
-                            <p>{item.formacion.description3}</p>
-                          )}
-                        </div>
+                      <div className={styles.containerText}>
+                        <p>{item.formacion.description}</p>
+                        {item.formacion.description2 && (
+                          <p>{item.formacion.description2}</p>
+                        )}
+                        {item.formacion.description3 && (
+                          <p>{item.formacion.description3}</p>
+                        )}
                       </div>
                     </Typography>
                   </AccordionDetails>
@@ -64,30 +63,28 @@ function Team() {
                       {item.description.title}
                     </Typography>
                   </AccordionSummary>
-                  <AccordionDetails>
+                  <AccordionDetails className={styles.list}>
                     <Typography>
-                      <div>
-                        <div className={styles.containerText}>
-                          <p>{item.description.description}</p>
-                          {item.description.description2 && (
-                            <p>{item.description.description2}</p>
-                          )}
-                          {item.description.description3 && (
-                            <p>{item.description.description3}</p>
-                          )}
-                          {item.description.description4 && (
-                            <p>{item.description.description4}</p>
-                          )}
-                          {item.description.description5 && (
-                            <p>{item.description.description5}</p>
-                          )}
-                          {item.description.description6 && (
-                            <p>{item.description.description6}</p>
-                          )}
-                          {item.description.description7 && (
-                            <p>{item.description.description7}</p>
-                          )}
-                        </div>
+                      <div className={styles.containerText}>
+                        <p>{item.description.description}</p>
+                        {item.description.description2 && (
+                          <p>{item.description.description2}</p>
+                        )}
+                        {item.description.description3 && (
+                          <p>{item.description.description3}</p>
+                        )}
+                        {item.description.description4 && (
+                          <p>{item.description.description4}</p>
+                        )}
+                        {item.description.description5 && (
+                          <p>{item.description.description5}</p>
+                        )}
+                        {item.description.description6 && (
+                          <p>{item.description.description6}</p>
+                        )}
+                        {item.description.description7 && (
+                          <p>{item.description.description7}</p>
+                        )}
                       </div>
                     </Typography>
                   </AccordionDetails>
