@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./programa-autocuidado.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageCompanieServices/imageAutocuidado.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageCompanieServices/imageAutoCuidado.png";
 
 function ProgramaAutocuidado() {
   return (

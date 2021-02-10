@@ -8,7 +8,7 @@ import imageP4 from "../images/imageAbout/imageTeam/imageTeamAndrea.png";
 import imageP5 from "../images/imageAbout/imageTeam/imageTeamArnaldo.png";
 import imageP6 from "../images/imageAbout/imageTeam/imageTeamMaria.png";
 import imageP7 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
-import imageP8 from "../images/imageAbout/imageTeam/output-onlinepngtools (3).png";
+import imageP8 from "../images/imageAbout/imageTeam/imageTeamLuis.png";
 
 //Take Free images
 import imageTakeFree1 from "../images/imageTakeFree/imageTakeFree1.jpg";
@@ -213,7 +213,7 @@ export const appDataText = {
         secondStep: {
           title: "Paso Dos",
           description:
-            "Nos pondremos en contacto contigo, y darte todos los detalles que necesitas saber.",
+            "Nos pondremos en contacto contigo, y te daremos los detalles que necesites saber.",
         },
         buttonText: "Comienza Hoy",
         thirdStep: {
@@ -253,7 +253,7 @@ export const appDataText = {
           comienza a sentirse el COVID en Europa. La pandemia del COVID-19 ha
           tenido un efecto enorme en nuestras vidas. Muchos de nosotros nos
           hemos visto enfrentados a nuevas situaciones,
-          emociones,comportamientos y creencias. Esto puede ser altamente
+          emociones,comportamientos y creencias. Esto puede resultar altamente
           estresante, abrumador y provocador de crisis en distintas edades.
         </div>
       ),
@@ -261,33 +261,33 @@ export const appDataText = {
         <div>
           Las medidas de salud pública, como el distanciamiento social, son
           necesarias para reducir la propagación del COVID-19, pero pueden
-          hacernos sentir aislados y aumentar el estrés y la ansiedad. (Según
-          estudio reciente, que correlaciona COVID y salud mental{" "}
+          hacernos sentir aislados y aumentar el estrés y la ansiedad. (Según un
+          estudio reciente, que correlaciona COVID y salud mental,{" "}
           <strong>
             estrés, ansiedad e insomnio, son las principales consecuencias
-            psíquicas en los seres humanos.)
+            psíquicas en los seres humanos).
           </strong>
         </div>
       ),
       text3: (
         <strong>
-          {" "}
           Aprender a sobrellevar el estrés de manera sana permitirá que usted y
           las personas con las que está en contacto desarrollen nuevas
-          estrategias de afrontamiento y solución de conflictos
+          estrategias de afrontamiento y solución de conflictos.
         </strong>
       ),
       text4:
-        "El estrés puede provocar diversas consecuencias negativas para la salud mental de las personas. Esto incluye a todos los seres humanos, sin importar raza, etnia o sexo",
+        "El estrés puede provocar diversas consecuencias negativas para la salud mental de las personas. Esto incluye a todos los seres humanos, sin importar raza, etnia o sexo.",
       text5:
-        "Respecto de los profesionales de la salud y quienes estamos en primera línea desde distintos roles.  Ser profesional en tiempos de pandemia, podría suponer crisis no normativa; debido a la sobrecarga emocional de los pacientes y la propia.",
-      text6: "",
+        "Respecto de los profesionales de la salud, y quienes estamos en primera línea desde distintos roles.",
+      text6:
+        "Ser profesional en tiempos de pandemia, podría suponer crisis no normativa; debido a la sobrecarga emocional de los pacientes y la propia.",
       text7: (
         <div>
           Los psicólogos si bien{" "}
           <strong>debemos analizarnos y supervisar nuestros casos</strong> como
           parte del código de ética que nos rige, en la práctica se desconoce y
-          queda al libre albedrío del profesional
+          queda al libre albedrío del profesional.
         </div>
       ),
       text8: (
@@ -372,7 +372,7 @@ export const appDataText = {
               description5:
                 "Trabajó en consulta particular y en un estudio jurídico.",
               description6:
-                "Concluyo que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
+                "Concluyó que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
               description7:
                 "“También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros”.",
             },
@@ -533,14 +533,14 @@ export const appDataText = {
               benefits: {
                 title: "Beneficios",
                 Benefits: [
-                  "Recuperación del equilibrio psico- físico- emocional",
-                  "Mejor manejo y gestión de las emociones",
-                  "Disminuyen miedos y temores",
-                  "Mejora las funciones esenciales del organismo",
-                  "Incrementa la creatividad",
-                  "Aumenta la capacidad de concentración",
-                  "Fortalece el sistema inmunitario",
-                  "Mejora la salud en general",
+                  "Recuperación del equilibrio psico- físico- emocional.",
+                  "Mejor manejo y gestión de las emociones.",
+                  "Disminuyen miedos y temores.",
+                  "Mejora las funciones esenciales del organismo.",
+                  "Incrementa la creatividad.",
+                  "Aumenta la capacidad de concentración.",
+                  "Fortalece el sistema inmunitario.",
+                  "Mejora la salud en general.",
                 ],
               },
               tips: {
@@ -761,7 +761,7 @@ export const appDataText = {
                 Se ha visto que las agresiones sexuales se producen en distintos
                 niveles socioeconómicos y diferentes contextos. Lo que tiende a
                 ocurrir es que los niveles socioeconómicos más altos denuncian
-                menos estos hechos
+                menos estos hechos{" "}
               </strong>
               (Smith y Bentovim, 1994).
             </div>
@@ -1128,7 +1128,7 @@ export const appDataText = {
           text:
             "Generalmente las mujeres hemos vivido por largos momentos de la historia, con introyectos sociales de tener que estar siempre disponible para los demás. Desarrollando labores de crianza , cuidado, y cargando con sentimientos de  culpa y roles sociales impuestos por otros/as; esto, por el hecho de nacer mujeres.",
           text2:
-            "Es políticamente correcto decir siempre que sí o aceptar determinadas situaciones a pesar de que nos sean incómodas, dolorosas o no deseadas, lo que puede perpetuar nuestra postergación como ser humano",
+            "Es políticamente correcto decir siempre que sí o aceptar determinadas situaciones a pesar de que nos sean incómodas, dolorosas o no deseadas, lo que puede perpetuar nuestra postergación como ser humano.",
           text3: (
             <strong>
               ¿EN QUÉ MOMENTO O SITUACIONES DAS MÁS DE LO QUE PUEDES Y QUIERES?

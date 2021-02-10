@@ -3,7 +3,7 @@ import cn from "classnames";
 
 import styles from "./container-founder-company.module.css";
 import { appDataText } from "../../appDataText/appDataText";
-import teamImage from "../../images/imageAbout/caro_remove.png";
+import teamImage from "../../images/imageAbout/imageTeam/imageTeamCarolina 2.png";
 
 function FounderCompany() {
   return (

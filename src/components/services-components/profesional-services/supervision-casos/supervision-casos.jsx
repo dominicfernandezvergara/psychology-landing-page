@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./supervision-casos.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageProfesionalServices/imageSupervisionCasos2.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageProfesionalServices/imageSupervCasos.jpg";
 
 function SupervisionCasos() {
   const noteList =

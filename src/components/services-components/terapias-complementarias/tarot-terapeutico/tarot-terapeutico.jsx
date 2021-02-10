@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./tarot-terapeutico.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
 // import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageTarot.jpg";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/tarot 2 (1).jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageTarot.jpg";
 
 function TarotTerapeutico() {
   return (

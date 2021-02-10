@@ -7,8 +7,8 @@ import styles from "./services-section-home.module.css";
 
 import { appDataText } from "../../../appDataText/appDataText";
 import imagePeople from "../../../images/imageHome/imagePeople3.png";
-import imageProfesional from "../../../images/imageHome/imageServicios/Servicio psicologos.jpg";
-import imageCompanie from "../../../images/imageHome/imageServicios/trabajoequipo opcion 2.png";
+import imageProfesional from "../../../images/imageHome/imageProfesional3.jpg";
+import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";
 
 function ServicesSectionHome() {
   const history = useHistory();
