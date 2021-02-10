@@ -27,7 +27,7 @@ function TestimonySlider() {
         autoplay: false,
       });
     }
-  }, [settings]);
+  }, []);
   return (
     <div className={styles.containerTestimonySlider}>
       <h1 className={styles.title}> {appDataText.espanol.testimony.title}</h1>
