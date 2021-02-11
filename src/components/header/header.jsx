@@ -15,6 +15,7 @@ function Header() {
   const history = useHistory();
   const location = useLocation();
   const { pathname: currentPathname } = location;
+  const [activeServices, setActiveServices] = useState(false);
   const [buttonHeaderData, setButtonHeaderData] = useState(dataButtonsList);
 
   // onClick Logo
@@ -41,6 +42,13 @@ function Header() {
     }));
     setButtonHeaderData(newHeaderData);
     console.log("useEffect", newHeaderData);
+    if (currentPathname === "/servicios") {
+      setActiveServices(true);
+    } else {
+      setActiveServices(false);
+    }
+    console.log("currentPathname", currentPathname);
+    console.log("servicios", activeServices);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPathname]);
 
@@ -109,7 +117,11 @@ function Header() {
             return (
               <div key={index} className={cn(styles.headerButton)}>
                 {item.name === "Servicios" ? (
-                  <SimpleMenu name={item.name} subnames={item.subcategories} />
+                  <SimpleMenu
+                    name={item.name}
+                    subnames={item.subcategories}
+                    active={activeServices}
+                  />
                 ) : (
                   <button
                     className={cn(

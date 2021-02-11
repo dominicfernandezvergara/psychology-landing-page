@@ -10,10 +10,12 @@ import PropTypes from "prop-types";
 import { useHistory } from "react-router-dom";
 import ArrowDropUpIcon from "@material-ui/icons/ArrowDropUp";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
+import cn from "classnames";
 
 import styles from "./header-list.module.css";
 
-export default function SimpleMenu({ name, subnames }) {
+export default function SimpleMenu({ name, subnames, active }) {
+  console.log("active", active);
   const history = useHistory();
   const [open, setOpen] = useState(false);
   const anchorRef = useRef(null);
@@ -50,7 +52,7 @@ export default function SimpleMenu({ name, subnames }) {
         onClick={handleOpen}
         onMouseEnter={handleOpen}
         onMouseLeave={handleClose}
-        className={styles.headerButton}
+        className={cn(styles.headerButton, active ? styles.active : null)}
       >
         {name}
         {open === false ? <ArrowDropDownIcon /> : <ArrowDropUpIcon />}
@@ -104,4 +106,5 @@ export default function SimpleMenu({ name, subnames }) {
 SimpleMenu.propTypes = {
   name: PropTypes.string.isRequired,
   subnames: PropTypes.array.isRequired,
+  active: PropTypes.bool.isRequired,
 };

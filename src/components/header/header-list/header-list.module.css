@@ -20,12 +20,7 @@
   .containerMenuButton :global(.MuiButton-root:hover) {
     background-color: transparent;
   }
-  .active {
-    font-weight: bold;
-    padding: 15px;
-    border: 1px solid;
-    color: var(--primaryColor);
-  }
+
   .containerListButton :global(.MuiButtonBase-root) {
     background: transparent;
     color: var(--darkPrimaryColor);
@@ -36,6 +31,12 @@
   }
   .containerListButton:hover :global(.MuiButtonBase-root) {
     background-color: transparent;
+  }
+  .active :global(.MuiButton-label) {
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid;
+    color: var(--darkPrimaryColor);
   }
 }
 @media screen and (min-width: 1280px) {
