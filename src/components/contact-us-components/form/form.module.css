@@ -57,6 +57,9 @@
 .form .submitButton:hover {
   background-color: var(--lightPrimaryColor);
 }
+.form :global(.MuiCircularProgress-svg) {
+  color: var(--white);
+}
 @media screen and (min-width: 768px) {
   .inputBoxSelect :global(.MuiFormControl-root) {
     width: 100%;

@@ -49,8 +49,6 @@ function About() {
             <p className={styles.text}>{appDataText.espanol.aboutUs.text4}</p>
             <p className={styles.text}>{appDataText.espanol.aboutUs.text5}</p>
             <p className={styles.text}>{appDataText.espanol.aboutUs.text6}</p>
-            <p className={styles.text}>{appDataText.espanol.aboutUs.text7}</p>
-            <p className={styles.text}>{appDataText.espanol.aboutUs.text8}</p>
           </div>
         </div>
         <div className={styles.wrappContainer}>

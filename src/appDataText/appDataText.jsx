@@ -282,23 +282,23 @@ export const appDataText = {
         "Respecto de los profesionales de la salud, y quienes estamos en primera línea desde distintos roles.",
       text6:
         "Ser profesional en tiempos de pandemia, podría suponer crisis no normativa; debido a la sobrecarga emocional de los pacientes y la propia.",
-      text7: (
-        <div>
-          Los psicólogos si bien{" "}
-          <strong>debemos analizarnos y supervisar nuestros casos</strong> como
-          parte del código de ética que nos rige, en la práctica se desconoce y
-          queda al libre albedrío del profesional.
-        </div>
-      ),
-      text8: (
-        <div>
-          En <strong>Awareness Consultant</strong>; queremos entregar servicios
-          profesionales de calidad, siendo éticamente responsables de la
-          relación asimétrica que se genera entre profesional – paciente. Por lo
-          que, cada profesional que participa aquí, es monitoreado en su
-          ejercicio profesional.
-        </div>
-      ),
+      // text7: (
+      //   <div>
+      //     Los psicólogos si bien{" "}
+      //     <strong>debemos analizarnos y supervisar nuestros casos</strong> como
+      //     parte del código de ética que nos rige, en la práctica se desconoce y
+      //     queda al libre albedrío del profesional.
+      //   </div>
+      // ),
+      // text8: (
+      //   <div>
+      //     En <strong>Awareness Consultant</strong>; queremos entregar servicios
+      //     profesionales de calidad, siendo éticamente responsables de la
+      //     relación asimétrica que se genera entre profesional – paciente. Por lo
+      //     que, cada profesional que participa aquí, es monitoreado en su
+      //     ejercicio profesional.
+      //   </div>
+      // ),
       buttonText: "Colaboradores",
       mission: {
         title: "Misión",
@@ -1142,26 +1142,14 @@ export const appDataText = {
         },
       ],
     },
-  },
 
-  //--------------English------------------
-  English: {
-    header: {
-      home: {
-        name: "Home",
-        path: "/home",
+    // Alert
+    alert: {
+      success: {
+        text: "¡Tu correo fue enviado exitosamente!",
       },
-      aboutUs: {
-        name: "About Us",
-        path: "/about-Us",
-      },
-      services: {
-        name: "Services",
-        path: "/services",
-      },
-      contactUs: {
-        name: "Contact Us",
-        path: "/contact-us",
+      error: {
+        text: "¡Ha ocurrido un error al enviar tu mensaje!",
       },
     },
   },

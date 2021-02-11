@@ -10,6 +10,7 @@ import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapi
 import SimpleMenu from "./header-list/header-list";
 
 export const dataButtonsList = appDataText.espanol.headerArray;
+
 function Header() {
   const history = useHistory();
   const location = useLocation();
@@ -29,6 +30,7 @@ function Header() {
     }));
 
     setButtonHeaderData(newHeaderData);
+    console.log("newHeaderData", newHeaderData);
     history.push(itemSelected.path);
   };
 
@@ -38,6 +40,8 @@ function Header() {
       active: item.path === currentPathname,
     }));
     setButtonHeaderData(newHeaderData);
+    console.log("useEffect", newHeaderData);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPathname]);
 
   //para comenzar con el header transparente y al momento de hacer scroll que cambie de color.

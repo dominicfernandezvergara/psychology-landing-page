@@ -1,4 +1,3 @@
-import React from "react";
 import { appDataText } from "../../../appDataText/appDataText";
 export const listServicesForm = [
   {
