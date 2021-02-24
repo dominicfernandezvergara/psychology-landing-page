@@ -1,4 +1,6 @@
 .containerService {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   margin-bottom: 50px;
   border: 3px solid #f4f5f6;
@@ -33,10 +35,23 @@
 .subtitleLenguage {
   color: var(--lightPrimaryColor);
 }
+.containerService :global(.MuiButton-root) {
+  background-color: var(--primaryColor);
+  color: var(--white);
+  width: fit-content;
+  align-self: center;
+  margin-top: 10px;
+}
+.containerService :global(.MuiButton-root:hover) {
+  background-color: var(--lightPrimaryColor);
+}
 @media screen and (min-width: 768px) {
   .image {
     height: auto;
     width: 50%;
+  }
+  .containerService {
+    width: 610px;
   }
   .containerRight {
     display: flex;
@@ -45,9 +60,6 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .containerService {
-    width: 610px;
-  }
   .text {
     font-size: 18px;
   }
@@ -61,6 +73,9 @@
     font-size: 18px;
   }
   .subtitleLenguage {
+    font-size: 18px;
+  }
+  .containerService :global(.MuiButton-root) {
     font-size: 18px;
   }
 }

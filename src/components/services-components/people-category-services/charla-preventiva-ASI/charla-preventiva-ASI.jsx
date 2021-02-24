@@ -1,10 +1,18 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
+import { useHistory } from "react-router-dom";
 
 import styles from "./charla-preventiva-ASI.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
 import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/ASI.jpg";
 
 function CharlaPreventivaASI() {
+  const history = useHistory();
+  const onClickButtonPeopleServices = () => {
+    history.push({
+      pathname: appDataText.espanol.header.contactUs.path,
+    });
+  };
   return (
     <div className={styles.containerService}>
       <div className={styles.containerImage}>
@@ -69,6 +77,9 @@ function CharlaPreventivaASI() {
           }
         </p>
       </div>
+      <Button variant="contained" onClick={onClickButtonPeopleServices}>
+        {appDataText.espanol.services.buttonText}
+      </Button>
     </div>
   );
 }

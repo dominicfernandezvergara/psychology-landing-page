@@ -111,7 +111,10 @@ function Footer() {
           <div className={styles.iconLink}>
             <WhatsAppIcon />
           </div>
-          <a href="tel:5551234567" className={styles.text}>
+          <a
+            href="https://api.whatsapp.com/send?phone=420776212480"
+            className={styles.text}
+          >
             {appDataText.espanol.contact.fono.fono}
           </a>
         </div>

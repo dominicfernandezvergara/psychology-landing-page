@@ -500,7 +500,7 @@ export const appDataText = {
 
     services: {
       title: "Nuestros servicios",
-
+      buttonText: "Comienza aquí",
       naturalPeopleService: {
         title: "Servicios Personas Naturales",
         serviceNaturalPeople1: {

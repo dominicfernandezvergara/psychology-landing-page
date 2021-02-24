@@ -32,7 +32,10 @@ function ContactData() {
             <div className={styles.subtitle}>
               {appDataText.espanol.contact.fono.title}
             </div>
-            <a href="tel:5551234567" className={styles.textContactData}>
+            <a
+              href="https://api.whatsapp.com/send?phone=420776212480"
+              className={styles.textContactData}
+            >
               {appDataText.espanol.contact.fono.fono}
             </a>
           </div>

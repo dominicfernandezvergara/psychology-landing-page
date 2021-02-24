@@ -1,12 +1,18 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
+import { useHistory } from "react-router-dom";
 
 import styles from "./alimentacion-consciente.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
 import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/alimentacion consciente.png";
 
-// import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageAlimentacionConsciente.jpg";
-// <a href='https://www.freepik.es/vectores/dibujos-animados'>Vector de Dibujos animados creado por vectorjuice - www.freepik.es</a>
 function AlimentacionConsciente() {
+  const history = useHistory();
+  const onClickButtonPeopleServices = () => {
+    history.push({
+      pathname: appDataText.espanol.header.contactUs.path,
+    });
+  };
   const benefitsList =
     appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople2
       .terapiasComplementarias.terapia2.benefits.benefits;
@@ -85,6 +91,9 @@ function AlimentacionConsciente() {
           }
         </p>
       </div>
+      <Button variant="contained" onClick={onClickButtonPeopleServices}>
+        {appDataText.espanol.services.buttonText}
+      </Button>
     </div>
   );
 }

@@ -1,11 +1,18 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
+import { useHistory } from "react-router-dom";
 
 import styles from "./medicina-huevo-yoni.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-// import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageHuevoYoni.jpg";
 import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/Huevo yoni.jpg";
 
 function MedicinaHuevoYoni() {
+  const history = useHistory();
+  const onClickButtonPeopleServices = () => {
+    history.push({
+      pathname: appDataText.espanol.header.contactUs.path,
+    });
+  };
   const benefitsList =
     appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople2
       .terapiasComplementarias.terapia4.benefits.benefits;
@@ -92,6 +99,9 @@ function MedicinaHuevoYoni() {
           }
         </p>
       </div>
+      <Button variant="contained" onClick={onClickButtonPeopleServices}>
+        {appDataText.espanol.services.buttonText}
+      </Button>
     </div>
   );
 }

@@ -1,10 +1,18 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
+import { useHistory } from "react-router-dom";
 
 import styles from "./asesorias-sexualidad.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
 import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageAsesoriaSexual.jpeg";
 
 function AsesoriasSexualidad() {
+  const history = useHistory();
+  const onClickButtonPeopleServices = () => {
+    history.push({
+      pathname: appDataText.espanol.header.contactUs.path,
+    });
+  };
   const advisoryList =
     appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople2
       .terapiasComplementarias.terapia3.subServices.service;
@@ -74,6 +82,9 @@ function AsesoriasSexualidad() {
           }
         </p>
       </div>
+      <Button variant="contained" onClick={onClickButtonPeopleServices}>
+        {appDataText.espanol.services.buttonText}
+      </Button>
     </div>
   );
 }

@@ -1,10 +1,18 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
+import { useHistory } from "react-router-dom";
 
 import styles from "./respiracion-consciente.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
 import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageRespiracionConsciente2.jpg";
 
 function RespiracionConsciente() {
+  const history = useHistory();
+  const onClickButtonPeopleServices = () => {
+    history.push({
+      pathname: appDataText.espanol.header.contactUs.path,
+    });
+  };
   const benefitsList =
     appDataText.espanol.services.naturalPeopleService.serviceNaturalPeople2
       .terapiasComplementarias.terapia1.benefits.Benefits;
@@ -81,6 +89,9 @@ function RespiracionConsciente() {
           }
         </p>
       </div>
+      <Button variant="contained" onClick={onClickButtonPeopleServices}>
+        {appDataText.espanol.services.buttonText}
+      </Button>
     </div>
   );
 }
