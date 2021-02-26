@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
-import WhatsAppIcon from "@material-ui/icons/WhatsApp";
+import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import cn from "classnames";
 import { useHistory } from "react-router-dom";
@@ -38,93 +38,95 @@ function Footer() {
   };
   return (
     <div className={styles.containerFooter}>
-      <div className={styles.containerLogo}>
-        <Logo />
-      </div>
-      <div className={cn(styles.data, styles.containerServices)}>
-        <h3 className={styles.title}>
-          {appDataText.espanol.home.fourthSectionHome.title}
-        </h3>
-        <div className={styles.containerText}>
-          <div className={styles.icon}>
-            <ArrowForwardIosIcon />
-          </div>
-          <button
-            onClick={onClickButtonPeopleServices}
-            className={styles.button}
-          >
-            {appDataText.espanol.home.fourthSectionHome.services.people.title}
-          </button>
+      <div className={styles.footerBody}>
+        <div className={styles.containerLogo}>
+          <Logo />
         </div>
+        <div className={cn(styles.data, styles.containerServices)}>
+          <h3 className={styles.title}>
+            {appDataText.espanol.home.fourthSectionHome.title}
+          </h3>
+          <div className={styles.containerText}>
+            <div className={styles.icon}>
+              <ArrowForwardIosIcon />
+            </div>
+            <button
+              onClick={onClickButtonPeopleServices}
+              className={styles.button}
+            >
+              {appDataText.espanol.home.fourthSectionHome.services.people.title}
+            </button>
+          </div>
 
-        <div className={styles.containerText}>
-          <div className={styles.icon}>
-            <ArrowForwardIosIcon />
+          <div className={styles.containerText}>
+            <div className={styles.icon}>
+              <ArrowForwardIosIcon />
+            </div>
+            <button
+              onClick={onClickButtonProfesionalServices}
+              className={styles.button}
+            >
+              {
+                appDataText.espanol.home.fourthSectionHome.services.profesional
+                  .title
+              }
+            </button>
           </div>
-          <button
-            onClick={onClickButtonProfesionalServices}
-            className={styles.button}
-          >
-            {
-              appDataText.espanol.home.fourthSectionHome.services.profesional
-                .title
-            }
-          </button>
+          <div className={styles.containerText}>
+            <div className={styles.icon}>
+              <ArrowForwardIosIcon />
+            </div>
+            <button
+              onClick={onClickButtonCompanieServices}
+              className={styles.button}
+            >
+              {
+                appDataText.espanol.home.fourthSectionHome.services.companies
+                  .title
+              }
+            </button>
+          </div>
+          <div className={styles.containerText}>
+            <div className={styles.icon}>
+              <ArrowForwardIosIcon />
+            </div>
+            <button
+              onClick={onClickButtonTerapieServices}
+              className={styles.button}
+            >
+              {
+                appDataText.espanol.services.naturalPeopleService
+                  .serviceNaturalPeople2.title
+              }
+            </button>
+          </div>
         </div>
-        <div className={styles.containerText}>
-          <div className={styles.icon}>
-            <ArrowForwardIosIcon />
+        <div className={styles.data}>
+          <h3 className={styles.title}>
+            {appDataText.espanol.contact.textFooter}
+          </h3>
+          <p className={styles.addresse}>
+            {appDataText.espanol.contact.addresse.addresse}
+          </p>
+          <div className={styles.containerText}>
+            <div className={styles.iconLink}>
+              <PhoneIcon />
+            </div>
+            <a href="tel:420776212480" className={styles.text}>
+              {appDataText.espanol.contact.fono.fono}
+            </a>
           </div>
-          <button
-            onClick={onClickButtonCompanieServices}
-            className={styles.button}
-          >
-            {
-              appDataText.espanol.home.fourthSectionHome.services.companies
-                .title
-            }
-          </button>
-        </div>
-        <div className={styles.containerText}>
-          <div className={styles.icon}>
-            <ArrowForwardIosIcon />
+          <div className={styles.containerText}>
+            <div className={styles.iconLink}>
+              <EmailIcon />
+            </div>
+            <a
+              href="mailto: asesorias.profesionales.holistic@gmail.com"
+              className={styles.text}
+            >
+              {appDataText.espanol.contact.email.correo}
+            </a>
           </div>
-          <button
-            onClick={onClickButtonTerapieServices}
-            className={styles.button}
-          >
-            {
-              appDataText.espanol.services.naturalPeopleService
-                .serviceNaturalPeople2.title
-            }
-          </button>
-        </div>
-      </div>
-      <div className={styles.data}>
-        <h3 className={styles.title}>
-          {appDataText.espanol.contact.textFooter}
-        </h3>
-        <p className={styles.addresse}>
-          {appDataText.espanol.contact.addresse.addresse}
-        </p>
-        <div className={styles.containerText}>
-          <div className={styles.iconLink}>
-            <WhatsAppIcon />
-          </div>
-          <a
-            href="https://api.whatsapp.com/send?phone=420776212480"
-            className={styles.text}
-          >
-            {appDataText.espanol.contact.fono.fono}
-          </a>
-        </div>
-        <div className={styles.containerText}>
-          <div className={styles.iconLink}>
-            <EmailIcon />
-          </div>
-          <a href="mailto: abc@example.com" className={styles.text}>
-            {appDataText.espanol.contact.email.correo}
-          </a>
         </div>
       </div>
     </div>

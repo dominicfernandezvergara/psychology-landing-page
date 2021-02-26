@@ -8,6 +8,7 @@ import Logo from "../logo";
 import Drawer from "./drawer";
 import imageLogo from "../../images/logo/kisspng-psychology-symbol-psychotherapist-semana-da-psicol-psicologa-social-5cc757f9c4bd23.3476718715565680578058.jpg";
 import SimpleMenu from "./header-list/header-list";
+import SocialMedia from "../social-media/social-media";
 
 export const dataButtonsList = appDataText.espanol.headerArray;
 
@@ -139,6 +140,7 @@ function Header() {
             );
           })}
         </div>
+        <SocialMedia />
       </header>
       {/*HEADER LARGE*/}
     </Fragment>

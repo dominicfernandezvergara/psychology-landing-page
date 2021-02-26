@@ -1,0 +1,35 @@
+.containerSocialMedia {
+  padding: 10px 40px;
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.iconSocialMedia {
+  margin-top: 10px;
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+}
+.iconSocialMedia:hover {
+  transform: scale(1.1);
+}
+@media screen and (min-width: 768px) {
+  .containerSocialMedia {
+    padding: 10px 10px;
+  }
+  .iconSocialMedia {
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .iconSocialMedia {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+  }
+}

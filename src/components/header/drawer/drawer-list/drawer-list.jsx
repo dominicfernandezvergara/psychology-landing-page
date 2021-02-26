@@ -17,6 +17,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./drawer-list.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
+import SocialMedia from "../../../social-media/social-media";
 
 function DrawerList({ open }) {
   const history = useHistory();
@@ -193,6 +194,7 @@ function DrawerList({ open }) {
         </ListItemIcon>
         <ListItemText primary={appDataText.espanol.header.takeFree.name} />
       </ListItem>
+      <SocialMedia />
     </List>
   );
 }

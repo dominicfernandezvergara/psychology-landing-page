@@ -18,6 +18,7 @@
 .wrapBody {
   border: 3px solid #f4f5f6;
   padding: 20px 30px;
+  margin-bottom: 30px;
 }
 .subtitle {
   margin-top: 10px;
@@ -66,6 +67,7 @@
   }
   .wrapBody {
     width: 800px;
+    margin-bottom: 60px;
   }
   .subtitle {
     font-size: 24px;
@@ -73,10 +75,4 @@
   .text {
     font-size: 20px;
   }
-}
-@media screen and (min-width: 1280px) {
-}
-@media screen and (min-width: 1440px) {
-}
-@media screen and (min-width: 1920px) {
 }
