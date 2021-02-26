@@ -1126,6 +1126,16 @@ export const appDataText = {
       title: "Libreria colectiva",
       body: [
         {
+          title: "Las emociones “negativas” son esenciales y fundamentales.",
+          text:
+            "A continuación un bello poema de Rumi, poeta persa del siglo XIII, trata sobre; cómo podemos dar la bienvenida a todas las emociones y aceptarlas como mensajeros muy útiles.",
+          text2:
+            "Las emociones son esenciales, no hay emociones buenas o malas, sino, algunas nos resultan menos agradables que otras, ellas pueden ser nuestros mejores aliados.",
+          image: imageTakeFree2,
+          doc: docTakeFree2,
+          buttonText: "Descargar PDF",
+        },
+        {
           title: "“No se nace mujer; se llega a serlo”",
           text:
             "Generalmente las mujeres hemos vivido por largos momentos de la historia, con introyectos sociales de tener que estar siempre disponible para los demás. Desarrollando labores de crianza , cuidado, y cargando con sentimientos de  culpa y roles sociales impuestos por otros/as; esto, por el hecho de nacer mujeres.",
@@ -1140,16 +1150,6 @@ export const appDataText = {
             "Revisión sistemática  “El Segundo Sexo, 1949”. Feminismo Europeo.",
           image: imageTakeFree1,
           doc: docTakeFree1,
-          buttonText: "Descargar PDF",
-        },
-        {
-          title: "Las emociones “negativas” son escenciales y fundamentales.",
-          text:
-            "A continuación un bello poema de Rumi, poeta persa del siglo XIII, trata sobre; cómo podemos dar la bienvenida a todas las emociones y aceptarlas como mensajeros muy útiles.",
-          text2:
-            "Las emociones son esenciales, no hay emociones buenas o malas, sino, algunas nos resultan menos agradables que otras, ellas pueden ser nuestros mejores aliados.",
-          image: imageTakeFree2,
-          doc: docTakeFree2,
           buttonText: "Descargar PDF",
         },
       ],

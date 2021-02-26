@@ -2,10 +2,14 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 
 import styles from "./takeFree.module.css";
+import UseScrollToTop from "../../hooks/use-scroll-to-top";
 import { appDataText } from "../../appDataText/appDataText";
 
 function TakeFree() {
+  UseScrollToTop();
+
   const bodyTakeFree = appDataText.espanol.takeFree.body;
+
   return (
     <div className={styles.containerBlog}>
       <h1 className={styles.title}>{appDataText.espanol.takeFree.title}</h1>
