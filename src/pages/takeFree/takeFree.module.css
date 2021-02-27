@@ -66,7 +66,7 @@
     align-items: center;
   }
   .wrapBody {
-    width: 800px;
+    width: 700px;
     margin-bottom: 60px;
   }
   .subtitle {
@@ -74,5 +74,10 @@
   }
   .text {
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .wrapBody {
+    width: 800px;
   }
 }

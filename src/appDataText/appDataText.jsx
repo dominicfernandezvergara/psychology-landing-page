@@ -11,11 +11,16 @@ import imageP7 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
 import imageP8 from "../images/imageAbout/imageTeam/imageTeamLuis.png";
 
 //Take Free images
-import imageTakeFree1 from "../images/imageTakeFree/imageTakeFree1.jpg";
-import imageTakeFree2 from "../images/imageTakeFree/imageTakeFree2.jpg";
+import imageTakeFree1 from "../images/imageTakeFree/noSeNaceMujer.jpg";
+import imageTakeFree2 from "../images/imageTakeFree/lasEmocionesNegativas.jpg";
+import imageTakeFree3 from "../images/imageTakeFree/tipsHomeOffice.jpg";
+import imageTakeFree4 from "../images/imageTakeFree/fatigaPandemica.jpg";
+
 //Take Free docs
 import docTakeFree1 from "../docs/takeFreeDocs/ElMitoDeLaMadre.pdf";
 import docTakeFree2 from "../docs/takeFreeDocs/PoemaRUMI.pdf";
+import docTakeFree3 from "../docs/takeFreeDocs/tipsTeletrabajo.pdf";
+import docTakeFree4 from "../docs/takeFreeDocs/FatigaPandémica.pdf";
 
 export const appDataText = {
   espanol: {
@@ -1125,6 +1130,29 @@ export const appDataText = {
     takeFree: {
       title: "Libreria colectiva",
       body: [
+        {
+          title: "Tips para teletrabajo",
+          text:
+            "Ya llevamos más de un año conviviendo con el COVID-19 y muchas personas siguen trabajando desde sus casas.",
+          text2: (
+            <div>
+              Como en todas las convivencias, es bueno revisar de vez en cuando
+              cómo estamos haciendo las cosas...{" "}
+              <strong>Y tú, ¿cómo estás teletrabajando?...</strong>
+            </div>
+          ),
+          image: imageTakeFree3,
+          doc: docTakeFree3,
+          buttonText: "Descargar PDF",
+        },
+        {
+          title: "Fatiga pandémica",
+          text:
+            "“La vida no es lo que se supone que debe ser; es: LO QUE ES. La forma de lidiar con ella, es lo que hace la diferencia “ (Virginia Satir).",
+          image: imageTakeFree4,
+          doc: docTakeFree4,
+          buttonText: "Descargar PDF",
+        },
         {
           title: "Las emociones “negativas” son esenciales y fundamentales.",
           text:
