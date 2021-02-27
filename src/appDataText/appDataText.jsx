@@ -1147,8 +1147,14 @@ export const appDataText = {
         },
         {
           title: "Fatiga pandémica",
-          text:
-            "“La vida no es lo que se supone que debe ser; es: LO QUE ES. La forma de lidiar con ella, es lo que hace la diferencia “ (Virginia Satir).",
+          text: (
+            <i>
+              “La vida no es lo que se supone que debe ser; es: LO QUE ES. La
+              forma de lidiar con ella, es lo que hace la diferencia “ (Virginia
+              Satir).
+            </i>
+          ),
+
           image: imageTakeFree4,
           doc: docTakeFree4,
           buttonText: "Descargar PDF",
