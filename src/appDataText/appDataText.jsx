@@ -20,7 +20,7 @@ import imageTakeFree4 from "../images/imageTakeFree/fatigaPandemica.jpg";
 import docTakeFree1 from "../docs/takeFreeDocs/ElMitoDeLaMadre.pdf";
 import docTakeFree2 from "../docs/takeFreeDocs/PoemaRUMI.pdf";
 import docTakeFree3 from "../docs/takeFreeDocs/tipsTeletrabajo.pdf";
-import docTakeFree4 from "../docs/takeFreeDocs/FatigaPandémica.pdf";
+import docTakeFree4 from "../docs/takeFreeDocs/FatigaPandemica.pdf";
 
 export const appDataText = {
   espanol: {
