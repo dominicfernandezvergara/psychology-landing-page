@@ -35,9 +35,6 @@ function ContactUs() {
             <Form />
           </div>
         </div>
-        <div className={styles.containerTransferData}>
-          <TransferData />
-        </div>
         <div className={styles.containerHowItWork}>
           <ContactData />
         </div>
@@ -56,28 +53,28 @@ function ContactUs() {
         </div>
         <div className={styles.wrappFormHowItWork}>
           <div className={styles.subcontainerwrappFormDataContact}>
-            <h1 className={styles.subtitle}>
-              {appDataText.espanol.contact.subtitle2}
-            </h1>
-            <div className={styles.textContainerForm}>
-              {appDataText.espanol.contact.text}
+            <div className={styles.containerWhiteUs}>
+              <h1 className={styles.subtitle}>
+                {appDataText.espanol.contact.subtitle2}
+              </h1>
+              <div className={styles.textContainerForm}>
+                {appDataText.espanol.contact.text}
+              </div>
+              <div className={styles.textContainerForm}>
+                {appDataText.espanol.contact.text2}
+              </div>
+              <div className={styles.textContainerForm}>
+                {appDataText.espanol.contact.text3}
+              </div>
             </div>
-            <div className={styles.textContainerForm}>
-              {appDataText.espanol.contact.text2}
-            </div>
-            <div className={styles.textContainerForm}>
-              {appDataText.espanol.contact.text3}
-            </div>
-            <div className={styles.containerForm}>
-              <Form />
-            </div>
-          </div>
-          <div className={styles.wrappContactTransferData}>
             <div className={styles.containerContacData}>
               <ContactData />
             </div>
-            <div className={styles.containerTransferData}>
-              <TransferData />
+          </div>
+          <div className={styles.wrappContactTransferData}>
+            <h1 className={styles.subtitle}>Formulario de contacto</h1>
+            <div className={styles.containerForm}>
+              <Form />
             </div>
           </div>
         </div>

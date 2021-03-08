@@ -66,5 +66,9 @@
   }
   .form {
     background-color: var(--white);
+    padding: 0px 0px;
+  }
+  .form .submitButton {
+    margin-bottom: 20px;
   }
 }

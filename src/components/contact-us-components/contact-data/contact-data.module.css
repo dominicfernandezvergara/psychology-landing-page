@@ -5,7 +5,7 @@
   padding-left: 30px;
   padding-right: 30px;
   box-sizing: border-box;
-  background-color: var(--lightSecondaryColor);
+  background-color: var(--white);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -40,10 +40,9 @@
 @media screen and (min-width: 768px) {
   .contactData {
     background-color: var(--white);
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
-      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    margin-top: 10px;
+    /* box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+      0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%); */
   }
 }
 @media screen and (min-width: 1024px) {
