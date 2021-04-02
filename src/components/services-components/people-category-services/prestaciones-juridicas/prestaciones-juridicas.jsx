@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./prestaciones-juridicas.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/imageAsesoriaLegal.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/act1-Prestacion juridica.jpg";
 
 function PrestacionesJuridicas() {
   const history = useHistory();

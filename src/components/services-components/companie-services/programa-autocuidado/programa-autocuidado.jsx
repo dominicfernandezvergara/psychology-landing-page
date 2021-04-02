@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./programa-autocuidado.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageCompanieServices/imageAutoCuidado.png";
+import imagePsicoterapia from "../../../../images/imageServices/imageCompanieServices/act1-Empresa servicio.jpg";
 
 function ProgramaAutocuidado() {
   const history = useHistory();

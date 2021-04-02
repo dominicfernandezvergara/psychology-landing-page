@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./supervision-casos.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageProfesionalServices/imageSupervCasos.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageProfesionalServices/act1-OPCION 2.jpg";
 
 function SupervisionCasos() {
   const history = useHistory();

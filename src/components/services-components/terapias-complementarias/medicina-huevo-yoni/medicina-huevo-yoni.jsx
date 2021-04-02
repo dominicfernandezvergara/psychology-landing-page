@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./medicina-huevo-yoni.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/Huevo yoni.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/act1-Huevo Yoni servicio.jpg";
 
 function MedicinaHuevoYoni() {
   const history = useHistory();

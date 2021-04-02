@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./psicoterapia-service.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/imagePsicoterapiaOnline.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/act1-psicoterapia ind y grupal.jpg";
 
 function PsicoterapiaService() {
   const history = useHistory();

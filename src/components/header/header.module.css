@@ -42,13 +42,12 @@
     padding: 0 20px;
     justify-content: space-between;
     background: white;
+    padding: 10px 20px;
   }
   .containerLogoButton {
     border: none;
     background-color: transparent;
-    padding-left: 5px;
-    padding-top: 10px;
-    margin-left: 20px;
+    flex: 1;
   }
   .logo {
     height: auto;
@@ -56,6 +55,7 @@
   }
   .containerHeaderButton {
     display: flex;
+    flex: 2;
     /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
@@ -101,14 +101,11 @@
   .styleAfterScrollLogo {
     width: 40px;
   }
+  .containerSocialMedia {
+    flex: 1;
+  }
 }
 @media screen and (min-width: 1024px) {
-  .containerLogoButton {
-    margin-left: 50px;
-  }
-  .containerLogoButton {
-    margin-left: 50px;
-  }
   .headerButton {
     margin: 0px 10px;
   }
@@ -123,12 +120,12 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .containerHeaderButton {
+  /* .containerHeaderButton {
     margin-right: 100px;
-  }
+  } */
 }
 @media screen and (min-width: 1920px) {
-  .containerHeaderButton {
+  /* .containerHeaderButton {
     margin-right: 200px;
-  }
+  } */
 }

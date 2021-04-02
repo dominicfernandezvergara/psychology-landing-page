@@ -16,29 +16,33 @@ function TakeFree() {
       <div className={styles.paddingPage}>
         {bodyTakeFree.map((item, index) => {
           return (
-            <div key={index} className={styles.wrapBody}>
-              <div className={styles.containerImage}>
-                <img
-                  alt="takeFreeImage"
-                  className={styles.image}
-                  src={item.image}
-                />
+            <div key={index} className={styles.wrappBody}>
+              <div className={styles.containerData}>
+                <div className={styles.containerImage}>
+                  <img
+                    alt="takeFreeImage"
+                    className={styles.image}
+                    src={item.image}
+                  />
+                </div>
+                <div className={styles.wrappText}>
+                  <h3 className={styles.subtitle}>{item.title}</h3>
+                  <p className={styles.text}>{item.text}</p>
+                  {item.text2 && <p className={styles.text}>{item.text2}</p>}
+                  {item.text3 && <p className={styles.text}>{item.text3}</p>}
+                  {item.text4 && <p className={styles.text}>{item.text4}</p>}
+                  <Button variant="contained">
+                    <a
+                      href={item.doc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.dowloadButton}
+                    >
+                      {item.buttonText}
+                    </a>
+                  </Button>
+                </div>
               </div>
-              <h3 className={styles.subtitle}>{item.title}</h3>
-              <p className={styles.text}>{item.text}</p>
-              {item.text2 && <p className={styles.text}>{item.text2}</p>}
-              {item.text3 && <p className={styles.text}>{item.text3}</p>}
-              {item.text4 && <p className={styles.text}>{item.text4}</p>}
-              <Button variant="contained">
-                <a
-                  href={item.doc}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.dowloadButton}
-                >
-                  {item.buttonText}
-                </a>
-              </Button>
             </div>
           );
         })}

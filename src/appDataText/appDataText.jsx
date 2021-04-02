@@ -972,8 +972,7 @@ export const appDataText = {
       textFooter: "Contacta con nosotros",
       addresse: {
         title: "Dirección",
-        addresse:
-          "Sede Praha, Chequia. Servicios y Asesorias Online resto del mundo.",
+        addresse: "Asesorias profesionales online",
       },
       email: {
         title: "correo",
@@ -1134,13 +1133,7 @@ export const appDataText = {
           title: "Tips para teletrabajo",
           text:
             "Ya llevamos más de un año conviviendo con el COVID-19 y muchas personas siguen trabajando desde sus casas.",
-          text2: (
-            <div>
-              Como en todas las convivencias, es bueno revisar de vez en cuando
-              cómo estamos haciendo las cosas...{" "}
-              <strong>Y tú, ¿cómo estás teletrabajando?...</strong>
-            </div>
-          ),
+          text2: <strong>Y tú, ¿cómo estás teletrabajando?...</strong>,
           image: imageTakeFree3,
           doc: docTakeFree3,
           buttonText: "Descargar PDF",
@@ -1150,7 +1143,7 @@ export const appDataText = {
           text: (
             <i>
               “La vida no es lo que se supone que debe ser; es: LO QUE ES. La
-              forma de lidiar con ella, es lo que hace la diferencia “ (Virginia
+              forma de lidiar con ella, es lo que hace la diferencia”. (Virginia
               Satir).
             </i>
           ),
@@ -1162,25 +1155,19 @@ export const appDataText = {
         {
           title: "Las emociones “negativas” son esenciales y fundamentales.",
           text:
-            "A continuación un bello poema de Rumi, poeta persa del siglo XIII, trata sobre; cómo podemos dar la bienvenida a todas las emociones y aceptarlas como mensajeros muy útiles.",
-          text2:
-            "Las emociones son esenciales, no hay emociones buenas o malas, sino, algunas nos resultan menos agradables que otras, ellas pueden ser nuestros mejores aliados.",
+            "Como dar la bienvenida a todas las emociones y aceptarlas como mensajeros muy útiles.",
           image: imageTakeFree2,
           doc: docTakeFree2,
           buttonText: "Descargar PDF",
         },
         {
           title: "“No se nace mujer; se llega a serlo”",
-          text:
-            "Generalmente las mujeres hemos vivido por largos momentos de la historia, con introyectos sociales de tener que estar siempre disponible para los demás. Desarrollando labores de crianza , cuidado, y cargando con sentimientos de  culpa y roles sociales impuestos por otros/as; esto, por el hecho de nacer mujeres.",
-          text2:
-            "Es políticamente correcto decir siempre que sí o aceptar determinadas situaciones a pesar de que nos sean incómodas, dolorosas o no deseadas, lo que puede perpetuar nuestra postergación como ser humano.",
-          text3: (
+          text: (
             <strong>
               ¿EN QUÉ MOMENTO O SITUACIONES DAS MÁS DE LO QUE PUEDES Y QUIERES?
             </strong>
           ),
-          text4:
+          text2:
             "Revisión sistemática  “El Segundo Sexo, 1949”. Feminismo Europeo.",
           image: imageTakeFree1,
           doc: docTakeFree1,

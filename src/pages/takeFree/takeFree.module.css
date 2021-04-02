@@ -15,7 +15,7 @@
 .paddingPage {
   padding: 20px;
 }
-.wrapBody {
+.wrappBody {
   border: 3px solid #f4f5f6;
   padding: 20px 30px;
   margin-bottom: 30px;
@@ -32,7 +32,6 @@
   color: var(--text);
   text-align: justify;
 }
-
 .containerImage {
   width: 100%;
   height: auto;
@@ -57,6 +56,32 @@
   .paddingPage {
     padding: 10px 50px;
   }
+  .wrappBody {
+    display: flex;
+    flex-direction: column;
+  }
+  .containerData {
+    display: flex;
+  }
+  .wrappText {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  .containerImage {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 20px;
+    justify-content: center;
+  }
+  .containerBlog :global(.MuiButton-root) {
+    background-color: var(--darkPrimaryColor);
+    color: var(--white);
+    width: fit-content;
+    align-self: initial;
+    margin-top: 20px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .paddingPage {
@@ -65,9 +90,13 @@
     flex-direction: column;
     align-items: center;
   }
-  .wrapBody {
-    width: 700px;
+  .wrappBody {
+    width: 800px;
     margin-bottom: 60px;
+  }
+  .title {
+    font-size: 30px;
+    height: 100px;
   }
   .subtitle {
     font-size: 24px;
@@ -77,7 +106,7 @@
   }
 }
 @media screen and (min-width: 1920px) {
-  .wrapBody {
-    width: 800px;
+  .wrappBody {
+    width: 1000px;
   }
 }

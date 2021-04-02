@@ -17,11 +17,11 @@
 }
 @media screen and (min-width: 768px) {
   .containerSocialMedia {
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
   }
   .iconSocialMedia {
     margin-top: 0px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     width: 25px;
     height: 25px;
   }

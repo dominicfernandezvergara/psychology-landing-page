@@ -113,6 +113,7 @@ function Header() {
             alt=""
           />
         </button>
+
         <div className={styles.containerHeaderButton}>
           {buttonHeaderData.map((item, index) => {
             return (
@@ -140,7 +141,9 @@ function Header() {
             );
           })}
         </div>
-        <SocialMedia />
+        <div className={styles.containerSocialMedia}>
+          <SocialMedia />
+        </div>
       </header>
       {/*HEADER LARGE*/}
     </Fragment>

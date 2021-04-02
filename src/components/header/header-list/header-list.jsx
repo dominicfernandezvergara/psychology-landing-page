@@ -20,8 +20,7 @@ export default function SimpleMenu({ name, subnames, active }) {
   const [open, setOpen] = useState(false);
   const anchorRef = useRef(null);
   const subNames = subnames;
-  const onClickHandleClose = (name, number, event) => {
-    setOpen(false);
+  const onClickHandleClose = (name, number) => {
     history.push({
       pathname: "/servicios",
       state: { service: name, number: number },
@@ -30,9 +29,12 @@ export default function SimpleMenu({ name, subnames, active }) {
 
   const handleClose = () => {
     setOpen(false);
+    console.log(`Open`);
   };
   const handleOpen = () => {
     setOpen((prevOpen) => !prevOpen);
+    console.log(`holaaa
+    `);
   };
 
   function handleListKeyDown(event) {

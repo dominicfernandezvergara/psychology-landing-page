@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./tarot-terapeutico.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageTarot.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/act1-Tarot.jpg";
 
 function TarotTerapeutico() {
   const history = useHistory();

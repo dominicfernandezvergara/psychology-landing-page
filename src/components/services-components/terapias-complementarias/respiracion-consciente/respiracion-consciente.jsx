@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./respiracion-consciente.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/imageRespiracionConsciente2.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/act1-Respiracion consiente 1.jpg";
 
 function RespiracionConsciente() {
   const history = useHistory();
