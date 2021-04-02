@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./constelaciones-familiares.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/act1-Constalación familiar.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imageTerapiasComplementarias/act1-Constalacion familiar.jpg";
 
 function ConstelacionesFamiliares() {
   const history = useHistory();
