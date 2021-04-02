@@ -15,12 +15,20 @@ import imageTakeFree1 from "../images/imageTakeFree/noSeNaceMujer.jpg";
 import imageTakeFree2 from "../images/imageTakeFree/lasEmocionesNegativas.jpg";
 import imageTakeFree3 from "../images/imageTakeFree/tipsHomeOffice.jpg";
 import imageTakeFree4 from "../images/imageTakeFree/fatigaPandemica.jpg";
+import imageTakeFree5 from "../images/imageTakeFree/maslow Piramide.jpg";
+import imageTakeFree6 from "../images/imageTakeFree/Distorsiones cognitivas y ansiedad.jpg";
+import imageTakeFree7 from "../images/imageTakeFree/Relacion saludable 1.jpg";
+import imageTakeFree8 from "../images/imageTakeFree/Derechos sexuales.jpg";
 
 //Take Free docs
 import docTakeFree1 from "../docs/takeFreeDocs/ElMitoDeLaMadre.pdf";
 import docTakeFree2 from "../docs/takeFreeDocs/PoemaRUMI.pdf";
 import docTakeFree3 from "../docs/takeFreeDocs/tipsTeletrabajo.pdf";
 import docTakeFree4 from "../docs/takeFreeDocs/FatigaPandemica.pdf";
+import docTakeFree5 from "../docs/takeFreeDocs/Necesidades básicas humanas.pdf";
+import docTakeFree6 from "../docs/takeFreeDocs/Distorsiones cognitivas.pdf";
+import docTakeFree7 from "../docs/takeFreeDocs/Poema Perlz.pdf";
+import docTakeFree8 from "../docs/takeFreeDocs/Infografía DDSSRR.pdf";
 
 export const appDataText = {
   espanol: {
@@ -1171,6 +1179,56 @@ export const appDataText = {
             "Revisión sistemática  “El Segundo Sexo, 1949”. Feminismo Europeo.",
           image: imageTakeFree1,
           doc: docTakeFree1,
+          buttonText: "Descargar PDF",
+        },
+        {
+          title: "¿QUÉ NECESITO, ME FALTA O ME SOBRA PARA SENTIRME EN ARMONÍA?",
+          text: (
+            <div>
+              Teoría psicológica Central A. Maslow: “conforme se satisfacen las
+              necesidades más básicas, los seres humanos desarrollamos
+              necesidades y deseos más elevadas”.
+            </div>
+          ),
+          image: imageTakeFree5,
+          doc: docTakeFree5,
+          buttonText: "Descargar PDF",
+        },
+        {
+          title: "Distorsiones o errores cognitivos ",
+          text: (
+            <div>
+              Pensamientos irracionales, que ocultan, ignoran o disfrazan la
+              realidad y hacen difícil lograr nuestros propósitos.
+            </div>
+          ),
+          image: imageTakeFree6,
+          doc: docTakeFree6,
+          buttonText: "Descargar PDF",
+        },
+        {
+          title: "Relaciones saludables, ¿qué ayuda a tenerlas?",
+          text: (
+            <div>
+              Las relaciones de adulto están influenciadas por las experiencias
+              anteriores, y el vínculo que se establece en la infancia, además
+              de otros factores.
+            </div>
+          ),
+          image: imageTakeFree7,
+          doc: docTakeFree7,
+          buttonText: "Descargar PDF",
+        },
+        {
+          title: "Derechos sexuales y reproductivos, ¿qué son?",
+          text: (
+            <div>
+               Condiciones para ejercer sus derechos sexuales y
+              reproductivos sin sufrir discriminación, coacción ni violencia.
+            </div>
+          ),
+          image: imageTakeFree8,
+          doc: docTakeFree8,
           buttonText: "Descargar PDF",
         },
       ],

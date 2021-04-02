@@ -9,6 +9,7 @@
 .titleService {
   color: var(--primaryColor);
   padding: 10px 0px;
+  align-self: center;
 }
 .containerImage {
   width: 100%;

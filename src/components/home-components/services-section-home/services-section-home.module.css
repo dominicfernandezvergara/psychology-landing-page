@@ -12,7 +12,6 @@
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
-  /* margin-bottom: 20px; */
   background-color: var(--white);
   color: var(--darkPrimaryColor);
   border-bottom: 3px solid #f4f5f6;
@@ -24,7 +23,6 @@
 .containerService {
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 30px; */
   background-color: var(--white);
   padding: 20px;
   box-sizing: border-box;
@@ -43,7 +41,7 @@
 .image {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .descriptionService {
   text-align: justify;
@@ -51,6 +49,11 @@
 }
 .titleServiceLarge {
   display: none;
+}
+.containerButtton {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
 }
 .containerSection :global(.MuiButton-root) {
   background-color: var(--darkPrimaryColor);
@@ -92,7 +95,7 @@
   }
   .wrappTextImage {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 10px;
   }
   .containerImage {
@@ -107,6 +110,9 @@
   }
   .titleService {
     display: none;
+  }
+  .containerButtton {
+    text-align: initial;
   }
 }
 @media screen and (min-width: 1024px) {

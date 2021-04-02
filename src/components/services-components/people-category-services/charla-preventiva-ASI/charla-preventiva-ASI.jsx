@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import styles from "./charla-preventiva-ASI.module.css";
 import { appDataText } from "../../../../appDataText/appDataText";
-import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/ASI.jpg";
+import imagePsicoterapia from "../../../../images/imageServices/imagePeopleCategory/act1-ASI.png";
 
 function CharlaPreventivaASI() {
   const history = useHistory();

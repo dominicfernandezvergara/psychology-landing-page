@@ -6,9 +6,9 @@ import { useHistory } from "react-router-dom";
 import styles from "./services-section-home.module.css";
 
 import { appDataText } from "../../../appDataText/appDataText";
-import imagePeople from "../../../images/imageHome/imagePeople3.png";
-import imageProfesional from "../../../images/imageHome/imageProfesional3.jpg";
-import imageCompanie from "../../../images/imageHome/imageCompanie.jpeg";
+import imagePeople from "../../../images/imageHome/act1-personaNatural.jpg";
+import imageProfesional from "../../../images/imageHome/act1-psicologos y profesionales.jpg";
+import imageCompanie from "../../../images/imageHome/act1-empresas.jpg";
 
 function ServicesSectionHome() {
   const history = useHistory();
@@ -63,11 +63,13 @@ function ServicesSectionHome() {
                 .description3
             }
           </div>
+          <div className={styles.containerButtton}>
+            <Button variant="contained" onClick={onClickButtonPeopleServices}>
+              {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+            </Button>
+          </div>
         </div>
       </div>
-      <Button variant="contained" onClick={onClickButtonPeopleServices}>
-        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-      </Button>
     </div>
   );
 
@@ -93,11 +95,16 @@ function ServicesSectionHome() {
                 .description
             }
           </div>
+          <div className={styles.containerButtton}>
+            <Button
+              variant="contained"
+              onClick={onClickButtonProfesionalServices}
+            >
+              {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+            </Button>
+          </div>
         </div>
       </div>
-      <Button variant="contained" onClick={onClickButtonProfesionalServices}>
-        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-      </Button>
     </div>
   );
 
@@ -133,11 +140,13 @@ function ServicesSectionHome() {
                 .description2
             }
           </div>
+          <div className={styles.containerButtton}>
+            <Button variant="contained" onClick={onClickButtonCompanieServices}>
+              {appDataText.espanol.home.fourthSectionHome.services.buttonText}
+            </Button>
+          </div>
         </div>
       </div>
-      <Button variant="contained" onClick={onClickButtonCompanieServices}>
-        {appDataText.espanol.home.fourthSectionHome.services.buttonText}
-      </Button>
     </div>
   );
 
