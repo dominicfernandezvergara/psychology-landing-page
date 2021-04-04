@@ -41,7 +41,7 @@
 .image {
   width: 200px;
   height: 200px;
-  /* border-radius: 50%; */
+  border-radius: 50%;
 }
 .descriptionService {
   text-align: justify;

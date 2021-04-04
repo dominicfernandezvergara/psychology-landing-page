@@ -9,6 +9,7 @@ import imageP5 from "../images/imageAbout/imageTeam/imageTeamArnaldo.png";
 import imageP6 from "../images/imageAbout/imageTeam/imageTeamMaria.png";
 import imageP7 from "../images/imageAbout/imageTeam/imageTeamCarmen.png";
 import imageP8 from "../images/imageAbout/imageTeam/imageTeamLuis.png";
+import imageP9 from "../images/imageAbout/imageTeam/imagenTeamAnezka.png";
 
 //Take Free images
 import imageTakeFree1 from "../images/imageTakeFree/noSeNaceMujer.jpg";
@@ -25,7 +26,7 @@ import docTakeFree1 from "../docs/takeFreeDocs/ElMitoDeLaMadre.pdf";
 import docTakeFree2 from "../docs/takeFreeDocs/PoemaRUMI.pdf";
 import docTakeFree3 from "../docs/takeFreeDocs/tipsTeletrabajo.pdf";
 import docTakeFree4 from "../docs/takeFreeDocs/FatigaPandemica.pdf";
-import docTakeFree5 from "../docs/takeFreeDocs/Necesidades básicas humanas.pdf";
+import docTakeFree5 from "../docs/takeFreeDocs/Qué me falta o me sobra para estar en armonía.pdf";
 import docTakeFree6 from "../docs/takeFreeDocs/Distorsiones cognitivas.pdf";
 import docTakeFree7 from "../docs/takeFreeDocs/Poema Perlz.pdf";
 import docTakeFree8 from "../docs/takeFreeDocs/Infografía DDSSRR.pdf";
@@ -455,6 +456,21 @@ export const appDataText = {
               title: "Descripción",
               description:
                 "Una persona dedicada a la lectura, ética, respetuoso y responsable.",
+            },
+          },
+          {
+            image: imageP9,
+            name: "Anežka Špačková",
+            occupation: "Fisioterapeuta",
+            formacion: {
+              title: "Formación",
+              description:
+                "Fisioterapeuta con 6 años de experiencia. Licenciada en Karlova Univerzita. Maestría en la 2ª Facultad de Medicina del Hospital Universitario Motol. Curso de locomoción refleja de Vojta, parte A del curso de estudio, Curso de Dinámica de las cadenas musculares y tendinosas utilizando posiciones de yoga I.",
+            },
+            description: {
+              title: "Descripción",
+              description:
+                "Disfruto identificando formas de terapia que se adapten individualmente a los clientes. Consideramos el problema en el contexto de los principios psicosomáticos. “Creo que mejorando el control de nuestro propio cuerpo, y los estereotipos del movimiento, podemos lograr grandes resultados en cada persona”.",
             },
           },
 
