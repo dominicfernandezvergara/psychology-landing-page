@@ -37,6 +37,7 @@ function OfferSectionHome() {
               {appDataText.espanol.home.offer.subtitle}
             </h2>
             <h1 className={styles.price}>€45</h1>
+
             <div className={styles.containerOffer}>
               <p className={styles.textRight}>
                 {appDataText.espanol.home.offer.text}
@@ -48,6 +49,11 @@ function OfferSectionHome() {
               <AddIcon />
               <p className={styles.textRight}>
                 {appDataText.espanol.home.offer.text2}
+              </p>
+            </div>
+            <div>
+              <p className={styles.simpleText}>
+                {appDataText.espanol.home.offer.text5}
               </p>
             </div>
             <Button variant="contained" onClick={onClick}>

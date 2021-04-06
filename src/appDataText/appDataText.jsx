@@ -247,13 +247,14 @@ export const appDataText = {
       offer: {
         title: "Promoción para iniciar tu proceso de cambio",
         subtitle: "Servicio recomendado para empezar psicoterapia",
-        text: "Aplicación test gratuito",
-        text1: "Sesión psicológica diagnóstica gratuita",
+        text: "Aplicación test de personalidad",
+        text1: "Sesión psicológica diagnóstica",
         text2: "Sesión de retroalimentación y apreciación clínica",
         text3:
           "Buscamos contribuir al mejoramiento de la calidad de vida de todas las personas que lo deseen y se movilicen por ello.",
         text4:
           "Brindamos asesorías profesionales respetuosas, de acuerdo a la necesidad de cada ser humano y basada en los recursos.",
+        text5: "Precio normal por cada sesión €25",
         buttonText: "contáctanos",
         buttonText2: "Comienza hoy",
       },
@@ -378,19 +379,11 @@ export const appDataText = {
             description: {
               title: "Descripción",
               description:
-                "La experiencia profesional en Chile se concentró en área psicosociojurídica.",
+                "La experiencia profesional en Chile se concentró en área psicosociojurídica. Como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME.",
               description2:
-                "Se desarrolló como terapeuta individual- familiar, y en cargos de gestión y coordinación, en diversos proyectos de políticas públicas de Infancias financiadas por SENAME.",
-              description3:
                 "Trabajó en diversas ONG,s en proyectos PRM (Programa de reparación de maltrato y abuso sexual) y FAE (Programas familias de acogidas) y en contacto directo con TRIBUNALES DE FAMILIA Y FISCALÍAS DE CHILE.",
-              description4:
+              description3:
                 "Fue voluntaria durante un año de CORFAPES “Centro de rehabilitación psicosocial para personas con trastornos psicóticos.",
-              description5:
-                "Trabajó en consulta particular y en un estudio jurídico.",
-              description6:
-                "Concluyó que hay dolencias psíquicas y patrones mentales que se repiten en las personas a pesar de no haber sido víctimas de experiencias traumáticas o delitos violentos.",
-              description7:
-                "“También creo en la naturaleza y su infinitud, por ende, en las leyes de la física. Así como en mi vida personal, practico otras formas de relacionarme con mi cuerpo y alma como: Gratitud, Taoísmo, Medicina Yoni, Tantra, Danza, Yoga, Musicoterapia, aromaterapia, gemoterapia, Registros Akáshicos, Reiki, medicina china, feminismo, entre otros”.",
             },
           },
 

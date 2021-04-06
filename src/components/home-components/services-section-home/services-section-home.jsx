@@ -6,9 +6,9 @@ import { useHistory } from "react-router-dom";
 import styles from "./services-section-home.module.css";
 
 import { appDataText } from "../../../appDataText/appDataText";
-import imagePeople from "../../../images/imageHome/act1-personaNatural.jpg";
+import imagePeople from "../../../images/imageHome/act1-personas.jpg";
 import imageProfesional from "../../../images/imageHome/act1-psicologos y profesionales.jpg";
-import imageCompanie from "../../../images/imageHome/act1-empresas.jpg";
+import imageCompanie from "../../../images/imageHome/act1-empresass.jpg";
 
 function ServicesSectionHome() {
   const history = useHistory();
