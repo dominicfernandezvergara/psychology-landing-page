@@ -20,3 +20,7 @@
 .icon :global(.MuiSvgIcon-root) {
   color: var(--darkText);
 }
+.containerSocialMedia {
+  display: flex;
+  justify-content: center;
+}

@@ -8,6 +8,7 @@ import { useHistory } from "react-router-dom";
 import styles from "./footer.module.css";
 import Logo from "../logo";
 import { appDataText } from "../../appDataText/appDataText";
+import SocialMedia from "../social-media/social-media";
 
 function Footer() {
   const history = useHistory();
@@ -39,9 +40,6 @@ function Footer() {
   return (
     <div className={styles.containerFooter}>
       <div className={styles.footerBody}>
-        <div className={styles.containerLogo}>
-          <Logo />
-        </div>
         <div className={cn(styles.data, styles.containerServices)}>
           <h3 className={styles.title}>
             {appDataText.espanol.home.fourthSectionHome.title}
@@ -105,9 +103,6 @@ function Footer() {
           <h3 className={styles.title}>
             {appDataText.espanol.contact.textFooter}
           </h3>
-          <p className={styles.addresse}>
-            {appDataText.espanol.contact.addresse.addresse}
-          </p>
           <div className={styles.containerText}>
             <div className={styles.iconLink}>
               <PhoneIcon />
@@ -127,6 +122,7 @@ function Footer() {
               {appDataText.espanol.contact.email.correo}
             </a>
           </div>
+          <SocialMedia />
         </div>
       </div>
     </div>

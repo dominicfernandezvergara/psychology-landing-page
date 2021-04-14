@@ -194,7 +194,9 @@ function DrawerList({ open }) {
         </ListItemIcon>
         <ListItemText primary={appDataText.espanol.header.takeFree.name} />
       </ListItem>
-      <SocialMedia />
+      <div className={styles.containerSocialMedia}>
+        <SocialMedia />
+      </div>
     </List>
   );
 }
